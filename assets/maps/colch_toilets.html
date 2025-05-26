@@ -1,0 +1,384 @@
+
+        <!DOCTYPE html>
+        <head>
+            
+        
+            <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.min.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster-src.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster.js"></script>
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.Default.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://raw.githubusercontent.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+        
+        
+        
+            
+            <style>
+
+            html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                }
+
+            #map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+            
+        
+            
+            <style> #map_1ee7086a234a41c9a1b68ba7542c6893 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+        
+        
+        </head>
+        <body>
+            
+        
+            
+            <div class="folium-map" id="map_1ee7086a234a41c9a1b68ba7542c6893" ></div>
+        
+        
+        
+        </body>
+        <script>
+            
+        
+            
+
+            var southWest = L.latLng(-90, -180);
+            var northEast = L.latLng(90, 180);
+            var bounds = L.latLngBounds(southWest, northEast);
+
+            var map_1ee7086a234a41c9a1b68ba7542c6893 = L.map('map_1ee7086a234a41c9a1b68ba7542c6893', {
+                                           center:[51.8860942,0.8336077],
+                                           zoom: 10,
+                                           maxBounds: bounds,
+                                           layers: [],
+                                           crs: L.CRS.EPSG3857
+                                         });
+            
+        
+        
+            
+            var tile_layer_0c1c23610fdd4aadadbf3f36e0f832cc = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+                    maxZoom: 18,
+                    minZoom: 1,
+                    attribution: 'Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
+                    detectRetina: false
+                    }
+                ).addTo(map_1ee7086a234a41c9a1b68ba7542c6893);
+
+        
+        
+            
+
+            var marker_5f98e9c6310045119b96ef58877bbb42 = L.marker(
+                [51.7794731949,0.89897019307],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_1ee7086a234a41c9a1b68ba7542c6893);
+            
+        
+            
+            var popup_08c865a3e90940b7821804b47bc2d635 = L.popup({maxWidth: '300'});
+
+            
+                var html_29853480a6a0429ba36c4ae4eb1a5443 = $('         <div id="html_29853480a6a0429ba36c4ae4eb1a5443"                 style="width: 100.0%; height: 100.0%;">                 Coast Road West Mersea</div>                 ')[0];
+                popup_08c865a3e90940b7821804b47bc2d635.setContent(html_29853480a6a0429ba36c4ae4eb1a5443);
+            
+
+            marker_5f98e9c6310045119b96ef58877bbb42.bindPopup(popup_08c865a3e90940b7821804b47bc2d635);
+
+            
+        
+        
+            
+
+            var marker_09e44a17afac4b6d98a36f5cf0cef3e6 = L.marker(
+                [51.7762786087,0.910682950657],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_1ee7086a234a41c9a1b68ba7542c6893);
+            
+        
+            
+            var popup_7f917af2eb6c4680b206a554b0d68a01 = L.popup({maxWidth: '300'});
+
+            
+                var html_93b4ed7f8a4048d9b929d1b73749ef5b = $('         <div id="html_93b4ed7f8a4048d9b929d1b73749ef5b"                 style="width: 100.0%; height: 100.0%;">                 High Street, West Mersea</div>                 ')[0];
+                popup_7f917af2eb6c4680b206a554b0d68a01.setContent(html_93b4ed7f8a4048d9b929d1b73749ef5b);
+            
+
+            marker_09e44a17afac4b6d98a36f5cf0cef3e6.bindPopup(popup_7f917af2eb6c4680b206a554b0d68a01);
+
+            
+        
+        
+            
+
+            var marker_fc5f280fc18f4a6b954ca6e1da1d255d = L.marker(
+                [51.7741897694,0.930671267714],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_1ee7086a234a41c9a1b68ba7542c6893);
+            
+        
+            
+            var popup_43a893c22ef24eb59df85e19e48bd633 = L.popup({maxWidth: '300'});
+
+            
+                var html_ac77011d072c4640a52d8f184af841e6 = $('         <div id="html_ac77011d072c4640a52d8f184af841e6"                 style="width: 100.0%; height: 100.0%;">                 Victoria Esplande</div>                 ')[0];
+                popup_43a893c22ef24eb59df85e19e48bd633.setContent(html_ac77011d072c4640a52d8f184af841e6);
+            
+
+            marker_fc5f280fc18f4a6b954ca6e1da1d255d.bindPopup(popup_43a893c22ef24eb59df85e19e48bd633);
+
+            
+        
+        
+            
+
+            var marker_081883139fe448e4aed1537afeed70d9 = L.marker(
+                [51.7739302257,0.926290655658],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_1ee7086a234a41c9a1b68ba7542c6893);
+            
+        
+            
+            var popup_d839553918114c28bd5eb64e787130e8 = L.popup({maxWidth: '300'});
+
+            
+                var html_0821e15562ef4abe87a9d7489d5b582e = $('         <div id="html_0821e15562ef4abe87a9d7489d5b582e"                 style="width: 100.0%; height: 100.0%;">                 Victoria Esplande</div>                 ')[0];
+                popup_d839553918114c28bd5eb64e787130e8.setContent(html_0821e15562ef4abe87a9d7489d5b582e);
+            
+
+            marker_081883139fe448e4aed1537afeed70d9.bindPopup(popup_d839553918114c28bd5eb64e787130e8);
+
+            
+        
+        
+            
+
+            var marker_613ff1123a2644558d5d55a6d90d8257 = L.marker(
+                [51.9578129282,0.993937409023],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_1ee7086a234a41c9a1b68ba7542c6893);
+            
+        
+            
+            var popup_c468dc6a7c7742f5ba69e7b81eb010a2 = L.popup({maxWidth: '300'});
+
+            
+                var html_03a291a327374d5b8e89e3cbc2b5e556 = $('         <div id="html_03a291a327374d5b8e89e3cbc2b5e556"                 style="width: 100.0%; height: 100.0%;">                 Dedham Playing Fields</div>                 ')[0];
+                popup_c468dc6a7c7742f5ba69e7b81eb010a2.setContent(html_03a291a327374d5b8e89e3cbc2b5e556);
+            
+
+            marker_613ff1123a2644558d5d55a6d90d8257.bindPopup(popup_c468dc6a7c7742f5ba69e7b81eb010a2);
+
+            
+        
+        
+            
+
+            var marker_1a4000e45a614531bdcbc22fb6e62e8f = L.marker(
+                [51.8566089932,0.958655620045],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_1ee7086a234a41c9a1b68ba7542c6893);
+            
+        
+            
+            var popup_20f9e95b645d4fceada898755cc2a6e9 = L.popup({maxWidth: '300'});
+
+            
+                var html_2751858d0fd64982b3d9a3f6ebebc7cf = $('         <div id="html_2751858d0fd64982b3d9a3f6ebebc7cf"                 style="width: 100.0%; height: 100.0%;">                 car park wivenhoe</div>                 ')[0];
+                popup_20f9e95b645d4fceada898755cc2a6e9.setContent(html_2751858d0fd64982b3d9a3f6ebebc7cf);
+            
+
+            marker_1a4000e45a614531bdcbc22fb6e62e8f.bindPopup(popup_20f9e95b645d4fceada898755cc2a6e9);
+
+            
+        
+        
+            
+
+            var marker_fdf883c24303431cafef8e1174d43edb = L.marker(
+                [51.8867560558,0.901991511055],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_1ee7086a234a41c9a1b68ba7542c6893);
+            
+        
+            
+            var popup_40604cdd6afa4c38b1742eb2eee0d00d = L.popup({maxWidth: '300'});
+
+            
+                var html_d2e348992d884a75b7923e0851962581 = $('         <div id="html_d2e348992d884a75b7923e0851962581"                 style="width: 100.0%; height: 100.0%;">                 Osborn Street</div>                 ')[0];
+                popup_40604cdd6afa4c38b1742eb2eee0d00d.setContent(html_d2e348992d884a75b7923e0851962581);
+            
+
+            marker_fdf883c24303431cafef8e1174d43edb.bindPopup(popup_40604cdd6afa4c38b1742eb2eee0d00d);
+
+            
+        
+        
+            
+
+            var marker_932994da6e994b1ca206748f0b0c2c85 = L.marker(
+                [51.8881204104,0.900277187541],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_1ee7086a234a41c9a1b68ba7542c6893);
+            
+        
+            
+            var popup_f4f5b2bcaa524ccebefd76d0c798b5af = L.popup({maxWidth: '300'});
+
+            
+                var html_77385b69b62a4940af760e90c3f77750 = $('         <div id="html_77385b69b62a4940af760e90c3f77750"                 style="width: 100.0%; height: 100.0%;">                 Eld Lane</div>                 ')[0];
+                popup_f4f5b2bcaa524ccebefd76d0c798b5af.setContent(html_77385b69b62a4940af760e90c3f77750);
+            
+
+            marker_932994da6e994b1ca206748f0b0c2c85.bindPopup(popup_f4f5b2bcaa524ccebefd76d0c798b5af);
+
+            
+        
+        
+            
+
+            var marker_290e32620a984f88907996acf3783d77 = L.marker(
+                [51.888631786,0.893391712238],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_1ee7086a234a41c9a1b68ba7542c6893);
+            
+        
+            
+            var popup_feb79527eb6b4ff6909a418de7e40243 = L.popup({maxWidth: '300'});
+
+            
+                var html_098a3b55f1b94a9d999c71b7de876794 = $('         <div id="html_098a3b55f1b94a9d999c71b7de876794"                 style="width: 100.0%; height: 100.0%;">                 Balkern Hill</div>                 ')[0];
+                popup_feb79527eb6b4ff6909a418de7e40243.setContent(html_098a3b55f1b94a9d999c71b7de876794);
+            
+
+            marker_290e32620a984f88907996acf3783d77.bindPopup(popup_feb79527eb6b4ff6909a418de7e40243);
+
+            
+        
+        
+        
+        </script>
+        
