@@ -51,10 +51,3 @@ or
 ```bash
 pip freeze
 ```
-
-<div id="yui_3_16_0_1_1423040488137_5276" class="view attribution-view clear-float">
-<div class="attribution-info">
-<a class="owner-name truncate" title="Go to Kool Cats Photography over 3 Million Views's photostream" href="https://www.flickr.com/photos/katsrcool/" data-rapid_p="48" data-track="attributionNameClick">Image: Kool Cats Photography; </a><a class="photo-license-url" href="https://creativecommons.org/licenses/by/2.0/" target="_newtab" rel="license cc:license" data-rapid_p="27">Some rights reserved</a><a class="owner-name truncate" title="Go to Kool Cats Photography over 3 Million Views's photostream" href="https://www.flickr.com/photos/katsrcool/" data-rapid_p="48" data-track="attributionNameClick">
-</a>
-</div>
-</div>

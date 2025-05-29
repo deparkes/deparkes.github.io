@@ -112,8 +112,3 @@ With your project packaged and uploaded to PyPi you and others can now easily in
 pip install jobid
 ```
 
-<div class="attribution-info">
-<a class="owner-name truncate" title="Go to Meathead Movers's photostream" href="https://www.flickr.com/photos/meatheadmovers/" data-rapid_p="35" data-track="attributionNameClick">Image: Meathead Movers; </a><a class="photo-license-url" href="https://creativecommons.org/licenses/by-sa/2.0/" target="_newtab" rel="license cc:license" data-rapid_p="44">Some rights reserved</a><a class="owner-name truncate" title="Go to Meathead Movers's photostream" href="https://www.flickr.com/photos/meatheadmovers/" data-rapid_p="35" data-track="attributionNameClick">
-</a>
-<div id="yui_3_16_0_1_1438806683388_29435" class="view follow-view clear-float photo-attribution"></div>
-</div>

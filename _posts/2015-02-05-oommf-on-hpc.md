@@ -28,13 +28,7 @@ If space allows, set your mif file to <a href="{{site.baseurl}}/2015/02/05/oommf
 But do keep in mind the point above - <strong>don't try to automatically display</strong> the data on the HPC.
 <h1>Use a master script</h1>
 For large jobs I like to use a python master script - like this one <a href="https://github.com/bauhuasbadguy/Running-many-oommf-scripts">here</a>. This helps me <a title="Organising Computational Projects" href="{{site.baseurl}}/2013/06/25/organising-computational-projects/">organise </a>my submissions and outputs, and allows me to quickly and easily iterate through various parameters I might be interested in.
-<div id="yui_3_16_0_1_1423149268299_28951" class="view attribution-view clear-float">
-<div class="attribution-info">
-<a class="owner-name truncate" title="Go to Ann Lusch's photostream" href="https://www.flickr.com/photos/38659004@N03/" data-rapid_p="48" data-track="attributionNameClick">Image: Ann Lusch; </a><a class="photo-license-url" href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_newtab" rel="license cc:license" data-rapid_p="27">Some rights reserved</a><a class="owner-name truncate" title="Go to Ann Lusch's photostream" href="https://www.flickr.com/photos/38659004@N03/" data-rapid_p="48" data-track="attributionNameClick">
-</a>
-<div id="yui_3_16_0_1_1423149268299_29200" class="view follow-view clear-float"></div>
-</div>
-</div>
+
 <a href="{{site.baseurl}}/oommf/oommf-tutorial/">
 <img class=" aligncenter" src="{{site.baseurl}}/assets/2015/02/OOMMF_tutorial.png" alt="OOMMF Tutorial" width="200" height="142" border="0">
 </a>

@@ -58,9 +58,3 @@ Richard Boardman - <a href="http://www.southampton.ac.uk/~rpb/thesis.pdf">http:/
 <a href="http://www.southampton.ac.uk/~rpb/thesis/node1.html">http://www.southampton.ac.uk/~rpb/thesis/node1.html</a>
 - <a href="http://www.physics.mcgill.ca/~peter/theses/collins.pdf">http://www.physics.mcgill.ca/~peter/theses/collins.pdf</a>
 XIAOLIN HU - <a href="https://ida.mtholyoke.edu/xmlui/bitstream/handle/10166/975/th_x.pdf?sequence=1">https://ida.mtholyoke.edu/xmlui/bitstream/handle/10166/975/th_x.pdf?sequence=1</a>
-<div id="yui_3_16_0_1_1423923556097_213540" class="view attribution-view clear-float photo-attribution">
-<div class="attribution-info">
-<a class="owner-name truncate" title="Go to Zach Stern's photostream" href="https://www.flickr.com/photos/zachstern/" data-rapid_p="25" data-track="attributionNameClick">Image: Zach Stern; </a><a class="photo-license-url" href="https://creativecommons.org/licenses/by-nc-nd/2.0/" target="_newtab" rel="license cc:license" data-rapid_p="29">Some rights reserved</a>
-<div id="yui_3_16_0_1_1423923556097_213771" class="view follow-view clear-float photo-attribution"></div>
-</div>
-</div>

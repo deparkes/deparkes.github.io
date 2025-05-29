@@ -32,8 +32,3 @@ Once you've got your unique JOBID, here's a few things you could try.
 <li>create a separate<strong> parameters file</strong>, named after the JOBID.</li>
 </ul>
 <h3><a href="https://github.com/deparkes/jobid">Download my JOBID generator script</a></h3>
-<div class="attribution-info">
-<a class="owner-name truncate" title="Go to brian hefele's photostream" href="https://www.flickr.com/photos/brhefele/" data-rapid_p="59" data-track="attributionNameClick">Image: brian hefele; </a><a class="photo-license-url" href="https://creativecommons.org/licenses/by-nc/2.0/" target="_newtab" rel="license cc:license" data-rapid_p="38">Some rights reserved</a><a class="owner-name truncate" title="Go to brian hefele's photostream" href="https://www.flickr.com/photos/brhefele/" data-rapid_p="59" data-track="attributionNameClick">
-</a>
-<div id="yui_3_16_0_1_1433935004977_33298" class="view follow-view clear-float photo-attribution"></div>
-</div>

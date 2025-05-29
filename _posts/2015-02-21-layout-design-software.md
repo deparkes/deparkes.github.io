@@ -36,10 +36,3 @@ As with L-edit, the high price is likely to be barrier to use for many people.
 <h1>OwlVision</h1>
 <a href="http://www.owlvision.org/">OwlVision </a>is just a gds viewer rather than full-blown editor. I've included it here as I find it very useful to recommend if I need to send a gds file to someone without any gds viewing/editing software of their own.
 It's a pretty basic Java program, but it does conform to more modern usage standards than Wavemaker, which is why I prefer to suggest it to the inexperienced.
-<div id="yui_3_16_0_1_1424526866931_100886" class="view attribution-view clear-float photo-attribution">
-<div class="attribution-info">
-<a class="owner-name truncate" title="Go to Andrew Magill's photostream" href="https://www.flickr.com/photos/amagill/" data-rapid_p="26" data-track="attributionNameClick">Image: Andrew Magill; </a><a class="photo-license-url" href="https://creativecommons.org/licenses/by/2.0/" target="_newtab" rel="license cc:license" data-rapid_p="49">Some rights reserved</a><a class="owner-name truncate" title="Go to Andrew Magill's photostream" href="https://www.flickr.com/photos/amagill/" data-rapid_p="26" data-track="attributionNameClick">
-</a>
-<div id="yui_3_16_0_1_1424526866931_101116" class="view follow-view clear-float photo-attribution"></div>
-</div>
-</div>

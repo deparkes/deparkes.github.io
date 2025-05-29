@@ -60,10 +60,3 @@ I like to have rysnc commands in a script to make it quicker and easier to synch
 <h2>rsync and ssh</h2>
 Using SSH keys can make synchronising between computers a bit more straightforward as you don't have to type your password in each time to connect to the remote computer. This is something I've written about <a title="Configuring Windows 7 ssh server with cygwin" href="deparkes.co.uk/2014/02/13/configuring-windows-7-ssh-server-with-cygwin/">previously</a>.
 Further information on setting up rsync is available <a href="http://kvz.io/blog/2007/08/16/synchronize-files-with-rsync/">here</a> or on the rsync website, and some more examples are available <a href="http://www.thegeekstuff.com/2010/09/rsync-command-examples/">here</a>.
-<div id="yui_3_16_0_1_1423942589133_39063" class="view attribution-view clear-float photo-attribution">
-<div class="attribution-info">
-<a class="owner-name truncate" title="Go to Mark Robinson's photostream" href="https://www.flickr.com/photos/66176388@N00/" data-rapid_p="25" data-track="attributionNameClick">Image: Mark Robinson; </a><a class="photo-license-url" href="https://creativecommons.org/licenses/by-nc/2.0/" target="_newtab" rel="license cc:license" data-rapid_p="29">Some rights reserved</a><a class="owner-name truncate" title="Go to Mark Robinson's photostream" href="https://www.flickr.com/photos/66176388@N00/" data-rapid_p="25" data-track="attributionNameClick">
-</a>
-<div id="yui_3_16_0_1_1423942589133_39294" class="view follow-view clear-float photo-attribution"></div>
-</div>
-</div>

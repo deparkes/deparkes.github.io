@@ -43,10 +43,3 @@ ln -s -v /cygdrive/c c
 ln -s -v /cygdrive/c/<<user>>/Documents and Settings Documents
 ```
 <strong>SSH keys</strong> are another way that we can make our life a little easier. I followed this <a href="https://www.digitalocean.com/community/articles/how-to-set-up-ssh-keys--2">guide </a>to setting them up. This helps you to set up the ssh keys and transfer the public key to a remote computer (also with . This remote computer will now have permission to connect to your computer.
-<div id="yui_3_16_0_1_1423943112907_29045" class="view attribution-view clear-float photo-attribution">
-<div class="attribution-info">
-<a class="owner-name truncate" title="Go to Torkild Retvedt's photostream" href="https://www.flickr.com/photos/torkildr/" data-rapid_p="25" data-track="attributionNameClick">Image: Torkild Retvedt; </a><a class="photo-license-url" href="https://creativecommons.org/licenses/by-sa/2.0/" target="_newtab" rel="license cc:license" data-rapid_p="29">Some rights reserved</a><a class="owner-name truncate" title="Go to Torkild Retvedt's photostream" href="https://www.flickr.com/photos/torkildr/" data-rapid_p="25" data-track="attributionNameClick">
-</a>
-<div id="yui_3_16_0_1_1423943112907_29276" class="view follow-view clear-float photo-attribution"></div>
-</div>
-</div>

@@ -39,10 +39,3 @@ sshuttle --dns -vvr user@domain.com 0/0
 Where user@domain.com are your login username (user) for your remote computer (domain.com). All your internet traffic will now be <strong>securely <a href="http://en.wikipedia.org/wiki/Tunneling_protocol">tunnelled</a></strong> through this remote computer.
 You may need to <a href="http://www.wikihow.com/Change-Proxy-Settings"><strong>adjust your local proxy settings</strong></a> if the remote computer is normally set up for this.
 For more details see:<a title="sshuttle github repository" href="//github.com/apenwarr/sshuttle"> https://github.com/apenwarr/sshuttle</a>, <a title="Video discussing sshuttle" href="https://hak5.org/episodes/hak5-1224">https://hak5.org/episodes/hak5-1224</a>, <a href="http://askubuntu.com/questions/45075/how-do-i-route-my-internet-through-a-ssh-tunnel">http://askubuntu.com/questions/45075/how-do-i-route-my-internet-through-a-ssh-tunnel</a>
-<div id="yui_3_16_0_1_1423941869065_8092" class="view attribution-view clear-float photo-attribution">
-<div class="attribution-info">
-<a class="owner-name truncate" title="Go to Brett Davies's photostream" href="https://www.flickr.com/photos/photosightfaces/" data-rapid_p="48" data-track="attributionNameClick">Image: Brett Davies; </a><a class="photo-license-url" href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_newtab" rel="license cc:license" data-rapid_p="27">Some rights reserved</a><a class="owner-name truncate" title="Go to Brett Davies's photostream" href="https://www.flickr.com/photos/photosightfaces/" data-rapid_p="48" data-track="attributionNameClick">
-</a>
-<div id="yui_3_16_0_1_1423941869065_8332" class="view follow-view clear-float photo-attribution"></div>
-</div>
-</div>

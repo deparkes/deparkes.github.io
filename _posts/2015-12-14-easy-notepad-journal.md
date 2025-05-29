@@ -50,8 +50,3 @@ When you re-open your (saved) log file, notepad will insert a new date/time stam
 
 <h3>You can also use this trick to make a notepad journal my favourite text editor - <a href="https://xhmikosr.github.io/notepad2-mod/">notepad2-mod</a>
 </h3>
-<div class="attribution-info">
-<a class="owner-name truncate" title="Go to Joel Montes de Oca's photostream" href="https://www.flickr.com/photos/joelmontes/" data-rapid_p="37" data-track="attributionNameClick">Thumbnail image: Joel Montes de Oca; </a><a class="photo-license-url" href="https://creativecommons.org/licenses/by-sa/2.0/" target="_newtab" rel="license cc:license" data-rapid_p="46">Some rights reserved</a><a class="owner-name truncate" title="Go to Joel Montes de Oca's photostream" href="https://www.flickr.com/photos/joelmontes/" data-rapid_p="37" data-track="attributionNameClick">
-</a>
-<div id="yui_3_16_0_1_1449005248656_15629" class="view follow-view clear-float photo-attribution"></div>
-</div>

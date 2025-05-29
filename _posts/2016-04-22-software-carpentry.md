@@ -42,8 +42,3 @@ It's also worth noting that there are <a href="http://software-carpentry.org/les
 I think <a href="http://software-carpentry.org/">Software Carpentry</a> is an excellent starting point for getting to grips with the most important areas of practical computing. As with any course in programming you may find you need to look elsewhere, such as <a href="{{site.baseurl}}/2016/02/26/learn-to-code-with-codecademy/">Codecademy</a>, for further clarification in some areas.
 <h1>Data Carpentry - Software Carpentry's Younger Sibling</h1>
 In addition to <a href="http://software-carpentry.org/">Software Carpentry</a>, there is now also a sibling organisation called "<a href="http://www.datacarpentry.org/">Data Carpentry</a>", which follows similar principles, but aimed more at data science than computing. There is of course quite a lot of cross over between these two courses, but it is handy to know it's there in case you need some more data-specific information.
-<div class="attribution-info">
-<a class="owner-name truncate" title="Go to Jim Stauffer's photostream" href="https://www.flickr.com/photos/54331051@N05/" data-rapid_p="62" data-track="attributionNameClick">Image: Jim Stauffer; </a><a class="photo-license-url" href="https://creativecommons.org/licenses/by-sa/2.0/" target="_newtab" rel="license cc:license" data-rapid_p="39">Some rights reserved</a><a class="owner-name truncate" title="Go to Jim Stauffer's photostream" href="https://www.flickr.com/photos/54331051@N05/" data-rapid_p="62" data-track="attributionNameClick">
-</a>
-<div id="yui_3_16_0_1_1460490144822_12410" class="view follow-view clear-float photo-attribution"></div>
-</div>

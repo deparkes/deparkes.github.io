@@ -55,6 +55,3 @@ From your oommf directory run:
 tclsh oommf.tcl pimake install
 tclsh oommf.tcl
 ```
-<div id="yui_3_16_0_1_1423923556097_203404" class="attribution-info">
-<a class="owner-name truncate" title="Go to Andrew Mason's photostream" href="https://www.flickr.com/photos/a_mason/" data-rapid_p="25" data-track="attributionNameClick">Image: Andrew Mason</a>; <a class="photo-license-url" href="https://creativecommons.org/licenses/by/2.0/" target="_newtab" rel="license cc:license" data-rapid_p="29">Some rights reserved</a>
-</div>

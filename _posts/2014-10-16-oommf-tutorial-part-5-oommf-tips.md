@@ -52,13 +52,5 @@ Parallel processing can give a dramatic improvement in <a href="http://math.nist
 <div id="yui_3_16_0_1_1413480505435_34000" class="view attribution-view clear-float">
 <div class="attribution-info">
 <a title="OOMMF Tutorial Part 6: OOMMF scripting with python" href="{{site.baseurl}}/2014/10/28/oommf-tutorial-part-6-oommf-scripting-python/">Part 6</a> of this OOMMF Tutorial: Scripting with python</div>
-<div class="attribution-info"></div>
-<div class="attribution-info">
-<a class="owner-name truncate" title="Go to laffy4k's photostream" href="https://www.flickr.com/photos/laffy4k/" data-rapid_p="47" data-track="attributionNameClick">Image: laffy4k: </a><a class="photo-license-url" href="https://creativecommons.org/licenses/by/2.0/" target="_newtab" rel="license cc:license" data-rapid_p="26">Some rights reserved</a><a class="owner-name truncate" title="Go to laffy4k's photostream" href="https://www.flickr.com/photos/laffy4k/" data-rapid_p="47" data-track="attributionNameClick">
-</a>
-<div id="yui_3_16_0_1_1413480505435_34234" class="view follow-view clear-float"></div>
-</div>
-</div>
-<div id="yui_3_16_0_1_1413480505435_34000" class="view attribution-view clear-float"></div>
 <a href="{{site.baseurl}}/oommf/oommf-tutorial/">
 <img class=" aligncenter" src="{{site.baseurl}}/assets/2014/10/OOMMF_tutorial.png" alt="OOMMF Tutorial" width="200" height="142" border="0">

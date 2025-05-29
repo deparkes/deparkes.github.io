@@ -87,10 +87,8 @@ really easy to do, data comes out really nicely.
 <h1>Pandas Tutorials</h1>
 I've gone through a few of the simpler tasks you might need, but to really explore what Pandas could do for you, you should <a href="%20http://pandas.pydata.org/pandas-docs/stable/">download it </a>and have a go yourself. Pandas is well supported, and well documented, so you'll be able to find plenty of examples to help you out.
 Here are a few guides to help get you started:
-<a href="http://pandas.pydata.org/pandas-docs/dev/basics.html">http://pandas.pydata.org/pandas-docs/dev/basics.html</a>
-<a href="http://pandas.pydata.org/pandas-docs/dev/10min.html">http://pandas.pydata.org/pandas-docs/dev/10min.html</a>
-<a href="http://pandas.pydata.org/pandas-docs/dev/cookbook.html#cookbook">http://pandas.pydata.org/pandas-docs/dev/cookbook.html#cookbook</a>
-<a href="http://www.gregreda.com/2013/10/26/working-with-pandas-dataframes/">http://www.gregreda.com/2013/10/26/working-with-pandas-dataframes/</a>
-In particular I found this one really helpful:
-<a href="http://synesthesiam.com/posts/an-introduction-to-pandas.html">http://synesthesiam.com/posts/an-introduction-to-pandas.html</a>
-Image: <a href="https://www.flickr.com/photos/7830239@N06/">Jay</a>;<a class="photo-license-url" href="https://creativecommons.org/licenses/by-nc-nd/2.0/" target="_newtab" rel="license cc:license" data-rapid_p="27">Some rights reserved</a>
+- <a href="http://pandas.pydata.org/pandas-docs/dev/basics.html">http://pandas.pydata.org/pandas-docs/dev/basics.html</a>
+- <a href="http://pandas.pydata.org/pandas-docs/dev/10min.html">http://pandas.pydata.org/pandas-docs/dev/10min.html</a>
+- <a href="http://pandas.pydata.org/pandas-docs/dev/cookbook.html#cookbook">http://pandas.pydata.org/pandas-docs/dev/cookbook.html#cookbook</a>
+- <a href="http://www.gregreda.com/2013/10/26/working-with-pandas-dataframes/">http://www.gregreda.com/2013/10/26/working-with-pandas-dataframes/</a>
+- <a href="http://synesthesiam.com/posts/an-introduction-to-pandas.html">http://synesthesiam.com/posts/an-introduction-to-pandas.html</a> (This one was particularly helpful)

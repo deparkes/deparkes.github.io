@@ -44,10 +44,3 @@ For the most part this little script is as I need it for now. If I get time in t
 <li>Optparser for setting input file, output file, usage options</li>
 <li>Option for storing other stats e.g. number of chapters, sections, words per section</li>
 </ul>
-<div id="yui_3_16_0_1_1424465428581_25529" class="view attribution-view clear-float photo-attribution">
-<div class="attribution-info">
-<a class="owner-name truncate" title="Go to Nina J. G.'s photostream" href="https://www.flickr.com/photos/nicasaurusrex/" data-rapid_p="49" data-track="attributionNameClick">Image: Nina J. G.; </a><a class="photo-license-url" href="https://creativecommons.org/licenses/by-nd/2.0/" target="_newtab" rel="license cc:license" data-rapid_p="28">Some rights reserved</a><a class="owner-name truncate" title="Go to Nina J. G.'s photostream" href="https://www.flickr.com/photos/nicasaurusrex/" data-rapid_p="49" data-track="attributionNameClick">
-</a>
-<div id="yui_3_16_0_1_1424465428581_25769" class="view follow-view clear-float photo-attribution"></div>
-</div>
-</div>

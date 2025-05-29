@@ -54,11 +54,5 @@ pip freeze
 <h1>Where to find examples</h1>
 I was a bit surprised to find the examples folder to be rather bare.
 If you want to get the full suite of examples, I suggest downloading the source from the project github repository: <a href="https://github.com/Toblerity/Shapely">https://github.com/Toblerity/Shapely</a>
-<div id="yui_3_16_0_1_1423923556097_136681" class="view attribution-view clear-float photo-attribution">
-<div class="attribution-info">
-<a class="owner-name truncate" title="Go to jurek d.'s photostream" href="https://www.flickr.com/photos/jurek_durczak/" data-rapid_p="25" data-track="attributionNameClick">Image: jurek d.; </a><a class="photo-license-url" href="https://creativecommons.org/licenses/by-nc/2.0/" target="_newtab" rel="license cc:license noopener noreferrer" data-rapid_p="30"> Some rights reserved</a><a class="owner-name truncate" title="Go to jurek d.'s photostream" href="https://www.flickr.com/photos/jurek_durczak/" data-rapid_p="25" data-track="attributionNameClick">
-</a>
-<div id="yui_3_16_0_1_1423923556097_136912" class="view follow-view clear-float photo-attribution"></div>
-</div>
-</div>
+
 <a href="{{site.baseurl}}/python-polygons/"><img class="aligncenter wp-image-1479" src="{{site.baseurl}}/assets/2015/01/path4186-300x162.png" alt="python polygons" width="220" height="119"></a>

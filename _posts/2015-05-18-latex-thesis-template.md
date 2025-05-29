@@ -33,10 +33,3 @@ If the template only came with a suggested thesis folder structure, I'd still be
 The CUED latex thesis template package comes with may useful packages and commands built in. There's too many to mention individually, but the package deals with things like draft modes, bibliographies, graphics, and much more.
 <h2>3. Easy Figure imports</h2>
 This is really just a combination of having a sensible folder structure and coming with some built-in commands, but I thought this point was important enough to include on its own. The CUED Latex thesis template comes set up so that you can easily keep your figures for each chapter separate from the text.
-<div class="attribution-info"></div>
-<div class="attribution-info"></div>
-<div class="attribution-info">
-<a class="owner-name truncate" title="Go to Victoria Catterson's photostream" href="https://www.flickr.com/photos/cowlet/" data-rapid_p="35" data-track="attributionNameClick">Image: Victoria Catterson; </a><a class="photo-license-url" href="https://creativecommons.org/licenses/by/2.0/" target="_newtab" rel="license cc:license" data-rapid_p="44">Some rights reserved</a><a class="owner-name truncate" title="Go to Victoria Catterson's photostream" href="https://www.flickr.com/photos/cowlet/" data-rapid_p="35" data-track="attributionNameClick">
-</a>
-<div id="yui_3_16_0_1_1431876962313_29842" class="view follow-view clear-float photo-attribution"></div>
-</div>

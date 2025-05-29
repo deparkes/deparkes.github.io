@@ -32,11 +32,4 @@ Edit the config file to have CTRL-F5 insert date/time. Useful for keeping a diar
 - <a title="Everything" href="http://www.voidtools.com/">Everything</a>: Quickly find files on your computer. I find these days that windows find is working ok, but the indexed searching of Everything is really quick.
 - <a title="winscp" href="http://winscp.net/eng/index.php">winscp:</a> Securely access files on a remote computer via ssh. See post on <a title="Configuring Windows 7 ssh server with cygwin" href="deparkes.co.uk/2014/02/13/configuring-windows-7-ssh-server-with-cygwin/">ssh</a>.
 - <a href="http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/">Pendrivelinux</a> Allows you to easily install Linux boot/live CDs/DVDs with a USB drive. Saves on needing to actually burn theimage to a disk.
- 
-<div id="yui_3_16_0_1_1423938924519_40056" class="view attribution-view clear-float photo-attribution">
-<div class="attribution-info">
-<a class="owner-name truncate" title="Go to jm3 on Flickr's photostream" href="https://www.flickr.com/photos/jm3/" data-rapid_p="25" data-track="attributionNameClick">Image: jm3 on Flickr; </a><a class="photo-license-url" href="https://creativecommons.org/licenses/by-sa/2.0/" target="_newtab" rel="license cc:license" data-rapid_p="29">Some rights reserved</a><a class="owner-name truncate" title="Go to jm3 on Flickr's photostream" href="https://www.flickr.com/photos/jm3/" data-rapid_p="25" data-track="attributionNameClick">
-</a>
-<div id="yui_3_16_0_1_1423938924519_40287" class="view follow-view clear-float photo-attribution"></div>
-</div>
 </div>

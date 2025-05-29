@@ -39,14 +39,3 @@ public variable iter_fmt = "%012d"
 public variable stage_fmt = "%02d"
 ```
 Which will allow the vector files from more iterations to be saved.
-<div id="yui_3_16_0_1_1423923556097_237556" class="view attribution-view clear-float photo-attribution">
-<div class="attribution-info">
-<div id="yui_3_16_0_1_1423926486441_21261" class="view attribution-view clear-float photo-attribution">
-<div class="attribution-info">
-<a class="owner-name truncate" title="Go to Morgen Bell's photostream" href="https://www.flickr.com/photos/mrvelocipede/" data-rapid_p="25" data-track="attributionNameClick">Image: Morgen Bell; </a><a class="photo-license-url" href="https://creativecommons.org/licenses/by-nc/2.0/" target="_newtab" rel="license cc:license" data-rapid_p="30">Some rights reserved</a>
-<div id="yui_3_16_0_1_1423926486441_21492" class="view follow-view clear-float photo-attribution"></div>
-</div>
-</div>
-<div id="yui_3_16_0_1_1423926486441_21261" class="view attribution-view clear-float photo-attribution"></div>
-</div>
-</div>

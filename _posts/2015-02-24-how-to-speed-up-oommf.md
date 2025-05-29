@@ -35,10 +35,3 @@ There are two main evolvers in OOMMF: <a href="http://math.nist.gov/oommf/doc/us
 <h1>5. Use periodic boundary conditions</h1>
 Have a think about the problem you are trying to simulate. Is there anyway you can divide up a larger problem into a periodic mesh? This effectively reduces the volume that you actually need to simulate, which can dramatically decrease simulation times.
 Check out my post on <a title="How to use OOMMF Oxs_PeriodicRectangularMesh" href="{{site.baseurl}}/2014/10/16/use-oommf-oxs_periodicrectangularmesh/">periodic boundary conditions in OOMMF</a>.
-<div id="yui_3_16_0_1_1424808789145_15218" class="view attribution-view clear-float photo-attribution">
-<div class="attribution-info">
-<a class="owner-name truncate" title="Go to Nathan E Photography's photostream" href="https://www.flickr.com/photos/thatguyfromcchs08/" data-rapid_p="51" data-track="attributionNameClick">Image: Nathan E Photography; </a><a class="photo-license-url" href="https://creativecommons.org/licenses/by/2.0/" target="_newtab" rel="license cc:license" data-rapid_p="30">Some rights reserved</a><a class="owner-name truncate" title="Go to Nathan E Photography's photostream" href="https://www.flickr.com/photos/thatguyfromcchs08/" data-rapid_p="51" data-track="attributionNameClick">
-</a>
-<div id="yui_3_16_0_1_1424808789145_15458" class="view follow-view clear-float photo-attribution"></div>
-</div>
-</div>

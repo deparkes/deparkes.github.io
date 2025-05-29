@@ -69,6 +69,3 @@ Supermarket (as a base line): <a href="http://www.sainsburys.co.uk/sol/index.jsp
 <div class="attribution-info"></div>
 <div class="attribution-info">
 <strong>A note on the prices:</strong> the prices listed are for a standard 'margarita' <a href="http://en.wikipedia.org/wiki/Pizza">pizza </a>as listed on the websites of the different restaurants in December 2014. No attempt is made to account for any special offers or deals, or variation in quality or convenience of the different restaurants - you'll have to factor that in for yourself.</div>
-<div class="attribution-info"></div>
-<div class="attribution-info"><a class="owner-name truncate" title="Go to Matt Harris's photostream" href="https://www.flickr.com/photos/ecos/" data-rapid_p="24" data-track="attributionNameClick">Image: Matt Harris ; Some rights reserved
-</a></div>

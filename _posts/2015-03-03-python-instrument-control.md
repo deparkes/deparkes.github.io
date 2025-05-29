@@ -61,10 +61,3 @@ PyVISA seems to be an active, regularly updated package with fairly good <a href
 <h2>PyDAQmx</h2>
 Whilst <a href="http://pyvisa.readthedocs.org/en/master/">PyVISA </a>will allow you to communicate with most hardware, it unfortunately is not capable of communicating with the popular and commonly found <a href="http://www.ni.com/data-acquisition/pci/">NI-DAQ card</a>.
 Thankfully there is an additional package, <a href="http://pythonhosted.org/PyDAQmx%20">PyDAQmx</a>, which acts as a wrapper to the NI-DAQ driver and allows your python scripts to communicate with the the DAQ card.
-<div id="yui_3_16_0_1_1425412730845_686" class="view attribution-view requiredToShowOnServer clear-float photo-attribution">
-<div class="attribution-info">
-<a class="owner-name truncate" title="Go to Matt Mets's photostream" href="https://www.flickr.com/photos/cibomahto/" data-rapid_p="26" data-track="attributionNameClick">Image: Matt Mets; </a><a class="photo-license-url" href="https://creativecommons.org/licenses/by-sa/2.0/" target="_newtab" rel="license cc:license" data-rapid_p="31">Some rights reserved</a><a class="owner-name truncate" title="Go to Matt Mets's photostream" href="https://www.flickr.com/photos/cibomahto/" data-rapid_p="26" data-track="attributionNameClick">
-</a>
-<div id="yui_3_16_0_1_1425412730845_687" class="view follow-view clear-float photo-attribution"></div>
-</div>
-</div>

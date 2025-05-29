@@ -49,6 +49,3 @@ One approach would be to only mark off a 30 minute box as complete if you do the
 I find that I sometimes need a little motivtation to get me to start the activity in the first place, so to help me out I'm happy to fill in a time-box as complete if I just start an activity in it.
 I'll find that more often than not once I get started on it I'll find the momentum to keep going. As Mary Poppins once said: "Well begun is half done".
  
-Image: <a href="https://www.flickr.com/photos/coreyburger/">Corey Burger, </a><a class="photo-license-url" href="https://creativecommons.org/licenses/by-sa/2.0/" target="_newtab" rel="license cc:license" data-rapid_p="25">Some rights reserved</a>
-<div id="yui_3_16_0_1_1412452634513_1807" class="view attribution-view clear-float"></div>
-
