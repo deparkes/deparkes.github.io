@@ -23,7 +23,7 @@ It is often more useful to think of applied field in terms of polar coordinates 
 Hopefully this simple example will help you get started with using polar coordinates with the applied field in OOMMF.
 <a href="https://gist.github.com/deparkes/5b95f547241349617ae71fab6f961e82#file-radial_field_example-mif">Download an example mif file</a> of an applied field defined in terms of polar coordinates (based on OOMMF ellipsoid example).
 <h1>Use The Script Zeeman Term</h1>
-Rather than using the <a href="http://math.nist.gov/oommf/doc/userguide12b0/userguide/Standard_Oxs_Ext_Child_Clas.html#UZ">'standard' Zeeman term</a>, we can use the <a href="http://math.nist.gov/oommf/doc/userguide12b0/userguide/Standard_Oxs_Ext_Child_Clas.html#SU">script Zeeman</a>. This allows us to point to a function which will define our field. We'll use a function to convert an angle and magnitude into a x, y and z components.
+Rather than using the <a href="https://math.nist.gov/oommf/doc/userguide12b0/userguide/Standard_Oxs_Ext_Child_Clas.html#UZ">'standard' Zeeman term</a>, we can use the <a href="https://math.nist.gov/oommf/doc/userguide12b0/userguide/Standard_Oxs_Ext_Child_Clas.html#SU">script Zeeman</a>. This allows us to point to a function which will define our field. We'll use a function to convert an angle and magnitude into a x, y and z components.
 The specify block below tells the Zeeman term to look for a function called 'Radial' (we can call the function pretty much whatever we want):
 
 ```
@@ -33,7 +33,7 @@ Specify Oxs_ScriptUZeeman [ subst {
 }]
 ```
 
-<strong><a href="http://math.nist.gov/oommf/doc/userguide12b0/userguide/Standard_Oxs_Ext_Child_Clas.html#SU">Read more about ScriptUZeeman.</a></strong>
+<strong><a href="https://math.nist.gov/oommf/doc/userguide12b0/userguide/Standard_Oxs_Ext_Child_Clas.html#SU">Read more about ScriptUZeeman.</a></strong>
 <h1>Define The Radial Field Function</h1>
 The script Zeeman term expects a script (called 'Radial' in this example) to define the applied field. We will use that function to convert an angle and magnitude into x,y and z components of the field.
 
@@ -48,9 +48,9 @@ proc Radial { x y z } {
 }
 ```
 
-This function will take a our angle 'theta' and magnitude and return a list x, y and z field components (Hx, Hy and Hz). In this simple example I have assumed that the z-component of the field is zero (you could change this by adding a phi angle and changing the <a href="http://keisan.casio.com/exec/system/1359534351">corresponding coordinate tranformations</a>).
-<a href="http://math.nist.gov/oommf/doc/userguide12b0/userguide/MIF_2.1.html#par:supportProcs"><strong>Read more about user defined scripts in OOMMF.</strong></a>
-This function refers uses '<a href="http://wiki.tcl.tk/1177#pagetocd2a8f675">variable</a>' to refer to variables defined outside of its scope. At the start of the mif file we can set the values of the variables 'theta' and 'magnitude'.
+This function will take a our angle 'theta' and magnitude and return a list x, y and z field components (Hx, Hy and Hz). In this simple example I have assumed that the z-component of the field is zero (you could change this by adding a phi angle and changing the <a href="https://keisan.casio.com/exec/system/1359534351">corresponding coordinate tranformations</a>).
+<a href="https://math.nist.gov/oommf/doc/userguide12b0/userguide/MIF_2.1.html#par:supportProcs"><strong>Read more about user defined scripts in OOMMF.</strong></a>
+This function refers uses '<a href="https://wiki.tcl.tk/1177#pagetocd2a8f675">variable</a>' to refer to variables defined outside of its scope. At the start of the mif file we can set the values of the variables 'theta' and 'magnitude'.
 
 ```
 set theta 270

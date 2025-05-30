@@ -81,7 +81,7 @@ At which point you can login using your PyPI username and password.
 You will be given the option to save your username and password as a plaintext file on your computer. Since this is just an unsecure plaintext file you may wish to not do this - it just means you'll have to enter your login details each time you register or upload a package.
 <h2>2. setup.py sdist</h2>
 This is the step that actually builds your package. For now the default options will be enough, which should create a zip-file package in a directory "dist"
-sdist refers to a "source distribution". You can find out more about different distribution types <a href="http://stackoverflow.com/questions/6292652/what-is-the-difference-between-an-sdist-tar-gz-distribution-and-an-python-egg">here</a>.
+sdist refers to a "source distribution". You can find out more about different distribution types <a href="https://stackoverflow.com/questions/6292652/what-is-the-difference-between-an-sdist-tar-gz-distribution-and-an-python-egg">here</a>.
 <h2>3. twine upload dist\*</h2>
 Now we get to the stage of uploading our package to PyPI.
 To upload all of the packaged files in the directory 'dist' run:

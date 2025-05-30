@@ -21,7 +21,7 @@ permalink: "/2017/10/13/what-is-docker/"
 <h1>What is docker?</h1>
 Docker is a technology for <a href="https://en.wikipedia.org/wiki/Operating-system-level_virtualization">software containers</a> - small virtual systems that can be used to support lightweight system virtualization. A <a href="https://www.docker.com/what-docker">Docker container</a> is a bit like a <a href="https://en.wikipedia.org/wiki/Virtual_machine">virtual machine</a>. Rather than being an entire standalone operating system, the container shares some elements of its host operating system.
 
-Containers <a href="http://mspmentor.net/technologies/docker-vs-virtual-machines-understanding-performance-differences">can </a>have big benefits in terms of performance vs conventional virtual machines, so are popular with  developers and operations specialists who use them to help standardize software production and deployment.
+Containers <a href="https://mspmentor.net/technologies/docker-vs-virtual-machines-understanding-performance-differences">can </a>have big benefits in terms of performance vs conventional virtual machines, so are popular with  developers and operations specialists who use them to help standardize software production and deployment.
 
 <a href="https://en.m.wikipedia.org/wiki/Docker_(software)">Docker</a> containers are designed to function like a distributable, lightweight operating system. Bundling elements of the operating system and other packages into the container can remove many of the dependency issues associated with sharing applications, and stop the problem of well, it works on my machine.
 
@@ -29,7 +29,7 @@ To help keep docker containers lightweight and quick, they are not usually packa
 
 Docker has become hugely <a href="https://containerjournal.com/2017/05/09/understanding-why-docker-popular/">popular </a>in recent years, but it actually builds on a <a href="https://blog.aquasec.com/a-brief-history-of-containers-from-1970s-chroot-to-docker-2016">fairly</a> <a href="https://opensource.com/resources/what-are-linux-containers">long history of Linux containers</a>, which first came about in the early 2000s. Docker itself  arrived in 2013, but took several years to reach maturity.
 
-One of the <a href="http://www.zdnet.com/article/what-is-docker-and-why-is-it-so-darn-popular/">attractions </a>of Docker is that it made it easy to develop and share containers, provides tools and <a href="https://docs.docker.com/get-started/">guides </a>to get you started with containerisation, and has worked with <a href="https://www.opencontainers.org/about/members">other companies</a> to bring standardisation to the container landscape.
+One of the <a href="https://www.zdnet.com/article/what-is-docker-and-why-is-it-so-darn-popular/">attractions </a>of Docker is that it made it easy to develop and share containers, provides tools and <a href="https://docs.docker.com/get-started/">guides </a>to get you started with containerisation, and has worked with <a href="https://www.opencontainers.org/about/members">other companies</a> to bring standardisation to the container landscape.
 <h1>How Can Docker Help?</h1>
 The low-overhead virtualization provided by containers has proven popular among developers and system administrators. The use of containers can reduce dependency problems, as well as helping support the deployment of <a href="https://martinfowler.com/articles/microservices.html">micro-services</a>.
 <h2>Developers</h2>
@@ -47,7 +47,7 @@ Lightweight containers can also benefit ops and software delivery.
 <ul>
 <li>
 <a href="https://en.wikipedia.org/wiki/Deployment_environment">Environment </a>consistency: Containers make it possible to carry the same application environment from development through to production, and avoid many of the dependency issues that using a purely physical system would have.</li>
-<li>Rapid <a href="https://en.wikipedia.org/wiki/DevOps#Deployment">deployment</a>: Containers <a href="http://mspmentor.net/technologies/docker-vs-virtual-machines-understanding-performance-differences">can be started up and shutdown in seconds</a>, allowing application infrastructure to be scaled rapidly. This compares to virtual machines which can take minutes, and physical hardware which can take days.</li>
+<li>Rapid <a href="https://en.wikipedia.org/wiki/DevOps#Deployment">deployment</a>: Containers <a href="https://mspmentor.net/technologies/docker-vs-virtual-machines-understanding-performance-differences">can be started up and shutdown in seconds</a>, allowing application infrastructure to be scaled rapidly. This compares to virtual machines which can take minutes, and physical hardware which can take days.</li>
 <li>Streamlined <a href="https://en.wikipedia.org/wiki/Continuous_delivery">delivery</a>: The speed with which containers can be deployed can also streamline the delivery of updates, bug fixes and new features.</li>
 </ul>
 <h2>Enterprise</h2>
@@ -57,12 +57,12 @@ Since Docker has <a href="https://www.contino.io/insights/beyond-docker-other-ty
 Some other approaches to containerization include:
 <ul>
 <li>
-<a href="http://unikernel.org/">Unikernels</a>
+<a href="https://unikernel.org/">Unikernels</a>
 <ul>
 <li>
 <a href="https://stackoverflow.com/questions/30392261/docker-container-compared-with-unikernel">Very specialised</a>, lightweight virtual machines.</li>
 <li>Can reduce complexity and improve portability and security</li>
-<li>However development and deployment tooling is still emerging (but may be helped by the <a href="http://www.linuxjournal.com/content/unikernels-docker-and-why-you-should-care">recent acquisition</a> of Unikernels by Docker)</li>
+<li>However development and deployment tooling is still emerging (but may be helped by the <a href="https://www.linuxjournal.com/content/unikernels-docker-and-why-you-should-care">recent acquisition</a> of Unikernels by Docker)</li>
 </ul>
 </li>
 <li>

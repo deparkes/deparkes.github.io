@@ -17,7 +17,7 @@ author:
 permalink: "/2014/10/16/use-oommf-oxs_periodicrectangularmesh/"
 ---
 <h1>How to use the OOMMF periodic mesh</h1>
-Using the OOMMF periodic mesh (<a href="http://math.nist.gov/oommf/software-12.html">version 1.2a5</a>) is very straightforward.
+Using the OOMMF periodic mesh (<a href="https://math.nist.gov/oommf/software-12.html">version 1.2a5</a>) is very straightforward.
 You can simply replace your exising Oxs_RectangularMesh:
 ```tcltk
 Specify Oxs_RectangularMesh:mesh {

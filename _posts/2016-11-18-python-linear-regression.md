@@ -25,9 +25,9 @@ A few ways to do <a href="https://en.wikipedia.org/wiki/Ordinary_least_squares">
 Which method is best for  you will probably depend on exactly what you are doing. The scipy method is a bit more 'bare-bones'; the statsmodels method is part of an extensive "traditional" statistics module; while the sklearn approach would probably be best if you are working on a larger machine learning project.
 <h4><a href="{{site.baseurl}}/2016/11/11/python-sample-datasets/">Read more about how to load sample datasets into python</a></h4>
 <h1>Method 1: Scipy</h1>
-Scipy is a python analysis ecosystem that encapsulates a few different libraries such as <a href="http://www.numpy.org/">numpy </a>and <a href="http://matplotlib.org/">matplotlib</a>. Here I've picked out two approaches you could use: linregress and polyfit
+Scipy is a python analysis ecosystem that encapsulates a few different libraries such as <a href="https://www.numpy.org/">numpy </a>and <a href="https://matplotlib.org/">matplotlib</a>. Here I've picked out two approaches you could use: linregress and polyfit
 <h2>With linregress</h2>
-Firstly I'll use the '<a href="http://scipy-cookbook.readthedocs.io/items/LinearRegression.html">linregress</a>' linear regression function.
+Firstly I'll use the '<a href="https://scipy-cookbook.readthedocs.io/items/LinearRegression.html">linregress</a>' linear regression function.
 
 ```python
 # load iris sample dataset
@@ -81,8 +81,8 @@ plt.show()
 
 
 <h1>Method 2: statsmodels</h1>
-<a href="http://statsmodels.sourceforge.net/devel/index.html">statsmodels </a>is a python module dedicated to statistcal modelling and testing. statsmodels has many advanced fitting and regression libraries, as well as simpler ones like <a href="http://statsmodels.sourceforge.net/devel/examples/#regression">linear regression</a>.
-One important way that statsmodels differs from other regression modules is that it <a href="http://stackoverflow.com/questions/20701484/why-do-i-get-only-one-parameter-from-a-statsmodels-ols-fit">doesn't</a> automatically add a constant intercept to the regression - <a href="http://stackoverflow.com/questions/38836465/how-to-get-the-regression-intercept-using-statsmodels-api">we need to do that ourselves</a>.
+<a href="https://statsmodels.sourceforge.net/devel/index.html">statsmodels </a>is a python module dedicated to statistcal modelling and testing. statsmodels has many advanced fitting and regression libraries, as well as simpler ones like <a href="https://statsmodels.sourceforge.net/devel/examples/#regression">linear regression</a>.
+One important way that statsmodels differs from other regression modules is that it <a href="https://stackoverflow.com/questions/20701484/why-do-i-get-only-one-parameter-from-a-statsmodels-ols-fit">doesn't</a> automatically add a constant intercept to the regression - <a href="https://stackoverflow.com/questions/38836465/how-to-get-the-regression-intercept-using-statsmodels-api">we need to do that ourselves</a>.
 
 ```python
 # load iris sample dataset
@@ -142,8 +142,8 @@ plt.show()
 | *python linear regression - statsmodels* |
 
 <h1>Method 3: scikit-learn</h1>
-This final examples use scikit-learn, a python library which implements a range of machine learning tools for data analysis - including <a href="http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html#sklearn.linear_model.LinearRegression.fit">linear regression</a>.
-scikit-learn (sklearn) is built around numpy arrays rather than pandas dataframes. <a href="http://stackoverflow.com/questions/38105539/how-to-convert-a-scikit-learn-dataset-to-a-pandas-dataset">To get around</a> this we can <a href="http://stackoverflow.com/questions/35723472/how-to-use-sklearn-fit-transform-with-pandas-and-return-dataframe-instead-of-num">reshape </a>the '.values' outputs from the dataframe columns. Once the data is reshaped, the regression is done in much the same way to my other examples.
+This final examples use scikit-learn, a python library which implements a range of machine learning tools for data analysis - including <a href="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html#sklearn.linear_model.LinearRegression.fit">linear regression</a>.
+scikit-learn (sklearn) is built around numpy arrays rather than pandas dataframes. <a href="https://stackoverflow.com/questions/38105539/how-to-convert-a-scikit-learn-dataset-to-a-pandas-dataset">To get around</a> this we can <a href="https://stackoverflow.com/questions/35723472/how-to-use-sklearn-fit-transform-with-pandas-and-return-dataframe-instead-of-num">reshape </a>the '.values' outputs from the dataframe columns. Once the data is reshaped, the regression is done in much the same way to my other examples.
 
 ```python
 from sklearn import datasets, linear_model

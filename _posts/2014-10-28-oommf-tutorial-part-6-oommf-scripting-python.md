@@ -27,7 +27,7 @@ OOMMF can generate a large number of files at the best of times, and once you st
 Your best defense against this is to have a little think about how you want to organise your project. We can use our scripts to automatically save our output files where we want and with sensible names, so we should use this to our advantage.
 For more information about organising computational projects (particularly OOMMF), you can read this post <a title="Organising Computational Projects" href="{{site.baseurl}}/2013/06/25/organising-computational-projects/">here</a>.
 <h1 class="attribution-info">Setting up python</h1>
-There plenty of good guides to downloading and installing python, both online [<a href="http://docs.python-guide.org/en/latest/">1</a>,<a href="https://wiki.python.org/moin/BeginnersGuide">2</a>,<a href="https://www.python.org/about/gettingstarted/">3</a>], and in print[<a href="http://amzn.to/1zmgFSz">1</a>,<a href="http://amzn.to/1uKOBQI">2</a>,<a href="http://amzn.to/ZJqGsy">3</a>], so I won't really dwell on it here.
+There plenty of good guides to downloading and installing python, both online [<a href="https://docs.python-guide.org/en/latest/">1</a>,<a href="https://wiki.python.org/moin/BeginnersGuide">2</a>,<a href="https://www.python.org/about/gettingstarted/">3</a>], and in print[<a href="https://amzn.to/1zmgFSz">1</a>,<a href="https://amzn.to/1uKOBQI">2</a>,<a href="https://amzn.to/ZJqGsy">3</a>], so I won't really dwell on it here.
 For this tutorial vanilla <a href="https://www.python.org/download/">python 2.7</a> will be enough, but you might want to consider using one of the scientific distributions of python which are now available such as:
 <ul>
 <li><a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a></li>
@@ -37,7 +37,7 @@ For this tutorial vanilla <a href="https://www.python.org/download/">python 2.7<
 
 <h2>OOMMF scripting: Boxsi</h2>
 
-The oommf scripting tool is called <a href="http://math.nist.gov/oommf/doc/userguide12a5/userguide/OOMMF_eXtensible_Solver_Bat.html">boxsi</a>. You can get the full details in the user manual, but for our purposes we just need to know that we can run oommf with a mif file and a list of parameters thusly:
+The oommf scripting tool is called <a href="https://math.nist.gov/oommf/doc/userguide12a5/userguide/OOMMF_eXtensible_Solver_Bat.html">boxsi</a>. You can get the full details in the user manual, but for our purposes we just need to know that we can run oommf with a mif file and a list of parameters thusly:
 
 ```bash
 oommf.tcl boxsi -parameters "param1 value1 param2 value2" filename.mif

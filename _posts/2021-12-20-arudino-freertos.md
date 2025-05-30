@@ -54,7 +54,7 @@ For the loop function with power saving code to work you need to also include
 ```
 
 which is one of the <a href="https://www.arduino.cc/en/Reference/UsingAVR">AVR libraries</a>
-Specific details on sleep are available <a href="http://www.nongnu.org/avr-libc/user-manual/group__avr__sleep.html">here</a>
+Specific details on sleep are available <a href="https://www.nongnu.org/avr-libc/user-manual/group__avr__sleep.html">here</a>
 <h2>Task Status Example</h2>
 There is a <a href="https://github.com/feilipu/Arduino_FreeRTOS_Library/blob/master/examples/TaskStatus/TaskStatus.ino">nice example on the GitHub repository</a> which includes the blinking of an LED and the option to switch the blinking on or off via the sub connection.
 One way to control that blinking is with <a href="https://pyserial.readthedocs.io/en/latest/shortintro.html">pyserial</a>

@@ -29,7 +29,7 @@ See also[https://www.youtube.com/watch?v=ojiVtP1LOQI](https://www.youtube.com/wa
 <h1>OOMMF Hysteresis Loops - The Zeeman Energy Term</h1>
 In a physical, real-world experiment, a hysteresis loop would be made by ramping up and down a magnetic field. An OOMMF hysteresis loop is achieved in a similar way, by ramping up and down a Zeeman energy term.
 The simplest way to include a Zeeman energy term in an OOMMF mif file is with an Oxs_UZeeman term which includes a uniform, homogeneous magnetic field to the simulation.
-<a href="http://math.nist.gov/oommf/doc/userguide12a6/userguide/Standard_Oxs_Ext_Child_Clas.html#UZ">Read the official documentation about Zeeman terms in OOMMF</a>.
+<a href="https://math.nist.gov/oommf/doc/userguide12a6/userguide/Standard_Oxs_Ext_Child_Clas.html#UZ">Read the official documentation about Zeeman terms in OOMMF</a>.
 In the exchspring.mif example, the Zeeman term is:
 
 ```tcltk

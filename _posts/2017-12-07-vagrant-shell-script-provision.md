@@ -53,7 +53,7 @@ Vagrant.configure("2") do |config|
   config.vm.box = "ubuntu/trusty64"
   config.vm.provision "shell",
     path: "script.sh",
-    args: "http://math.nist.gov/oommf/dist/oommf20a0_20170929.tar.gz 8.6"
+    args: "https://math.nist.gov/oommf/dist/oommf20a0_20170929.tar.gz 8.6"
     config.vm.provider "virtualbox" do |v|
   v.gui = true
 end

@@ -21,7 +21,7 @@ author:
   display_name: deparkes
 permalink: "/2016/10/28/reshape-pandas-data-with-melt/"
 ---
-Data tables often come in a format that makes sense to the human who created the table, but that's difficult for analysis. To make analysis easier we can reshape the data into a more computer-friendly form. <a href="http://pandas.pydata.org/">Pandas </a>is a python data analysis library and in this post I reshape pandas data with melt.
+Data tables often come in a format that makes sense to the human who created the table, but that's difficult for analysis. To make analysis easier we can reshape the data into a more computer-friendly form. <a href="https://pandas.pydata.org/">Pandas </a>is a python data analysis library and in this post I reshape pandas data with melt.
 <h1>A Reshape Example</h1>
 <h2>Simple Dataframe</h2>
 Firstly, let's create a simple dataframe in pandas:
@@ -100,7 +100,7 @@ This dataframe is similar to how we might have recorded the data by hand or in a
 </tbody>
 </table>
 <h2>Fine For Humans - Not So Good For Analysis</h2>
-While this simple dataframe structure is fine for a human reader, if we wanted to create  use '<a href="http://pandas.pydata.org/pandas-docs/stable/groupby.html">groupby</a>' operations or begin to <a href="https://en.wikipedia.org/wiki/Database_normalization">normalise</a> this dataframe to we would need to do some reshaping.  We could reshape the dataframe to have a column containing person information, and another column to contain that person's score on a particular day, like this:
+While this simple dataframe structure is fine for a human reader, if we wanted to create  use '<a href="https://pandas.pydata.org/pandas-docs/stable/groupby.html">groupby</a>' operations or begin to <a href="https://en.wikipedia.org/wiki/Database_normalization">normalise</a> this dataframe to we would need to do some reshaping.  We could reshape the dataframe to have a column containing person information, and another column to contain that person's score on a particular day, like this:
 <table class="dataframe" border="1">
 <thead>
 <tr>
@@ -112,7 +112,7 @@ While this simple dataframe structure is fine for a human reader, if we wanted t
 </thead>
 </table>
 <h2>Reshape With Melt</h2>
-It is of course possible to reshape a data table by hand, by copying and pasting the values from each person's column into the new 'person' column. This would take a a long time even for this small dataframe, and would be prone to errrors. A much better idea is to reshape the dataframe with <a href="http://pandas.pydata.org/pandas-docs/stable/generated/pandas.melt.html">melt</a>:
+It is of course possible to reshape a data table by hand, by copying and pasting the values from each person's column into the new 'person' column. This would take a a long time even for this small dataframe, and would be prone to errrors. A much better idea is to reshape the dataframe with <a href="https://pandas.pydata.org/pandas-docs/stable/generated/pandas.melt.html">melt</a>:
 
 ```python
 melted = pd.melt(df, id_vars=["weekday"],var_name="Person", value_name="Score")
@@ -257,4 +257,4 @@ Here we have set the variables (columns) that we want to leave unaffected. Varia
 </tr>
 </tbody>
 </table>
-<a href="http://stackoverflow.com/questions/28654047/pandas-convert-some-columns-into-rows">Read more about using melt at stackoverflow</a>
+<a href="https://stackoverflow.com/questions/28654047/pandas-convert-some-columns-into-rows">Read more about using melt at stackoverflow</a>

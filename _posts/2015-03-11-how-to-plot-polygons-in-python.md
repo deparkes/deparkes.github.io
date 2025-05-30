@@ -30,7 +30,7 @@ The process to plot polygons in python can be different depending on whether you
 |:--:|
 | *Plot Polygons in Python - empty* |
 
-If you only want to <strong>plot the edges</strong> of the polygon things are quite simple. We can just <strong>extract the x and y coordinates</strong> and plot them using the <a href="http://matplotlib.org/">matplotlib plotting library</a>.
+If you only want to <strong>plot the edges</strong> of the polygon things are quite simple. We can just <strong>extract the x and y coordinates</strong> and plot them using the <a href="https://matplotlib.org/">matplotlib plotting library</a>.
 
 I've simplified the shapely example<a href="https://github.com/Toblerity/Shapely/blob/master/docs/code/linearring.py"> linearring.py</a> to do this.
  
@@ -45,7 +45,7 @@ from shapely.geometry.polygon import LinearRing, Polygon
 <h2>Extract Polygon Coordinates</h2>
 How exactly you extract the x and y coordinates depends on exactly what type of polygon you are using. In shapely a <strong>polygon</strong> object and a <strong>linearring</strong> object are very similar, but do differ in how we treat them.
 <h3>Polygon Object</h3>
-How to extract the x and y coordinates from a shapely <a href="http://toblerity.org/shapely/manual.html#polygons">Polygon </a>object.
+How to extract the x and y coordinates from a shapely <a href="https://toblerity.org/shapely/manual.html#polygons">Polygon </a>object.
 
 ```python
 poly = Polygon([(0, 0), (0, 2), (1, 1),
@@ -54,7 +54,7 @@ x,y = poly.exterior.xy
 ```
 
 <h3>LinearRing Object</h3>
-How to extract the x and y coordinates from a shapely <a href="http://toblerity.org/shapely/manual.html#linearrings">LinearRing </a>object.
+How to extract the x and y coordinates from a shapely <a href="https://toblerity.org/shapely/manual.html#linearrings">LinearRing </a>object.
 
 ```python
 ring = LinearRing([(0, 0), (0, 2), (1, 1),
@@ -76,7 +76,7 @@ ax.set_title('Polygon')
 <h3><a href="https://github.com/deparkes/shapely_tests/blob/master/PolyPrint.py">Download the code for plotting the edges of polygons</a></h3>
 <h1>Plot A Filled Polygon</h1>
 <a href="{{site.baseurl}}/assets/2015/03/FilledPolygon1.png"><img class=" alignleft wp-image-1546" src="{{site.baseurl}}/assets/2015/03/FilledPolygon1-291x300.png" alt="" width="221" height="228"></a>If you want to <strong>plot the filled area</strong> of the polygon, and not just the edges, you have to go a bit further.
-We'll be using the same libraries as before, with the addition of <a href="https://pypi.python.org/pypi/descartes">descartes</a>, which helps us to<strong> plot geometric objects</strong> with <a href="http://matplotlib.org/users/path_tutorial.html">matplotlib patches</a>.
+We'll be using the same libraries as before, with the addition of <a href="https://pypi.python.org/pypi/descartes">descartes</a>, which helps us to<strong> plot geometric objects</strong> with <a href="https://matplotlib.org/users/path_tutorial.html">matplotlib patches</a>.
 This is a simplified version of the <a href="https://github.com/Toblerity/Shapely/blob/master/docs/code/cascaded_union.py">cascaded_union.py </a>shapely example.
 <h3><a href="https://github.com/deparkes/shapely_tests/blob/master/FilledPolygonPlot.py">Download the code for plotting filled polygons</a></h3>
 

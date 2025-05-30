@@ -35,7 +35,7 @@ folium.LayerControl().add_to(my_map)
 <h1>Folium Map Tiles Examples</h1>
 Here are a some examples of the free Folium map tiles that work "out of the box".
 <h2>Open street map</h2>
-Folium defaults to using <a href="http://wiki.openstreetmap.org/wiki/Tiles">openstreetmap </a>tiles. You can also access these tiles with:
+Folium defaults to using <a href="https://wiki.openstreetmap.org/wiki/Tiles">openstreetmap </a>tiles. You can also access these tiles with:
 
 ```python
 folium.TileLayer('openstreetmap').add_to(my_map)
@@ -46,7 +46,7 @@ folium.TileLayer('openstreetmap').add_to(my_map)
 | *Folium Map Tiles - open street map* |
 
 <h2>Map Quest Open</h2>
-Similar to open street map, <a href="http://open.mapquest.co.uk/">mapquestopen </a>tiles are a good general purpose tile set.
+Similar to open street map, <a href="https://open.mapquest.co.uk/">mapquestopen </a>tiles are a good general purpose tile set.
 ```python
 folium.TileLayer('mapquestopen').add_to(my_map)
 ```
@@ -56,7 +56,7 @@ folium.TileLayer('mapquestopen').add_to(my_map)
 | *Folium Map Tiles - mapquestopen* |
 
 <h2>MapQuest Open Aerial</h2>
-<a href="http://open.mapquest.co.uk/">Mapquest </a>also provides open aerial photography to use as map tiles:
+<a href="https://open.mapquest.co.uk/">Mapquest </a>also provides open aerial photography to use as map tiles:
 ```python
 folium.TileLayer('MapQuest Open Aerial').add_to(my_map)
 ```
@@ -86,7 +86,7 @@ folium.TileLayer('Mapbox Control Room').add_to(my_map)
 | *Folium Map Tiles - mapbox controlroom* |
 
 <h2>Stamen Terrain</h2>
-<a href="http://maps.stamen.com">Stamen </a>also produce some cool map tiles which typically work at all zoom levels. These <a href="http://maps.stamen.com/#terrain">terrain </a>tiles are only available for the USA unfortunately.
+<a href="https://maps.stamen.com">Stamen </a>also produce some cool map tiles which typically work at all zoom levels. These <a href="https://maps.stamen.com/#terrain">terrain </a>tiles are only available for the USA unfortunately.
 ```python
 folium.TileLayer('stamenterrain').add_to(my_map)
 ```
@@ -96,7 +96,7 @@ folium.TileLayer('stamenterrain').add_to(my_map)
 | *Folium Map Tiles - stamenterrain* |
 
 <h2>Stamen Toner</h2>
-The <a href="http://maps.stamen.com/#toner">Stamen </a>toner map tiles produce a black and white map that both looks striking and would be more suitable for printing than some of the other Folium map tiles.
+The <a href="https://maps.stamen.com/#toner">Stamen </a>toner map tiles produce a black and white map that both looks striking and would be more suitable for printing than some of the other Folium map tiles.
 ```python
 folium.TileLayer('stamentoner').add_to(my_map)
 ```
@@ -106,7 +106,7 @@ folium.TileLayer('stamentoner').add_to(my_map)
 | *Folium Map Tiles - stamentoner* |
 
 <h2>Stamen Watercolor</h2>
-To be honest I'm not sure where the <a href="http://maps.stamen.com/#watercolor">Stamen Watercolor</a> map tiles would be useful, but they look very cool.
+To be honest I'm not sure where the <a href="https://maps.stamen.com/#watercolor">Stamen Watercolor</a> map tiles would be useful, but they look very cool.
 ```python
 folium.TileLayer('stamenwatercolor').add_to(my_map)
 ```

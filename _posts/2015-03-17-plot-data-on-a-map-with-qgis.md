@@ -19,14 +19,14 @@ author:
 permalink: "/2015/03/17/plot-data-on-a-map-with-qgis/"
 ---
 <h1>How To Plot Data On A Map With QGIS</h1>
-One of the most useful things you can do with a GIS software package like <a href="http://www2.qgis.org/en/site/">QGIS </a>is plot numerical data on a map. This post shows you how to plot data on a map with QGIS.
+One of the most useful things you can do with a GIS software package like <a href="https://www2.qgis.org/en/site/">QGIS </a>is plot numerical data on a map. This post shows you how to plot data on a map with QGIS.
 I'll be using the <strong>GBR_adm</strong> shapefile for the United United Kingdom, but the method should be applicable to pretty much any shape file.
 <h3>
 <a href="{{site.baseurl}}/assets/2015/03/PlotOnMapExample.zip">Download files used in this example</a> [zip]</h3>
-<h3><a href="http://biogeo.ucdavis.edu/data/gadm2/shp/GBR_adm.zip">Download the GBR_adm shapefile</a></h3>
+<h3><a href="https://biogeo.ucdavis.edu/data/gadm2/shp/GBR_adm.zip">Download the GBR_adm shapefile</a></h3>
 <h1>Load Shape File Into QGIS</h1>
 The GBR_adm bundle actually comes with shape files for different administrative levels: UK-wide, countries, and counties. To keep things simple, I'm going to be using GBR_adm1, which represents country-level boundaries.
-<h3><a href="http://biogeo.ucdavis.edu/data/gadm2/shp/GBR_adm.zip">Download the GBR_adm shapefile</a></h3>
+<h3><a href="https://biogeo.ucdavis.edu/data/gadm2/shp/GBR_adm.zip">Download the GBR_adm shapefile</a></h3>
 The simplest way to load your shape file into QGIS is to just <strong>drag and drop</strong> it onto the QGIS window. Drag and drop either the <strong>.shp file</strong> or the <strong>.dbf file</strong> into QGIS.
 This will add it as a <strong>new layer</strong> into your project. When you first load the shapefile into QGIS, it should look something like this:
 

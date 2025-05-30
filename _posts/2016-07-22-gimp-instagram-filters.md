@@ -24,8 +24,8 @@ permalink: "/2016/07/22/gimp-instagram-filters/"
 ---
 Instagram-style filters are a quick way to improve the look of pretty much any photo. Check out this GIMP Instagram filters and start applying quick fixes to your photos.
 <h1>GIMP Instagram Filters</h1>
-First, <a href="http://registry.gimp.org/node/28613">download this pack of instagram-style filters for GIMP.</a> It contains 22 filters which you can load as a plugin into GIMP. They are <a href="https://www.gimp.org/docs/python/">python </a>files so you can easily load them up in a text editor and make tweaks and alterations if you need to.
-Then <a href="http://www.mahvin.com/2009/09/gimp-how-to-install-scripts-plug-ins-to.html">check out this post for how to install GIMP plugins</a> - you essentially need to copy the filters to the GIMP plugin folder (exactly how you do this depends on  your system).
+First, <a href="https://registry.gimp.org/node/28613">download this pack of instagram-style filters for GIMP.</a> It contains 22 filters which you can load as a plugin into GIMP. They are <a href="https://www.gimp.org/docs/python/">python </a>files so you can easily load them up in a text editor and make tweaks and alterations if you need to.
+Then <a href="https://www.mahvin.com/2009/09/gimp-how-to-install-scripts-plug-ins-to.html">check out this post for how to install GIMP plugins</a> - you essentially need to copy the filters to the GIMP plugin folder (exactly how you do this depends on  your system).
 Once loaded, you can access the filters from the GIMP filters menu and apply them to your photos:
 
 | ![gimp instagram filters - menu]({{site.baseurl}}/assets/2016/07/menu.png) |

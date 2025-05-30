@@ -70,7 +70,7 @@ sudo smbpasswd -a user-name
 
 If you aren't sure of the user names, see 'List Samba Users', above.
 <h1>Clear windows connection cache</h1>
-If you do change the password on a Samba user account, you may find you have trouble connecting via windows. One solution to this is to <a href="http://www.golinuxhub.com/2013/12/multiple-connections-to-server-or.html$or.html&gt;">clear the windows connection cache</a>.
+If you do change the password on a Samba user account, you may find you have trouble connecting via windows. One solution to this is to <a href="https://www.golinuxhub.com/2013/12/multiple-connections-to-server-or.html$or.html&gt;">clear the windows connection cache</a>.
 First run <code>net use</code> to see what connections are stored. In this case I hvae a stored connection to my <a href="{{site.baseurl}}/2017/06/02/a-simple-linux-home-server/">Lubuntu file server</a>.
 
 | ![samba basics - net use]({{site.baseurl}}/assets/2017/06/net_use.png) |

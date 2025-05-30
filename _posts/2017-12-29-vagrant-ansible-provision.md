@@ -39,7 +39,7 @@ Vagrant.configure("2") do |config|
 end
 ```
 <h1>Ansible Playbooks</h1>
-The configuration file for ansible provisioning is called a '<a href="http://docs.ansible.com/ansible/latest/playbooks_intro.html">playbook</a>'. The playbook contains settings for running the ansible provisioning process. I go through an example playbook in the next section, but it is worth knowing a few general principles about playbooks first.
+The configuration file for ansible provisioning is called a '<a href="https://docs.ansible.com/ansible/latest/playbooks_intro.html">playbook</a>'. The playbook contains settings for running the ansible provisioning process. I go through an example playbook in the next section, but it is worth knowing a few general principles about playbooks first.
 <h2>'Plays'</h2>
 Ansible playbooks are broken down into a series of 'plays' - a series of tasks set to be run on a particular machine or group of machines.
 <h2>'Hosts'</h2>
@@ -47,7 +47,7 @@ Ansible is capable of provisioning multiple machines from one playbook, and not 
 <h2>'Tasks'</h2>
 The tasks carried out by a play are what really affect the host machine. A task runs different ansible modules to make changes to the host machine.
 <h2>Ansible Modules</h2>
-Ansible is designed to use different <a href="http://docs.ansible.com/ansible/latest/dev_guide/developing_modules.html">modules</a>. These modules are rather like a wrapper to functionality on the host machine. Ansible modules aren't 'magic', and you will still need to understand the host machine, such as package manager, file structure and so on to use them effectively.
+Ansible is designed to use different <a href="https://docs.ansible.com/ansible/latest/dev_guide/developing_modules.html">modules</a>. These modules are rather like a wrapper to functionality on the host machine. Ansible modules aren't 'magic', and you will still need to understand the host machine, such as package manager, file structure and so on to use them effectively.
 <h2>White Space</h2>
 Playbooks are written in '<a href="https://en.wikipedia.org/wiki/YAML">yaml</a>' - a markup language which is relatively easy for a human to read as it mostly does away with the requirement for opening and closing of tags. The downside to this readability is that it is very sensitive to white space. You may want to take a look at some of the guides out there about correctly formatting yaml files, at least so that you are aware of some of the problems
 <h2>Different Notations</h2>
@@ -57,11 +57,11 @@ The following example goes through pretty much the same steps as in my previous 
 
 I use this example file to provision a virtual machine with some software unavailable in package managers. I use the ubuntu 'apt' package manager module to install a desktop environment and some dependencies (tcl/tk). I then use the 'file' and 'unarchive' to download and unpack an archive file from the web. I finally use the 'command' module to issue the commands needed to build my software. This example playbook uses a few different modules, and hopefully gives you a sense of how ansible works and how an ansible playbook fits together.
 <h2>Using the 'apt' module</h2>
-The first few plays use the '<a href="http://docs.ansible.com/ansible/latest/apt_module.html">apt</a>' module to <a href="{{site.baseurl}}/2017/10/27/provision-desktop-environment-vagrant/">install lubuntu-desktop</a> and some other dependencies. The plays have a name which helps identify it within the playbook, as well as in the ansible reporting output. I have included the 'update_cache' option in each case - this is the equivalent of running '<a href="https://askubuntu.com/questions/222348/what-does-sudo-apt-get-update-do">apt-get update</a>' to update repository information. For simplicity I have set the 'hosts' to be all, although this can be configured to run only on particular machines or groups of machines.
+The first few plays use the '<a href="https://docs.ansible.com/ansible/latest/apt_module.html">apt</a>' module to <a href="{{site.baseurl}}/2017/10/27/provision-desktop-environment-vagrant/">install lubuntu-desktop</a> and some other dependencies. The plays have a name which helps identify it within the playbook, as well as in the ansible reporting output. I have included the 'update_cache' option in each case - this is the equivalent of running '<a href="https://askubuntu.com/questions/222348/what-does-sudo-apt-get-update-do">apt-get update</a>' to update repository information. For simplicity I have set the 'hosts' to be all, although this can be configured to run only on particular machines or groups of machines.
 <h2>Using the 'file' and 'unarchive' Modules</h2>
-I use two more modules to download and unpack my software. Firstly the <a href="http://docs.ansible.com/ansible/latest/file_module.html">file</a> module checks that a directory exists, and creates it if not. Then the <a href="http://docs.ansible.com/ansible/latest/unarchive_module.html">unarchive</a> module gets an <a href="https://askubuntu.com/questions/25347/what-command-do-i-need-to-unzip-extract-a-tar-gz-file">tar.gz</a> at a remote location and unpacks it to the folder I just checked/created with file.
+I use two more modules to download and unpack my software. Firstly the <a href="https://docs.ansible.com/ansible/latest/file_module.html">file</a> module checks that a directory exists, and creates it if not. Then the <a href="https://docs.ansible.com/ansible/latest/unarchive_module.html">unarchive</a> module gets an <a href="https://askubuntu.com/questions/25347/what-command-do-i-need-to-unzip-extract-a-tar-gz-file">tar.gz</a> at a remote location and unpacks it to the folder I just checked/created with file.
 <h2>Using the 'command' module</h2>
-My final play includes two tasks which use the <a href="http://docs.ansible.com/ansible/latest/list_of_commands_modules.html">command</a> module to run the commands needed to build the software. An important option to include is the <em>chdir</em> within <em>args</em>, to temporarily set the working directory to the one with my software in. Without this the command would be unable to find the scripts it needed, and would fail.
+My final play includes two tasks which use the <a href="https://docs.ansible.com/ansible/latest/list_of_commands_modules.html">command</a> module to run the commands needed to build the software. An important option to include is the <em>chdir</em> within <em>args</em>, to temporarily set the working directory to the one with my software in. Without this the command would be unable to find the scripts it needed, and would fail.
 
 ```yaml
 ---
@@ -104,7 +104,7 @@ My final play includes two tasks which use the <a href="http://docs.ansible.com/
     - name: Download and unpack OOMMF
       become_user: vagrant
       unarchive:
-        src: http://math.nist.gov/oommf/dist/oommf20a0_20170929.tar.gz
+        src: https://math.nist.gov/oommf/dist/oommf20a0_20170929.tar.gz
         remote_src: yes
         dest: ~/
 # This is a 'play' to download and unpack oommf

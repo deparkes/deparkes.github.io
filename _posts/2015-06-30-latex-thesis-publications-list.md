@@ -133,7 +133,7 @@ latex mydoc
 latex mydoc
 When you use the bibunits package you need to build the bibliography for each bibliography unit (as well as the 'standard' bibliography).
 <h2>Build Using Texmaker</h2>
-Here are steps for doing correctly building the document using <a href="http://www.xm1math.net/texmaker/">texmaker</a>.
+Here are steps for doing correctly building the document using <a href="https://www.xm1math.net/texmaker/">texmaker</a>.
 Other graphical packages probably operate in a similar way. If you prefer to build your documents via the command line, you might want to check out the <a href="https://www.ctan.org/pkg/bibunits?lang=en">bibunits documentation</a> for further information.
 To build the bibunit bibliography we go to options -&gt; configure texmaker and find the biblatex command box. In here you need to enter "bibtex bu1.aux", as shown below.
 

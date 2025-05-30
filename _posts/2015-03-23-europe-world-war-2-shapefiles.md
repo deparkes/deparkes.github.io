@@ -17,7 +17,7 @@ permalink: "/2015/03/23/europe-world-war-2-shapefiles/"
 ---
 <h1>Europe World War 2 Shapefiles</h1>
 After spending some time searching World War 2 shapefiles for Europe, I've finally found some.
-This collection of shapefiles from the <a href="http://web.stanford.edu/group/spatialhistory/cgi-bin/site/index.php">Stanford Spatial History Project</a> covers the changes in borders, governments and allegiences throughout the conflict.
+This collection of shapefiles from the <a href="https://web.stanford.edu/group/spatialhistory/cgi-bin/site/index.php">Stanford Spatial History Project</a> covers the changes in borders, governments and allegiences throughout the conflict.
 Shapefiles are provided for a month-by-month representation of the changes.
 Other details include:
 <ul>

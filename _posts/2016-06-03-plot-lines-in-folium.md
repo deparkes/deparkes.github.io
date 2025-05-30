@@ -21,7 +21,7 @@ author:
   display_name: deparkes
 permalink: "/2016/06/03/plot-lines-in-folium/"
 ---
-In this post I show you how to plot lines in <a href="http://wp.me/p4DE9r-FU">F</a><a href="http://wp.me/p4DE9r-FU">olium </a>- the python module for plotting leaflet maps.
+In this post I show you how to plot lines in <a href="https://wp.me/p4DE9r-FU">F</a><a href="https://wp.me/p4DE9r-FU">olium </a>- the python module for plotting leaflet maps.
 <h1>Add PolyLine to Map</h1>
 Like 'markers', lines are added to folium map objects with the add_to() method
 ```python

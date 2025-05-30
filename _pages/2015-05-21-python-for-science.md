@@ -19,7 +19,7 @@ It's all well and good to have snazzy interface, and spiffy package management s
 <h2><a href="{{site.baseurl}}/2015/04/05/python-pandas-for-physics/">Pandas for Physics</a></h2>
 <h2><a href="{{site.baseurl}}/2015/02/17/the-stoner-python-package/">Stoner Python Package</a></h2>
 <h1>Plotting Data With Python</h1>
-Plotting data with python has now reached a rather mature stage, too. The venerable <a href="http://matplotlib.org/">matplotlib</a> package still does much of the heavy lifting, but there are now more advanced plotting libraries such as <a href="{{site.baseurl}}/2015/05/05/seaborn-python-plotting-library/">seaborn</a>, and <a href="{{site.baseurl}}/2015/04/18/ggplot-for-python/">ggplot </a>for python.
+Plotting data with python has now reached a rather mature stage, too. The venerable <a href="https://matplotlib.org/">matplotlib</a> package still does much of the heavy lifting, but there are now more advanced plotting libraries such as <a href="{{site.baseurl}}/2015/05/05/seaborn-python-plotting-library/">seaborn</a>, and <a href="{{site.baseurl}}/2015/04/18/ggplot-for-python/">ggplot </a>for python.
 <h2><a href="{{site.baseurl}}/2015/05/05/seaborn-python-plotting-library/">Seaborn Plotting Library</a></h2>
 <h2><a href="{{site.baseurl}}/2015/04/18/ggplot-for-python/">ggplot for Python</a></h2>
 <h1><a href="{{site.baseurl}}/2015/03/03/python-instrument-control/">Python Hardware Interfacing</a></h1>

@@ -21,15 +21,15 @@ author:
 permalink: "/2016/12/23/how-word-files-store-images/"
 ---
 With the Microsoft Word <a href="https://en.wikipedia.org/wiki/Office_Open_XML">Docx </a>format, it's quite easy to see how images are stored. Docx files have been the default Word format since Word 2007, and are an <a href="https://en.wikipedia.org/wiki/Office_Open_XML">open document format</a> based on <a href="https://en.wikipedia.org/wiki/XML">xml</a>. The docx file is a container for xml files relating to the structure and text of the file, as well as any objects or media used in the file.
-In this post I’m using the Microsoft <a href="http://xmlnotepad.codeplex.com/">xml notepad</a>. You can use any editor to view xml files, but using something like this makes it a bit easier to see what’s going on.
+In this post I’m using the Microsoft <a href="https://xmlnotepad.codeplex.com/">xml notepad</a>. You can use any editor to view xml files, but using something like this makes it a bit easier to see what’s going on.
 <a href="https://msdn.microsoft.com/en-us/library/aa982683(v=office.12).aspx">Learn more about how docx structures documents as xml</a>.
 <h1>Docx files are just zip files</h1>
 <h2>You can unzip the file to see the structure inside</h2>
 Word Docx files are really just zipped up containers for a series of xml files, and embedded objects. This means that to access the images in a docx file, we simply need to unzip it. You can do this one of two ways. Either:
 <ul>
-<li>use a third party archive program such as <a href="http://www.7-zip.org/download.html">7zip</a> to unzip the docx, or</li>
+<li>use a third party archive program such as <a href="https://www.7-zip.org/download.html">7zip</a> to unzip the docx, or</li>
 <li>
-<a href="http://quehow.com/how-to-change-a-file-extension-in-windows-10/4450.html">change the file extension</a> of your docx file to ‘zip’, and right-click extract.</li>
+<a href="https://quehow.com/how-to-change-a-file-extension-in-windows-10/4450.html">change the file extension</a> of your docx file to ‘zip’, and right-click extract.</li>
 </ul>
 <h2>Inside the docx/zip file you’ll find xml data</h2>
 Once you’ve unzipped the docx you’ll see something like this;

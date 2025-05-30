@@ -69,7 +69,7 @@ Regular expressions can be a bit tricky, so here are a couple of expressions tha
 "([0-9]{4})\)*\.|$"
 ```
 
-Hopefully these will be sufficient for most situations, but if you do need to build your own then <a href="http://pythex.org/">pythex.org</a> is a useful site for testing out regular expressions - just copy in the text from your .bbl file as "Your test string:".
+Hopefully these will be sufficient for most situations, but if you do need to build your own then <a href="https://pythex.org/">pythex.org</a> is a useful site for testing out regular expressions - just copy in the text from your .bbl file as "Your test string:".
 <h3>If you're still having problems extracting the date from your .bbl file - leave a comment below and I'll see if I can help you out.</h3>
 <h1>Some Example Graphs</h1>
 Here are some examples of the kind of output you can expect from <a href="https://gist.github.com/deparkes/f51b5eaf35bdde3a0c00">RefCount.py</a>.

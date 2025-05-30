@@ -22,18 +22,18 @@ permalink: "/2015/01/13/field-pulse-in-oommf/"
 <a href="{{site.baseurl}}/oommf/oommf-tutorial/">
 </a>In part 7 of this <a href="{{site.baseurl}}/oommf/oommf-tutorial/">OOMMF tutorial</a> I will show you how to excite a simulation with a <strong>field pulse</strong> in OOMMF.
 <h1>Defining The Field Pulse</h1>
-Using <a href="http://math.nist.gov/oommf/doc/userguide12a5/userguide/Standard_Oxs_Ext_Child_Clas.html#SU">Oxs_ScriptUZeeman </a>we can define our field pulse as more or less any function, but in this tutorial We'll be trying to make this pulse made up of a rising and falling exponential:
+Using <a href="https://math.nist.gov/oommf/doc/userguide12a5/userguide/Standard_Oxs_Ext_Child_Clas.html#SU">Oxs_ScriptUZeeman </a>we can define our field pulse as more or less any function, but in this tutorial We'll be trying to make this pulse made up of a rising and falling exponential:
 
 | ![OOMMF Field Pulse]({{site.baseurl}}/assets/2015/01/FieldPulseSchematic2.png) |
 |:--:|
 | *OOMMF Field Pulse* |
 
-<a href="http://math.nist.gov/oommf/doc/userguide12a5/userguide/Standard_Oxs_Ext_Child_Clas.html#SU">Oxs_ScriptUZeeman </a>will require the function and its derivative with respect to time. We'll define separately the rising and falling exponentials that define the field pulse:
+<a href="https://math.nist.gov/oommf/doc/userguide12a5/userguide/Standard_Oxs_Ext_Child_Clas.html#SU">Oxs_ScriptUZeeman </a>will require the function and its derivative with respect to time. We'll define separately the rising and falling exponentials that define the field pulse:
 
 rising exponential: $$ f_1 = 1-exp(-\frac{t}{a})$$; derivative: $$ df_1 = \frac{exp(-\frac{t}{a})}{a} $$
 falling exponential: $$ f_2 = exp(-\frac{t-b}{a})$$; derivative: $$ df_2 = -\frac{exp(-\frac{t-b}{c})}{c} $$
 
-We will later multiply the two exponentials together, and determining the derivative of the resulting function using the <a href="http://en.wikipedia.org/wiki/Chain_rule">chain rule</a>.
+We will later multiply the two exponentials together, and determining the derivative of the resulting function using the <a href="https://en.wikipedia.org/wiki/Chain_rule">chain rule</a>.
 By equating the differential to zero we can find the time which gives maximum field:
 
 $$
@@ -46,7 +46,7 @@ $$
 (1-exp(-\frac{t_{max}}{a}))exp(-\frac{t_{max}-b}{a})
 $$
 
-We will be using the [Oxs_ScriptUZeeman](http://math.nist.gov/oommf/doc/userguide12a5/userguide/Standard_Oxs_Ext_Child_Clas.html#SU") which takes this form:
+We will be using the [Oxs_ScriptUZeeman](https://math.nist.gov/oommf/doc/userguide12a5/userguide/Standard_Oxs_Ext_Child_Clas.html#SU") which takes this form:
 
 ```tcltk
 Specify Oxs_ScriptUZeeman:name {
@@ -57,7 +57,7 @@ Specify Oxs_ScriptUZeeman:name {
 }
 ```
 
-Combined with a tcl <a href="http://math.nist.gov/oommf/doc/userguide12a5/userguide/MIF_2.1.html#par:supportProcs">procedure </a>to define the pulse profile:
+Combined with a tcl <a href="https://math.nist.gov/oommf/doc/userguide12a5/userguide/MIF_2.1.html#par:supportProcs">procedure </a>to define the pulse profile:
 
 ```tcltk
 #  Set the field pulse proc
@@ -89,7 +89,7 @@ When we run square_fieldpulse.mif we can see the applied field pulse in mmGraph,
 
 
 You can easily modify this basic field pulse recipe for your own functions. Just define the function, find its derivative and put it into the 'FieldPulse' procedure.
-For help plotting the functions and finding the derivative you might want to use <a href="http://www.wolframalpha.com/input/?i=1-exp%28-x%29">Wolfram Alpha</a>.
+For help plotting the functions and finding the derivative you might want to use <a href="https://www.wolframalpha.com/input/?i=1-exp%28-x%29">Wolfram Alpha</a>.
 
 
 <a href="{{site.baseurl}}/oommf/oommf-tutorial/">

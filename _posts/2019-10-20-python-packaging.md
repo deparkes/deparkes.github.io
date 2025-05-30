@@ -39,7 +39,7 @@ To be clear, our goal will be to get to a point where we can:
 </ul>
 <a href="https://github.com/deparkes/python-packaging-example">See a simple example of a project using this structure.</a>
 <h2>Project Structure</h2>
-The first thing we will do is make sure the project structure is in a good way for putting in a package. I am going to follow the structure described in <a href="https://blog.ionelmc.ro/2014/05/25/python-packaging/#the-structure">this post</a>, which has benefits for both <a href="http://doc.pytest.org/en/latest/goodpractices.html">testing</a> and packaging.
+The first thing we will do is make sure the project structure is in a good way for putting in a package. I am going to follow the structure described in <a href="https://blog.ionelmc.ro/2014/05/25/python-packaging/#the-structure">this post</a>, which has benefits for both <a href="https://doc.pytest.org/en/latest/goodpractices.html">testing</a> and packaging.
 ```
 ├─ src
 │  └─ my_package
@@ -63,7 +63,7 @@ There are a few general goals with this structure:
 </li>
 </ol>
 <h2>Alternative Project Structures</h2>
-If you <a href="https://stackoverflow.com/questions/193161/what-is-the-best-project-structure-for-a-python-application">look around online</a> you will find alternatives to this structure, and some <a href="http://disq.us/p/n7fbt7">robust discussion</a> about pros and cons. Python does allow quite a bit of flexibility in its packaging structure, and does not have quite the same widely held standards as in, say, <a href="http://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html">the Java community</a>. That being the case it is fine to have a read around and consider what works best for you.
+If you <a href="https://stackoverflow.com/questions/193161/what-is-the-best-project-structure-for-a-python-application">look around online</a> you will find alternatives to this structure, and some <a href="https://disq.us/p/n7fbt7">robust discussion</a> about pros and cons. Python does allow quite a bit of flexibility in its packaging structure, and does not have quite the same widely held standards as in, say, <a href="https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html">the Java community</a>. That being the case it is fine to have a read around and consider what works best for you.
 One thing to consider however, is that there many blog posts and question responses which are rather old, and the Python packaging landscape has moved on in that time. One way to keep current is to review the GitHub pages of some of the major python projects.
 <h2>Building The Package</h2>
 <h3>Setup.py</h3>
@@ -86,7 +86,7 @@ python setup.py sdist
 This will create a tar.gz file of the the 'src' directory. If we open the file up we can see the <a href="https://docs.python.org/3/distutils/sourcedist.html">files that are included by sdist as default</a>, along with some other metadata created.
 <h3>Bundling the Tests Directory</h3>
 One of the reasons for using this package structure was to keep a clearer separation of what should and should not be distributed.
-By keeping 'tests' and 'src' separate and using <em>package_dir={'': 'src'} </em>in the setup.py file means that tests will not, by default, be included in the distributed package. Whether this is a good idea or not is another point of <a href="http://disq.us/p/n7fbt7">some discussion</a>, with <a href="https://stackoverflow.com/questions/32390705/should-i-include-tests-and-pyc-files-when-building-package-with-setuptools/32391295">no clear consensus</a>.
+By keeping 'tests' and 'src' separate and using <em>package_dir={'': 'src'} </em>in the setup.py file means that tests will not, by default, be included in the distributed package. Whether this is a good idea or not is another point of <a href="https://disq.us/p/n7fbt7">some discussion</a>, with <a href="https://stackoverflow.com/questions/32390705/should-i-include-tests-and-pyc-files-when-building-package-with-setuptools/32391295">no clear consensus</a>.
 Nevertheless it is possible to include the tests directory in the distribution, but <em>not actually install them</em>, using a 'manifest' file. To use one we can simply add a 'MANIFEST.in' file into the top level project directory.
 For example, to include the tests directory in what gets distributed we add the line:
 ```graft tests```

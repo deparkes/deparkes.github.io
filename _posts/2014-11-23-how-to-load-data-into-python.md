@@ -21,7 +21,7 @@ In this post we'll look at three different ways of how to load data into python.
 We'll look at methods that use just the core python modules, and those that use 'numpy', a numerical computing module for python.
 The script and data files used in this article are available at this github <a href="https://github.com/deparkes/PythonTips/tree/master/LoadDataFiles" target="_blank">repository</a>.
 <h1>A word on numpy</h1>
-If you haven't already I recommend installing <a href="http://www.numpy.org/" target="_blank">numpy</a>, a numerical programming module for python. Numpy will come in handy later for analysing our imported data, so by directly importing into a numpy-ready format we can be ready to continue to analyse and process the imported data.
+If you haven't already I recommend installing <a href="https://www.numpy.org/" target="_blank">numpy</a>, a numerical programming module for python. Numpy will come in handy later for analysing our imported data, so by directly importing into a numpy-ready format we can be ready to continue to analyse and process the imported data.
 You can either do this as a single module or as part of a scientific python distribution (my preferred option).
 It's common practice to "import numpy as np", so we can use a shorthand in our scripts. We use that convention in the scripts in this post.
 <h1>How to load in data with python</h1>

@@ -20,8 +20,8 @@ permalink: "/2015/01/29/install-shapely-on-anaconda/"
 ---
 <h1>How to Install Shapely on Anaconda (Windows)</h1>
 <a href="https://pypi.python.org/pypi/Shapely">Shapely </a>is a Python package for analysis and manipulation of geometric objects.
-Here's how to install Shapely in the <a href="https://store.continuum.io/cshop/anaconda/">Anaconda </a>python distribution, from <a href="http://www.continuum.io/">Continuum Analytics</a>.
-Anaconda uses its '<a href="http://conda.pydata.org/docs/">conda</a>' package manager to install, remove and otherwise manage python packages. This generally works well, but in the case of Shapely the recommended install method is to download and install a '<a href="https://wheel.readthedocs.org/en/latest/">wheel</a>' with <a href="https://pypi.python.org/pypi/pip">pip</a>.
+Here's how to install Shapely in the <a href="https://store.continuum.io/cshop/anaconda/">Anaconda </a>python distribution, from <a href="https://www.continuum.io/">Continuum Analytics</a>.
+Anaconda uses its '<a href="https://conda.pydata.org/docs/">conda</a>' package manager to install, remove and otherwise manage python packages. This generally works well, but in the case of Shapely the recommended install method is to download and install a '<a href="https://wheel.readthedocs.org/en/latest/">wheel</a>' with <a href="https://pypi.python.org/pypi/pip">pip</a>.
 Thankfully <a href="https://store.continuum.io/cshop/anaconda/">Anaconda </a>also lets us install packages using <a href="https://pypi.python.org/pypi/pip">pip</a>.
 Your best option is probably to use plain anaconda:
 
@@ -31,7 +31,7 @@ conda install shapely
 
 This seems to work fine now, so the rest of this post may be a useful starting point if you find that simple option does not work for you (for example if the version available on conda is not up to date)
 <h1>Download the most recent Shapely 'wheel'</h1>
-The recommended install method for Shapely on windows is to download a .whl 'wheel' package: <a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/#shapely">http://www.lfd.uci.edu/~gohlke/pythonlibs/#shapely</a>
+The recommended install method for Shapely on windows is to download a .whl 'wheel' package: <a href="https://www.lfd.uci.edu/~gohlke/pythonlibs/#shapely">https://www.lfd.uci.edu/~gohlke/pythonlibs/#shapely</a>
 You'll want to pick the right version of Python - you probably want version 2.7, but check your Anaconda distribution. You'll also need to pick between 32- or 64-bit.
 <h1>Install With Pip</h1>
 Once you've downloaded the correct Shapely package, open up the 'Anaconda Command Prompt' and navigate to the folder containing the downloaded wheel.

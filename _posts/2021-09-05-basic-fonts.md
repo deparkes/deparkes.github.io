@@ -37,7 +37,7 @@ It is true that these alternatives don’t all look exactly like the original an
 <a href="https://en.wikipedia.org/wiki/Helvetica">Helvetica</a>
 <img class="aligncenter size-full wp-image-5304" src="{{site.baseurl}}/assets/2021/09/HelveticaSpecimenCH.png" alt="basic fonts - helvetica" style="display:block;" width="100%" height="100%">
 </td>
-<td>Arial - <a href="http://www.identifont.com/differences?first=helvetica&amp;second=arial&amp;q=Go">see the differences</a>
+<td>Arial - <a href="https://www.identifont.com/differences?first=helvetica&amp;second=arial&amp;q=Go">see the differences</a>
 </td>
 <td>
 <a href="https://fonts.google.com/specimen/IBM+Plex+Sans">IBM Plex</a>, <a href="https://fonts.google.com/specimen/Open+Sans">Open Sans</a>, <a href="https://fonts.google.com/specimen/Roboto">Roboto</a>,  <em>See also </em>https://fontsplugin.com/google-fonts-helvetica-neue/</td>
@@ -63,7 +63,7 @@ It is true that these alternatives don’t all look exactly like the original an
 <a href="https://en.wikipedia.org/wiki/Futura_(typeface)">Futura</a>
 <img class="aligncenter size-full wp-image-5308" src="{{site.baseurl}}/assets/2021/09/406px-Futura_Specimen.svg_.png" alt="basic fonts - Futura" style="display:block;" width="100%" height="100%">
 </td>
-<td>Century Gothic - <a href="http://www.identifont.com/differences?first=futura&amp;second=century+gothic&amp;q=Go">see the differences</a>
+<td>Century Gothic - <a href="https://www.identifont.com/differences?first=futura&amp;second=century+gothic&amp;q=Go">see the differences</a>
 </td>
 <td>
 <a href="https://fonts.google.com/specimen/Spartan">Spartan</a>, <a href="https://fonts.google.com/specimen/Jost">Jost</a>, <a href="https://fonts.google.com/specimen/Nunito+Sans">Nunito Sans</a>, <a href="https://fonts.google.com/specimen/Hind">Hind</a> . <em>See also</em>  <a href="https://fontsplugin.com/google-fonts-futura/">https://fontsplugin.com/google-fonts-futura/</a>
@@ -79,10 +79,10 @@ It is true that these alternatives don’t all look exactly like the original an
 </tr>
 <tr>
 <td>Century Expanded
-(Note the example below is actually of Century Schoolbook - <a href="http://www.briarpress.org/19037">the differences are small</a>)
+(Note the example below is actually of Century Schoolbook - <a href="https://www.briarpress.org/19037">the differences are small</a>)
 <img class="aligncenter size-full wp-image-5310" src="{{site.baseurl}}/assets/2021/09/CenturySchoolbookSAIB.svg_.png" alt="Basic fonts - Century Schoolbook" style="display:block;" width="100%" height="100%">
  </td>
-<td>Available as Century Schoolbook - <a href="http://www.identifont.com/differences?first=Century+Expanded+(BT)&amp;second=Century+Schoolbook">see the differences</a>.</td>
+<td>Available as Century Schoolbook - <a href="https://www.identifont.com/differences?first=Century+Expanded+(BT)&amp;second=Century+Schoolbook">see the differences</a>.</td>
 <td></td>
 </tr>
 </tbody>

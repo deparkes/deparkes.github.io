@@ -61,11 +61,11 @@ But what we can say is:
 <h1 class="attribution-info">The establishments:</h1>
 <div class="attribution-info">
 To check were the best value for money lies, we're comparing a selection of restaurants, local takeaways, as well as a supermarket:
-Sit-down restaurants: <a href="http://www.pizzaexpress.com/">Pizza Express</a>, <a href="http://www.pizzahut.co.uk/">Pizza Hut</a>
-Local Nottingham restaurants: <a href="http://www.just-eat.co.uk/restaurants-dinos/menu">Dino's Takeaway</a>, <a href="http://www.amigospizza-ng7.co.uk/">Amigo's Pizza</a>,  <a href="http://www.just-eat.co.uk/restaurants-luigis-ng9/menu">Luigi's Takeaway</a>.
-Takeaway Chains: <a href="http://www.papajohns.co.uk/">Papa John's</a>, <a href="https://www.dominos.co.uk/">Domino's.</a>
-Supermarket (as a base line): <a href="http://www.sainsburys.co.uk/sol/index.jsp">Sainsbury's</a>
+Sit-down restaurants: <a href="https://www.pizzaexpress.com/">Pizza Express</a>, <a href="https://www.pizzahut.co.uk/">Pizza Hut</a>
+Local Nottingham restaurants: <a href="https://www.just-eat.co.uk/restaurants-dinos/menu">Dino's Takeaway</a>, <a href="https://www.amigospizza-ng7.co.uk/">Amigo's Pizza</a>,  <a href="https://www.just-eat.co.uk/restaurants-luigis-ng9/menu">Luigi's Takeaway</a>.
+Takeaway Chains: <a href="https://www.papajohns.co.uk/">Papa John's</a>, <a href="https://www.dominos.co.uk/">Domino's.</a>
+Supermarket (as a base line): <a href="https://www.sainsburys.co.uk/sol/index.jsp">Sainsbury's</a>
 </div>
 <div class="attribution-info"></div>
 <div class="attribution-info">
-<strong>A note on the prices:</strong> the prices listed are for a standard 'margarita' <a href="http://en.wikipedia.org/wiki/Pizza">pizza </a>as listed on the websites of the different restaurants in December 2014. No attempt is made to account for any special offers or deals, or variation in quality or convenience of the different restaurants - you'll have to factor that in for yourself.</div>
+<strong>A note on the prices:</strong> the prices listed are for a standard 'margarita' <a href="https://en.wikipedia.org/wiki/Pizza">pizza </a>as listed on the websites of the different restaurants in December 2014. No attempt is made to account for any special offers or deals, or variation in quality or convenience of the different restaurants - you'll have to factor that in for yourself.</div>

@@ -21,9 +21,9 @@ author:
   display_name: deparkes
 permalink: "/2016/07/15/ninite-windows-package-manager/"
 ---
-Although <a href="https://sourceforge.net/">Sourceforge </a>has <a href="http://www.theregister.co.uk/2015/06/03/sourceforge_to_offer_only_optin_adware_after_gimp_grump/">reportedly </a>fixed its adware issues, many user remain <a href="http://forums.theregister.co.uk/forum/1/2015/06/03/sourceforge_to_offer_only_optin_adware_after_gimp_grump/">wary </a>of continuing to use <a href="https://sourceforge.net/">Sourceforge </a>as a central source of Windows apps and utilities. <a href="https://ninite.com/">Ninite </a>windows package manager goes someway to filling the need for a one-stop-shop for key windows software.
+Although <a href="https://sourceforge.net/">Sourceforge </a>has <a href="https://www.theregister.co.uk/2015/06/03/sourceforge_to_offer_only_optin_adware_after_gimp_grump/">reportedly </a>fixed its adware issues, many user remain <a href="https://forums.theregister.co.uk/forum/1/2015/06/03/sourceforge_to_offer_only_optin_adware_after_gimp_grump/">wary </a>of continuing to use <a href="https://sourceforge.net/">Sourceforge </a>as a central source of Windows apps and utilities. <a href="https://ninite.com/">Ninite </a>windows package manager goes someway to filling the need for a one-stop-shop for key windows software.
 <h1>Ok, It's Not a True Package Manager</h1>
-Linux users will be familar with the true package managers that frequently come with a Linux distribution. <a href="https://en.wikipedia.org/wiki/Advanced_Packaging_Tool">apt</a> for Debian-based distributions (like <a href="http://www.ubuntu.com/">Ubuntu</a>), for example, makes it quick and easy to install software stored in online repositories.
+Linux users will be familar with the true package managers that frequently come with a Linux distribution. <a href="https://en.wikipedia.org/wiki/Advanced_Packaging_Tool">apt</a> for Debian-based distributions (like <a href="https://www.ubuntu.com/">Ubuntu</a>), for example, makes it quick and easy to install software stored in online repositories.
 Ninite is not a true package manager in this sense, but it does make it very easy to find, download, and update commonly used Windows apps.
 <h1>But It Is Easy To Use</h1>
 <h2>Around 100 Key Apps and Utilities</h2>

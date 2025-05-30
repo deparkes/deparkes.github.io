@@ -18,7 +18,7 @@ permalink: "/2015/04/28/how-to-open-a-command-prompt-in-a-folder/"
 ---
 <h1>How To Open A Command Prompt In A Folder</h1>
 It can often be useful to be able to open a command prompt in windows. This post will show you how to start a command prompt in a target folder, so to avoid having to load a prompt by typing 'cmd' at the start menu, and labouriously navigating through your folders to the one you want.
-The <a href="http://www.cs.princeton.edu/courses/archive/spr05/cos126/cmd-prompt.html">command prompt</a> can be very useful for running command-line programs, batch processing and your own scripts.
+The <a href="https://www.cs.princeton.edu/courses/archive/spr05/cos126/cmd-prompt.html">command prompt</a> can be very useful for running command-line programs, batch processing and your own scripts.
 
 
 | ![open command prompt in folder - command prompt example]({{site.baseurl}}/assets/2015/04/command-prompt-example.png) |

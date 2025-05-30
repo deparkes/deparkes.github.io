@@ -22,7 +22,7 @@ author:
   display_name: deparkes
 permalink: "/2018/03/02/simple-docker-flask-sqlite-api/"
 ---
-Flask is a lightweight python web framework which can used for creating <a href="https://restfulapi.net/">RESTful APIs</a>. This post shows you how to make a simple Docker Flask SQLite API. This post builds on the excellent <a href="http://programminghistorian.github.io/ph-submissions/lessons/creating-apis-with-python-and-flask">Flask API Lesson</a> on <a href="https://programminghistorian.org/">The Programming Historian</a>.
+Flask is a lightweight python web framework which can used for creating <a href="https://restfulapi.net/">RESTful APIs</a>. This post shows you how to make a simple Docker Flask SQLite API. This post builds on the excellent <a href="https://programminghistorian.github.io/ph-submissions/lessons/creating-apis-with-python-and-flask">Flask API Lesson</a> on <a href="https://programminghistorian.org/">The Programming Historian</a>.
 If you just want to dive straight into a Docker Flask SQLite API example you can clone this <a href="https://github.com/deparkes/docker_flask_example">git repository</a>.
 <h1>The building blocks</h1>
 
@@ -36,7 +36,7 @@ If you just want to dive straight into a Docker Flask SQLite API example you can
 <tr>
 <td class="tg-yw4l"><a href="https://flask.palletsprojects.com/en/stable/"><em><img class="shrinkToFit transparent alignleft" src="https://palletsprojects.com/static/content/projects/flask-logo.png" alt="Flask logo" width="300" height="75"></em></a></td>
 <td class="tg-yw4l">
-<a href="http://flask.pocoo.org/"><em>Flask</em> </a>- a lightweight web framework for python. It comes with a <a href="https://stackoverflow.com/questions/12269537/is-the-server-bundled-with-flask-safe-to-use-in-production">development server</a>, which can be combined with <a href="https://ironboundsoftware.com/blog/2016/06/27/faster-flask-need-gunicorn/">other tools</a> to make it <a href="http://flask.pocoo.org/docs/0.12/deploying/#deployment">production ready.</a>
+<a href="https://flask.pocoo.org/"><em>Flask</em> </a>- a lightweight web framework for python. It comes with a <a href="https://stackoverflow.com/questions/12269537/is-the-server-bundled-with-flask-safe-to-use-in-production">development server</a>, which can be combined with <a href="https://ironboundsoftware.com/blog/2016/06/27/faster-flask-need-gunicorn/">other tools</a> to make it <a href="https://flask.pocoo.org/docs/0.12/deploying/#deployment">production ready.</a>
 </td>
 </tr>
 <tr>
@@ -50,7 +50,7 @@ If you just want to dive straight into a Docker Flask SQLite API example you can
 As I have already noted, I am essentially using the flask api developed in the programming historian guide. The difference here is that things are encapsulated in a docker container.
 What we want to happen is:
 <ul>
-<li>We want to largely replicate the functionality of <a href="http://programminghistorian.github.io/ph-submissions/lessons/creating-apis-with-python-and-flask">The Programming Historian example</a>, but in a docker container.</li>
+<li>We want to largely replicate the functionality of <a href="https://programminghistorian.github.io/ph-submissions/lessons/creating-apis-with-python-and-flask">The Programming Historian example</a>, but in a docker container.</li>
 <li>We write and develop our python code in our local machine, and save the files to a particular folder.</li>
 <li>We configure docker to know which folder we are working in and which packages it should install inside that container.</li>
 <li>Docker should start our app when we start the container</li>
@@ -109,13 +109,13 @@ With these things in place we can write our flask code in app.py. As noted elsew
 I won't go too much into the detail of the flask app - you can download it <a href="https://github.com/deparkes/docker_flask_example">here</a> - but will point out a couple of things to watch out for when developing:
 <ul>
 <li>While developing this flask app we should run flask in debug mode so it shows us the debugging info in the command line.</li>
-<li>Flask should be set to run on host '0.0.0.0' - This makes the flask server <a href="http://flask.pocoo.org/docs/0.12/quickstart/">externally visible</a>. Since flask is inside a docker container, externally visible just means visible from outside that container.</li>
+<li>Flask should be set to run on host '0.0.0.0' - This makes the flask server <a href="https://flask.pocoo.org/docs/0.12/quickstart/">externally visible</a>. Since flask is inside a docker container, externally visible just means visible from outside that container.</li>
 </ul>
 <h1>Running the API</h1>
 To test run the API we run <em>docker-compose up --build</em>. Which runs docker with the docker-compose configuration we defined earlier and builds a docker container using the dockerfile.
 If all is successful the api should be accessible on localhost:5000.
 There are more examples on the programming historian site, but a couple you can try to test out your api are:
 <ul>
-<li><a href="http://localhost:5000/api/v1/resources/books?author=Jo+Walton">http://localhost:5000/api/v1/resources/books?author=Jo+Walton</a></li>
-<li><a href="http://localhost:5000/api/v1/resources/books/all">http://localhost:5000/api/v1/resources/books/all</a></li>
+<li><a href="https://localhost:5000/api/v1/resources/books?author=Jo+Walton">https://localhost:5000/api/v1/resources/books?author=Jo+Walton</a></li>
+<li><a href="https://localhost:5000/api/v1/resources/books/all">https://localhost:5000/api/v1/resources/books/all</a></li>
 </ul>

@@ -18,11 +18,11 @@ permalink: "/2015/04/30/batch-crop-images-with-imagemagick/"
 ---
 
 <h1>How to Batch Crop Images With Imagemagick</h1>
-<a href="http://www.imagemagick.org/">Imagemagick </a>is a powerful, command-line based program for manipulating images. In this post I'll show you how to use Imagemagick to crop several images with one command.
+<a href="https://www.imagemagick.org/">Imagemagick </a>is a powerful, command-line based program for manipulating images. In this post I'll show you how to use Imagemagick to crop several images with one command.
 <h3><a href="{{site.baseurl}}/2015/03/16/useful-imagemagick-commands/">Find some more useful Imagemagick commands</a></h3>
 
 <h2>Crop a Single Image</h2>
-We'll start by looking at how to <a href="http://www.imagemagick.org/Usage/crop/">crop </a>a single image using Imagemagick. First <a href="http://www.imagemagick.org/script/binary-releases.php">download Imagemagick</a> if you haven't already. First, <a href="{{site.baseurl}}/2015/04/28/how-to-open-a-command-prompt-in-a-folder/">open a command window </a>in the folder containing the image(s) you want to crop.
+We'll start by looking at how to <a href="https://www.imagemagick.org/Usage/crop/">crop </a>a single image using Imagemagick. First <a href="https://www.imagemagick.org/script/binary-releases.php">download Imagemagick</a> if you haven't already. First, <a href="{{site.baseurl}}/2015/04/28/how-to-open-a-command-prompt-in-a-folder/">open a command window </a>in the folder containing the image(s) you want to crop.
 The command we want to run looks like this:
 
 ```bash
@@ -49,7 +49,7 @@ Which outputs the image 'CroppedLayout.png'
 | *batch crop - Batch Crop Images* |
 
 <h2>Batch Crop a Folder of Images</h2>
-That was the basic usage, but we can also combine it with the Imagemagick batch processor <a href="http://www.imagemagick.org/script/mogrify.php">mogrify </a>to crop many images at the same time.
+That was the basic usage, but we can also combine it with the Imagemagick batch processor <a href="https://www.imagemagick.org/script/mogrify.php">mogrify </a>to crop many images at the same time.
 In this example we'll crop a whole folder full of images to the same dimensions as in the example above.
 Here's what we're starting with:
 

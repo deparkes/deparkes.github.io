@@ -19,7 +19,7 @@ author:
 permalink: "/2014/12/08/keep-track-finances-budget-spreadsheet/"
 ---
 <blockquote>"Annual income twenty pounds, annual expenditure nineteen [pounds] nineteen [shillings] and six [pence], result happiness. Annual income twenty pounds, annual expenditure twenty pounds ought and six, result misery."
-<b><a href="http://www.telegraph.co.uk/culture/charles-dickens/">Charles Dickens</a>, David Copperfield</b>
+<b><a href="https://www.telegraph.co.uk/culture/charles-dickens/">Charles Dickens</a>, David Copperfield</b>
 </blockquote>
 The first stage in getting on top of your finances is to see exactly where your money goes. You can't do this accurately without a budget.
 Yes, we can have a guess at how much we spend each week or month, but with a budget you can know <strong>exactly</strong> where you money goes.
@@ -54,5 +54,5 @@ Just knowing that you spend some amount on rent and everything else on 'other' d
 I've already included some basic income and spending categories in this file, but you will probably find as you use it that these are not enough. If you need more you can just add rows as needed. Make sure to update the monthly
 <h1>Download the Spreadsheet File</h1>
 You can find the budget spreadsheet file <a href="{{site.baseurl}}/assets/2014/12/BudgetingSpreadsheet.ods">here</a>. Feel free to alter and share as you need.
-<a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license"><img style="border-width: 0;" src="{{site.baseurl}}/assets/2014/12/88x31.png" alt="Creative Commons Licence"></a>
-Budgeting Spreadsheet by <a href="{{site.baseurl}}/assets/2014/12/BudgetingSpreadsheet.ods" rel="cc:attributionURL">deparkes</a> is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license"><img style="border-width: 0;" src="{{site.baseurl}}/assets/2014/12/88x31.png" alt="Creative Commons Licence"></a>
+Budgeting Spreadsheet by <a href="{{site.baseurl}}/assets/2014/12/BudgetingSpreadsheet.ods" rel="cc:attributionURL">deparkes</a> is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.

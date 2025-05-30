@@ -34,7 +34,7 @@ you can easily make charts like this from your dataframes:
 
 <h2>Sort Pandas Boxplots</h2>
 The default pandas boxplot easy easy to use, but it can be more clear to sort the categories by the size of the medians of each group.
-There doesn't seem to be an obvious way to sort pandas boxplots like this, but I did find one <a href="http://stackoverflow.com/a/37871635">solution </a>on stack exchange.
+There doesn't seem to be an obvious way to sort pandas boxplots like this, but I did find one <a href="https://stackoverflow.com/a/37871635">solution </a>on stack exchange.
 You can use this function to plot a sorted boxplot for the data.
 
 ```python
@@ -60,6 +60,6 @@ This code should give an output like this:
 
 In this boxplot I've also adjusted the y limits to start at zero.
 <h2>How It Works</h2>
-You can <a href="http://pandas.pydata.org/pandas-docs/stable/groupby.html#iterating-through-groups">loop through</a> a pandas groupby object, just like any python iterable. The code in the function above uses <a href="http://stackoverflow.com/questions/1747817/create-a-dictionary-with-list-comprehension-in-python">dictionary comprehension</a> to create a dictionary from the grouped dataframe iterable. This dictionary object is in turn converted into a new dataframe object, with a column named after each group. The values in the column are the values from the group.
+You can <a href="https://pandas.pydata.org/pandas-docs/stable/groupby.html#iterating-through-groups">loop through</a> a pandas groupby object, just like any python iterable. The code in the function above uses <a href="https://stackoverflow.com/questions/1747817/create-a-dictionary-with-list-comprehension-in-python">dictionary comprehension</a> to create a dictionary from the grouped dataframe iterable. This dictionary object is in turn converted into a new dataframe object, with a column named after each group. The values in the column are the values from the group.
 The median of each column is calculated and the resulting dataframe has its index as the name of the group from the original dataframe, while the corresponding value is the median for that group. Sorting this dataframe by these median values (with .sort_values()) changes the order of this index.
 Finally, the function plots the dataframe in the order given by the median-sorted index.

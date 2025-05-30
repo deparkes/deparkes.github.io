@@ -28,7 +28,7 @@ Rather than write your mif file from scratch, it's often best to use an existing
 
 [https://youtu.be/UMnJ_j4V0hs](https://youtu.be/UMnJ_j4V0hs)
 OOMMF comes with a number of very useful example files, but it can sometimes be difficult to know where to start. I've selected here some of those that I've found useful and picked out the relevant sections of the files.
-<a title="Problem Specification File" href="http://math.nist.gov/oommf/doc/userguide12a5/userguide/Problem_Specification_File_.html">OOMMF Help on mif files</a>
+<a title="Problem Specification File" href="https://math.nist.gov/oommf/doc/userguide12a5/userguide/Problem_Specification_File_.html">OOMMF Help on mif files</a>
 <h1>OOMMF Examples</h1>
 OOMMF comes with a 3d micromagnetic problem solver, Oxsii. Getting started with this can be a bit daunting, but thankfully it comes with a range of examples which you can use to build up the different component that you need for your simulation system.
 I've picked out some of the examples that I've found useful in the past. For each one I've tried to pick out and highlight the most relevant sections.

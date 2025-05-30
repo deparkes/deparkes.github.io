@@ -82,4 +82,4 @@ One of the most powerful uses of multiple environments is being able to have mul
 conda create -n py27 python=2.7
 ```
 
-<h3><a href="http://conda.pydata.org/docs/faq.html#creating-new-environments">Find out more in the Conda docs </a></h3>
+<h3><a href="https://conda.pydata.org/docs/faq.html#creating-new-environments">Find out more in the Conda docs </a></h3>

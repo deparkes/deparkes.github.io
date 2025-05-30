@@ -23,7 +23,7 @@ JSON is a common format for sending data to and from a RESTful API. In this post
 
 If you just want to get stuck in and have a go, you can <a href="https://github.com/deparkes/docker_flask_example/tree/json_api">check out this code</a> on GitHub and get started. (I'm using a docker-ised version of flask, but you can use the information in this for any Flask app.)
 <h1>How To Accept JSON Input</h1>
-The basic unit we will use is <a href="http://flask.pocoo.org/docs/0.12/api/#flask.Request.get_json">request.get_json()</a>. This is a method available within the Flask framework and allows the app to handle JSON input. (<a href="http://flask.pocoo.org/docs/0.12/api/#flask.request">'request' is an object created as part of the flask 'route' decorator</a>.)
+The basic unit we will use is <a href="https://flask.pocoo.org/docs/0.12/api/#flask.Request.get_json">request.get_json()</a>. This is a method available within the Flask framework and allows the app to handle JSON input. (<a href="https://flask.pocoo.org/docs/0.12/api/#flask.request">'request' is an object created as part of the flask 'route' decorator</a>.)
 
 We will use 'get_json()' to return a dictionary, like this:
 
@@ -59,12 +59,12 @@ Once you have added get_json to your api you will want to test it. This is more 
 To do this we will use '<a href="https://en.wikipedia.org/wiki/CURL">curl</a>', but other <a href="https://alternativeto.net/software/curl/">approaches are possible</a>.
 
 ```
-curl --header "Content-Type: application/json" -X GET -d "{"books":[{"id":null,"author":"Ann Leckie ","""published""":2014},{"""id""":null,"""author""":"""John Scalzi""","""published""":2013}]}"" http://127.0.0.1:5000/api/v1/resources/books/json
+curl --header "Content-Type: application/json" -X GET -d "{"books":[{"id":null,"author":"Ann Leckie ","""published""":2014},{"""id""":null,"""author""":"""John Scalzi""","""published""":2013}]}"" https://127.0.0.1:5000/api/v1/resources/books/json
 ```
 
 If you are using windows, you will need to escape the quotation marks in your JSON, and put the whole string in quotation marks. For example:
 
 ```
-curl --header "Content-Type: application/json" -X GET -d ""{"""books""":[{"""id""":null,"""author""":"""Ann Leckie ""","""published""":2014},{"""id""":null,"""author""":"""John Scalzi""","""published""":2013}]}"" http://127.0.0.1:5000/api/v1/resources/books/json
+curl --header "Content-Type: application/json" -X GET -d ""{"""books""":[{"""id""":null,"""author""":"""Ann Leckie ""","""published""":2014},{"""id""":null,"""author""":"""John Scalzi""","""published""":2013}]}"" https://127.0.0.1:5000/api/v1/resources/books/json
 ```
 

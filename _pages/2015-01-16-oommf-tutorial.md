@@ -11,9 +11,9 @@ author:
   last_name: Parkes
 permalink: "/oommf-tutorial/"
 ---
-<a href="http://math.nist.gov/oommf/">OOMMF </a>is a very powerful and useful <a title="List of micromagnetic simulation software" href="{{site.baseurl}}/2014/05/30/list-micromagnetic-simulation-software/">micromagnetic simulation code</a>. It comes with an excellent, comprehensive user guide, but I found that I needed some extra notes of my own.
+<a href="https://math.nist.gov/oommf/">OOMMF </a>is a very powerful and useful <a title="List of micromagnetic simulation software" href="{{site.baseurl}}/2014/05/30/list-micromagnetic-simulation-software/">micromagnetic simulation code</a>. It comes with an excellent, comprehensive user guide, but I found that I needed some extra notes of my own.
 I've gathered them together here as a slowly growing OOMMF tutorial. I hope you find it useful!
-Be sure to check out the official<a href="http://math.nist.gov/oommf/doc/userguide12a5/userguide/"> OOMMF User Guide</a> too!
+Be sure to check out the official<a href="https://math.nist.gov/oommf/doc/userguide12a5/userguide/"> OOMMF User Guide</a> too!
 <h3><a href="https://www.youtube.com/playlist?list=PLufgHAAeChbgDXCEAGFpSbISvkXdPrIx1">Watch OOMMF Video Tutorials</a></h3>
 <h1>OOMMF Tutorial</h1>
 <hr>

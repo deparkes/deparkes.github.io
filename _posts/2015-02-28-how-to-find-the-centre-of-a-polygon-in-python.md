@@ -25,13 +25,13 @@ This quick guide shows you how to find the <strong>centre of a polygon</strong> 
 The centre of a polygon is also known as its centroid. It the arithmetic mean position of all the points that make up the polygon.
 <a href="{{site.baseurl}}/assets/2015/02/Triangle.Centroid2.png"><img class="aligncenter size-medium wp-image-1435" src="{{site.baseurl}}/assets/2015/02/Triangle.Centroid2-300x241.png" alt="How to find the Centre of a Polygon in Python" width="300" height="241"></a>
 <h1>How to find the centre of a polygon in python</h1>
-My preferred package for geometry analysis and processing in python is <a href="{{site.baseurl}}/2015/01/29/install-shapely-on-anaconda/">Shapely</a> which happily for us, has a <a href="http://toblerity.org/shapely/manual.html#spatial-analysis-methods"><strong>built-in method </strong></a>for finding the centroid of an object.
+My preferred package for geometry analysis and processing in python is <a href="{{site.baseurl}}/2015/01/29/install-shapely-on-anaconda/">Shapely</a> which happily for us, has a <a href="https://toblerity.org/shapely/manual.html#spatial-analysis-methods"><strong>built-in method </strong></a>for finding the centroid of an object.
 We can just use:
 
 ```python
 mypolygon.centroid
 ```
-This returns a <a href="http://toblerity.org/shapely/manual.html#geometric-objects">shapely POINT object</a>.
+This returns a <a href="https://toblerity.org/shapely/manual.html#geometric-objects">shapely POINT object</a>.
 This is all well and good, but in most situations we will want to process this further. So we can do a couple of further things to this centroid.
 Firstly we can output it in a more readable way:
 

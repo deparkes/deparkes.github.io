@@ -25,7 +25,7 @@ Agile teams typically need a critical mass of highly skilled people in order to 
 
 
 Agile ways of working have become popular since the '<a href="https://agilemanifesto.org/">Manifesto for Agile Software Development</a>' was published in 2001. This manifesto set out a philosophy of how to work in a way that was less constrained by frameworks and being told exactly what to do. The manifesto emphasised supporting the craftsmanship and competence of individuals in a team to achieve success.
-Agile methodologies are <a href="http://www.agilenutshell.com/agile_vs_waterfall">often presented</a> as an alternative to '<a href="https://en.wikipedia.org/wiki/Waterfall_model">Waterfall</a>' type project management where the project can be carefully managed using a framework such as <a href="https://www.prince2.com/uk/what-is-prince2">Prince2</a>. Agile methods are typically framed as a way around the changing requirements often associated with software development work.
+Agile methodologies are <a href="https://www.agilenutshell.com/agile_vs_waterfall">often presented</a> as an alternative to '<a href="https://en.wikipedia.org/wiki/Waterfall_model">Waterfall</a>' type project management where the project can be carefully managed using a framework such as <a href="https://www.prince2.com/uk/what-is-prince2">Prince2</a>. Agile methods are typically framed as a way around the changing requirements often associated with software development work.
 These potential benefits of Agile are attractive, but you may need to consider the skill levels of the people in your team or organisation.
 
 

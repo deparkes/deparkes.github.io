@@ -36,6 +36,6 @@ Once installed just type this:
 sshuttle --dns -vvr user@domain.com 0/0
 ```
 
-Where user@domain.com are your login username (user) for your remote computer (domain.com). All your internet traffic will now be <strong>securely <a href="http://en.wikipedia.org/wiki/Tunneling_protocol">tunnelled</a></strong> through this remote computer.
-You may need to <a href="http://www.wikihow.com/Change-Proxy-Settings"><strong>adjust your local proxy settings</strong></a> if the remote computer is normally set up for this.
-For more details see:<a title="sshuttle github repository" href="//github.com/apenwarr/sshuttle"> https://github.com/apenwarr/sshuttle</a>, <a title="Video discussing sshuttle" href="https://hak5.org/episodes/hak5-1224">https://hak5.org/episodes/hak5-1224</a>, <a href="http://askubuntu.com/questions/45075/how-do-i-route-my-internet-through-a-ssh-tunnel">http://askubuntu.com/questions/45075/how-do-i-route-my-internet-through-a-ssh-tunnel</a>
+Where user@domain.com are your login username (user) for your remote computer (domain.com). All your internet traffic will now be <strong>securely <a href="https://en.wikipedia.org/wiki/Tunneling_protocol">tunnelled</a></strong> through this remote computer.
+You may need to <a href="https://www.wikihow.com/Change-Proxy-Settings"><strong>adjust your local proxy settings</strong></a> if the remote computer is normally set up for this.
+For more details see:<a title="sshuttle github repository" href="//github.com/apenwarr/sshuttle"> https://github.com/apenwarr/sshuttle</a>, <a title="Video discussing sshuttle" href="https://hak5.org/episodes/hak5-1224">https://hak5.org/episodes/hak5-1224</a>, <a href="https://askubuntu.com/questions/45075/how-do-i-route-my-internet-through-a-ssh-tunnel">https://askubuntu.com/questions/45075/how-do-i-route-my-internet-through-a-ssh-tunnel</a>

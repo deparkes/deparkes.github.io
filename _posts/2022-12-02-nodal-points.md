@@ -41,4 +41,4 @@ It is also common for a main node to be surrounded by smaller nodes, forming a <
 
 | ![Nodal Points - Main point surrounded by others]({{site.baseurl}}/assets/2022/12/NodalPointSurroundedByOthers.png) |
 |:--:|
-| *OpenStreetMap data is licenced under the <a href="http://opendatacommons.org/licenses/odbl/1.0/">Open Data Commons Open Database Licence</a>* |
+| *OpenStreetMap data is licenced under the <a href="https://opendatacommons.org/licenses/odbl/1.0/">Open Data Commons Open Database Licence</a>* |

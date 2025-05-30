@@ -23,7 +23,7 @@ author:
 permalink: "/2015/03/03/python-instrument-control/"
 ---
 Python is becoming <a title="3 Python Alternatives to Matlab" href="{{site.baseurl}}/2015/02/28/python-alternatives-to-matlab/">more established</a> for scientific <strong>data analysis</strong> and <strong>processing</strong>, but what python<strong> instrument control</strong> options are there?
-For me the <strong>benchmark</strong> instrument control software has to be <a href="http://www.ni.com/labview/">LabView</a>. It's incredibly expensive and certainly has it's quirks, but I've found that it can often make interfacing with hardware <strong>relatively painless</strong>.
+For me the <strong>benchmark</strong> instrument control software has to be <a href="https://www.ni.com/labview/">LabView</a>. It's incredibly expensive and certainly has it's quirks, but I've found that it can often make interfacing with hardware <strong>relatively painless</strong>.
 I've recently been exploring alternatives to Matlab for scientific analysis and processing, so I was curious to see what the state of affairs was for <strong>python instrument control.</strong>
 <h3>Read about my <a title="3 Python Alternatives to Matlab" href="{{site.baseurl}}/2015/02/28/python-alternatives-to-matlab/">3 Python Alternatives to Matlab</a>.</h3>
 <h1>My Requirements For Instrument Control</h1>
@@ -40,7 +40,7 @@ In a <strong>future post</strong> I'll investigate the options for completely <s
 The <strong>most important</strong> part of any python instrument control software has to be the packages for <strong>interfacing</strong> with the measurement equipment itself.
 Thankfully there are a couple of fairly <strong>well maintained python packages</strong> that cover most of your interfacing needs.
 <h2>PyVISA</h2>
-<a href="http://pyvisa.readthedocs.org/en/master/">PyVISA</a> is a python package for the <a href="http://en.wikipedia.org/wiki/Instrument_control">Virtual Instrument Software Architecture</a> (VISA). It's actually a wrapper for the National Instruments VISA library, which you will have to <a href="http://pyvisa.readthedocs.org/en/master/getting_nivisa.html#getting-nivisa">install separately</a>.
+<a href="https://pyvisa.readthedocs.org/en/master/">PyVISA</a> is a python package for the <a href="https://en.wikipedia.org/wiki/Instrument_control">Virtual Instrument Software Architecture</a> (VISA). It's actually a wrapper for the National Instruments VISA library, which you will have to <a href="https://pyvisa.readthedocs.org/en/master/getting_nivisa.html#getting-nivisa">install separately</a>.
 PyVISA allows python to relatively painlessly interface with:
 <ul>
 <li>GPIB</li>
@@ -57,7 +57,7 @@ rm.list_resources()
 inst = rm.open_resource('GPIB0::12::INSTR')
 print(inst.query("*IDN?"))
 ```
-PyVISA seems to be an active, regularly updated package with fairly good <a href="http://pyvisa.readthedocs.org/en/master/">documentation</a> page. Unfortunately the VISA architecture does not include the popular NIDAQ card interface. For that we need PyDAQmx (below).
+PyVISA seems to be an active, regularly updated package with fairly good <a href="https://pyvisa.readthedocs.org/en/master/">documentation</a> page. Unfortunately the VISA architecture does not include the popular NIDAQ card interface. For that we need PyDAQmx (below).
 <h2>PyDAQmx</h2>
-Whilst <a href="http://pyvisa.readthedocs.org/en/master/">PyVISA </a>will allow you to communicate with most hardware, it unfortunately is not capable of communicating with the popular and commonly found <a href="http://www.ni.com/data-acquisition/pci/">NI-DAQ card</a>.
-Thankfully there is an additional package, <a href="http://pythonhosted.org/PyDAQmx%20">PyDAQmx</a>, which acts as a wrapper to the NI-DAQ driver and allows your python scripts to communicate with the the DAQ card.
+Whilst <a href="https://pyvisa.readthedocs.org/en/master/">PyVISA </a>will allow you to communicate with most hardware, it unfortunately is not capable of communicating with the popular and commonly found <a href="https://www.ni.com/data-acquisition/pci/">NI-DAQ card</a>.
+Thankfully there is an additional package, <a href="https://pythonhosted.org/PyDAQmx%20">PyDAQmx</a>, which acts as a wrapper to the NI-DAQ driver and allows your python scripts to communicate with the the DAQ card.

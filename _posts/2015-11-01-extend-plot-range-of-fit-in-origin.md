@@ -20,7 +20,7 @@ author:
   display_name: deparkes
 permalink: "/2015/11/01/extend-plot-range-of-fit-in-origin/"
 ---
-In this post I show you how to extend the plot range of the fitted function in <a href="http://www.originlab.com/">Origin</a>, beyond that of your initial data.
+In this post I show you how to extend the plot range of the fitted function in <a href="https://www.originlab.com/">Origin</a>, beyond that of your initial data.
 Origin makes it easy to fit to your data, but how to extend the fit beyond the range of the original data isn't obvious.
 Follow the steps below to find out how.
 <h1>1. Select Your Fit Function</h1>

@@ -18,7 +18,7 @@ permalink: "/2015/04/14/siunitx-typeset-your-units-in-a-consistent-way/"
 ---
 <h1>The siunitx Latex Package</h1>
 When you're writing your thesis or dissertation it can be important to be consistent with how you typeset them. The siunitx Latex package helps you typeset units consistently by automatically setting things like spacing, unit symbols and prefixes.
-<h3><a href="http://texdoc.net/texmf-dist/doc/latex/siunitx/siunitx.pdf">Download the documentation for siunitx</a></h3>
+<h3><a href="https://texdoc.net/texmf-dist/doc/latex/siunitx/siunitx.pdf">Download the documentation for siunitx</a></h3>
 <h3><a href="https://www.ctan.org/pkg/siunitx?lang=en">Visit the CTAN site</a></h3>
 Here are some examples for how you might use it:
 ```latex

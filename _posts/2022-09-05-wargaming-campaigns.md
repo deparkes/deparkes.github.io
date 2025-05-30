@@ -83,7 +83,7 @@ Something you may want to consider to add more flavour to your campaigns is what
 For example you could introduce mechanisms to cover things like:
 <ul>
 <li>
-<strong>Reinforcements</strong> - this could be a set amount for the winner or the loser, or based on <a href="http://www.lloydianaspects.co.uk/wargaming/crossfireReinforcements.html#mainSection">random tables</a>, or dependent on which scenario objectives are achieved</li>
+<strong>Reinforcements</strong> - this could be a set amount for the winner or the loser, or based on <a href="https://www.lloydianaspects.co.uk/wargaming/crossfireReinforcements.html#mainSection">random tables</a>, or dependent on which scenario objectives are achieved</li>
 <li>
 <strong>Experience</strong> - such as giving any injured or successful units a chance to reach veteran status</li>
 </ul>

@@ -32,7 +32,7 @@ The most straight forward tool for analysing vector data is to use mmDisp. You c
 | *Using mmDisp to examine magnetisation vector data.* |
 
 With mmDisp you can view different components of vector data as well as derivatives. You can select from a number of different colour schemes for both image pixels and arrows.
-See more about mmDisp in the OOMMF <a href="http://math.nist.gov/oommf/doc/userguide/userguide/Vector_Field_Display_mmDisp.html">documentation</a>.
+See more about mmDisp in the OOMMF <a href="https://math.nist.gov/oommf/doc/userguide/userguide/Vector_Field_Display_mmDisp.html">documentation</a>.
 <h2> mmGraph</h2>
 mmGraph is the scalar equivalent of mmDisp. It lets you quickly and easily view the data table output from your OOMMF simulations. In terms of functionality the plotter is quite straightward, so you'll probably want to use separate software for producing production quality graphs.
 
@@ -41,7 +41,7 @@ mmGraph is the scalar equivalent of mmDisp. It lets you quickly and easily view 
 | *Built-in graph viewer. Plot different scalar parameters such as simulation time, total energy, magnetisation.* |
 
 You can export the plotted data as a graphic, but I often cheat by using Alt+Print Screen to copy the window to the clip board. I find this handy for quickly producing summaries of simulations.
-See more about mmGraph in the OOMMF <a href="http://math.nist.gov/oommf/doc/userguide/userguide/Data_Graph_Display_mmGraph.html">documentation</a>.
+See more about mmGraph in the OOMMF <a href="https://math.nist.gov/oommf/doc/userguide/userguide/Data_Graph_Display_mmGraph.html">documentation</a>.
 <h2>External Tools</h2>
 There are a number of different external tools for analysing oommf data. Many of them are listed on the oommf nist website (link).
 I will focus on OOMMFTools since that is the one that I am most familiar with.
@@ -102,9 +102,9 @@ avf2bmp.py *.omf
 
 for all .omf files in the directory.
 <h2>bmp2avi.py</h2>
-One of the most striking ways to present time-evolving data is as a video. OOMMFTools uses ffmpeg (available as part of <a href="http://www.imagemagick.org/">ImageMagick</a>) to convert a folder of bitmaps into an avi video.
+One of the most striking ways to present time-evolving data is as a video. OOMMFTools uses ffmpeg (available as part of <a href="https://www.imagemagick.org/">ImageMagick</a>) to convert a folder of bitmaps into an avi video.
 <h1>You might also consider</h1>
-There are some other tools that I'm not so familiar with that you might also be interested in using. The best place to find analysis tools is probably the OOMMF <a href="http://math.nist.gov/oommf/contrib/">website</a>.
+There are some other tools that I'm not so familiar with that you might also be interested in using. The best place to find analysis tools is probably the OOMMF <a href="https://math.nist.gov/oommf/contrib/">website</a>.
 <a href="{{site.baseurl}}/oommf/oommf-tutorial/">
 <img class=" aligncenter" src="{{site.baseurl}}/assets/2014/06/OOMMF_tutorial.png" alt="OOMMF Tutorial" width="200" height="142" border="0">
 </a>

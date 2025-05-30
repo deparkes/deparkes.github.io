@@ -40,11 +40,11 @@ Without going into too much detail, a virtualenv creates a link to an existing p
 |:--:|
 | *Tox With Anaconda - virtualenv example* |
 
-<h4><a href="http://pyvideo.org/pycon-us-2011/pycon-2011--reverse-engineering-ian-bicking--39-s.html">Learn more about how virtualenv creates an isolated virtual environment.</a></h4>
+<h4><a href="https://pyvideo.org/pycon-us-2011/pycon-2011--reverse-engineering-ian-bicking--39-s.html">Learn more about how virtualenv creates an isolated virtual environment.</a></h4>
 <h2>Tox Finds Python Installations on Your System</h2>
 Tox interprets the 'envlist' elements pyxy as python 'major'.'minor' on your system. For example 'py27' becomes python 2.7. How exactly Tox finds the corresponding python installation on your system depends on your operating system.
 <h3>Non-windows</h3>
-On non-windows machines, Tox uses <a href="http://py.readthedocs.io/en/latest/path.html#py._path.local.LocalPath.sysfind">py.path.local.sysfind()</a> to look in your system PATH for 'pythonx.y'.
+On non-windows machines, Tox uses <a href="https://py.readthedocs.io/en/latest/path.html#py._path.local.LocalPath.sysfind">py.path.local.sysfind()</a> to look in your system PATH for 'pythonx.y'.
 For example, I have 'ffmpeg' installed on my machine. Running py.path.local.sysfind('ffmpeg') returns the following.
 local('usr/bin/ffmpeg')
 <h3>Windows</h3>
@@ -86,9 +86,9 @@ conda create -p=C:\python27 python=2.7
 Tox will now be able to find the python binary it needs.
 This is probably the the simplest solution for windows users, but I am somehow uneasy about the python environment being installed to C:\python27. You could easily find yourself in trouble if you installed a fresh version of python 2.7 outside of Anaconda for instance.
 Instead, I like the tidiness of having all anaconda environments installed to the same 'anaconda' directory.
-<strong><a href="http://fizzylogic.nl/2017/11/01/how-to-setup-tox-on-windows-with-anaconda/">Read more about tox with windows</a></strong>
+<strong><a href="https://fizzylogic.nl/2017/11/01/how-to-setup-tox-on-windows-with-anaconda/">Read more about tox with windows</a></strong>
 <h4>Create Batch Files to Redirect Tox</h4>
-This is probably my preferred solution for windows. Rather than setting the conda environment to be on the path, we can do something that is a bit more nuanced, and also <a href="http://tox.readthedocs.io/en/latest/developers.html">suggested by tox itself</a>.
+This is probably my preferred solution for windows. Rather than setting the conda environment to be on the path, we can do something that is a bit more nuanced, and also <a href="https://tox.readthedocs.io/en/latest/developers.html">suggested by tox itself</a>.
 Pick a good directory to hold your batch scripts - these will be 'pointers' to the python binaries needed by tox. I use the anaconda install directory.
 Create bash scripts called e.g. python2.7.bat like this:
 

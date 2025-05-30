@@ -22,7 +22,7 @@ The first step is to train the model we want to deploy. In this example we will 
 import pandas as pd
 from sklearn.linear_model import LogisticRegression
 # Get data
-data = pd.read_csv('http://web.stanford.edu/class/archive/cs/cs109/cs109.1166/stuff/titanic.csv')
+data = pd.read_csv('https://web.stanford.edu/class/archive/cs/cs109/cs109.1166/stuff/titanic.csv')
 # Prepare data for model
 X = data[['Age', 'Pclass']]
 y = data.Survived.values
@@ -34,8 +34,8 @@ clf.score(X,y)
 ```
 
 <h1>Save The Model as a 'Pickle'</h1>
-A '<a href="https://pythontips.com/2013/08/02/what-is-pickle-in-python/">pickle</a>' file is a way that python can <a href="http://www.diveintopython3.net/serializing.html">save a data structure</a> to a file (similar to how you might save your progress in a computer game).
-Sci-kit learn has its <a href="http://scikit-learn.org/stable/modules/model_persistence.html">own functions</a> for pickling using <a href="https://pythonhosted.org/joblib/persistence.html">joblib</a> which is <a href="https://stackoverflow.com/questions/12615525/what-are-the-different-use-cases-of-joblib-versus-pickle">typically faster</a> when saving larger files.
+A '<a href="https://pythontips.com/2013/08/02/what-is-pickle-in-python/">pickle</a>' file is a way that python can <a href="https://www.diveintopython3.net/serializing.html">save a data structure</a> to a file (similar to how you might save your progress in a computer game).
+Sci-kit learn has its <a href="https://scikit-learn.org/stable/modules/model_persistence.html">own functions</a> for pickling using <a href="https://pythonhosted.org/joblib/persistence.html">joblib</a> which is <a href="https://stackoverflow.com/questions/12615525/what-are-the-different-use-cases-of-joblib-versus-pickle">typically faster</a> when saving larger files.
 To save a pickle file we can use 'joblib.dump()':
 
 ```python
@@ -69,7 +69,7 @@ import pandas as pd
 from sklearn.externals import joblib
 from sklearn.linear_model import LogisticRegression
 # Get data
-data = pd.read_csv('http://web.stanford.edu/class/archive/cs/cs109/cs109.1166/stuff/titanic.csv')
+data = pd.read_csv('https://web.stanford.edu/class/archive/cs/cs109/cs109.1166/stuff/titanic.csv')
 # Prepare data for model
 X = data[['Age', 'Pclass']]
 y = data.Survived.values

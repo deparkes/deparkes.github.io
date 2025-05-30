@@ -185,5 +185,5 @@ df_list = pd.read_html(html)
 
 In this case it works really well, apart from the first table it finds just being irrelevant.
 <h2>A word on robots.txt</h2>
-<a href="http://www.robotstxt.org/">Robots.txt</a> is a file that gives website owners the opportunity to specify what automated tools can access via their website. Wikipedia has a <a href="https://en.wikipedia.org/robots.txt">good example of a detailed robots.txt</a> which reveals that a big issue for wikipedia is requests coming in at too fast a rate
+<a href="https://www.robotstxt.org/">Robots.txt</a> is a file that gives website owners the opportunity to specify what automated tools can access via their website. Wikipedia has a <a href="https://en.wikipedia.org/robots.txt">good example of a detailed robots.txt</a> which reveals that a big issue for wikipedia is requests coming in at too fast a rate
 It is possible to ignore robots.txt, but generally speaking you should respect it.

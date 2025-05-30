@@ -16,11 +16,11 @@ author:
   display_name: deparkes
 permalink: "/2013/06/24/install-oommf-1-2a5-without-root/"
 ---
-Installing OOMMF in linux without root access can be difficult. The <a href="http://math.nist.gov/oommf/doc/userguide12a5/userguide/Basic_Installation.html">basic install procedure</a> for OOMMF is quite straight forward: check you have tcl/tk, download the oommf source then run oommf.tcl pimake. This is fine when you have root access and can easily run the package manager to install the dev versions of tcl and tk.
+Installing OOMMF in linux without root access can be difficult. The <a href="https://math.nist.gov/oommf/doc/userguide12a5/userguide/Basic_Installation.html">basic install procedure</a> for OOMMF is quite straight forward: check you have tcl/tk, download the oommf source then run oommf.tcl pimake. This is fine when you have root access and can easily run the package manager to install the dev versions of tcl and tk.
 If we only have user level access it can be a bit more tricky. Without access to a package manager we must compile tcl and tk from source. In this post I will go through the full install of oommf, including compiling tcl/tk from source. The install guides for tcl, tk and oommf are all really good. They do still however require some decisions to be made, so hopefully spelling out what worked for me here can be of use.
 <h2>1. Download tcl, tk.</h2>
-We will be following the general compile instructions here: <a href="http://www.tcl.tk/doc/howto/compile.html" target="_blank">http://www.tcl.tk/doc/howto/compile.html</a>. These instructions are generally very good, but I will try to highlight any areas of uncertainty I had.
-First download the tcl and tk source from <a href="http://www.tcl.tk/software/tcltk/download.html">http://www.tcl.tk/software/tcltk/download.html</a>
+We will be following the general compile instructions here: <a href="https://www.tcl.tk/doc/howto/compile.html" target="_blank">https://www.tcl.tk/doc/howto/compile.html</a>. These instructions are generally very good, but I will try to highlight any areas of uncertainty I had.
+First download the tcl and tk source from <a href="https://www.tcl.tk/software/tcltk/download.html">https://www.tcl.tk/software/tcltk/download.html</a>
 (wget can be useful for downloading things from the command line. Just type
 `wget file_to_download.txt`.)
 Extract the archives to your (a subdirectory of) your home folder.
@@ -48,7 +48,7 @@ make install
 A whole load of text will scroll by.
 <h2>3. Make/configure/install tk.</h2>
 The process is very similar to compiling tcl, but we also tell tk where to find our tcl installation.
-Before configuring tk: If you are connected to your oommf machine via ssh it is important that X-11 forwarding is setup and that you have a suitable X server (e.g. Exceed) running on your system and your ssh connection allows <a title="X-forwarding" href="http://www.math.umn.edu/systems_guide/putty_xwin32.html">X forwarding</a>.
+Before configuring tk: If you are connected to your oommf machine via ssh it is important that X-11 forwarding is setup and that you have a suitable X server (e.g. Exceed) running on your system and your ssh connection allows <a title="X-forwarding" href="https://www.math.umn.edu/systems_guide/putty_xwin32.html">X forwarding</a>.
 When configuring tk it is important to set the --prefix flag to be the same as you used to install tcl. If not then you will get version conflicts.
 
 ```bash
@@ -73,10 +73,10 @@ export OOMMF_TCL_CONFIG=/path/to/lib/tclConfig.sh
 export OOMMF_TK_CONFIG=/path/to/lib/tkConfig.sh
 ```
 
-If you have trouble at this stage please check the <a href="http://math.nist.gov/oommf/doc/userguide12a3/userguide/Basic_Installation.html#SECTION00032200000000000000">oommf basic installation</a> page.
+If you have trouble at this stage please check the <a href="https://math.nist.gov/oommf/doc/userguide12a3/userguide/Basic_Installation.html#SECTION00032200000000000000">oommf basic installation</a> page.
 <h2>5. Install/compile oommf.</h2>
-Please see <a href="http://math.nist.gov/oommf/doc/userguide12a3/userguide/Basic_Installation.html"> OOMMF install guide</a> for full install details.
-If you haven't already done so download and extract oommf from http://math.nist.gov/oommf/dist/oommf12a5rc_20120928.tar.gz
+Please see <a href="https://math.nist.gov/oommf/doc/userguide12a3/userguide/Basic_Installation.html"> OOMMF install guide</a> for full install details.
+If you haven't already done so download and extract oommf from https://math.nist.gov/oommf/dist/oommf12a5rc_20120928.tar.gz
 Extract archive to a separate folder
 
 ```bash

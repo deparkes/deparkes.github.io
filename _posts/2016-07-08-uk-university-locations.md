@@ -43,4 +43,4 @@ for each in universities.iterrows():
 uk.save("universities.html")
 ```
 
-<a href="http://wp.me/p4DE9r-HX">How to convert postcodes to coordinates</a>
+<a href="https://wp.me/p4DE9r-HX">How to convert postcodes to coordinates</a>

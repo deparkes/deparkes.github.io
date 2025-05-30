@@ -35,5 +35,5 @@ net use P: /delete
 The first line <strong>maps the network drive</strong> specified in your network path to the drive letter P. I've picked P, but you can use any spare drive letter.
 You can just use this part of the script, and <strong>manually copy across your files</strong> to the remote directory, but I think it makes much more sense to <strong>automate the process</strong>.
 The second command does a<a title="Synctoy Automatic Backup" href="{{site.baseurl}}/2015/01/07/automatic-backup-synctoy/"> backup using synctoy</a>, a synchronisation program from Microsoft. This will<strong> synchronise</strong> your<strong> local folder</strong> with a remote one on the <strong>network drive</strong>.
-Make sure you have downloaded and installed <a href="http://www.microsoft.com/en-gb/download/details.aspx?id=15155">synctoy </a>for this script to work properly.
+Make sure you have downloaded and installed <a href="https://www.microsoft.com/en-gb/download/details.aspx?id=15155">synctoy </a>for this script to work properly.
 Finally, the script <strong>closes your connection</strong> to the network drive.

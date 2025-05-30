@@ -21,9 +21,9 @@ author:
 permalink: "/2013/03/27/revtex4-1-in-ubuntu/"
 ---
 <h1>How to install revtex4-1 in Ubuntu...</h1>
-I was having trouble installing <a href="https://journals.aps.org/revtex">revtex4-1</a> in <a href="http://www.ubuntu.com/">Ubuntu </a>(well, actually <a href="http://www.linuxmint.com/">Linux Mint</a>, but it's based on Ubuntu...). Suggestions to use revtex4-1.zip did not seem to work for me.
+I was having trouble installing <a href="https://journals.aps.org/revtex">revtex4-1</a> in <a href="https://www.ubuntu.com/">Ubuntu </a>(well, actually <a href="https://www.linuxmint.com/">Linux Mint</a>, but it's based on Ubuntu...). Suggestions to use revtex4-1.zip did not seem to work for me.
 <h1>...use the 'texlive-publishers' package</h1>
-In the end I found the solution to be a package "texlive-publishers" (<a href="http://ubuntuforums.org/archive/index.php/t-995840.html">http://ubuntuforums.org/archive/index.php/t-995840.html</a>)
+In the end I found the solution to be a package "texlive-publishers" (<a href="https://ubuntuforums.org/archive/index.php/t-995840.html">https://ubuntuforums.org/archive/index.php/t-995840.html</a>)
 To get revtex4-1 to work I just ran this in the terminal:
 
 ```bash

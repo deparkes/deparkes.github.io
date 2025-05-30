@@ -24,7 +24,7 @@ permalink: "/2014/02/18/oommf-examples/"
 ---
 See my updated <a title="OOMMF Tutorial Part 3: mif Files and Examples" href="{{site.baseurl}}/2014/05/27/oommf-tutorial-part-3-mif-examples/">OOMMF examples</a> in my <a title="OOMMF Tutorial" href="{{site.baseurl}}/oommf/oommf-tutorial/">OOMMF Tutorial</a>.
 <h1>Some OOMMF Examples to get you going</h1>
-<a href="http://math.nist.gov/oommf/">OOMMF </a>comes with many useful <a title="OOMMF Tutorial Part 3: mif Files and Examples" href="{{site.baseurl}}/2014/05/27/oommf-tutorial-part-3-mif-examples/">examples </a>which are generally well covered in the detailed manual. Sometimes, however, it can seem like there are so many it's not clear where to begin.
+<a href="https://math.nist.gov/oommf/">OOMMF </a>comes with many useful <a title="OOMMF Tutorial Part 3: mif Files and Examples" href="{{site.baseurl}}/2014/05/27/oommf-tutorial-part-3-mif-examples/">examples </a>which are generally well covered in the detailed manual. Sometimes, however, it can seem like there are so many it's not clear where to begin.
 
 | ![OOMMF Examples - Imageatlas.mif]({{site.baseurl}}/assets/2014/02/Slide6.png) |
 |:--:|

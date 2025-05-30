@@ -39,7 +39,7 @@ find ./ -type f -name "*.ohf" -execdir rm -rf {} \;
 
 <h1>A More Flexible Modification</h1>
 In most cases I think a simple script like the one above will be enough, but it's easy to add a couple of changes to make it more flexible.
-Here I've added the ability to <strong>specify the file type</strong> <a href="http://how-to.wikia.com/wiki/How_to_read_command_line_arguments_in_a_bash_script">from the command line</a>, and what the <strong>output file name</strong> should be.
+Here I've added the ability to <strong>specify the file type</strong> <a href="https://how-to.wikia.com/wiki/How_to_read_command_line_arguments_in_a_bash_script">from the command line</a>, and what the <strong>output file name</strong> should be.
 
 ```bash
 #!/bin/bash

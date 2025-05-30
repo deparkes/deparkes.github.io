@@ -19,16 +19,16 @@ author:
 permalink: "/2012/06/02/installing-oommf-on-ubuntu-11-04/"
 ---
 <h1>How to install OOMMF in Linux (Ubuntu)</h1>
-I have just installed <a title="OOMMF" href="http://math.nist.gov/oommf/oommf.html">OOMMF</a> on Ubuntu 11.04. Not all of the steps I carried out were in the basic<a title="basic installation guide" href="http://math.nist.gov/oommf/doc/userguide11b2/userguide/Basic_Installation.html"> installation guide</a>, so I am putting them here:
+I have just installed <a title="OOMMF" href="https://math.nist.gov/oommf/oommf.html">OOMMF</a> on Ubuntu 11.04. Not all of the steps I carried out were in the basic<a title="basic installation guide" href="https://math.nist.gov/oommf/doc/userguide11b2/userguide/Basic_Installation.html"> installation guide</a>, so I am putting them here:
 EDIT 1: You will need g++ to be able to compile OOMMF. If you don't have it already, type:
 
 ```bash
 sudo apt-get install build-essential
 ```
 in the command line
-EDIT 2: There is now a pre alpha 5 version available from the <a href="http://math.nist.gov/oommf/software-12.html">OOMMF website</a>, which is the <strong>recommended version</strong> to use. The install procedure for this newer version should be essentially as it is described here. As Vimal points out in the comments below you may <strong>have</strong> to use version 1.2a5rc if you have a 64-bit machine.
+EDIT 2: There is now a pre alpha 5 version available from the <a href="https://math.nist.gov/oommf/software-12.html">OOMMF website</a>, which is the <strong>recommended version</strong> to use. The install procedure for this newer version should be essentially as it is described here. As Vimal points out in the comments below you may <strong>have</strong> to use version 1.2a5rc if you have a 64-bit machine.
 <h2>Download OOMMF</h2>
-Download the source of <a title="OOMMF 1.2 pre alpha 4" href="http://math.nist.gov/oommf/software-12a4pre.html">OOMMF 1.2pre alpha 4</a> and follow the instructions in the install guide to extract the tar.gz.
+Download the source of <a title="OOMMF 1.2 pre alpha 4" href="https://math.nist.gov/oommf/software-12a4pre.html">OOMMF 1.2pre alpha 4</a> and follow the instructions in the install guide to extract the tar.gz.
 
 ```bash
 gunzip -c oommf11b2_20040115.tar.gz | tar xvf -

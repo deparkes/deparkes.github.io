@@ -35,8 +35,8 @@ Load up virtual box and hit "New" to create a  new machine. For now, just stick
 
 <h1>Pick your Operating System</h1>
 <h2>Light Weight Linux</h2>
-You can install any operating system onto your new virtual machine, but as it will be relatively low-powered, it normally makes sense to go with a light-weight Linux distribution such as <a href="http://lubuntu.net/">Lubuntu </a>(a light weight version of Ubuntu)
-<h3><a href="http://lubuntu.net/">Download Lubuntu</a></h3>
+You can install any operating system onto your new virtual machine, but as it will be relatively low-powered, it normally makes sense to go with a light-weight Linux distribution such as <a href="https://lubuntu.net/">Lubuntu </a>(a light weight version of Ubuntu)
+<h3><a href="https://lubuntu.net/">Download Lubuntu</a></h3>
 <h3><a href="https://www.linux.com/news/enterprise/systems-management/846633-best-lightweight-linux-distros">Check out more light-weight Linux distribtutions</a></h3>
 <h1>Install The Virtual Operating System</h1>
 Once you've picked the Linux distribution you want to try out you will need to download the disk image (usually a ".iso" file).

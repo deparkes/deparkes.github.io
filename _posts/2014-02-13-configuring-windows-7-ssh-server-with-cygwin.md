@@ -27,9 +27,9 @@ permalink: "/2014/02/13/configuring-windows-7-ssh-server-with-cygwin/"
 <h1>How to set up a Windows ssh Server With Cygwin</h1>
 Connecting to your Windows computer is useful for transferring data over a network. I don't have to always remember to keep a usb stick handy.
 <h1>Bitvise: A personal use alternative to cygwin</h1>
-For personal use I've found <a href="http://www.bitvise.com/winsshd">bitvise</a>  to be really useful, but unfortunately the free license doesn't extent to computers in an organisation, so it is good to know how to set up a windows server using the cygwin, which emulates a linux environment in windows.
+For personal use I've found <a href="https://www.bitvise.com/winsshd">bitvise</a>  to be really useful, but unfortunately the free license doesn't extent to computers in an organisation, so it is good to know how to set up a windows server using the cygwin, which emulates a linux environment in windows.
 <h1>Setting up Cygwin as an ssh server</h1>
-How to Geek have a <a href="http://www.howtogeek.com/howto/41560/how-to-get-ssh-command-line-access-to-windows-7-using-cygwin/">good guide</a> to setting up an ssh server using openssh on cygwin.
+How to Geek have a <a href="https://www.howtogeek.com/howto/41560/how-to-get-ssh-command-line-access-to-windows-7-using-cygwin/">good guide</a> to setting up an ssh server using openssh on cygwin.
 You can then connect to your windows computer using your normal login with a program like putty, or for file transfer winscp.
 Setting up <strong>symbolic links</strong>: Connecting to the cygwin server will drop you into the cygwin home directory. To make it quicker to navigate around I like to set up symbolic links (shortcuts) to my windows folders.
 

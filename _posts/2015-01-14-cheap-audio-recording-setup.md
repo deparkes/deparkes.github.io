@@ -51,14 +51,14 @@ Strictly speaking you could just use any old headphones, but since you've gone t
 I went for these Sony MDR 7506 headphones.
 <h1>Software</h1>
 <h2>Audacity</h2>
-The final piece of the puzzle is some cheap (free) recording software. For this you don't need to go much further than <a href="http://audacity.sourceforge.net/">Audacity</a>, which does all you're likely to need including multitrack recording, noise reduction and track editing.
+The final piece of the puzzle is some cheap (free) recording software. For this you don't need to go much further than <a href="https://audacity.sourceforge.net/">Audacity</a>, which does all you're likely to need including multitrack recording, noise reduction and track editing.
 
 | ![Audacity running on windows - It's also available on GNU/Linux and Mac OS X.]({{site.baseurl}}/assets/2015/01/audacity-windows-300x273.png) |
 |:--:|
 | *Audacity running on windows - It's also available on GNU/Linux and Mac OS X.* |
 
 <h2>KXStudio</h2>
-If you're really serious about audio recording on a budget you should check out <a href="http://kxstudio.sourceforge.net/">KXStudio</a>, a linux distribution dedicated to sound recording, editing and processing.
+If you're really serious about audio recording on a budget you should check out <a href="https://kxstudio.sourceforge.net/">KXStudio</a>, a linux distribution dedicated to sound recording, editing and processing.
 
 | ![KX Studio - A linux distribution dedicated to audio recording and editing.]({{site.baseurl}}/assets/2015/01/carla-2.0-beta3_lmms-plugin-300x160.png) |
 |:--:|

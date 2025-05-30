@@ -17,7 +17,7 @@ author:
   display_name: deparkes
 permalink: "/2017/02/17/simple-python-logging/"
 ---
-Logging can offer much <a href="http://stackoverflow.com/questions/6918493/in-python-why-use-logging-instead-of-print">more flexibility</a> than simply printing a message to the console but it can be difficult to know where to start. This post looks a some examples of simple python logging to get you started.
+Logging can offer much <a href="https://stackoverflow.com/questions/6918493/in-python-why-use-logging-instead-of-print">more flexibility</a> than simply printing a message to the console but it can be difficult to know where to start. This post looks a some examples of simple python logging to get you started.
 <h1>Why 'log' instead of 'print'?</h1>
 <a href="https://en.wikipedia.org/wiki/%22Hello,_World!%22_program">Printing to the console</a> is usually one of the first things you learn with any language. It's easy to use '<a href="https://docs.python.org/3/library/functions.html#print">print()</a>' to give messages to your users, display debugging for you, and output error messages and warnings.
 But it's also easy to get in a muddle with commenting and uncommenting print statements when you are trying to debug.
@@ -25,7 +25,7 @@ Instead of using print <a href="https://www.loggly.com/blog/4-reasons-a-python-l
 <ul>
 <li>specify different <a href="https://docs.python.org/3/library/logging.html#levels">levels </a>of message,</li>
 <li>control when messages are logged</li>
-<li>direct outputs to <a href="http://stackoverflow.com/questions/6386698/using-the-logging-python-class-to-write-to-a-file">files</a>, screen, and <a href="https://docs.python.org/3/library/logging.handlers.html">elsewhere</a>
+<li>direct outputs to <a href="https://stackoverflow.com/questions/6386698/using-the-logging-python-class-to-write-to-a-file">files</a>, screen, and <a href="https://docs.python.org/3/library/logging.handlers.html">elsewhere</a>
 </li>
 </ul>
 The standard module for logging in python is called '<a href="https://docs.python.org/3/library/logging.html">logging</a>'. Below are some simple examples of <a href="https://pymotw.com/2/logging/">how you could use logging</a> if you haven't used it before.

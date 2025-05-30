@@ -21,11 +21,11 @@ permalink: "/2015/04/18/ggplot-for-python/"
 <h1>ggplot for Python</h1>
 The ggplot library for python unlocks much of the philosophy and pretty graphics of ggplot2 for R. Try it out and make your data look nicer.
 <h2>Bringing ggplot to Python</h2>
-One of the 'killer apps' of the <a href="http://www.r-project.org/">statistics package R</a> is <a href="http://ggplot2.org/">ggplot2</a>, a plotting library based on the book <a href="http://www.amazon.co.uk/gp/product/1441920331/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;camp=1634&amp;creative=6738&amp;creativeASIN=1441920331&amp;linkCode=as2&amp;tag=deparkescouk-21">The Grammar of Graphics</a>, that takes the hassle and fiddle out of creating <a href="https://www.google.co.uk/search?q=ggplot2&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ei=JUoyVYXMG-St7gaK4YDQDg&amp;ved=0CAcQ_AUoAQ&amp;biw=1366&amp;bih=651">nice looking graphs and graphics</a>.
-Although there are powerful plotting libraries for python (<a href="http://matplotlib.org/">matplotlib </a>being the main one) , they don't have the same approach and pretty output as ggplot2 for R.
+One of the 'killer apps' of the <a href="https://www.r-project.org/">statistics package R</a> is <a href="https://ggplot2.org/">ggplot2</a>, a plotting library based on the book <a href="https://www.amazon.co.uk/gp/product/1441920331/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;camp=1634&amp;creative=6738&amp;creativeASIN=1441920331&amp;linkCode=as2&amp;tag=deparkescouk-21">The Grammar of Graphics</a>, that takes the hassle and fiddle out of creating <a href="https://www.google.co.uk/search?q=ggplot2&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ei=JUoyVYXMG-St7gaK4YDQDg&amp;ved=0CAcQ_AUoAQ&amp;biw=1366&amp;bih=651">nice looking graphs and graphics</a>.
+Although there are powerful plotting libraries for python (<a href="https://matplotlib.org/">matplotlib </a>being the main one) , they don't have the same approach and pretty output as ggplot2 for R.
 Thankfully a <a href="https://github.com/yhat/ggplot">version of ggplot for python</a> is in development so you can access the power and flexibility of ggplot2 in your python data analysis.
 <h2>Using ggplot To Improve Plotting</h2>
-There are plenty of places you can see a <a href="http://blog.yhathq.com/posts/ggplot-for-python.html">complete comparison</a> of the R vs python ggplot implementations, so I'll just give you a quick flavour of what to expect.
+There are plenty of places you can see a <a href="https://blog.yhathq.com/posts/ggplot-for-python.html">complete comparison</a> of the R vs python ggplot implementations, so I'll just give you a quick flavour of what to expect.
 I recently plotted data about <a title="Pizza Price Comparison – Where Should You Buy Your Pizza?" href="{{site.baseurl}}/2015/04/16/pizza-price-comparison-where-should-you-buy-your-pizza/">pizza prices</a>. Using straight matplotlib, the output graph looks like this:
 
 | ![pizza price comparison - price vs diameter]({{site.baseurl}}/assets/2015/04/PriceVsDiameter-1024x632.png) |
@@ -48,7 +48,7 @@ which creates the much nicer output:
 Clearly a much more artistic representation!
 To be honest though I'm not sure the project is quite mature enough for met at the moment. There are one or two features and elements that aren't quite there yet, and I am having some trouble replicating exactly the features that I want in my graphs.
 Going by the <a href="https://github.com/yhat/ggplot">github project page</a>, development does seem to have slowed of late, but I'm going to keep a keen eye on progress as the project shows so much promise.
-In the mean time I'll make do with the rather nifty <a href="http://matplotlib.org/users/style_sheets.html">ggplot2 style for matplotlib</a>.
+In the mean time I'll make do with the rather nifty <a href="https://matplotlib.org/users/style_sheets.html">ggplot2 style for matplotlib</a>.
 To use it just add this line to your code:
 ```python
 plt.style.use('ggplot')

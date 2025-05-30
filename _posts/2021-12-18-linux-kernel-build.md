@@ -63,7 +63,7 @@ And also tried to change to https version of origin (rather than 'git:' in the g
 git remote set-url origin https://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging.git
 ```
 
-This still was not working, so tried pinging <a href="http://git.kernel.org" target="_blank" rel="nofollow noopener noreferrer">git.kernel.org</a> in the virtual machine and got the error 'Temporary failure in name resolution'. Pinging the IP address of git.kernel.org (via <a href="https://isc.sans.edu/ipinfo.html?ip=git.kernel.org">this website</a>) gave the same error.
+This still was not working, so tried pinging <a href="https://git.kernel.org" target="_blank" rel="nofollow noopener noreferrer">git.kernel.org</a> in the virtual machine and got the error 'Temporary failure in name resolution'. Pinging the IP address of git.kernel.org (via <a href="https://isc.sans.edu/ipinfo.html?ip=git.kernel.org">this website</a>) gave the same error.
 This still didn't work and after mucking about with pinging and checking IP addresses I found <a href="https://askubuntu.com/questions/1012641/dns-set-to-systemds-127-0-0-53-how-to-change-permanently">this solution</a> to temporarily change the <a href="https://www.cloudflare.com/learning/dns/what-is-a-dns-server/">nameserver</a> to 8.8.8.8.
 Finally, I came across <a href="https://linuxconfig.org/in-depth-howto-on-linux-kernel-configuration">this page</a> which mentions there had been issues with kernel.org, which could be related to the same problem
 If you keep having problems, you could use the <a href="https://github.com/torvalds/linux">GitHub mirror</a> if you just want to be able to build recent-ish kernel code.
@@ -139,7 +139,7 @@ To clean the build folder, use
 make clean
 ```
 
-This<a href="http://www.gnu.org/software/automake/manual/automake.html#Clean"> should remove</a> the build artifacts and leave just the source code.
+This<a href="https://www.gnu.org/software/automake/manual/automake.html#Clean"> should remove</a> the build artifacts and leave just the source code.
 Read more about '<a href="https://www.kernel.org/doc/html/latest/kbuild/makefiles.html#kbuild-clean-infrastructure">kmake</a>'
 <h2>Further reading</h2>
 <h3>Building your Own Kernel</h3>

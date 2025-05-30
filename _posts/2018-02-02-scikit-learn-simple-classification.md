@@ -19,7 +19,7 @@ author:
   display_name: deparkes
 permalink: "/2018/02/02/scikit-learn-simple-classification/"
 ---
-This post looks at how to build a simple classification model with the python machine learning library <a href="http://scikit-learn.org/stable/">scikit-learn</a>. Building a simple classification model is fairly easy with sci-kit learn, and this post explores some of the default behaviour and sign-posts some extra work that we would want to to ensure robust predictions.
+This post looks at how to build a simple classification model with the python machine learning library <a href="https://scikit-learn.org/stable/">scikit-learn</a>. Building a simple classification model is fairly easy with sci-kit learn, and this post explores some of the default behaviour and sign-posts some extra work that we would want to to ensure robust predictions.
 I've tried to strip the code to a minimum to keep things simple. The main steps are:
 <ul>
 <li>Get data - features and target</li>
@@ -29,7 +29,7 @@ I've tried to strip the code to a minimum to keep things simple. The main steps 
 </ul>
 Steps for validation and optimisation have been left out.
 <h1>Some Sample Data</h1>
-I'm going to use one of the <a href="{{site.baseurl}}/2016/11/11/python-sample-datasets/">sample datasets</a> that come with scikit-klearn to run a simple classification. The <a href="http://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html">breast cancer dataset</a> is a good example for looking at binary classification.
+I'm going to use one of the <a href="{{site.baseurl}}/2016/11/11/python-sample-datasets/">sample datasets</a> that come with scikit-klearn to run a simple classification. The <a href="https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html">breast cancer dataset</a> is a good example for looking at binary classification.
 
 ```python
 # Get sample dataset from sklearn datasets
@@ -45,7 +45,7 @@ A 'real world' data set is likely to need further <a href="https://machinelearni
 <li>Standardising column names</li>
 </ul>
 <h1>Simple Classification</h1>
-The following is a bare-bones example of classification with scikit-learn. I am using a <a href="http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html">random forest</a> classifier, but you could change the code to try out <a href="http://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html">other classifiers</a> too.
+The following is a bare-bones example of classification with scikit-learn. I am using a <a href="https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html">random forest</a> classifier, but you could change the code to try out <a href="https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html">other classifiers</a> too.
 
 The breast cancer example data are used as the X and y variables. X is by convention used to represent the '<a href="https://en.wikipedia.org/wiki/Feature_(machine_learning)">feature</a>' data for the classification model - the characteristics that describe different cases or patients. y is used to represent the target variable - in this case whether the case was found to be cancerous or not.
 

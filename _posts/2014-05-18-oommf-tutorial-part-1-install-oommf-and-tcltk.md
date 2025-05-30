@@ -21,13 +21,13 @@ permalink: "/2014/05/18/oommf-tutorial-part-1-install-oommf-and-tcltk/"
 ---
 OOMMF can be an incredibly useful tool for micromagnetic simulations, but it can also be frustrating to start with. This tutorial aims to get you up and running with OOMMF and in a position to start running your own simulations.
 In this first part we look at downloading and installing the correct version of OOMMF for our system.
-For the full OOMMF user guide, please visit <a href="http://math.nist.gov/oommf/doc/userguide12a5/userguide/">http://math.nist.gov/oommf/doc/userguide12a5/userguide/</a>
+For the full OOMMF user guide, please visit <a href="https://math.nist.gov/oommf/doc/userguide12a5/userguide/">https://math.nist.gov/oommf/doc/userguide12a5/userguide/</a>
 <h1>Downloading and installing OOMMF</h1>
 Once installed, OOMMF works much the same in Windows and Linux, but there are some differences in which files we need to download and the install procedures we go through. In both cases we need to get OOMMF and the appropriate tcl/tk for our system.
-For full install instructions please see: <a href="http://math.nist.gov/oommf/doc/userguide12a5/userguide/Basic_Installation.html">http://math.nist.gov/oommf/doc/userguide12a5/userguide/Basic_Installation.html</a>
+For full install instructions please see: <a href="https://math.nist.gov/oommf/doc/userguide12a5/userguide/Basic_Installation.html">https://math.nist.gov/oommf/doc/userguide12a5/userguide/Basic_Installation.html</a>
 <h2>Windows</h2>
-The easiest way to run OOMMF on windows is to download a precompiled binary. Download the most recent alpha release (currently 1.2a5) from <a href="http://math.nist.gov/oommf/software.html">http://math.nist.gov/oommf/software.html</a>
-To run OOMMF you'll need the right tcl/tk version installed on you system. The easiest place to find this is <a href="http://www.activestate.com/activetcl/downloads" target="_blank">active tcl</a>.
+The easiest way to run OOMMF on windows is to download a precompiled binary. Download the most recent alpha release (currently 1.2a5) from <a href="https://math.nist.gov/oommf/software.html">https://math.nist.gov/oommf/software.html</a>
+To run OOMMF you'll need the right tcl/tk version installed on you system. The easiest place to find this is <a href="https://www.activestate.com/activetcl/downloads" target="_blank">active tcl</a>.
 Once tcl/tk is installed you should just be able to run oommf from the oommf.tcl icon in the oomf root folder (e.g. C:\oommf-1.2a5\).
 This should bring up the OOMMF window.
 For what to do next, please see <a title="OOMMF Tutorial Part 2: Running OOMMF" href="{{site.baseurl}}/2014/05/22/oommf-tutorial-part-2-running-oommf/">part 2</a> of this tutorial.

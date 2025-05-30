@@ -27,10 +27,10 @@ A note of caution: this post is about showing a little of what of possible with 
 <h2>The Components</h2>
 In this post I'll be using docker compose along with three main components: NiFi, NiFi Registry, and Zookeeper.
 <h3>NiFi</h3>
-<a href="http://nifi.apache.org/index.html">NiFi</a> was created by the NSA as a tool for flowing data between software systems. Unfortunately NiFi version control isn't something that is available out of the box.
+<a href="https://nifi.apache.org/index.html">NiFi</a> was created by the NSA as a tool for flowing data between software systems. Unfortunately NiFi version control isn't something that is available out of the box.
 <a href="https://hub.docker.com/r/apache/nifi/">Find out more about the NiFi docker image.</a>
 <h3>NiFi Registry</h3>
-<a href="http://nifi.apache.org/registry.html">NiFi registry</a> is a complementary tool for NiFi. It provides a place for workflows to be 'deployed' and thus shareable between NiFi instances. NiFi Registry also provides a form of version control so that workflows can be checked in / out as needed.
+<a href="https://nifi.apache.org/registry.html">NiFi registry</a> is a complementary tool for NiFi. It provides a place for workflows to be 'deployed' and thus shareable between NiFi instances. NiFi Registry also provides a form of version control so that workflows can be checked in / out as needed.
 <a href="https://hub.docker.com/r/apache/nifi-registry/">Find out more about the NiFi Registry docker image</a>
 <h3>Zookeeper</h3>
 <a href="https://zookeeper.apache.org/">Zookeeper</a> is a tool for coordinating distributed clusters. Zookeeper is needed by NiFi because NiFi is designed to operate as a cluster.
@@ -72,7 +72,7 @@ docker-compose up
 
 This may take a few minutes.
 <h2>Create a New Bucket In NiFi Registry</h2>
-With the above docker-compose configuration, we can access the nifi registry by navigating to http://localhost:18080/nifi-registry
+With the above docker-compose configuration, we can access the nifi registry by navigating to https://localhost:18080/nifi-registry
 
 | ![Empty Registry]({{site.baseurl}}/assets/2019/11/1-empty-registry.png) |
 |:--:|
@@ -86,7 +86,7 @@ Create a new bucket by clicking the spanner icon in the top left.
 
 Hit 'Create' and you'll see a new bucket is visible in the NiFi registry.
 <h2>Configure Version Control in NiFi</h2>
-With the above docker-compose configuration, we can access NiFi by navigating to http://localhost:8181/nifi/
+With the above docker-compose configuration, we can access NiFi by navigating to https://localhost:8181/nifi/
 <h3>Connect to NiFi Registry</h3>
 Firstly we need to configure the NiFi to know about the NiFi registry we just set up. We can do this via the <a href="https://en.wikipedia.org/wiki/Hamburger_button">hamburger button</a> in the top right of the main NiFi screen.
 
@@ -101,7 +101,7 @@ Once in the controller settings, go to the 'Registry Clients' tab and click the 
 | *Add registry client* |
 
 Something that threw me at first was the address of the registry client.
-Unlike other guides online which suggest using 'localhost' because we have used docker compose which has its <a href="https://docs.docker.com/compose/networking/">own way of handling networking</a>, so instead we use the http://nifi-registry:18080. (Or instead of 'nifi-registry' use whatever you've called  your docker-compose thing for the registry).
+Unlike other guides online which suggest using 'localhost' because we have used docker compose which has its <a href="https://docs.docker.com/compose/networking/">own way of handling networking</a>, so instead we use the https://nifi-registry:18080. (Or instead of 'nifi-registry' use whatever you've called  your docker-compose thing for the registry).
 <h3>Start Committing Changes</h3>
 To commit changes to the registry we need to create a process group. Once created we can right right click and start tracking.
 As you make changes inside the process group you can right click and commit your changes to the workflow.
@@ -116,7 +116,7 @@ As you make changes within the the process group you can commit your local chang
 |:--:|
 | *commit your changes to the NiFi registry* |
 
-Once you've made a commit or two to the registry, if you go back to the NiFi registry (found at http://localhost:18080/nifi-registry in this example), you will be able to see those changes stored.
+Once you've made a commit or two to the registry, if you go back to the NiFi registry (found at https://localhost:18080/nifi-registry in this example), you will be able to see those changes stored.
 
 | ![check the different versions in the bucket]({{site.baseurl}}/assets/2019/11/9-Bucket-with-two-versions.png) |
 |:--:|

@@ -21,8 +21,8 @@ author:
 permalink: "/2014/05/22/oommf-tutorial-part-2-running-oommf/"
 ---
 <h1>Starting OOMMF</h1>
-Part 2 of this <a href="http://math.nist.gov/oommf/">OOMMF </a>tutorial covers how to start OOMMF, and some tricks for starting OOMMF via the command line in both Windows and Linux.
-For more details on starting OOMMF, please see the official <a href="http://math.nist.gov/oommf/doc/userguide12a5/userguide/">manual.</a>
+Part 2 of this <a href="https://math.nist.gov/oommf/">OOMMF </a>tutorial covers how to start OOMMF, and some tricks for starting OOMMF via the command line in both Windows and Linux.
+For more details on starting OOMMF, please see the official <a href="https://math.nist.gov/oommf/doc/userguide12a5/userguide/">manual.</a>
 <h2>Windows</h2>
 One way to load oommf is to double click on the oommf icon. If you installed tcl correctly (see <a title="OOMMF Tutorial Part 1: Download OOMMF and Tcl/tk" href="{{site.baseurl}}/2014/05/18/oommf-tutorial-part-1-download-oommf-and-tcltk/">part 1</a>), then it should load oommf with no problems.
 I sometimes find it easier to load oommf from the command line. To help me with this I've made a simple batch script to save having to remember the location of tcl and oommf:

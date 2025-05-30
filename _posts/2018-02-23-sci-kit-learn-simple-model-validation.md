@@ -30,7 +30,7 @@ There are various <a href="https://www.cs.cmu.edu/~schneide/tut5/node42.html">cr
 | *Model Validation* |
 
 The test set is not used to train the model and can be used to give a better estimate of the model's real world performance.
-The <a href="http://scikit-learn.org/stable/">scikit-learn</a> python package provides some useful helper functions  for separating out a test set from the all the labelled data.
+The <a href="https://scikit-learn.org/stable/">scikit-learn</a> python package provides some useful helper functions  for separating out a test set from the all the labelled data.
 
 ```python
 from sklearn.model_selection import train_test_split
@@ -43,7 +43,7 @@ This gives you <em>X_train</em> and <em>y_train</em> : the data and outcomes you
 y_predict = clf.predict(X_test)
 ```
 
-You can compare these predictions with the true y-values in <em>y_test</em>. Scikit-learn has <a href="http://scikit-learn.org/stable/modules/model_evaluation.html">performance metrics</a> for evaluating classification and regression models.
+You can compare these predictions with the true y-values in <em>y_test</em>. Scikit-learn has <a href="https://scikit-learn.org/stable/modules/model_evaluation.html">performance metrics</a> for evaluating classification and regression models.
 <h1>A Simple Example</h1>
 Here is a more complete example, which builds on my simple sklearn <a href="{{site.baseurl}}/2018/02/02/scikit-learn-simple-classification/">classification</a> post.
 

@@ -49,7 +49,7 @@ These form the bare minimum needed to make a Django project. At this stage we ca
 python manage.py runserver
 ```
 
-You can check the resulting page at http://127.0.0.1:8000/ and it should show a placeholder page automatically created by Django.
+You can check the resulting page at https://127.0.0.1:8000/ and it should show a placeholder page automatically created by Django.
 You will get warnings about 'unapplied migrations'. A <a href="https://duckduckgo.com/?t=ffab&amp;q=django+migration&amp;ia=web">migration</a> is Django terminology for configuring database tables and this warning tells us that migrations are ready but not yet applied. We will see more of this when we create our own database. For now run
 
 ```bash
@@ -80,7 +80,7 @@ If you were to again run:
 python manage.py runserver
 ```
 
-and check the resulting page at http://127.0.0.1:8000/ you would see that creating the 'counter' app hasn't done anything yet.
+and check the resulting page at https://127.0.0.1:8000/ you would see that creating the 'counter' app hasn't done anything yet.
 <h3>Models, Views and Controllers</h3>
 Django <a href="https://djangobook.com/mdj2-django-structure/">works </a>on the basis of 'models', 'views' and 'templates', which is a variation on the more commonly seen 'models', 'views' and 'controllers'.
 
@@ -129,7 +129,7 @@ Serving that html file with Django isn't as easy as putting it in a particular p
 <h4>Create a URL</h4>
 To access the index.html file we created, we need to do a bit of wiring work. There are two stages to this: first point the site-wide urls to the counters app and secondly create a url within the counters app.
 We start by updating the main, site-wide <strong>cool_counters/urls.py</strong> (so that urls will be directed to the counter urls.py file which we will create).
-This is like saying that our 'counter' app is the main app for the site - we don't want to have to go to 'http://127.0.0.1:8000/counter' every time.
+This is like saying that our 'counter' app is the main app for the site - we don't want to have to go to 'https://127.0.0.1:8000/counter' every time.
 
 ```python
 from django.contrib import admin
@@ -220,7 +220,7 @@ We should now have a working (if rather small) Django app. Fire up the server ag
 ```bash
 python manage.py runserver
 ```
-If you navigate to http://127.0.0.1:8000 on your browser you should now see the html template rendered by Django to also show the number of times you have viewed the page.
+If you navigate to https://127.0.0.1:8000 on your browser you should now see the html template rendered by Django to also show the number of times you have viewed the page.
 
 | ![simple django app - resulting page]({{site.baseurl}}/assets/2020/11/ExamplePage.png) |
 |:--:|

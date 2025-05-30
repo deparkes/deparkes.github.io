@@ -25,7 +25,7 @@ The approaches to do this are different for linux and windows.
 <h1>Add Directories to Path</h1>
 <h2>Windows</h2>
 The procedure for adding a folder to the path in windows 7 is described here:
-<a href="http://www.computerhope.com/issues/ch000549.htm">http://www.computerhope.com/issues/ch000549.htm</a>
+<a href="https://www.computerhope.com/issues/ch000549.htm">https://www.computerhope.com/issues/ch000549.htm</a>
 <h2>Linux</h2>
 In Linux, adding to the path can generally be done by opening a terminal and typing:
 

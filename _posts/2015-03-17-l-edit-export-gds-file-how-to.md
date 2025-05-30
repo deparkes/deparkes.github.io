@@ -17,7 +17,7 @@ author:
 permalink: "/2015/03/17/l-edit-export-gds-file-how-to/"
 ---
 <h1>L-Edit How to Export a GDS File</h1>
-<a href="http://www.tannereda.com/l-edit-pro">L-Edit</a>, part of the <a href="http://www.tannereda.com/">Tanner Tools</a> suite of circuit design software uses it's own 'tda' file format. If you want to send your designs to other people for review or production, you're probably going to want to use the GDS format.
+<a href="https://www.tannereda.com/l-edit-pro">L-Edit</a>, part of the <a href="https://www.tannereda.com/">Tanner Tools</a> suite of circuit design software uses it's own 'tda' file format. If you want to send your designs to other people for review or production, you're probably going to want to use the GDS format.
 This short guide shows you how to <strong>export your file as a GDS</strong>.
 <h3><a title="How To Do L-Edit GDS Import" href="{{site.baseurl}}/2015/03/17/how-to-do-l-edit-gds-import/">Find out how to import a GDS file into L-Edit</a></h3>
 <h1>Export Mask Data</h1>
