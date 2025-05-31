@@ -85,7 +85,7 @@ mydata.to_csv('Newcsv.dat')
 really easy to do, data comes out really nicely.
 <strong><a href="https://pandas.pydata.org/pandas-docs/dev/generated/pandas.DataFrame.to_csv.html">More on saving data frames to a file.</a></strong>
 <h1>Pandas Tutorials</h1>
-I've gone through a few of the simpler tasks you might need, but to really explore what Pandas could do for you, you should <a href="%20https://pandas.pydata.org/pandas-docs/stable/">download it </a>and have a go yourself. Pandas is well supported, and well documented, so you'll be able to find plenty of examples to help you out.
+I've gone through a few of the simpler tasks you might need, but to really explore what Pandas could do for you, you should <a href="https://pandas.pydata.org/pandas-docs/stable/">download it </a>and have a go yourself. Pandas is well supported, and well documented, so you'll be able to find plenty of examples to help you out.
 Here are a few guides to help get you started:
 - <a href="https://pandas.pydata.org/pandas-docs/dev/basics.html">https://pandas.pydata.org/pandas-docs/dev/basics.html</a>
 - <a href="https://pandas.pydata.org/pandas-docs/dev/10min.html">https://pandas.pydata.org/pandas-docs/dev/10min.html</a>
