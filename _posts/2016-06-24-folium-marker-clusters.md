@@ -20,16 +20,16 @@ author:
   display_name: deparkes
 permalink: "/2016/06/24/folium-marker-clusters/"
 ---
-Marker clusters can be a good way to simply a map containing many markers. When the map is zoomed out nearby markers are combined together into a cluster, which is separated out when the map zoom level is closer. In this post I show you how <a href="https://deparkes.co.uk/2016/05/13/python-leaflet-map-folium/">Folium </a>marker clusters are easy to set up and use.
+Marker clusters can be a good way to simply a map containing many markers. When the map is zoomed out nearby markers are combined together into a cluster, which is separated out when the map zoom level is closer. In this post I show you how <a href="{{site.baseurl}}/2016/05/13/python-leaflet-map-folium/">Folium </a>marker clusters are easy to set up and use.
 
 | ![folium marker clusters - cluster region]({{site.baseurl}}/assets/2016/06/marker-clusters.png) |
 |:--:|
 | *folium marker clusters - cluster region* |
 
 <h1>Folium Marker Clusters - an example</h1>
-To show what folium marker clusters can do I'm going to use the example of a simple map I've looked at before - <a href="https://deparkes.co.uk/2016/05/06/colchester-public-toilets/">public toilets in the town of Colchester</a>.
+To show what folium marker clusters can do I'm going to use the example of a simple map I've looked at before - <a href="{{site.baseurl}}/2016/05/06/colchester-public-toilets/">public toilets in the town of Colchester</a>.
 <h2>Before Marker Clusters</h2>
-Here's what the map looked like before clustering the markers. All points are shown at all zoom levels. (You can see the code for this map <a href="https://deparkes.co.uk/2016/05/06/colchester-public-toilets/">here</a>)
+Here's what the map looked like before clustering the markers. All points are shown at all zoom levels. (You can see the code for this map <a href="{{site.baseurl}}/2016/05/06/colchester-public-toilets/">here</a>)
 <iframe src="{{site.baseurl}}/assets/maps/colch_toilets.html" name="FRAME2" width="450" height="400" frameborder="1"></iframe>
 <h2>After Marker Clusters</h2>
 In this next map the markers close to each other have been clustered together.
