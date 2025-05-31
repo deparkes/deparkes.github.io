@@ -23,7 +23,7 @@ author:
 permalink: "/2016/11/11/python-sample-datasets/"
 ---
 Find out where to find sample datasets for playing with data in Python. If you're testing or validating a model or analysis for data science or machine learning, it can be useful to have some sample data to play with. R has the <a href="https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html">datasets package</a> which makes loading sample datasets easy, but it's not so obvious what to do in python - this post shows you some of the options.
-<h4><a href='https://&lt;a%20target="_blank"%20href="https://www.amazon.co.uk/gp/search/ref=as_li_qf_sp_sr_tl?ie=UTF8&amp;tag=deparkescouk-21&amp;keywords=python%20data%20science&amp;index=aps&amp;camp=1634&amp;creative=6738&amp;linkCode=ur2&amp;linkId=7e00f18752b2e2729cddac0a1710344d"&gt;python%20data%20science&lt;/a&gt;&lt;img%20src="//ir-uk.amazon-adsystem.com/e/ir?t=deparkescouk-21&amp;l=ur2&amp;o=2&amp;camp=1634"%20width="1"%20height="1"%20border="0"%20alt=""%20style="border:none%20!important;%20margin:0px%20!important;"%20/&gt;'>Search for Python Data Science on Amazon</a></h4>
+
 <h2>Load csv files from the internet</h2>
 A simple way to get sample datasets in Python is to use the pandas 'read_csv' method to load them directly from the internet. To do this just put the address of your target csv dataset as the argument to read_csv:
 

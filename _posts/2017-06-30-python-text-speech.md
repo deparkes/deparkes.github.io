@@ -22,7 +22,7 @@ permalink: "/2017/06/30/python-text-speech/"
 ---
 Text to speech is a tool available in most operating systems, and helps people with reading and sight difficulties, or can be used as part of a '<a href="https://ggulati.wordpress.com/2016/02/24/coding-jarvis-in-python-3-in-2016/">Jarvis</a>' helper on your computer. Python has a few options for dealing with text to speech, generally in the form of wrappers for speech engines.
 This post goes through a few of the options available for python text to speech. I've focussed on python text to speech in windows, but there are also options out there for linux and osx systems. There are already some nice <a href="https://pythonprogramminglanguage.com/text-to-speech/">summaries of python text to speech </a>available, but hopefully this one picks up a few more package options and highlights some other functionality issues.
-<h4><a href="https://amzn.to/2sjBo7A">Search for Python books on Amazon</a></h4>
+
 <h2><strong>What is text to speech?</strong></h2>
 Text to speech, or <a href="https://en.wikipedia.org/wiki/Speech_synthesis">speech synthesis</a>, is a process for turning written words into audio. Text to speech systems are generaly based on a database of stored sounds which are combined together to create words and sentences. More versatile speech engines use sound elements (known as phones or dipones) which act as building blocks for whole words. These flexible speech engines can sound rather synthetic. More specialised speech engines store whole words, at the cost of some flexibility.
 The processing of text into speech is done by an 'engine'. Text to speech engines work through the following steps:

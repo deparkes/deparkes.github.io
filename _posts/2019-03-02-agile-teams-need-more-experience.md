@@ -37,7 +37,7 @@ These potential benefits of Agile are attractive, but you may need to consider t
 Agile proponents sometimes borrow from the ideas of <a href="https://www.jazzadvice.com/clark-terrys-3-steps-to-learning-improvisation/">Martial Arts </a>or <a href="https://www.jazzadvice.com/clark-terrys-3-steps-to-learning-improvisation/">music learning</a> to categorise people into different skills or experience levels.
 
 
-Alistair Cockburn <a href="https://www.adventureswithagile.com/2016/08/17/interview-alistair-cockburn/">has considered</a> explicitly how they could apply to pepole workign on software development projects. In their book <a href="https://www.amazon.co.uk/Balancing-Agility-Discipline-Guide-Perplexed/dp/0321186125">Balancing Agility and Discipline - A Guide for the Perplexed</a> Boehm and Turner expand on these levels to 4, which are described below:
+Alistair Cockburn <a href="https://www.adventureswithagile.com/2016/08/17/interview-alistair-cockburn/">has considered</a> explicitly how they could apply to pepole workign on software development projects. In their book Balancing Agility and Discipline - A Guide for the Perplexed Boehm and Turner expand on these levels to 4, which are described below:
 
 
 <h4>Level 1B:</h4>
