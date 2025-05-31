@@ -66,7 +66,7 @@ In this section I've picked out books which cover some of the fundamental aspect
 <h3>Deployment and Dev-ops</h3>
 <strong>The Dev-ops Handbook - </strong>an easy to read intro to the thinking and philosophy behind DevOps. The principles grew out of lean manufacturing and seek to remove waste and shorten feedback cycles between customers, developers and testers.
 <h3>Product/Product Management</h3>
-<strong>Balancing Agility An Discipline</strong> - the upsides and downsides of agile and the skill level of a team you need for agile to be successful. <a href="https://deparkes.co.uk/2019/03/02/agile-teams-need-more-experience/">Read more about this trade off</a>.
+<strong>Balancing Agility An Discipline</strong> - the upsides and downsides of agile and the skill level of a team you need for agile to be successful. <a href="{{site.baseurl}}/2019/03/02/agile-teams-need-more-experience/">Read more about this trade off</a>.
 <strong>Death March</strong> - the importance of triage, prioritisation and saying "no".
 <strong>Mythical Man Month</strong> - The perils of adding new people to a project (they often slow it down as existing team members need to train them before they can be useful...)
 <h3>Honourable Mentions</h3>

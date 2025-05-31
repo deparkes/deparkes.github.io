@@ -27,7 +27,7 @@ permalink: "/2018/05/28/deploy-docker-to-heroku/"
 
 The Heroku website already has <a href="https://devcenter.heroku.com/articles/container-registry-and-runtime">some good guide</a>s to help you deploy docker to Heroku, but I found there were some things that didn't quite make sense to me.
 
-In this post I build on my previous post which showed <a href="https://deparkes.co.uk/2018/03/02/simple-docker-flask-sqlite-api/">how to make a simple flask app</a> in a docker container. In that post we made a simple app which we could access in a locally hosted docker container. If we want others to be able to access it it we need to deploy it or host it elsewhere.
+In this post I build on my previous post which showed <a href="{{site.baseurl}}/2018/03/02/simple-docker-flask-sqlite-api/">how to make a simple flask app</a> in a docker container. In that post we made a simple app which we could access in a locally hosted docker container. If we want others to be able to access it it we need to deploy it or host it elsewhere.
 <h1>Get Set Up With Heroku</h1>
 <h2>Heroku Basics</h2>
 To follow along with the rest of this post you'll need to create <a href="https://signup.heroku.com/">a heroku account</a> and install the <a href="https://devcenter.heroku.com/articles/heroku-cli">heroku cli app</a>.

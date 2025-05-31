@@ -32,6 +32,6 @@ The intersection is the number of words or characters that are the same in both 
 Try out this interactive example:
 <div><a href="https://planetcalc.com/1663/" data-lang="en" data-code="" data-colors="#263238,#435863,#090c0d,#fa7014,#fb9b5a,#c25004" data-v="3389">PLANETCALC, Jaccard / Tanimoto Coefficient</a></div>
 <h2>Phonetic Algorithm - Soundex</h2>
-<a href="https://en.wikipedia.org/wiki/Soundex">Soundex</a> is an example of a '<a href="https://deparkes.co.uk/2017/12/01/phonetic-algorithms/">phonetic algorithm</a>'. It works be reducing words down to a simplified approximation of the essential sounds that make them up. Soundex and other phonetic algorithms are frequently used for comparing names where there may be different spellings for the same or similar names.
+<a href="https://en.wikipedia.org/wiki/Soundex">Soundex</a> is an example of a '<a href="{{site.baseurl}}/2017/12/01/phonetic-algorithms/">phonetic algorithm</a>'. It works be reducing words down to a simplified approximation of the essential sounds that make them up. Soundex and other phonetic algorithms are frequently used for comparing names where there may be different spellings for the same or similar names.
 For example 'Steven' and 'Stephen' both become 'S315', so would be regarded as having an identical sound.
 <a href="https://gist.github.com/shawndumas/1262659">See the code for an implementation of the soundex algorithm</a>

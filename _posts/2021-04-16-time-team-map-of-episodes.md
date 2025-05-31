@@ -27,7 +27,7 @@ Zoom out to see episodes in Europe and America. Colours represent different seri
 <h3>Getting the Data</h3>
 The episode titles and locations were gathered from Wikipedia pages in March 2021. As there were not too many pages, I copied and pasted the tables into a spreadsheet where I could easily get columns and rows into a consistent structure for further processing.
 Most Time Team episodes were focused on a single location, but a few were spread across multiple sites. In these cases I just included a row for each site so that I could easily plot them.
-I did consider using the <a href="https://deparkes.co.uk/2020/12/27/python-compare-wikipedia-pages/">Wikipedia API</a> or some other <a href="https://www.analyticsvidhya.com/blog/2015/10/beginner-guide-web-scraping-beautiful-soup-python/">web-scraping</a> technique, but found that there was quite a bit of variation between Time Team pages on Wikipedia, and there was no guarantee that the page structure or content would stay the same over time.
+I did consider using the <a href="{{site.baseurl}}/2020/12/27/python-compare-wikipedia-pages/">Wikipedia API</a> or some other <a href="https://www.analyticsvidhya.com/blog/2015/10/beginner-guide-web-scraping-beautiful-soup-python/">web-scraping</a> technique, but found that there was quite a bit of variation between Time Team pages on Wikipedia, and there was no guarantee that the page structure or content would stay the same over time.
 <h3>Parsing Dates</h3>
 Original air dates are included on the Wikipedia pages in the format '16 January 1994'. Typically when you load a file with pandas you can that date columns should be parsed with <a href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html">the 'parse_dates' parameter</a>. By default pandas uses 'month first' dates e.g. mm-dd or mm/dd. In the simple case that you are providing a 'day first' date you can simply add the day_first=True argument. In this case the dates were in a less common format, so I needed to use a <a href="https://stackoverflow.com/questions/23797491/parse-dates-in-pandas#23797980">custom parser</a>.
 <a href="https://www.w3schools.com/python/gloss_python_date_format_codes.asp">Read more about possible date format strings.</a>
@@ -41,7 +41,7 @@ episodes = pd.read_csv(data_location, parse_dates=['Original airdate'], date_par
 ```
 
 <h3>Parsing Locations</h3>
-The main challenge with handling the data was that there was not a consistent way of recording site locations. Thankfully all were in latitude and longitude rather than <a href="https://en.wikipedia.org/wiki/Ordnance_Survey_National_Grid">British National Grid</a> coordinates, so I didn't need to do <a href="https://deparkes.co.uk/2016/05/27/python-osgb-to-wgr84/">that conversion</a>.
+The main challenge with handling the data was that there was not a consistent way of recording site locations. Thankfully all were in latitude and longitude rather than <a href="https://en.wikipedia.org/wiki/Ordnance_Survey_National_Grid">British National Grid</a> coordinates, so I didn't need to do <a href="{{site.baseurl}}/2016/05/27/python-osgb-to-wgr84/">that conversion</a>.
 A final complication was that some of the 'special' episodes didn't really have a particular location associated with them. The Time Team specials often covered a particular technique or time period, rather than focusing on one or two sites. In these cases I have simply omitted them from the map.
 
 ```python
@@ -62,7 +62,7 @@ df = pd.concat([series, lat_long], axis=1)
 ```
 
 <h3>Plotting Points</h3>
-Now that I had the coordinates and associated episode metadata such as Title, Episode Number etc. I wanted to plot the Time Team map using <a href="https://deparkes.co.uk/2016/05/13/python-leaflet-map-folium/">Folium</a>. To do this I largely followed the instructions on this <a href="https://geopandas.org/gallery/plotting_with_folium.html">blog post</a> for <a href="https://geopandas.org/index.html">Geopandas</a>.
+Now that I had the coordinates and associated episode metadata such as Title, Episode Number etc. I wanted to plot the Time Team map using <a href="{{site.baseurl}}/2016/05/13/python-leaflet-map-folium/">Folium</a>. To do this I largely followed the instructions on this <a href="https://geopandas.org/gallery/plotting_with_folium.html">blog post</a> for <a href="https://geopandas.org/index.html">Geopandas</a>.
 Geopandas extends the functionality of basic pandas dataframes to support geographic and mapping operations.
 The key step was producing a 'geometry' based on the latitude and longitudes for each episode site.
 

@@ -23,7 +23,7 @@ author:
 permalink: "/2022/07/24/python-plugin-architecture/"
 ---
 A plugin architecture is a way of achieving flexiblity, encapsulation, extensibility as well as other principles of good software design. This post shows how you can achieve a python plugin architecture using the <a href="https://www.blog.pythonlibrary.org/2016/05/27/python-201-an-intro-to-importlib/">importlib</a> library.
-There are some similarities with other concepts such as <a href="https://deparkes.co.uk/2019/12/08/simple-python-pipes-and-filters/">pipes and filters</a>.
+There are some similarities with other concepts such as <a href="{{site.baseurl}}/2019/12/08/simple-python-pipes-and-filters/">pipes and filters</a>.
 <h2>'Project' Plugins vs 'External' Plugins</h2>
 In this post I'm considering two situations:
 <ol>

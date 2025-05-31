@@ -111,7 +111,7 @@ print("The average of all estimates was: ", np.mean(multiple_estimates))
 
 Which gave an average of all the estimates of 148.4, which is rather close to the analytically derived value. Taking multiple estimates also means we can calculate a standard deviation with np.std(multiple_estimates). I got the value of 2.3.
 
-Having the mean and standard deviation of your Monte Carlo Integration estimates means you can also think about calculating <a href="https://deparkes.co.uk/2020/07/10/what-are-confidence-intervals/">confidence intervals</a> for the estimate.
+Having the mean and standard deviation of your Monte Carlo Integration estimates means you can also think about calculating <a href="{{site.baseurl}}/2020/07/10/what-are-confidence-intervals/">confidence intervals</a> for the estimate.
 We can visualise the different estimates as a histogram. The distribution is centered on the true value of 148.5.
 
 ```python

@@ -48,7 +48,7 @@ df['region'] = 'SEEP'
 ```
 
 The data table provided is in a 'wide' format with a column for each day of the month. This is helpful for human-readability, but isn't so good for computer processing. To convert for a 'wide' to a 'long' form table we can use the 'melt' pandas method.
-<a href="https://deparkes.co.uk/2016/10/28/reshape-pandas-data-with-melt/">Read more about pandas melt</a>
+<a href="{{site.baseurl}}/2016/10/28/reshape-pandas-data-with-melt/">Read more about pandas melt</a>
 
 ```python
 melted = pd.melt(df, id_vars=['region', 'year', "month"],

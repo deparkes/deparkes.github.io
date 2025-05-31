@@ -26,7 +26,7 @@ This post shows you how you can use the free ffmpeg tool to convert files: mov t
 <h2>Get ffmpeg</h2>
 <a href="https://ffmpeg.org/about.html">ffmpeg</a> is a free, open source tool for working with video files. Ffmpeg itself is <a href="https://ffmpeg.org/ffmpeg.html">command-line based</a>, so might take a bit of getting used to if you are not familiar with it. The ffmpeg documentation is dense, but comprehensive - you can read the generic file conversion documentation <a href="https://ffmpeg.org/ffmpeg.html#Video-and-Audio-file-format-conversion">here</a>.
 <a href="https://ffmpeg.org/download.html">Download ffmpeg</a> for your platform
-See how you can <a href="https://deparkes.co.uk/2018/01/05/create-video-images-ffmpeg/">use ffmpeg to turn a series of still images into a movie</a>
+See how you can <a href="{{site.baseurl}}/2018/01/05/create-video-images-ffmpeg/">use ffmpeg to turn a series of still images into a movie</a>
 <h2>Convert mov to mp4 - single file</h2>
 To convert a single mov to mp4 you can use the commands described in this <a href="https://stackoverflow.com/questions/12026381/ffmpeg-converting-mov-files-to-mp4">stackoverflow</a> answer:
 

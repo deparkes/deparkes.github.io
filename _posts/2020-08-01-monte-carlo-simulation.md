@@ -21,7 +21,7 @@ permalink: "/2020/08/01/monte-carlo-simulation/"
 ---
 Monto Carlo simulation is a technique for approximating future behaviour based on randomly sampled numbers. By sampling from different probability distributions it is possible to use Monte Carlo simulation for a range of different situations including <a href="https://en.wikipedia.org/wiki/Monte_Carlo_method_in_statistical_physics">physical systems</a>, <a href="https://en.wikipedia.org/wiki/Monte_Carlo_tree_search">computer games</a> or <a href="https://en.wikipedia.org/wiki/Monte_Carlo_methods_in_finance">finance</a>.
 This post gives a simple example of Monte Carlo simulation to give some of the essential background features.
-Monte Carlo simulation is related to the similar concept of <a href="https://deparkes.co.uk/2020/07/26/monte-carlo-integration/">Monte Carlo integration</a>.
+Monte Carlo simulation is related to the similar concept of <a href="{{site.baseurl}}/2020/07/26/monte-carlo-integration/">Monte Carlo integration</a>.
 <h2>Monte Carlo Simulation</h2>
 I've tried to come up with an example of where you could use Monte Carlo Simulation to help decision making. Imagine you work in a post office and want to know if three desks is enough to keep the queue from going above 20 people.
 

@@ -180,7 +180,7 @@ done
 
 <h3>Exposing the data with a Flask API</h3>
 At this stage we have a python script which writes data to a sqlite database. To expose this data to other services or devices on a local network we will use a flask app to create an API.
-We can use flask to make a <a href="https://deparkes.co.uk/2018/08/11/flask-restful-api-json/">simple rest api</a> for the data. More complexity would be possible, but for now we'll just keep it simple.
+We can use flask to make a <a href="{{site.baseurl}}/2018/08/11/flask-restful-api-json/">simple rest api</a> for the data. More complexity would be possible, but for now we'll just keep it simple.
 <h4>Example Output</h4>
 
 | ![API raw data example]({{site.baseurl}}/assets/2022/06/Screenshot-2022-06-28-at-20-43-32-Screenshot.png) |
@@ -232,7 +232,7 @@ This section borrows from this blog post which shows how you can <a href="https:
 
 <h4>Code Overview</h4>
 Does a get request from the api created earlier
-Uses plotly to create a simple dashboard (without using '<a href="https://deparkes.co.uk/2021/01/09/python-dashboard/">dash</a>')
+Uses plotly to create a simple dashboard (without using '<a href="{{site.baseurl}}/2021/01/09/python-dashboard/">dash</a>')
 Makes the dashboard available on port 3000
 
 ```python
