@@ -25,7 +25,7 @@ I really like the appearance of the figures it produces, such this one from the 
 
 | ![histogram_demo_features1"]({{site.baseurl}}/assets/2012/10/histogram_demo_features1-300x245.png) |
 |:--:|
-| *histogram_demo_features1"* |
+| *histogram_demo_features1* |
 
 One very nice touch is the Spyder user interface: it has an ipython shell which is set up for scientific programming, and a variable explorer from which I can select and plot data. It just works.
 
