@@ -16,8 +16,7 @@ tags:
 - data
 - pandas
 - python
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/04/05/python-pandas-for-physics/"
 ---
 <h1>Python Pandas for Physics</h1>

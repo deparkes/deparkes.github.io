@@ -16,8 +16,7 @@ tags:
 - vagrant
 - version control
 - virtual machine
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2018/01/19/use-vagrant-git/"
 ---
 <a href="https://wp.me/p4DE9r-X5">Vagrant </a>is a tool for managing virtual machines. By combining vagrant with git (and shared git repositories like <a href="https://github.com/">github</a> or <a href="https://bitbucket.org/">bitbucket</a>) it is possible to share machine configurations. This post explores how using vagrant with git works and some possible challenges with <a href="{{site.baseurl}}/2017/12/15/basic-git-simple-collaborative-working/">collaborating</a> with vagrant machines.

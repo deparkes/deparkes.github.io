@@ -18,8 +18,7 @@ tags:
 - sql
 - sqlite
 - web
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2018/03/02/simple-docker-flask-sqlite-api/"
 ---
 Flask is a lightweight python web framework which can used for creating <a href="https://restfulapi.net/">RESTful APIs</a>. This post shows you how to make a simple Docker Flask SQLite API. This post builds on the excellent <a href="https://programminghistorian.github.io/ph-submissions/lessons/creating-apis-with-python-and-flask">Flask API Lesson</a> on <a href="https://programminghistorian.org/">The Programming Historian</a>.

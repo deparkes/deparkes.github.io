@@ -18,8 +18,7 @@ tags:
 - images
 - instagram
 - plugins
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2016/07/22/gimp-instagram-filters/"
 ---
 Instagram-style filters are a quick way to improve the look of pretty much any photo. Check out this GIMP Instagram filters and start applying quick fixes to your photos.

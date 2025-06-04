@@ -15,8 +15,7 @@ tags:
 - network analytics
 - networkx
 - python
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2018/04/09/python-networkx-load-graphs-from-file/"
 ---
 <a href="https://networkx.github.io/documentation/latest/tutorial.html">Networkx</a> is a python package for working with graphs and networks. Networkx is capable of <a href="https://wp.me/p4DE9r-13s">creating a graph from within a python script</a>, but you may also want to load a graphs from file. This post looks at some of the ways networkx allows you to load graphs from file, and gives some simple examples to help you get started.

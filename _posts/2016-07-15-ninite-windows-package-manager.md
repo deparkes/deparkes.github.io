@@ -17,8 +17,7 @@ tags:
 - software
 - useful
 - utilities
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2016/07/15/ninite-windows-package-manager/"
 ---
 Although <a href="https://sourceforge.net/">Sourceforge </a>has <a href="https://www.theregister.co.uk/2015/06/03/sourceforge_to_offer_only_optin_adware_after_gimp_grump/">reportedly </a>fixed its adware issues, many user remain <a href="https://forums.theregister.co.uk/forum/1/2015/06/03/sourceforge_to_offer_only_optin_adware_after_gimp_grump/">wary </a>of continuing to use <a href="https://sourceforge.net/">Sourceforge </a>as a central source of Windows apps and utilities. <a href="https://ninite.com/">Ninite </a>windows package manager goes someway to filling the need for a one-stop-shop for key windows software.

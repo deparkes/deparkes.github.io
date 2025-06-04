@@ -13,8 +13,7 @@ tags:
 - linux
 - path
 - windows
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2014/05/19/adding-directories-to-the-path/"
 ---
 Adding a directory to the system path allows us to run executables win that directory from the command line.

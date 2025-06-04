@@ -16,8 +16,7 @@ tags:
 - generalization
 - programming
 - software design
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2017/11/03/premature-generalization/"
 ---
 Premature generalization can happen when we incorrectly widen the scope of a problem, or try to anticipate use cases before they happen. It often comes about when we attempt to make a multi-purpose, or re-usable solutions before fully understanding what is really needed.

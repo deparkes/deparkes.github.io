@@ -14,8 +14,7 @@ tags:
 - ffmpeg
 - images
 - video
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2018/01/05/create-video-images-ffmpeg/"
 ---
 Turning a sequence of images into a video can be useful for creating <a href="https://en.wikipedia.org/wiki/Stop_motion">stop-frame movies</a>, <a href="https://shallowsky.com/blog/2015/Oct/04/">scientific animations</a>, and simple slide shows. This post shows you how you can use the free command line tool <a href="https://www.ffmpeg.org/">ffmpeg</a> to create a video from images. ffmpeg is a powerful, versatile command line tool which is <a href="https://en.wikipedia.org/wiki/Category:Software_that_uses_FFmpeg">widely used</a> for other movie and animation manipulation tasks.

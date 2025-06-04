@@ -14,8 +14,7 @@ tags:
 - analytics
 - data
 - machine learning
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2017/05/12/a-machine-learning-workflow/"
 ---
 Machine learning is an essential part of data science - a field which covers <a href="https://fgiasson.com/blog/index.php/2017/03/10/a-machine-learning-workflow/">a range of activities</a> from data acquisition and cleaning, through to analytics and data visualisation. It can be helpful to think in terms of a <a href="https://www.mckinsey.com/industries/high-tech/our-insights/an-executives-guide-to-machine-learning">machine learning</a> workflow that puts some structure around some of these processes. This post looks at a few existing data science workflows and suggests some other approaches you might want to consider.

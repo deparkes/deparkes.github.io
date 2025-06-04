@@ -17,8 +17,7 @@ tags:
 - linux
 - make
 - virtual machine
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2021/12/18/linux-kernel-build/"
 ---
 <h2>Build Custom Linux Kernel</h2>

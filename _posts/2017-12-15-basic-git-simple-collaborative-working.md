@@ -13,8 +13,7 @@ tags:
 - git
 - source control
 - version control
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2017/12/15/basic-git-simple-collaborative-working/"
 ---
 Git is a <a href="https://en.wikipedia.org/wiki/Version_control">versioning control</a> software which helps keep track of changes to plain text files. The popularity of git has been helped by the existence of products and services like <a href="https://about.gitlab.com/">Gitlab</a> and <a href="https://github.com/">Github</a> which simplify some of the server-side operation of git. Git has a famously steep <a href="https://about.gitlab.com/2017/05/17/learning-curve-is-the-biggest-challenge-developers-face-with-git/">learning curve</a> and it can be difficult to know where to start.

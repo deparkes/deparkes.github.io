@@ -15,8 +15,7 @@ tags:
 - vagrant
 - virtual machine
 - virtualbox
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2018/04/30/writing-a-vagrantfile/"
 ---
 Vagrantfiles are used to configure vagrant virtual machines. This post goes a little beyond the <a href="{{site.baseurl}}/2018/01/12/basic-vagrant/">basics</a> of creating a Vagrantfile, and looks at some of the more advanced topics for writing a vagrantfile to make a more polished machine.

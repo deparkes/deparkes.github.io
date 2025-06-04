@@ -16,8 +16,7 @@ tags:
 - science
 - thesis
 - writing
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/06/30/latex-thesis-publications-list/"
 ---
 If you're writing a large document like a <a href="{{site.baseurl}}/2015/05/20/thesis-writing-tips/">thesis </a>or a dissertation, Latex is probably the tool for the job. In this post I use the <a href="https://www.ctan.org/pkg/natbib?lang=en">natbib </a>and <a href="https://www.ctan.org/pkg/bibunits?lang=en">bibunits </a>packages to insert a list of your publications into your thesis.

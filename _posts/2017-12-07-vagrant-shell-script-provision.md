@@ -16,8 +16,7 @@ tags:
 - shell
 - vagrant
 - virtual machine
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2017/12/07/vagrant-shell-script-provision/"
 ---
 <a href="https://www.vagrantup.com/">Vagrant</a> is a tool for quickly creating and starting <a href="https://en.wikipedia.org/wiki/Virtual_machine">virtual machines</a>. One of the powerful features of vagrant is its ability to '<a href="https://stackoverflow.com/questions/29687222/what-does-it-mean-to-provision-a-virtual-machine">provision</a>' the virtual machines it creates. Provisioning involves connecting to the virtual machine and making any necessary installations or config changes. Vagrant can provision a virtual machine in a number of ways, and one of the simplest is to use a <a href="https://en.wikipedia.org/wiki/Shell_script">shell script</a>. This post looks at how to provision a vagrant virtual machine with a <a href="https://www.vagrantup.com/docs/provisioning/shell.html">shell script</a>.

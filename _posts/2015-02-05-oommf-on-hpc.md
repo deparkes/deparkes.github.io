@@ -12,8 +12,7 @@ categories:
 tags:
 - HPC
 - oommf
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/02/05/oommf-on-hpc/"
 ---
 <h1>OOMMF on HPC</h1>

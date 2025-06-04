@@ -19,8 +19,7 @@ tags:
 - python
 - visualisation
 - xkcd
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2018/04/16/matplotlib-xkcd-style-plots/"
 ---
 Matplotlib is the excellent workhorse plotting library for python. As great as matplotlib is, it could occasionally do with a little stylistic improvement <a href="{{site.baseurl}}/2015/05/05/seaborn-python-plotting-library/">[1]</a> [<a href="{{site.baseurl}}/2015/04/18/ggplot-for-python/">2]</a>. I recently came across a cool feature in <a href="https://matplotlib.org/api/_as_gen/matplotlib.pyplot.xkcd.html">matplotlib</a> that lets you plot in the style of the popular <a href="https://www.xkcd.com/">XKCD</a> comics, with a fun font and a more 'sketchy' line style.

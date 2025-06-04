@@ -13,8 +13,7 @@ tags:
 - natural language processing
 - nlp
 - string
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2020/06/21/string-comparison-techniques/"
 ---
 String comparison is important for topics such as <a href="https://en.wikipedia.org/wiki/Natural_language_processing">natural language processing</a> and <a href="https://en.wikipedia.org/wiki/Record_linkage">record linkage</a>.  This post gives a few examples of string comparison techniques that you may wish to consider.

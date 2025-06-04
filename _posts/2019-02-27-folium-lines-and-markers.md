@@ -15,8 +15,7 @@ tags:
 - map
 - mapping
 - python
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2019/02/27/folium-lines-and-markers/"
 ---
 I was asked recently about adding multiple custom lines and markers to a <a href="{{site.baseurl}}/2016/05/13/python-leaflet-map-folium/">Folium map</a>.

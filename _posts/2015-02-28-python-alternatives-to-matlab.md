@@ -18,8 +18,7 @@ tags:
 - programming
 - python
 - recommended
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/02/28/python-alternatives-to-matlab/"
 ---
 I find <a href="https://uk.mathworks.com/products/matlab/">Matlab </a>great, and for the most part it is my go-to scientific software package. Unfortunately if you <strong>don't have access to a license</strong>, or your license server connection isn't so great, using Matlab may not be so practical.

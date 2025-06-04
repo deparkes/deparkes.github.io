@@ -16,8 +16,7 @@ tags:
 - matching
 - sql
 - sql joins
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2017/04/14/sql-joins-some-basics/"
 ---
 Joining tables in <a href="https://en.wikipedia.org/wiki/SQL">SQL </a>is an <a href="https://www.linkedin.com/pulse/why-you-should-learn-sql-brewster-knowlton">essential </a>part of many digital services and products. Joins let you answer questions such as which customers bought which products? How many staff work at a particular location? Which students are in which classes at a school? Joining in SQL becomes even more important when your data are stored in a <a href="https://en.wikipedia.org/wiki/Database_normalization">normal form</a>.

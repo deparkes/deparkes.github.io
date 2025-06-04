@@ -16,8 +16,7 @@ tags:
 - oommf install
 - script
 - ubuntu
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2017/11/10/oommf-install-script/"
 ---
 Installing <a href="https://math.nist.gov/oommf/oommf.html">OOMMF </a>is a multi-step process which can be a bit fiddly, particularly on Linux systems. I would normally just work through the <a href="{{site.baseurl}}/2014/05/18/oommf-tutorial-part-1-install-oommf-and-tcltk/">installation steps </a>separately, but was inspired by the <a href="https://virtual-micromagnetics.readthedocs.io/en/development/">Virtual Micromagnetics</a> project to write an OOMMF install script.

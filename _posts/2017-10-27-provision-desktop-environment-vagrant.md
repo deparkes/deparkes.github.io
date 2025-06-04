@@ -15,8 +15,7 @@ tags:
 - ubuntu
 - vagrant
 - virtual machine
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2017/10/27/provision-desktop-environment-vagrant/"
 ---
 <h1>Provision a Desktop Environment With Vagrant</h1>

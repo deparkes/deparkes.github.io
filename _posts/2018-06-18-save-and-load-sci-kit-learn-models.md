@@ -10,8 +10,7 @@ status: publish
 categories:
 - Data Science
 tags: []
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2018/06/18/save-and-load-sci-kit-learn-models/"
 ---
 Once you have trained a sci-kit learn model it is not obvious how you can deploy it and use it to score unseen data. This post shows you how to save and learn sci-kit learn models so you can execute it against unseen data.

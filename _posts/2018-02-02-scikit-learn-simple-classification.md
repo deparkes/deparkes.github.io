@@ -15,8 +15,7 @@ tags:
 - machine learning
 - scikit-learn
 - sklearn
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2018/02/02/scikit-learn-simple-classification/"
 ---
 This post looks at how to build a simple classification model with the python machine learning library <a href="https://scikit-learn.org/stable/">scikit-learn</a>. Building a simple classification model is fairly easy with sci-kit learn, and this post explores some of the default behaviour and sign-posts some extra work that we would want to to ensure robust predictions.

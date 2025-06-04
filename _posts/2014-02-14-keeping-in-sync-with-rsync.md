@@ -21,8 +21,7 @@ tags:
 - synchronize
 - ubuntu
 - windows
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2014/02/14/keeping-in-sync-with-rsync/"
 ---
 <h1>rysnc - for keeping remote folders synchronised</h1>

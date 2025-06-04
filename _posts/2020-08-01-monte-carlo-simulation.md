@@ -15,8 +15,7 @@ tags:
 - monte carlo
 - simulation
 - statistics
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2020/08/01/monte-carlo-simulation/"
 ---
 Monto Carlo simulation is a technique for approximating future behaviour based on randomly sampled numbers. By sampling from different probability distributions it is possible to use Monte Carlo simulation for a range of different situations including <a href="https://en.wikipedia.org/wiki/Monte_Carlo_method_in_statistical_physics">physical systems</a>, <a href="https://en.wikipedia.org/wiki/Monte_Carlo_tree_search">computer games</a> or <a href="https://en.wikipedia.org/wiki/Monte_Carlo_methods_in_finance">finance</a>.

@@ -12,8 +12,7 @@ categories:
 tags:
 - command prompt
 - tips
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/04/28/how-to-open-a-command-prompt-in-a-folder/"
 ---
 <h1>How To Open A Command Prompt In A Folder</h1>

@@ -15,8 +15,7 @@ tags:
 - packaging
 - python
 - software engineering
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2019/10/20/python-packaging/"
 ---
 Python packaging can be difficult to navigate. At some point in your python development career you will want to share your project or library with someone else, or deploy it to another location. While it is possible to send the python files individually, anything more than a very simple project will run into difficulties with installation and dependencies.

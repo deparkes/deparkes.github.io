@@ -14,8 +14,7 @@ tags:
 - data
 - origin
 - plotting
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/04/23/origin-linked-axis/"
 ---
 <h1>How to Create a Linked Axis in Origin</h1>

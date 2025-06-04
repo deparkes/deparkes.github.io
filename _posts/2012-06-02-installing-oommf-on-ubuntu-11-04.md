@@ -14,8 +14,7 @@ tags:
 - micromagnetic
 - oommf
 - ubuntu
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2012/06/02/installing-oommf-on-ubuntu-11-04/"
 ---
 <h1>How to install OOMMF in Linux (Ubuntu)</h1>

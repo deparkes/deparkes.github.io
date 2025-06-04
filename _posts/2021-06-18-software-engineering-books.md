@@ -14,8 +14,7 @@ tags:
 - reading
 - resources
 - software engineering
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2021/06/18/software-engineering-books/"
 ---
 This post has a selection of software engineering books I've found to be particularly useful.

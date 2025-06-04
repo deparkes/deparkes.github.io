@@ -12,8 +12,7 @@ categories:
 tags:
 - matlab
 - oommf
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/02/05/oommf-matlab/"
 ---
 <h1>How to work with OOMMF files in Matlab</h1>

@@ -19,8 +19,7 @@ tags:
 - obgr
 - python
 - wgr84
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2016/05/27/python-osgb-to-wgr84/"
 ---
 <a href="https://en.wikipedia.org/wiki/Ordnance_Survey_National_Grid">OSGB </a>is the Ordnance Survey National Grid and is used for many grid references in the United Kingdom. This grid system works well for locations within the United Kingdom, but needs work if you need to combine coordinates from another system, or perhaps <a href="https://wp.me/p4DE9r-FE">plot locations on open streetmap</a>. In this post I look at python OSGB to <a href="https://confluence.qps.nl/pages/viewpage.action?pageId=29855173">WGS84 </a>conversion.

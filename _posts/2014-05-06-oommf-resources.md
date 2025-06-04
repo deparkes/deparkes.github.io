@@ -18,8 +18,7 @@ tags:
 - resources
 - simulation
 - tutorial
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2014/05/06/oommf-resources/"
 ---
 There are all ready quite a few good OOMMF resources on the internet. I've linked to some of them here.

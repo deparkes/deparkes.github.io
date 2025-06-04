@@ -16,8 +16,7 @@ tags:
 - ssh
 - sshuttle
 - ubuntu
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2014/05/08/sshuttle-for-a-secure-internet-connection-on-the-move/"
 ---
 <h1>sshuttle Ubuntu Installation</h1>

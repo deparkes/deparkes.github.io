@@ -15,8 +15,7 @@ tags:
 - gis
 - mapping
 - maps
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2021/04/16/time-team-map-of-episodes/"
 ---
 <a href="https://en.wikipedia.org/wiki/Time_Team">Time Team</a> was a TV series which involved a team of archaeologists, surveyors, artists and other specialists spending three days to investigate an archaeological site. Episodes were mainly focused on the UK, but there were also some as far afield as Spain and America. I thought it would be interesting to see how episodes were distributed around the UK and beyond, so I made a Time Team map.

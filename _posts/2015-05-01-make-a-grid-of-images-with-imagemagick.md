@@ -17,8 +17,7 @@ tags:
 - images
 - montage
 - thesis tips
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/05/01/make-a-grid-of-images-with-imagemagick/"
 ---
 <h1>How to Make a Grid of Images</h1>

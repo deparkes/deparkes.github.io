@@ -17,8 +17,7 @@ tags:
 - library
 - organisation
 - storage
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2022/07/11/card-index/"
 ---
 This post goes through the general idea of an index, why a card index might be useful, and some examples of a card index being used. Card index systems are largely a thing of the past, but they still come up from time in archives and libraries around the world.

@@ -15,8 +15,7 @@ tags:
 - find
 - script
 - shell
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/06/05/find-and-compress-files-in-linux/"
 ---
 If you need to free up some space you can use this script to find and compress files in linux.

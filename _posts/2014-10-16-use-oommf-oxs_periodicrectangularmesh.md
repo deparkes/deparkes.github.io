@@ -12,8 +12,7 @@ categories:
 tags:
 - oommf
 - oommf tips
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2014/10/16/use-oommf-oxs_periodicrectangularmesh/"
 ---
 <h1>How to use the OOMMF periodic mesh</h1>

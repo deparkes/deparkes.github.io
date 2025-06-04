@@ -18,8 +18,7 @@ tags:
 - python
 - software design
 - software engineering
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2022/07/24/python-plugin-architecture/"
 ---
 A plugin architecture is a way of achieving flexiblity, encapsulation, extensibility as well as other principles of good software design. This post shows how you can achieve a python plugin architecture using the <a href="https://www.blog.pythonlibrary.org/2016/05/27/python-201-an-intro-to-importlib/">importlib</a> library.

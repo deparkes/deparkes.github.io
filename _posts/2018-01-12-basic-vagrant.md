@@ -14,8 +14,7 @@ tags:
 - vagrant box
 - virtual machine
 - virtualisation
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2018/01/12/basic-vagrant/"
 ---
 <a href="https://www.vagrantup.com/">Vagrant</a> is a command line tool for managing virtual machines. Vagrant commands are generally quite sensible and often a guess at what the command might be gives the rights of others<i> you</i> answer, but there are rather a lot of them. This post picks out some basic vagrant commands and works through the installation and basic usage of vagrant.

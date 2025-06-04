@@ -13,8 +13,7 @@ tags:
 - oommf
 - oommf tutorial
 - oommf tutorial part 5
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2014/10/16/oommf-tutorial-part-5-oommf-tips/"
 ---
 An assortment of OOMMF tips that will hopefully make your OOMMF life easier.

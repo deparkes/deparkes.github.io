@@ -15,8 +15,7 @@ tags:
 - package
 - publish
 - pypi
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/08/05/how-to-package-python-code/"
 ---
 With <a href="{{site.baseurl}}/2015/02/28/python-alternatives-to-matlab/">Python distributions </a>such as <a href="https://www.enthought.com/">Enthought </a>and <a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a>, its never been easier to create and install python packages. In this post I show you how to build your own python packages and publish them on the <a href="https://pypi.python.org/pypi">PyPI python package index</a>.

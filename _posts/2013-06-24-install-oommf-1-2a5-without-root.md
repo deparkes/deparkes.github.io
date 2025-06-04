@@ -12,8 +12,7 @@ categories:
 tags:
 - linux
 - oommf
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2013/06/24/install-oommf-1-2a5-without-root/"
 ---
 Installing OOMMF in linux without root access can be difficult. The <a href="https://math.nist.gov/oommf/doc/userguide12a5/userguide/Basic_Installation.html">basic install procedure</a> for OOMMF is quite straight forward: check you have tcl/tk, download the oommf source then run oommf.tcl pimake. This is fine when you have root access and can easily run the package manager to install the dev versions of tcl and tk.

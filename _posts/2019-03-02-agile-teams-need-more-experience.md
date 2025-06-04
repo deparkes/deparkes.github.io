@@ -13,8 +13,7 @@ tags:
 - agile
 - project management
 - software
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2019/03/02/agile-teams-need-more-experience/"
 ---
 Agile teams typically need a critical mass of highly skilled people in order to be a success. If you are trying to transition from a conventional, plan-based approach to project management, you may find previously successful teams do not quite have the right balance of experiences. This post looks at some of the considerations and thinking behind the skill levels needed in an agile team.

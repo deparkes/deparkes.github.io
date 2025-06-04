@@ -16,8 +16,7 @@ tags:
 - python
 - rest api
 - wikipedia
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2020/12/27/python-compare-wikipedia-pages/"
 ---
 Wikimedia has an API which lets you compare Wikipedia pages, and in some cases modify pages and information within the Wikimedia group. The main page for all Wikimedia API information is <a href="https://www.mediawiki.org/wiki/API:Main_page">here</a>.

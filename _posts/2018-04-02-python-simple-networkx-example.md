@@ -15,8 +15,7 @@ tags:
 - graph
 - networkx
 - python
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2018/04/02/python-simple-networkx-example/"
 ---
 <a href="https://networkx.github.io/">Networkx</a> is a python package for creating, visualising and analysing <a href="https://en.wikipedia.org/wiki/Graph_theory">graph</a> networks. This post gives a simple networkx example to show how it works.

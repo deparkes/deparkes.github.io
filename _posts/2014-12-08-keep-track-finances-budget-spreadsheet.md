@@ -14,8 +14,7 @@ tags:
 - finance
 - money
 - spreadsheet
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2014/12/08/keep-track-finances-budget-spreadsheet/"
 ---
 <blockquote>"Annual income twenty pounds, annual expenditure nineteen [pounds] nineteen [shillings] and six [pence], result happiness. Annual income twenty pounds, annual expenditure twenty pounds ought and six, result misery."

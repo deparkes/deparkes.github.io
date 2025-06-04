@@ -15,8 +15,7 @@ tags:
 - oommf tutorial
 - oommf tutorial part 1
 - tutorial
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2014/05/18/oommf-tutorial-part-1-install-oommf-and-tcltk/"
 ---
 OOMMF can be an incredibly useful tool for micromagnetic simulations, but it can also be frustrating to start with. This tutorial aims to get you up and running with OOMMF and in a position to start running your own simulations.

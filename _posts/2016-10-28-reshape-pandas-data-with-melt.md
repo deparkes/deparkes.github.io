@@ -17,8 +17,7 @@ tags:
 - pandas
 - python
 - reshape
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2016/10/28/reshape-pandas-data-with-melt/"
 ---
 Data tables often come in a format that makes sense to the human who created the table, but that's difficult for analysis. To make analysis easier we can reshape the data into a more computer-friendly form. <a href="https://pandas.pydata.org/">Pandas </a>is a python data analysis library and in this post I reshape pandas data with melt.

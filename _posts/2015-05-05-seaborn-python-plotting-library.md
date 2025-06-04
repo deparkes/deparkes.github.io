@@ -15,8 +15,7 @@ tags:
 - plotting
 - python
 - seaborn
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/05/05/seaborn-python-plotting-library/"
 ---
 I've recently been looking into python packages that could help improve the appearance of <a href="https://matplotlib.org/">matplotlib </a>- the venerable, go-to plotting library for Python. For quickly plotting some data vanilla matplotlib generally does just fine, but for truly 'publication-ready' plots, you'll probably want to look to one of the more advanced libraries.

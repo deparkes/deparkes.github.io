@@ -18,8 +18,7 @@ tags:
 - labview
 - python
 - VISA
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/03/03/python-instrument-control/"
 ---
 Python is becoming <a title="3 Python Alternatives to Matlab" href="{{site.baseurl}}/2015/02/28/python-alternatives-to-matlab/">more established</a> for scientific <strong>data analysis</strong> and <strong>processing</strong>, but what python<strong> instrument control</strong> options are there?

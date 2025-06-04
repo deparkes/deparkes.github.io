@@ -13,8 +13,7 @@ tags:
 - parsing
 - python
 - rss
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2021/02/06/parse-wordpress-post-export-with-python/"
 ---
 Within Wordpress<a href="https://codesteps.com/2018/10/11/wordpress-export-the-posts-pages-or-media-content/"> it is possible to export all historic posts</a> as an XML file. This XML file is a little unwieldy, but it is possible to parse the Wordpress post export with python. This post shows how you can use the python <a href="https://feedparser.readthedocs.io/en/latest/">feedparser</a> library to easily access the export elements.

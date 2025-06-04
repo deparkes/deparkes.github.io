@@ -14,8 +14,7 @@ tags:
 - oommf tutorial part 6
 - python
 - scripting
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2014/10/28/oommf-tutorial-part-6-oommf-scripting-python/"
 ---
 <h1 class="attribution-info">Introduction</h1>

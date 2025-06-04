@@ -16,8 +16,7 @@ tags:
 - gps
 - mapping
 - python
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2016/05/20/python-gpx-import/"
 ---
 Gpx (<a href="https://en.wikipedia.org/wiki/GPS_Exchange_Format">GPS Exchange Format</a>) is a common file format used to store exported GPS data. In this post I use the python module <a href="https://pypi.python.org/pypi/gpxpy/1.1.1">gpxpy </a>to simply import the gpx coordinates from a gpx file.

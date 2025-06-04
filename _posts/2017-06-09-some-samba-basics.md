@@ -16,8 +16,7 @@ tags:
 - network
 - samba
 - server
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2017/06/09/some-samba-basics/"
 ---
 <a href="https://en.wikipedia.org/wiki/Samba_(software)">Samba </a>is a protocol that makes file sharing across a network easy (great if you have your own home server). This post has a few samba basics - commands and operations to help you configure and run your samba shared folders.

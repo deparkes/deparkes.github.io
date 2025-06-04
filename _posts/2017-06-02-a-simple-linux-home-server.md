@@ -18,8 +18,7 @@ tags:
 - server
 - ssh
 - windows
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2017/06/02/a-simple-linux-home-server/"
 ---
 This post shows you how to set up a simple linux <a href="https://www.quepublishing.com/articles/article.aspx?p=1692557">home server</a>, and how you can use it to share files across your home network. This simple process will help get you going with a basic home server system which will be flexible enough for you to extend and develop.

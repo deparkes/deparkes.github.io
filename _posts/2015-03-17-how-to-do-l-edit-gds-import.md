@@ -14,8 +14,7 @@ tags:
 - gds
 - l-edit
 - layout
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/03/17/how-to-do-l-edit-gds-import/"
 ---
 <h1>How to Do L-Edit GDS Import</h1>

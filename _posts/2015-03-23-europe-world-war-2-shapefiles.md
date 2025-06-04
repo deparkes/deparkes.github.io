@@ -11,8 +11,7 @@ categories:
 - GIS
 - History
 tags: []
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/03/23/europe-world-war-2-shapefiles/"
 ---
 <h1>Europe World War 2 Shapefiles</h1>

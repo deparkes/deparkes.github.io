@@ -16,8 +16,7 @@ tags:
 - prediction
 - python
 - statistics
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2020/08/08/markov-chains/"
 ---
 Markov chains are a way of <a href="https://en.wikipedia.org/wiki/Stochastic_model">stochastically modelling</a> a series of events where the outcome probability of an event depends only only on the event that preceded it. This post gives an overview of some of the theory of <a href="https://en.wikipedia.org/wiki/Markov_chain">Markov chains</a> and gives a simple example implementation using python.

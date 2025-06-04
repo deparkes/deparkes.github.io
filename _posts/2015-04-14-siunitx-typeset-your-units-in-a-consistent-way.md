@@ -12,8 +12,7 @@ categories:
 tags:
 - latex
 - latex thesis tips
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/04/14/siunitx-typeset-your-units-in-a-consistent-way/"
 ---
 <h1>The siunitx Latex Package</h1>

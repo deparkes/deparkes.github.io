@@ -13,8 +13,7 @@ tags:
 - java
 - oop
 - programming
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2018/10/23/java-command-line-arguments/"
 ---
 If you have used other languages, you will probably be familiar with the idea of passing arguments to a program via the command line. This post shows you how you can do it with java.

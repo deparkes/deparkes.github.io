@@ -17,8 +17,7 @@ tags:
 - mapping
 - maps
 - python
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2016/06/10/folium-map-tiles/"
 ---
 Using different map tiles can be a great way to change or improve the look of your map. This post shows you how to access <a href="https://pypi.python.org/pypi/folium">Folium </a>map tiles and switch between them.

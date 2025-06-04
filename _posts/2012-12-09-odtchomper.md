@@ -12,8 +12,7 @@ categories:
 - OOMMF
 - python
 tags: []
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2012/12/09/odtchomper/"
 ---
 I've made a command line interface for the excellent odtchomp, part of <a href="https://math.nist.gov/oommf/contrib/" title="OOMMFTools" target="_blank">OOMMFTools</a>. 

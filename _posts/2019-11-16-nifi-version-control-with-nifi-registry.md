@@ -18,8 +18,7 @@ tags:
 - nifi registry
 - workflow tool
 - zookeeper
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2019/11/16/nifi-version-control-with-nifi-registry/"
 ---
 NiFi is a tool designed to support the flow of data between software systems. This post shows how you can achieve NiFi version control with NiFi Register and docker.

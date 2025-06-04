@@ -13,8 +13,7 @@ tags:
 - automatic output
 - oommf
 - scripting
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/02/05/oommf-automatic-output/"
 ---
 To set OOMMF automatic output, just add lines similar to these to the bottom of your mif file.

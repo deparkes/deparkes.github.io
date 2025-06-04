@@ -16,8 +16,7 @@ tags:
 - python
 - requests
 - webscraping
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2021/12/30/python-web-scraping/"
 ---
 <a href="https://en.wikipedia.org/wiki/Web_scraping">Web scraping</a> is the process of automatically identifying and downloading data from a webpage. This blog post looks a a few python web scraping options.

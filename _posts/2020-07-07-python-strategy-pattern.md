@@ -14,8 +14,7 @@ tags:
 - pattern
 - python
 - strategy
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2020/07/07/python-strategy-pattern/"
 ---
 The strategy pattern is all about being able to swap complex functionality in and out, without needing to change large amounts of code. This post summarises the strategy pattern in python. Formal, traditional <a href="https://www.toptal.com/python/python-design-patterns">design patterns</a> are not found in python as often as in other languages such as C# or Java. It can still help to know the general principles and when to look out for opportunities to use them.

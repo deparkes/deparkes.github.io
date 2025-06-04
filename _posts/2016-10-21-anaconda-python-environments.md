@@ -14,8 +14,7 @@ tags:
 - conda
 - python
 - virtual env
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2016/10/21/anaconda-python-environments/"
 ---
 Have multiple versions of Python on the same system with <a href="https://www.continuum.io/downloads">Anaconda P</a>ython environments. It can be good to have multiple versions of python on the same system for testing, development, or just to use packages only available in <a href="https://www.python.org/download/releases/2.7/">Python 2.7</a>. If you try to do a conventional install of multiple python versions, you will probably have problems with compatability and conflict between the versions. To get around this you can use Anaconda Python environments to manage your different python versions.

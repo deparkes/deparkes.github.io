@@ -12,8 +12,7 @@ categories:
 tags:
 - export
 - gds
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/03/17/l-edit-export-gds-file-how-to/"
 ---
 <h1>L-Edit How to Export a GDS File</h1>

@@ -14,8 +14,7 @@ tags:
 - qa
 - software engineering
 - testing
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2020/07/09/elements-of-software-testing/"
 ---
 Software testing is an important part of software development, this post has a few points to consider when developing tests for your own software.

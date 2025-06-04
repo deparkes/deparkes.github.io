@@ -18,8 +18,7 @@ tags:
 - gis
 - mapping
 - python
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2016/05/13/python-leaflet-map-folium/"
 ---
 <a href="https://leafletjs.com/">Leaflet </a>is a powerful Javascript library for interactive maps. I've wanted to have a go at using Leaflet for a while, but learning Javascript for just one library seemed over the top. Thankfully I've recently found <a href="https://pypi.python.org/pypi/folium">Folium </a>- a python package that makes it easy to produce a Python Leaflet map.

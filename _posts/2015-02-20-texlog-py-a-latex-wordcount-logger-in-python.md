@@ -15,8 +15,7 @@ tags:
 - scripting
 - software
 - writing
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/02/20/texlog-py-a-latex-wordcount-logger-in-python/"
 ---
 <h1>Log your wordcount in Latex</h1>

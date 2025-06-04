@@ -14,8 +14,7 @@ tags:
 - image processing
 - imagemagick
 - images
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/03/16/useful-imagemagick-commands/"
 ---
 <a href="https://www.imagemagick.org/">Imagemagick </a>is a command-line based image processing suite. It's hugely powerful with all kinds of <a href="https://www.imagemagick.org/script/examples.php">functions and features</a>, and I can never quite remember how to use my favourite commands.

@@ -17,8 +17,7 @@ tags:
 - markdown
 - regex
 - sed
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2021/12/22/markdown-contents-table/"
 ---
 The original inspiration for this post is <a href="https://medium.com/@acrodriguez/one-liner-to-generate-a-markdown-toc-f5292112fd14">this medium post</a> which shows how a single (long) command can generate a markdown contents table for GitHub. The command is specifically for GitHub as it relies on the auto-generated links that the site makes, rather than needing to add links manually.

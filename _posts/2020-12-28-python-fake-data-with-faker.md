@@ -15,8 +15,7 @@ tags:
 - fake data
 - programming
 - python
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2020/12/28/python-fake-data-with-faker/"
 ---
 Fake data can be invaluable for testing or demonstrating behaviour without using live, production data. This lets you protect your production data or help you get started when you don't yet have a production system set up. This post gives an overview of the Python fake data package <a href="https://faker.readthedocs.io/en/stable/">faker</a>, which is invaluable for generating this data.

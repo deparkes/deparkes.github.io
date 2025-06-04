@@ -12,8 +12,7 @@ categories:
 tags:
 - data
 - plotting
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/04/23/how-to-create-origin-subplots/"
 ---
 <h1>How to Create Subplots in Origin</h1>

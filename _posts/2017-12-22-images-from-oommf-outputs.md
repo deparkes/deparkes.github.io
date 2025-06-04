@@ -13,8 +13,7 @@ tags:
 - bitmap
 - images
 - oommf
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2017/12/22/images-from-oommf-outputs/"
 ---
 Once you have <a href="{{site.baseurl}}/2014/05/18/oommf-tutorial-part-1-install-oommf-and-tcltk/">installed OOMMF</a>, and <a href="{{site.baseurl}}/2014/05/22/oommf-tutorial-part-2-running-oommf/">ran some simulations</a>, you will at some point probably want to produce some images of your simulation outputs. It's not obvious how to do this, so this post explains how you can make images from oommf outputs using the command line tool 'avf2ppm' that comes with OOMMF.

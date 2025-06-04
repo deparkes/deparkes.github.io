@@ -13,8 +13,7 @@ categories:
 tags:
 - labtalk
 - origin
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2013/04/18/labtalk-plotting-in-origin/"
 ---
 Useful link for scripting the plotting of data in Origin.

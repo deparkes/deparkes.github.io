@@ -21,8 +21,7 @@ tags:
 - sensor
 - sql
 - visualisation
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2022/06/28/raspberry-pi-carbon-dioxide-monitor/"
 ---
 This post shows how to make a Raspberry Pi Carbon Dioxide Monitor using a raspberry pi connected to a USB carbon dioxide monitor. The project is deliberately bare bones and leaves several opportunities for refinement, improvement and general tinkering.

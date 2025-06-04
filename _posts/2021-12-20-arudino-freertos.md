@@ -18,8 +18,7 @@ tags:
 - python
 - rtos
 - usb
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2021/12/20/arudino-freertos/"
 ---
 I was interested to follow <a href="https://feilipu.me/2015/11/24/arduino_freertos/">this guide</a> to doing an Arduino FreeRTOS install. It's a good tutorial and my post here just adds a few more notes around areas that didn't immediately make sense to me.

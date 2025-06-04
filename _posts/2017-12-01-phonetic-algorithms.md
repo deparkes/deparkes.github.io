@@ -14,8 +14,7 @@ tags:
 - Phonetic Algorithms
 - soundex
 - string match
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2017/12/01/phonetic-algorithms/"
 ---
 Phonetic algorithms assist in comparing and matching words by their pronunciation, rather than just their spelling. Early phonetic algorithms were introduced to help <a href="https://www.census.gov/history/www/genealogy/decennial_census_records/soundex_1.html">analyse US census data</a>. Phonetic algorithms and other '<a href="https://en.wikipedia.org/wiki/Approximate_string_matching">fuzzy matching</a>' techniques have since played an essential part in many activities including <a href="https://www.sajari.com/search/synonyms">spelling correction</a>, <a href="https://www.datasciencecentral.com/profiles/blogs/fuzzy-matching-algorithms-to-help-data-scientists-match-similar">database record linkage</a> and <a href="https://stackoverflow.com/questions/12239236/google-fuzzy-search-a-k-a-suggestions-what-techniques-are-in-use">search recommendations</a>. This post looks at how phonetic algorithms works, their limitations, and some alternatives.

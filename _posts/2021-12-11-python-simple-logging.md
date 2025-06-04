@@ -14,8 +14,7 @@ tags:
 - python
 - simple
 - software
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2021/12/11/python-simple-logging/"
 ---
 There are lots of options for logging in python. In this post I wanted to write down one way to do python simple logging. This method should be fairly flexible across different

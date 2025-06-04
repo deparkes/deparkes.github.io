@@ -13,8 +13,7 @@ categories:
 tags:
 - logging
 - python
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2017/02/17/simple-python-logging/"
 ---
 Logging can offer much <a href="https://stackoverflow.com/questions/6918493/in-python-why-use-logging-instead-of-print">more flexibility</a> than simply printing a message to the console but it can be difficult to know where to start. This post looks a some examples of simple python logging to get you started.

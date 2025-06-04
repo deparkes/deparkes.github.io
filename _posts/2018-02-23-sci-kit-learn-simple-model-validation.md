@@ -14,8 +14,7 @@ tags:
 - python
 - sci-kit learn
 - sklearn
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2018/02/23/sci-kit-learn-simple-model-validation/"
 ---
 Making predictions is easy, but getting them right is difficult. An essential part of predictive analytics is model validation - checking the quality of predictions. Those post looks at a simple model validation technique you can use with your machine learning models.

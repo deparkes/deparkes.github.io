@@ -17,8 +17,7 @@ tags:
 - history
 - wargaming
 - ww2
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2022/09/05/wargaming-campaigns/"
 ---
 Playing wargames as part of a campaign is a good way to make them more interesting and compelling. Setting up wargaming campaigns can seem intimidating, but thankfully there are some standard approaches that can be used.

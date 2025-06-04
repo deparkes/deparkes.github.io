@@ -14,8 +14,7 @@ tags:
 - ecp
 - fabrication
 - gds
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/03/11/gds-endel-error/"
 ---
 <h1>How to Get Around the Missing ENDEL Error in ECP</h1>

@@ -13,8 +13,7 @@ tags:
 - downloads
 - project management
 - time management
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2014/10/04/time-boxing-spreadsheet/"
 ---
 <h1>About a time management technique</h1>

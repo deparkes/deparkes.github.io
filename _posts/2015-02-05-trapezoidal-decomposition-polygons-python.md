@@ -15,8 +15,7 @@ tags:
 - polygons
 - python
 - Trapezoidal decomposition
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/02/05/trapezoidal-decomposition-polygons-python/"
 ---
 <h1>Trapezoidal Decomposition</h1>

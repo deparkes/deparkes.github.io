@@ -14,8 +14,7 @@ tags:
 - mapping
 - maps
 - qgis
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2022/09/25/extract-data-from-maps-qgis/"
 ---
 In this blog post I'll show you how to extract data from maps using QGIS to georeference a map image and identify data points.

@@ -15,8 +15,7 @@ tags:
 - lorentz
 - python
 - ww2
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2021/07/23/python-lorentz-cipher/"
 ---
 The Lorentz cipher was a code used by Germany in the second world war. In this post I wanted to explore the general ideas behind it and see if I could implement a simple Python Lorentz Cipher. I'm not trying to create an exact simulation of the Lorentz cipher here. For a python lorentz cipher simulation suggest you check out <a href="https://github.com/RealGrep/lorenz-cipher-sim">this project on github</a> or if you would like to see a more graphical simulation, <a href="https://lorenz.virtualcolossus.co.uk/LorenzSZ/">this project.</a>

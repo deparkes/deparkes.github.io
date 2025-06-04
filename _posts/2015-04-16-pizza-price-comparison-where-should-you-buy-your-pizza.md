@@ -16,8 +16,7 @@ tags:
 - pizza
 - price comparison
 - visualisation
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/04/16/pizza-price-comparison-where-should-you-buy-your-pizza/"
 ---
 <h1>Pizza Price Comparison - Where Should You Buy Your Pizza?</h1>

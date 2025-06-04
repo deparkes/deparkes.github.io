@@ -14,8 +14,7 @@ tags:
 - featured
 - oommf
 - organisation
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2013/06/25/organising-computational-projects/"
 ---
 As computational projects grow the folder structure of scripts, configuration files and outputs can often become bloated and confused. You can help prevent this by spending some time early on to get the folder structure right.

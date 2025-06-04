@@ -14,8 +14,7 @@ tags:
 - gds
 - geometry
 - polygons
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/03/10/convert-from-gds-to-linearring/"
 ---
 <h1>Convert From GDS to LinearRing</h1>

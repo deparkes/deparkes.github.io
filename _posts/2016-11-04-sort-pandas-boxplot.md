@@ -16,8 +16,7 @@ tags:
 - pandas
 - python
 - visualisation
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2016/11/04/sort-pandas-boxplot/"
 ---
 <strong>Make pandas boxplots more readable by sorting</strong>. Plotting with pandas dataframes usually works well, and makes it easy explore and visualise data. With simple pandas code like this:

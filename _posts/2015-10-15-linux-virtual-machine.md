@@ -13,8 +13,7 @@ categories:
 tags:
 - linux
 - virtual machine
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/10/15/linux-virtual-machine/"
 ---
 This post shows you how to set up a virtual machine so you can try out Linux without having to do a full install on your physical system.

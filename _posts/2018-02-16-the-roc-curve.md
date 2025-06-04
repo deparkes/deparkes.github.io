@@ -15,8 +15,7 @@ tags:
 - machine learning
 - metrics
 - roc curve
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2018/02/16/the-roc-curve/"
 ---
 The ROC Curve is a commonly used method for and evaluating the performance of <a href="{{site.baseurl}}/2018/02/02/scikit-learn-simple-classification/">classification</a> models. ROC curves use a combination the <a href="https://en.wikipedia.org/wiki/False_positive_rate">false positive rate</a> (i.e. occurrences that were predicted positive, but actually negative) and <a href="https://en.wikipedia.org/wiki/Sensitivity_and_specificity#Sensitivity">true positive rate</a> (i.e. occurrences that were correctly predicted) to build up a summary picture of the classification performance. ROC curves are widely used because they are relatively simple to understand and capture more than one aspect of the classification.

@@ -15,8 +15,7 @@ tags:
 - maps
 - qgis
 - world war 2
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/03/15/map-of-world-war-2-air-ferry-routes/"
 ---
 <h1>Map of World War 2 Air Ferry Routes</h1>

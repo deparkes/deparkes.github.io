@@ -15,8 +15,7 @@ tags:
 - messaging
 - pipes and filters
 - python
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2019/12/08/simple-python-pipes-and-filters/"
 ---
 Inspired by the <a href="https://www.enterpriseintegrationpatterns.com/index.html">Enterprise Integration</a> pattern of '<a href="https://www.enterpriseintegrationpatterns.com/patterns/messaging/PipesAndFilters.html">pipes and filters</a>' I wanted to make a simple python pipes and filters example. With some digging I found this <a href="https://github.com/lumannnn/pypifi">GitHub repository</a>, which does an excellent job breaking down the message-based approach to Object Oriented Programming described in a series of blog posts: <a href="https://eventuallyconsistent.net/2013/08/12/messaging-as-a-programming-model-part-1/">1</a>, <a href="https://eventuallyconsistent.net/2013/08/14/messaging-as-a-programming-model-part-2/">2</a>, <a href="https://eventuallyconsistent.net/2013/08/19/messaging-as-a-programming-model-revisited/">3</a>.

@@ -15,8 +15,7 @@ tags:
 - libre office
 - old files
 - works
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2022/07/23/how-to-open-wps-files/"
 ---
 <a href="https://en.wikipedia.org/wiki/Microsoft_Works">Microsoft works</a> word processor files had a file extension of ".wps". Works was last released in 2007 and unfortunately current versions of word <a href="https://en.wikipedia.org/wiki/Microsoft_Works#File_format_compatibility_and_other_issues">cannot open</a> old word processor wps files.

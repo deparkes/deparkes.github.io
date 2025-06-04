@@ -15,8 +15,7 @@ tags:
 - geometry
 - polygon
 - shapely
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/02/28/how-to-find-the-centre-of-a-polygon-in-python/"
 ---
 Finding the centre of of a polygon can be useful for many geomtrical analysis and processing techniques.

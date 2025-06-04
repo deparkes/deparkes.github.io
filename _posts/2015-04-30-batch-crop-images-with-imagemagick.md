@@ -12,8 +12,7 @@ categories:
 tags:
 - imagemagick
 - images
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/04/30/batch-crop-images-with-imagemagick/"
 ---
 

@@ -14,8 +14,7 @@ tags:
 - python
 - web app
 - web dev
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2020/11/01/simple-django-web-app/"
 ---
 <h2>A Simple Django Web App</h2>

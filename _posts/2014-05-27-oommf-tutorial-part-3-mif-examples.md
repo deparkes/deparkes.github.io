@@ -14,8 +14,7 @@ tags:
 - featured
 - oommf tutorial
 - oommf tutorial part 3
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2014/05/27/oommf-tutorial-part-3-mif-examples/"
 ---
 Part 3 of this getting started tutorial for OOMMF introduces mif problem files and some of the example files that come with OOMMF distributions.

@@ -15,8 +15,7 @@ tags:
 - code
 - improve
 - spyder
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/08/11/improve-your-python-code-with-pylint-2/"
 ---
 The myriad recommendations and requirements of the <a href="https://www.python.org/dev/peps/pep-0008/">Python Style Guide</a> can be bewildering and difficult to remember for the uninitiated.  <a href="https://www.pylint.org/">Pylint </a>is a Python application that analyses your code and suggests where you could make it more readable and more inline with the <a href="https://www.python.org/dev/peps/pep-0008/">Python style guide</a>.

@@ -14,8 +14,7 @@ tags:
 - docker-compose
 - NiFi
 - workflow
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2019/11/17/simple-nifi-dataflow/"
 ---
 This post shows a simple NiFi dataflow and tries to demonstrate some of the elements of creating a NiFi workflow including adding and connecting processors, attributes and properties. This simple NiFi dataflow takes files from an input directory and routes them to different folders depending on the file name.

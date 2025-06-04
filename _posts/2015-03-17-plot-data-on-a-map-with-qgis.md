@@ -14,8 +14,7 @@ tags:
 - map
 - plot
 - qgis
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/03/17/plot-data-on-a-map-with-qgis/"
 ---
 <h1>How To Plot Data On A Map With QGIS</h1>

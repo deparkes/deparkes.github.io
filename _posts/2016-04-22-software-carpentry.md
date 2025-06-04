@@ -17,8 +17,7 @@ tags:
 - programming
 - python
 - software carpentry
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2016/04/22/software-carpentry/"
 ---
 <a href="https://software-carpentry.org/">Software Carpentry </a>is a non-profit organisation that teaches computing, coding and programming skills to researchers using face-to-face and online courses. I've found <a href="https://software-carpentry.org/">Software Carpentry</a> to be very useful throughout my computing career and would definitely recommend it to anyone looking to gain a good understanding of computing principles.

@@ -15,8 +15,7 @@ tags:
 - generator
 - jobid
 - script
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/06/10/jobid-generator-script/"
 ---
 How you <a href="{{site.baseurl}}/2013/06/25/organising-computational-projects/">organise your computational projects</a> is important. If you're not  careful you can find yourself with hundreds of computer-hours worth of data,  without being exactly sure which parameters or scripts you used to generate it. One way to keep track of your scripts and your data is with a JOBID number, which you attach to records of input and output files, and lists of parameters you used for each job.

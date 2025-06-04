@@ -13,8 +13,7 @@ tags:
 - geography
 - maps
 - nodal points
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2022/12/02/nodal-points/"
 ---
 In geography a nodal point is the point at which different transport links come together. Nodal points are sometimes referred to as <a href="https://www.s-cool.co.uk/gcse/geography/settlements/revise-it/site-and-situation">route centres</a>.

@@ -16,8 +16,7 @@ tags:
 - mapping
 - maps
 - python
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2016/06/24/folium-marker-clusters/"
 ---
 Marker clusters can be a good way to simply a map containing many markers. When the map is zoomed out nearby markers are combined together into a cluster, which is separated out when the map zoom level is closer. In this post I show you how <a href="{{site.baseurl}}/2016/05/13/python-leaflet-map-folium/">Folium </a>marker clusters are easy to set up and use.

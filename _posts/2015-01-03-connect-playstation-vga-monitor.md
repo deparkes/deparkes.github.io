@@ -14,8 +14,7 @@ tags:
 - playstation
 - project
 - VGA
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/01/03/connect-playstation-vga-monitor/"
 ---
 Do want to play your Playstation 2, but only have a VGA monitor to hand?

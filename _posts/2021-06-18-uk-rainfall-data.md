@@ -18,8 +18,7 @@ tags:
 - processing
 - python
 - rainfall
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2021/06/18/uk-rainfall-data/"
 ---
 <h2>Historic UK Rainfall Data</h2>

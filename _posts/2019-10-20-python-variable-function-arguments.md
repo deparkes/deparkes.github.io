@@ -14,8 +14,7 @@ tags:
 - iterable
 - python
 - software engineering
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2019/10/20/python-variable-function-arguments/"
 ---
 Python variable function arguments are typically represented by the somewhat arcane-looking '*args' and '**kwargs' arguments in a function signature. Using python variable function arguments frees you from having to know in advance exactly how many arguments a function or method will take, which can be very useful.

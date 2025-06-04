@@ -12,8 +12,7 @@ categories:
 tags:
 - confidence intervals
 - statistics
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2020/07/10/what-are-confidence-intervals/"
 ---
 Confidence intervals are the range often provided alongside other statistics. As their name suggests, they somehow convey a degree of uncertainty in the statistic quoted, but what actually are confidence intervals? And how can we get an intuitive understanding of them?

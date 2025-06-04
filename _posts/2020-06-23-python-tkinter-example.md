@@ -18,8 +18,7 @@ tags:
 - tkinter
 - tutorial
 - UI
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2020/06/23/python-tkinter-example/"
 ---
 This post works through a simple example of creating a GUI in python using Tkinter. The python tkinter example goes through some simple things that a GUI would need to do such as creating new windows, text input, and labels.

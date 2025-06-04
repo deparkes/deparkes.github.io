@@ -14,8 +14,7 @@ tags:
 - synchronise
 - windows
 - windows 7
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/01/07/automatic-backup-synctoy/"
 ---
 <blockquote>"Backing up is easy, the hard part is remembering to do it" - a wise man</blockquote>

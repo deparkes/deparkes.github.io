@@ -14,8 +14,7 @@ tags:
 - Music
 - recording
 - studio
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/01/14/cheap-audio-recording-setup/"
 ---
 I do audio recording of voice and instruments, but not so much that I wanted to spend a ton of money. Here's the setup I use.

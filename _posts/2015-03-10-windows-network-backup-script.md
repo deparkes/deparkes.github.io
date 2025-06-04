@@ -12,8 +12,7 @@ categories:
 tags:
 - backup
 - windows
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/03/10/windows-network-backup-script/"
 ---
 A simple<strong> Network Backup Script</strong> for windows.

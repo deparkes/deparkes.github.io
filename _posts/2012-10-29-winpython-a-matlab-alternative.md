@@ -13,8 +13,7 @@ tags:
 - alternative
 - matlab
 - python
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2012/10/29/winpython-a-matlab-alternative/"
 ---
 <a href="{{site.baseurl}}/assets/2012/10/WinPython.png"><img class="size-full wp-image-575 alignleft" src="{{site.baseurl}}/assets/2012/10/WinPython.png" alt="WinPython" width="48" height="48"></a><a href="https://winpython.sourceforge.net/">Winpython </a>is a project which brings together a number of scientific python programs and modules. For me such programs are always going to struggling to become a complete alternative to Matlab (while I have access to a matlab license at least...).

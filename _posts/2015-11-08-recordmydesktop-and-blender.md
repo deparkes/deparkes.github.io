@@ -16,8 +16,7 @@ tags:
 - recordmydesktop
 - render
 - video editing
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/11/08/recordmydesktop-and-blender/"
 ---
 I've had a lot of problems with the rendered output video when using the ogv output from <a href="https://recordmydesktop.sourceforge.net/about.php">RecordMyDesktop </a>and <a href="https://www.blender.org/">Blender</a>. It would jump around and not always be in-sync with the audio. I tried a few things including converting the ogv file to different video formats, but nothing seemed to work consistently.

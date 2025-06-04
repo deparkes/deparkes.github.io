@@ -14,8 +14,7 @@ tags:
 - iterators
 - python
 - unpacking
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2018/02/09/python-unpacking-iterables/"
 ---
 Python iterables are lists, tuples, dictionaries and other similar objects - in other words things that can be <em>iterated</em> over. Python provides a way to 'unpack' these iterables which can be a useful shortcut in some situations. This post looks at unpacking iterables, and how it can also be used to make functions functions take a variable number of arguments.

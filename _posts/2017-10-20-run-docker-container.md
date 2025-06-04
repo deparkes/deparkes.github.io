@@ -14,8 +14,7 @@ tags:
 - docker
 - virtual machine
 - virtualisation
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2017/10/20/run-docker-container/"
 ---
 <a href="https://wp.me/p4DE9r-TQ">Docker containers</a> are used for lightweight system virtualisation. It's quite simple to run a docker container, but there is also a bewildering range of options for things you can do. In this post I've pulled together a few of the more common and useful ways to run a docker container.

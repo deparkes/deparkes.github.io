@@ -14,8 +14,7 @@ tags:
 - data analysis
 - plotting
 - visualisation
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/04/18/ggplot-for-python/"
 ---
 <h1>ggplot for Python</h1>

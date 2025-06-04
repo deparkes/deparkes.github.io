@@ -16,8 +16,7 @@ tags:
 - text to speech
 - tts
 - win32
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2017/06/30/python-text-speech/"
 ---
 Text to speech is a tool available in most operating systems, and helps people with reading and sight difficulties, or can be used as part of a '<a href="https://ggulati.wordpress.com/2016/02/24/coding-jarvis-in-python-3-in-2016/">Jarvis</a>' helper on your computer. Python has a few options for dealing with text to speech, generally in the form of wrappers for speech engines.

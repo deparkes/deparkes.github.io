@@ -14,8 +14,7 @@ tags:
 - geometry
 - install
 - shapely
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/01/29/install-shapely-on-anaconda/"
 ---
 <h1>How to Install Shapely on Anaconda (Windows)</h1>

@@ -13,8 +13,7 @@ tags:
 - data
 - python
 - python tips
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2014/11/23/how-to-load-data-into-python/"
 ---
 In this post we'll look at three different ways of how to load data into python. Loading date is the crucial first step before carrying out any data analysis or processing.

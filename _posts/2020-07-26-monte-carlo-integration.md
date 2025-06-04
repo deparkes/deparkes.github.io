@@ -14,8 +14,7 @@ tags:
 - mathematics
 - monte carlo
 - python
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2020/07/26/monte-carlo-integration/"
 ---
 <a href="https://en.wikipedia.org/wiki/Monte_Carlo_integration">Monte Carlo integration</a> uses random numbers to approximate the solutions to integrals. While not as sophisticated as some other <a href="https://en.wikipedia.org/wiki/Numerical_integration">numerical integration techniques</a>, Monte Carlo integration is still a valuable tool to have in your toolbox.

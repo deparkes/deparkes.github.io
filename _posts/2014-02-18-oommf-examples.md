@@ -18,8 +18,7 @@ tags:
 - problem
 - slides
 - tutorial
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2014/02/18/oommf-examples/"
 ---
 See my updated <a title="OOMMF Tutorial Part 3: mif Files and Examples" href="{{site.baseurl}}/2014/05/27/oommf-tutorial-part-3-mif-examples/">OOMMF examples</a> in my <a title="OOMMF Tutorial" href="{{site.baseurl}}/oommf/oommf-tutorial/">OOMMF Tutorial</a>.

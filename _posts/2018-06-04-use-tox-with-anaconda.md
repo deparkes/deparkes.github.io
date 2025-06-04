@@ -14,8 +14,7 @@ tags:
 - python
 - tox
 - virtualenv
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2018/06/04/use-tox-with-anaconda/"
 ---
 <a href="https://tox.readthedocs.io/en/latest/">Tox</a> is a tool for building and running a matrix of test environments. This is useful when, for example, you need to support several different versions of python. You don't want to have to manually run tests againsts each of your supported versions. This post shows you how you can use tox with anaconda.

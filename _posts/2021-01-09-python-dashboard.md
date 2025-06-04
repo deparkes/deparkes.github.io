@@ -15,8 +15,7 @@ tags:
 - datascience
 - python
 - visualisation
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2021/01/09/python-dashboard/"
 ---
 This post shows you how to make a python <a href="https://www.betterevaluation.org/en/evaluation-options/data_dashboard">dashboard</a> using dash. Dash <a href="https://dash.plotly.com/introduction">combines</a> the <a href="https://plotly.com/">plotly</a> plotting library with the <a href="https://en.wikipedia.org/wiki/Flask_%28web_framework%29">flask server</a> to host the dashboard.

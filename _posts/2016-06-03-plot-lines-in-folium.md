@@ -17,8 +17,7 @@ tags:
 - maps
 - python
 - visualisation
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2016/06/03/plot-lines-in-folium/"
 ---
 In this post I show you how to plot lines in <a href="https://wp.me/p4DE9r-FU">F</a><a href="https://wp.me/p4DE9r-FU">olium </a>- the python module for plotting leaflet maps.

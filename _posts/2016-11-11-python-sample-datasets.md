@@ -18,8 +18,7 @@ tags:
 - seaborn
 - sklearn
 - test data
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2016/11/11/python-sample-datasets/"
 ---
 Find out where to find sample datasets for playing with data in Python. If you're testing or validating a model or analysis for data science or machine learning, it can be useful to have some sample data to play with. R has the <a href="https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html">datasets package</a> which makes loading sample datasets easy, but it's not so obvious what to do in python - this post shows you some of the options.

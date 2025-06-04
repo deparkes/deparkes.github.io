@@ -13,8 +13,7 @@ categories:
 tags:
 - geometry
 - shapely
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/02/28/how-to-merge-polygons-in-python/"
 ---
 I've been working with the Shapely python package in python. This is a short guide for <strong>how to merge polygons in python</strong>.

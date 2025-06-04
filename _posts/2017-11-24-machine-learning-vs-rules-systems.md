@@ -15,8 +15,7 @@ tags:
 - data science
 - machine learning
 - rules engine
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2017/11/24/machine-learning-vs-rules-systems/"
 ---
 Machine learning and rules-based systems are widely used to make inferences from data. The two approaches have their <a href="https://www.forbes.com/sites/teradata/2015/12/15/data-science-machine-learning-vs-rules-based-systems/#41fab19d2119">strengths and weaknesses</a>, and it is useful to have a grasp of both. Although not as <a href="https://www.brianmadden.com/opinion/Machine-learning-hype-is-growing-but-theres-no-need-for-IT-to-worry">hyped </a>at the moment, <a href="https://tabbforum.com/opinions/6-big-trading-problems-that-are-easily-solved-with-a-rules-engine">rules-based systems do still have their place</a> and it is worth understanding the distinction between these methods and where they might be valuable. This post looks at machine learning and rule-based approaches and suggests which you may want to consider using.

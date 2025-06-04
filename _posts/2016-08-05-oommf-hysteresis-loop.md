@@ -16,8 +16,7 @@ tags:
 - oommf tutorial
 - zeeman
 - zeeman energy
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2016/08/05/oommf-hysteresis-loop/"
 ---
 In this post I show you how to simulate an OOMMF hysteresis loop. You can follow this tutorial with more or less any OOMMF oxsi mif file, but I will be using a version of the oxsi exchspring.mif example file that comes with OOMMF, modified to <a href="{{site.baseurl}}/2015/02/05/oommf-automatic-output/">automatically </a>display some outputs.

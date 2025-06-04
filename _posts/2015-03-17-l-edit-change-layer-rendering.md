@@ -12,8 +12,7 @@ categories:
 tags:
 - design
 - layout
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/03/17/l-edit-change-layer-rendering/"
 ---
 <h1>L-Edit Change Layer Rendering</h1>

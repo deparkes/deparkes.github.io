@@ -16,8 +16,7 @@ tags:
 - gis
 - mapping
 - sql
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2016/07/01/convert-postcode-coordinates/"
 ---
 It's common to have the <a href="https://en.wikipedia.org/wiki/Postcodes_in_the_United_Kingdom">postcode </a>of an address and need to plot this on a map. In this post I show you two options for how to convert postcode coordinates using an online tool or data available for free online.

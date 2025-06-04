@@ -14,8 +14,7 @@ tags:
 - design patterns
 - python
 - software engineering
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2020/06/21/command-pattern/"
 ---
 The <a href="https://en.wikipedia.org/wiki/Command_pattern">command pattern</a> bundles functionality into an object which can be passed around. This way the object can be executed when needed as a well defined command. In a sense a '<a href="https://en.wikipedia.org/wiki/Macro_(computer_science)">macro</a>' is an implementation of the command pattern: it abstracts more complex functionality into a single command or series of commands. This post shows a couple of ways to implement the command pattern in python.

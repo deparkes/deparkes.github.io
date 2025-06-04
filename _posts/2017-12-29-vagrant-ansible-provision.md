@@ -14,8 +14,7 @@ tags:
 - provision
 - vagrant
 - virtual machine
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2017/12/29/vagrant-ansible-provision/"
 ---
 <a href="https://www.vagrantup.com/">Vagrant</a> is able to provision its virtual machines in a number of ways, including using the '<a href="https://www.ansible.com/">ansible</a>' automation tool. This post looks at vagrant ansible provision and a simple example of how it could be used. As well as being a good tool for provisioning vagrant machines, using vagrant is also a good way to understand how ansible works.

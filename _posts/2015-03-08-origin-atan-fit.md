@@ -13,8 +13,7 @@ tags:
 - data
 - fitting
 - graph
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/03/08/origin-atan-fit/"
 ---
 One of the useful features of Origin is its ability to <strong>easily fit functions</strong> to data. Unfortunatly <strong>atan</strong> isn't one of the functions built in to origin.

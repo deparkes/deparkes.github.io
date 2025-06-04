@@ -18,8 +18,7 @@ tags:
 - sql
 - sqlite
 - sqlitestudio
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2016/06/17/sqlite-import-csv/"
 ---
 <a href="https://www.google.co.uk/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;uact=8&amp;ved=0ahUKEwinvrvYvNLMAhWIExoKHUi1DZ4QFggdMAA&amp;url=http%3A%2F%2Fsqlitestudio.pl%2F&amp;usg=AFQjCNGXtzg1D_-yLsc0-Grag_DKOaSV1A&amp;sig2=7AfG0vFS-35Sb1pvUZMtIA">SQLiteStudio </a>is a free SQLite database manager. In this post I show you the SQLite import csv steps for SQLiteStudio.

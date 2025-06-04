@@ -15,8 +15,7 @@ tags:
 - polygon
 - polygons
 - shapely
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/03/11/how-to-plot-polygons-in-python/"
 ---
 <h1>How to Plot Polygons In Python</h1>

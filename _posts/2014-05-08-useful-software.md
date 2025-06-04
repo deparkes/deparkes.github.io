@@ -14,8 +14,7 @@ tags:
 - list
 - software
 - useful
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2014/05/08/useful-software/"
 ---
 Just a list of software I find useful.

@@ -13,8 +13,7 @@ tags:
 - archaeology
 - data
 - open data
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2020/07/08/open-archaeology-data/"
 ---
 Archaeology can be an interesting source of data for projects or exploring analytical techniques. This post contains a few sources of open archeology data which you may wish to refer to.

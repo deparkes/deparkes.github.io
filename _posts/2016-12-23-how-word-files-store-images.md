@@ -16,8 +16,7 @@ tags:
 - unzip
 - word
 - xml
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2016/12/23/how-word-files-store-images/"
 ---
 With the Microsoft Word <a href="https://en.wikipedia.org/wiki/Office_Open_XML">Docx </a>format, it's quite easy to see how images are stored. Docx files have been the default Word format since Word 2007, and are an <a href="https://en.wikipedia.org/wiki/Office_Open_XML">open document format</a> based on <a href="https://en.wikipedia.org/wiki/XML">xml</a>. The docx file is a container for xml files relating to the structure and text of the file, as well as any objects or media used in the file.

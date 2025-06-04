@@ -17,8 +17,7 @@ tags:
 - graphs
 - plotting
 - story telling
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2021/10/02/data-storytelling/"
 ---
 Inspired by the <a href="https://www.storytellingwithdata.com/books">Storytelling With Data book</a> I wanted to try applying some of the techniques to some existing charts and graphs. In all the examples I have been limited in not having access to the original data, so re-plotting hasn’t really been possible. Instead, I have redrawn using <a href="https://inkscape.org/">Inkscape</a> or Excel and then focused on labels, <a href="https://daydreamingnumbers.com/blog/preattentive-attributes-example/">pre-attentive attributes</a> etc.

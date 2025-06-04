@@ -15,8 +15,7 @@ tags:
 - oommf tutorial
 - oommf tutorial part 4
 - tutorial
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2014/06/10/oommf-tutorial-part-4-oommf-analysis-tools/"
 ---
 When doing micromagnetic simulations it is easy to end up with hundreds of output files, so part four of this OOMMF Tutorial covers some of the tools available for analysing OOMMF data.  This list isn't exhaustive - if I've missed out your favourite - please leave a comment!

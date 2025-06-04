@@ -19,8 +19,7 @@ tags:
 - paas
 - web
 - webapp
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2018/05/28/deploy-docker-to-heroku/"
 ---
 <a href="https://www.heroku.com/">Heroku</a> is a 'platform as a service' (<a href="https://en.wikipedia.org/wiki/Platform_as_a_service">PaaS</a>) cloud provider. Heroku makes it easy to deploy apps by pushing to git repositories or using docker containers. This post shows you how you can deploy docker to Heroku.

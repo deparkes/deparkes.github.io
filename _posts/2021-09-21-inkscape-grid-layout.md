@@ -16,8 +16,7 @@ tags:
 - inkscape
 - layout
 - scribus
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2021/09/21/inkscape-grid-layout/"
 ---
 <a href="https://www.canva.com/learn/grid-design/">Grid layouts</a> are an important technique in graphic design. This blog post shows how you can make an <a href="https://inkscape.org/">Inkscape</a> grid layout using another open source publishing tool <a href="https://www.scribus.net/">Scribus</a>.

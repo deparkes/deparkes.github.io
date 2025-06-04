@@ -20,8 +20,7 @@ tags:
 - symbolic links
 - windows
 - windows 7
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2014/02/13/configuring-windows-7-ssh-server-with-cygwin/"
 ---
 <h1>How to set up a Windows ssh Server With Cygwin</h1>

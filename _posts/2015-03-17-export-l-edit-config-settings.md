@@ -14,8 +14,7 @@ tags:
 - design
 - export
 - layout
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/03/17/export-l-edit-config-settings/"
 ---
 <h1>Export L-Edit Config Settings</h1>

@@ -14,8 +14,7 @@ tags:
 - journal
 - logging
 - notepad
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/12/14/easy-notepad-journal/"
 ---
 <h3>In this post I show you how you can make easy notepad journal, using <a href="https://en.wikipedia.org/wiki/Notepad_%28software%29">Notepad.exe </a>- the default text editor for Windows.</h3>

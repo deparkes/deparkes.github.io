@@ -13,8 +13,7 @@ tags:
 - latex
 - latex thesis tips
 - template
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/05/18/latex-thesis-template/"
 ---
 <h1 class="attribution-info">Make Your Life Easier With a Latex Thesis Template</h1>

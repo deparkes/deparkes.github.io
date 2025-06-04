@@ -15,8 +15,7 @@ tags:
 - polar coordinates
 - radial coordinates
 - transformation
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2017/04/22/oommf-applied-field-polar-coordinates/"
 ---
 It is often more useful to think of applied field in terms of polar coordinates - with an angle and a magnitude. By default the Zeeman term in OOMMF takes inputs in cartesian coordinates - i.e. x, y and z components. In many situations this is fine, but there are times when polar coordinates make more sense - perhaps you are investigating the angle of the applied field . In this post I show you how you can represent an applied field in OOMMF using polar coordinates.

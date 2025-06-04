@@ -15,8 +15,7 @@ tags:
 - symbols
 - wargaming
 - ww2
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2022/09/05/ww2-unit-frontages/"
 ---
 The frontage of a unit is the length of the front line that a unit is responsible for. In this post I have summarised the approximate frontages for a range of world war two units, from a section of around 10 men up to a division of around 10,000 men.

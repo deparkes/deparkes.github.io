@@ -17,8 +17,7 @@ tags:
 - mapping
 - open data
 - public toilets
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2016/05/06/colchester-public-toilets/"
 ---
 Use this interactive map to find Colchester public toilets. There are some as far afield as Dedham and Mersea!

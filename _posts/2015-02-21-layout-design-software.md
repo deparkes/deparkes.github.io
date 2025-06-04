@@ -16,8 +16,7 @@ tags:
 - graphics
 - layout
 - software
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/02/21/layout-design-software/"
 ---
 I spend quite a bit of time designing, viewing and reviewing 2d layout designs for lithographic masks. When I first started I found it difficult to navigate the many different layout design software packages available, so I've put together this list of some of the electronic circuit and mask layout design software I'm familiar with.

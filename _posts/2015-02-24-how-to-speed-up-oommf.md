@@ -16,8 +16,7 @@ tags:
 - oommf guide
 - oommf tutorial
 - speed up
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/02/24/how-to-speed-up-oommf/"
 ---
 OOMMF can be incredibly useful for studying micromagnetic systems. Some calculations, however, can take an incredibly long time.

@@ -18,8 +18,7 @@ tags:
 - open source
 - powershell
 - video
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2020/07/05/convert-mov-to-mp4/"
 ---
 This post shows you how you can use the free ffmpeg tool to convert files: mov to mp4, either single files or whole folders. These days if you make a video with your phone or camera, the chances are it records it as an mp4. Older devices might store videos in mov format, which is not always compatible with modern software - particularly on windows machines.

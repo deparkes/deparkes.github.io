@@ -17,8 +17,7 @@ tags:
 - lxml
 - python
 - xml
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2016/12/16/python-xml-libraries/"
 ---
 <a href="https://en.wikipedia.org/wiki/XML">XML</a>, or Extensible Mark-up Language, is a set of rules for encoding data and documents in a way that is both human and machine readable. <a href="https://www.quora.com/What-are-some-practical-uses-of-XML">XML excels</a> where you need to transfer data between different systems, as there is almost always going to be an <a href="https://www.w3schools.com/xml/xml_parser.asp">XML parser</a> available. In this post I take a quick look at two Python XML libraries to help you work with XML data.

@@ -17,8 +17,7 @@ tags:
 - scipy
 - sklearn
 - statsmodels
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2016/11/18/python-linear-regression/"
 ---
 A few ways to do <a href="https://en.wikipedia.org/wiki/Ordinary_least_squares">linear regressions</a> on data in python. <a href="https://en.wikipedia.org/wiki/Ordinary_least_squares">Linear regression</a> is a simple and common technique for modelling the relationship between dependent and independent variables. This post gives you a few examples of Python linear regression libraries to help you analyse your data.

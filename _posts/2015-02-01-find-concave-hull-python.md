@@ -12,8 +12,7 @@ categories:
 tags:
 - geometry
 - python
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/02/01/find-concave-hull-python/"
 ---
 <h1>How to Find the Concave Hull in Python</h1>

@@ -16,8 +16,7 @@ tags:
 - linux mint
 - revtex
 - ubuntu
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2013/03/27/revtex4-1-in-ubuntu/"
 ---
 <h1>How to install revtex4-1 in Ubuntu...</h1>

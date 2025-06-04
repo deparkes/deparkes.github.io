@@ -15,8 +15,7 @@ tags:
 - firefox
 - plugin
 - sql
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2016/03/04/use-firefox-sqlite-manager/"
 ---
 With the <a href="https://addons.mozilla.org/en-GB/firefox/addon/sqlite-manager/">Firefox SQLite Manager Plugin</a> it's easy to view, update and export <a href="https://www.sqlite.org/">SQLite </a>databases. It's very easy to install Firefox SQLite Manager, but I found it wasn't obvious how to actually use it.

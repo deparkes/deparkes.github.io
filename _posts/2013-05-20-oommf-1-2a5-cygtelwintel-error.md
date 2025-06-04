@@ -17,8 +17,7 @@ tags:
 - issue
 - oommf
 - problem
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2013/05/20/oommf-1-2a5-cygtelwintel-error/"
 ---
 My windows installation of OOMMF 1.2a5 was giving an error* about my platform not being 'cygtel', and then failing to run.

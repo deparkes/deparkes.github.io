@@ -17,8 +17,7 @@ tags:
 - plotly
 - python
 - timeline
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2021/09/05/python-timeline-plot/"
 ---
 <a href="https://en.wikipedia.org/wiki/Timeline">Timelines</a> are a great way to present events in a chronological order. Timelines can be elaborate, bespoke graphics, but I wanted to see how to make a python timeline plot rather than making one by hand. The key benefit of creating the timeline in python rather than creating it by hand in a graphics tool means that entries can easily be added and extended without needing to redraw the timeline entirely.

@@ -17,8 +17,7 @@ tags:
 - kml
 - mapping
 - python
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2017/11/17/python-convert-kml-to-geojson-with-kml2geojson/"
 ---
 <a href="https://stackoverflow.com/questions/4262607/which-data-source-is-preferable-for-google-maps-kml-or-json">GeoJSON and KML</a> are formats for storing spatial information. KML files are commonly found with <a href="https://en.wikipedia.org/wiki/Google_Earth">Google Earth</a> type applications, so it can be useful to convert <a href="https://en.wikipedia.org/wiki/Keyhole_Markup_Language">KML </a>to <a href="https://en.wikipedia.org/wiki/GeoJSON">GeoJSON</a>.  The python library <a href="https://pypi.python.org/pypi/kml2geojson/4.0.2">kml2geojson </a>can be used to convert KML to GeoJSON. kml2geojson works as either a tool from the command line, or can be used as a library within other programs.

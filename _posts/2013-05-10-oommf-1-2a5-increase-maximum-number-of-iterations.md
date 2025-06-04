@@ -16,8 +16,7 @@ tags:
 - ovf
 - simulation
 - tcl
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2013/05/10/oommf-1-2a5-increase-maximum-number-of-iterations/"
 ---
 <h1>How to Increase OOMMF Iteration Limit</h1>

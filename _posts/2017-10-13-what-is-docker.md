@@ -14,8 +14,7 @@ tags:
 - docker
 - virtual machine
 - virtualisation
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2017/10/13/what-is-docker/"
 ---
 <h1>What is docker?</h1>

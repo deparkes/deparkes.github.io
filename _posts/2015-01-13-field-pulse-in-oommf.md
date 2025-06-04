@@ -15,8 +15,7 @@ tags:
 - oommf tips
 - oommf tutorial
 - tutorial
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/01/13/field-pulse-in-oommf/"
 ---
 <a href="{{site.baseurl}}/oommf/oommf-tutorial/">

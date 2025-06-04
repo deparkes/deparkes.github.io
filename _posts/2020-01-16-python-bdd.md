@@ -15,8 +15,7 @@ tags:
 - python
 - software engineering
 - testing
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2020/01/16/python-bdd/"
 ---
 Behaviour Driven Development, or <a href="https://en.wikipedia.org/wiki/Behavior-driven_development">BDD</a>, is a valuable collaboration technique for bridging the gap between developers and wider stakeholders. One part of BDD is the tools or frameworks that can be used to convert BDD statements into actual running tests. This post goes through a simple example using the pytest-bdd plugin.

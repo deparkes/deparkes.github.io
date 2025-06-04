@@ -12,8 +12,7 @@ categories:
 tags:
 - python
 - python tips
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2014/11/10/load-text-file-into-python/"
 ---
 <h1>Introduction</h1>

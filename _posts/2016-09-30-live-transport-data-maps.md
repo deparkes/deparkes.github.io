@@ -18,8 +18,7 @@ tags:
 - mapping
 - maps
 - visualisation
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2016/09/30/live-transport-data-maps/"
 ---
 Transport is one area where the wide availability of data has made a big difference in recent years. Google mapsis probably the most obvious example, but there are also some other cool projects out there. Here I've picked out some cool map and visualisation projects that use live transport data to visualise transport systems around the world. As well as being cool visualisations, these projects can be inspirations for your own projects, or even just useful for finding out when to get a train.

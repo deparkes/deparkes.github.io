@@ -16,8 +16,7 @@ tags:
 - oommf tutorial
 - oommf tutorial part 2
 - tutorial
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2014/05/22/oommf-tutorial-part-2-running-oommf/"
 ---
 <h1>Starting OOMMF</h1>

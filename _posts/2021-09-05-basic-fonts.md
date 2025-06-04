@@ -15,8 +15,7 @@ tags:
 - font
 - typeface
 - typography
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2021/09/05/basic-fonts/"
 ---
 The designer <a href="https://en.wikipedia.org/wiki/Massimo_Vignelli">Massimo Vignelli</a> once said that you only really need around<a href="https://fontsinuse.com/uses/14164/massimo-vignelli-s-a-few-basic-typefaces"> 6 fonts</a>. The logic of that approach is that rather than spending ages trying to find the 'perfect' font from all the thousands that are available, you focus on a reduced range of basic fonts. This creative constraint then gives you more space to think about your design as a whole. Or at least that's the general idea.

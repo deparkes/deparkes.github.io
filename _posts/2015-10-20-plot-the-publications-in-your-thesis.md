@@ -17,8 +17,7 @@ tags:
 - pandas
 - python
 - references
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/10/20/plot-the-publications-in-your-thesis/"
 ---
 <h1><strong>How recent are the references in your thesis or dissertation?</strong></h1>

@@ -17,8 +17,7 @@ tags:
 - streaming
 - wiki
 - wikimedia
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2020/07/02/wikipedia-data-stream/"
 ---
 <a href="https://aws.amazon.com/streaming-data/">Streaming data</a> is an important part of modern data processing. If you are just starting out, and perhaps don't yet work somewhere with access to a big data <a href="https://www.pcmag.com/news/inside-the-tech-that-powers-your-favorite-video-streaming-services">streaming infrastructure</a>, it can be hard to know where to start. This post talks you through a simple wikipedia data stream example from the wikimedia documentation.

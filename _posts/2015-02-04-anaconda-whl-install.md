@@ -15,8 +15,7 @@ tags:
 - pip
 - python
 - whl
-author:
-  display_name: deparkes
+author: deparkes
 permalink: "/2015/02/04/anaconda-whl-install/"
 ---
 <h1>Anaconda whl Install</h1>
