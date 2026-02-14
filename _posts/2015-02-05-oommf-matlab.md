@@ -20,7 +20,7 @@ OOMMF can output both <strong>scalar</strong> and <strong>vector</strong> data. 
 This post shows you how to <strong>convert OOMMF vector files</strong> into a format that you can import into matlab for further processing.
 <h1>Convert to a .mat file with OOMMFTools</h1>
 The first step to working with OOMMF files in matlab is to<strong> convert them into a '.mat' file</strong> that matlab can read.
-To do this I like to use the command line version of <a title="OOMMF Tutorial Part 4: OOMMF Analysis Tools" href="{{site.baseurl}}/2014/06/10/oommf-tutorial-part-4-oommf-analysis-tools/">OOMMFTools</a>.
+To do this I like to use the command line version of <a title="OOMMF Tutorial Part 4: OOMMF Analysis Tools" href="{{site.url}}/2014/06/10/oommf-tutorial-part-4-oommf-analysis-tools/">OOMMFTools</a>.
 With this we can just run
 ```bash
 omf2mat.py my_oommf_vector_file.omf
@@ -43,6 +43,6 @@ See the OOMMFTools <a href="https://github.com/deparkes/OOMMFTools/blob/master/O
 Once you have the data in this format, you can just use normal matlab array commands to access and manipulate the data.
 
 
-<a href="{{site.baseurl}}/oommf/oommf-tutorial/">
-<img class=" aligncenter" src="{{site.baseurl}}/assets/2015/02/OOMMF_tutorial.png" alt="OOMMF Tutorial" width="200" height="142" border="0">
+<a href="{{site.url}}/oommf/oommf-tutorial/">
+<img class=" aligncenter" src="{{site.url}}/assets/2015/02/OOMMF_tutorial.png" alt="OOMMF Tutorial" width="200" height="142" border="0">
 </a>

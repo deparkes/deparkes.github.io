@@ -18,7 +18,7 @@ author: deparkes
 permalink: "/2021/12/11/python-simple-logging/"
 ---
 There are lots of options for logging in python. In this post I wanted to write down one way to do python simple logging. This method should be fairly flexible across different
-<a href="{{site.baseurl}}/2017/02/17/simple-python-logging/">Read more about some more simple logging in python</a>
+<a href="{{site.url}}/2017/02/17/simple-python-logging/">Read more about some more simple logging in python</a>
 <h2>Some General Principles</h2>
 These aren't always going to be right, but you'll see these are the general principles I have used.
 <ul>

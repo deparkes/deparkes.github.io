@@ -32,6 +32,6 @@ Other details include:
 Using QGIS it's easy load the shapefiles to view and manipulate them.
 Here I've colour coded the regions according to foreign policy situation and labelled with the head of state at the time.
 
-| !["World War 2 Shapefiles]({{site.baseurl}}/assets/2015/03/ForeignPolicy_zoomed.png) |
+| !["World War 2 Shapefiles]({{site.url}}/assets/2015/03/ForeignPolicy_zoomed.png) |
 |:--:|
 | *World War 2 Shapefiles* |

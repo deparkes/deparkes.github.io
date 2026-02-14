@@ -29,7 +29,7 @@ I use a Behringer UFO202 which simply plugs into your computer by USB. The built
 
 If you've got your own pre-amp already, you might want to save a few pounds and go for the Behringer UCA202, which is essentially the same soundcard, but without the pre-amp.
 
-| ![The Behringer UFO202 is a cheap way to get reasonable digital recording quality]({{site.baseurl}}/assets/2015/01/BehringerUFO202-e1421266756497-300x156.jpg) |
+| ![The Behringer UFO202 is a cheap way to get reasonable digital recording quality]({{site.url}}/assets/2015/01/BehringerUFO202-e1421266756497-300x156.jpg) |
 |:--:|
 | *The Behringer UFO202 is a cheap way to get reasonable digital recording quality* |
 
@@ -37,7 +37,7 @@ If you've got your own pre-amp already, you might want to save a few pounds and 
 Your laptop probably already comes with a built in microphone, but for doing anything other than chat to your mum on Skype, it's worth getting dedicated one. The recording quality will be better, and you'll cut down on fan noise from your computer.
 I splurged on a reasonably good microphone - the Shure SM57, the. It's more aimed at instrument recording, but there's also a very similar model - the SM58 - aimed more at voice recording.
 
-| ![My Shure SM57 microphone is one of the pricier bits of kit in this recording set up.]({{site.baseurl}}/assets/2015/01/ShureSM57-e1421267552941-300x180.jpg) |
+| ![My Shure SM57 microphone is one of the pricier bits of kit in this recording set up.]({{site.url}}/assets/2015/01/ShureSM57-e1421267552941-300x180.jpg) |
 |:--:|
 | *My Shure SM57 microphone is one of the pricier bits of kit in this recording set up.* |
 
@@ -52,14 +52,14 @@ I went for these Sony MDR 7506 headphones.
 <h2>Audacity</h2>
 The final piece of the puzzle is some cheap (free) recording software. For this you don't need to go much further than <a href="https://audacity.sourceforge.net/">Audacity</a>, which does all you're likely to need including multitrack recording, noise reduction and track editing.
 
-| ![Audacity running on windows - It's also available on GNU/Linux and Mac OS X.]({{site.baseurl}}/assets/2015/01/audacity-windows-300x273.png) |
+| ![Audacity running on windows - It's also available on GNU/Linux and Mac OS X.]({{site.url}}/assets/2015/01/audacity-windows-300x273.png) |
 |:--:|
 | *Audacity running on windows - It's also available on GNU/Linux and Mac OS X.* |
 
 <h2>KXStudio</h2>
 If you're really serious about audio recording on a budget you should check out <a href="https://kxstudio.sourceforge.net/">KXStudio</a>, a linux distribution dedicated to sound recording, editing and processing.
 
-| ![KX Studio - A linux distribution dedicated to audio recording and editing.]({{site.baseurl}}/assets/2015/01/carla-2.0-beta3_lmms-plugin-300x160.png) |
+| ![KX Studio - A linux distribution dedicated to audio recording and editing.]({{site.url}}/assets/2015/01/carla-2.0-beta3_lmms-plugin-300x160.png) |
 |:--:|
 | *KX Studio - A linux distribution dedicated to audio recording and editing.* |
 

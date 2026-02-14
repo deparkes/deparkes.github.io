@@ -24,7 +24,7 @@ During the World War 2 air ferry routes were used to safely transport equipment,
 The wikipedia articles for the main routes didn't seem to have a map image, so I thought I'd have a go at making one myself.
 
 
-| ![Air Ferry Routes of World War II]({{site.baseurl}}/assets/2015/03/AirFerryRoutesOfWWII_small-1024x561.png) |
+| ![Air Ferry Routes of World War II]({{site.url}}/assets/2015/03/AirFerryRoutesOfWWII_small-1024x561.png) |
 |:--:|
 | *Air Ferry Routes of World War II* |
 
@@ -44,7 +44,7 @@ I saved each data table as a separate tab-delimited text file, from which I coul
 
 To set up the background world map to show the routes I followed <a href="https://www.qgistutorials.com/en/docs/making_a_map.html">this guide</a>
 
-| ![World War 2 Air Ferry Routes - QGIS]({{site.baseurl}}/assets/2015/03/QGIS_AirFerry-300x169.png) |
+| ![World War 2 Air Ferry Routes - QGIS]({{site.url}}/assets/2015/03/QGIS_AirFerry-300x169.png) |
 |:--:|
 | *World War 2 Air Ferry Routes - QGIS.* |
 
@@ -53,7 +53,7 @@ This tutorial uses the <a class="reference external" href="https://kelso.it/x/ne
 <h2>Load Coordinates into QGIS</h2>
 I just followed <a href="https://www.qgistutorials.com/en/docs/importing_spreadsheets_csv.html">this guide</a> to loading comma separated values. You go to <strong>Layers</strong> -&gt; <strong>Add Layer</strong> -&gt; <strong>Add Delimited Text Layer</strong>.
 
-| ![World War 2 Ferry Routes - Delimited Text File]({{site.baseurl}}/assets/2015/03/TextDelimitedFile-300x192.png) |
+| ![World War 2 Ferry Routes - Delimited Text File]({{site.url}}/assets/2015/03/TextDelimitedFile-300x192.png) |
 |:--:|
 | *World War 2 Ferry Routes - Delimited Text File.* |
 
@@ -65,6 +65,6 @@ Run by going to <strong>Vector</strong> -&gt; <strong>Points2One</strong> -&gt; 
 
 Select the points you want to use to form the vector, and select "Lines" to make a path, rather than a polygon.
 
-| ![World War 2 Air Ferry Routes - Points2One]({{site.baseurl}}/assets/2015/03/Points2One-221x300.png) |
+| ![World War 2 Air Ferry Routes - Points2One]({{site.url}}/assets/2015/03/Points2One-221x300.png) |
 |:--:|
 | *World War 2 Air Ferry Routes - Points2One* |

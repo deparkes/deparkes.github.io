@@ -26,17 +26,17 @@ Pylint takes much of the hard work out of using these conventions, by pointing o
 <li>Checking your code's line length</li>
 </ul>
 As you work through Pylint's list of suggestions it will update its 10-point evaluation to let you know how well-styled and readable your code is.
-<a href="{{site.baseurl}}/assets/2015/08/pylint-window.png">
+<a href="{{site.url}}/assets/2015/08/pylint-window.png">
 
 
-| ![improve your python code - pylint window]({{site.baseurl}}/assets/2015/08/pylint-window.png) |
+| ![improve your python code - pylint window]({{site.url}}/assets/2015/08/pylint-window.png) |
 |:--:|
 | *improve your python code - pylint window* |
 
 These are all things that we should ideally be keeping on top of as we go along, but of course we will always slip at some point. The more you use pylint, the more familiar you will become with the python style conventions, and before long you'll find you are writing much better and more readable code first time, without having to run pylint first.
 Pylint is <a href="https://www.pylint.org/#install">easy to install</a> and <a href="https://docs.pylint.org/ide-integration">readily integrated</a> into commonly used Python IDEs such as <a href="https://pythonhosted.org/spyder/">Spyder/</a><a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a>, <a href="https://www.pydev.org/">Eclipse/PyDev</a>, or <a href="https://www.jetbrains.com/pycharm/">PyCharm </a>so it's easy to use Pylint as you write.
-<a href="{{site.baseurl}}/assets/2015/08/pylint-in-spyder.png">
+<a href="{{site.url}}/assets/2015/08/pylint-in-spyder.png">
 
-| ![improve your python code - pylint in spyder]({{site.baseurl}}/assets/2015/08/pylint-in-spyder.png) |
+| ![improve your python code - pylint in spyder]({{site.url}}/assets/2015/08/pylint-in-spyder.png) |
 |:--:|
 | *improve your python code - pylint in spyder* |

@@ -33,13 +33,13 @@ Word Docx files are really just zipped up containers for a series of xml files, 
 <h2>Inside the docx/zip file you’ll find xml data</h2>
 Once you’ve unzipped the docx you’ll see something like this;
 
-| ![How Word Files Store Images - extracted docx]({{site.baseurl}}/assets/2016/12/Extracted_docx.png) |
+| ![How Word Files Store Images - extracted docx]({{site.url}}/assets/2016/12/Extracted_docx.png) |
 |:--:|
 | *How Word Files Store Images - extracted docx* |
 
 Open up the ‘word’ folder and you’ll find a series of files and folders.
 
-| ![How Word Files Store Images - inside word folder]({{site.baseurl}}/assets/2016/12/inside_word_folder.png) |
+| ![How Word Files Store Images - inside word folder]({{site.url}}/assets/2016/12/inside_word_folder.png) |
 |:--:|
 | *How Word Files Store Images - inside word folder* |
 
@@ -51,7 +51,7 @@ If all you need is the images from your docx file, then you can just copy them f
 <h2>There are two xml files that contain image information</h2>
 As an example I’ve made a simple docx file with an image and two lines of text.
 
-| ![How Word Files Store Images - test word file]({{site.baseurl}}/assets/2016/12/TestFileImage.png) |
+| ![How Word Files Store Images - test word file]({{site.url}}/assets/2016/12/TestFileImage.png) |
 |:--:|
 | *How Word Files Store Images - test word file* |
 
@@ -59,13 +59,13 @@ As an example I’ve made a simple docx file with an image and two lines of text
 <h3>Document.xml</h3>
 Within the ‘word’ folder in the unzipped docx document you’ll find document.xml which contains the structure of the document. Open this file up and you’ll see a series of ‘p’ – paragraph – elements which make up your document.
 
-| ![How Word Files Store Images - paragraphs]({{site.baseurl}}/assets/2016/12/ParagraphsInBody.png) |
+| ![How Word Files Store Images - paragraphs]({{site.url}}/assets/2016/12/ParagraphsInBody.png) |
 |:--:|
 | *How Word Files Store Images - paragraphs* |
 
 In my example document there are three p elements – one for each line of text and one for the image. In this case the image is the second of the paragraphs. We can explore the branches of this tree until we find “r:id” under “v:imagedata”.
 
-| ![How Word Files Store Images - paragraphs - image]({{site.baseurl}}/assets/2016/12/ImageID.png) |
+| ![How Word Files Store Images - paragraphs - image]({{site.url}}/assets/2016/12/ImageID.png) |
 |:--:|
 | *How Word Files Store Images - paragraphs - image* |
 
@@ -74,7 +74,7 @@ This r:id is important for using with ‘_rels’ – see relationships, below.
 As well as the document structure in Document.xml, there are also the links or relationships between the document and other files, such as themes, fonts or <em>images</em>. These links are stored in the “_rels” directory. This directory contains an xml file with relationships, or links which point to the location of files needed by Document.xml.
 Look through the list of relationships and you’ll find “Id”, “Type” and “Target” attributes. For images, the Target attribute points to the location of image in the ‘media’ folder.
 
-| ![Target]({{site.baseurl}}/assets/2016/12/ImageTarget.png) |
+| ![Target]({{site.url}}/assets/2016/12/ImageTarget.png) |
 |:--:|
 | *Target* |
 

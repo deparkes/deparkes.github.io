@@ -22,7 +22,7 @@ permalink: "/2016/11/18/python-linear-regression/"
 ---
 A few ways to do <a href="https://en.wikipedia.org/wiki/Ordinary_least_squares">linear regressions</a> on data in python. <a href="https://en.wikipedia.org/wiki/Ordinary_least_squares">Linear regression</a> is a simple and common technique for modelling the relationship between dependent and independent variables. This post gives you a few examples of Python linear regression libraries to help you analyse your data.
 Which method is best for  you will probably depend on exactly what you are doing. The scipy method is a bit more 'bare-bones'; the statsmodels method is part of an extensive "traditional" statistics module; while the sklearn approach would probably be best if you are working on a larger machine learning project.
-<h4><a href="{{site.baseurl}}/2016/11/11/python-sample-datasets/">Read more about how to load sample datasets into python</a></h4>
+<h4><a href="{{site.url}}/2016/11/11/python-sample-datasets/">Read more about how to load sample datasets into python</a></h4>
 <h1>Method 1: Scipy</h1>
 Scipy is a python analysis ecosystem that encapsulates a few different libraries such as <a href="https://www.numpy.org/">numpy </a>and <a href="https://matplotlib.org/">matplotlib</a>. Here I've picked out two approaches you could use: linregress and polyfit
 <h2>With linregress</h2>
@@ -56,7 +56,7 @@ plt.plot(iris["petal_length"], scipy_fitted_y_vals, color='black', linewidth=3)
 plt.show()
 ```
 
-| ![python linear regression - linregress]({{site.baseurl}}/assets/2016/11/red_dots.png) |
+| ![python linear regression - linregress]({{site.url}}/assets/2016/11/red_dots.png) |
 |:--:|
 | *python linear regression - linregress* |
 
@@ -74,7 +74,7 @@ plt.plot(iris["petal_length"], scipy_fitted_y2, color='black', linewidth=3)
 plt.show()
 ```
 
-| ![python linear regression - polyfit]({{site.baseurl}}/assets/2016/11/green_dots.png) |
+| ![python linear regression - polyfit]({{site.url}}/assets/2016/11/green_dots.png) |
 |:--:|
 | *python linear regression - polyfit* |
 
@@ -136,7 +136,7 @@ plt.plot(iris["petal_length"], results.predict(), color='black', linewidth=3)
 plt.show()
 ```
 
-| ![python linear regression - statsmodels]({{site.baseurl}}/assets/2016/11/yellow_dots.png) |
+| ![python linear regression - statsmodels]({{site.url}}/assets/2016/11/yellow_dots.png) |
 |:--:|
 | *python linear regression - statsmodels* |
 
@@ -162,6 +162,6 @@ plt.plot(x_data, regr.predict(x_data), color='black', linewidth=3)
 plt.show()
 ```
 
-| ![python linear regression - sklearn]({{site.baseurl}}/assets/2016/11/blue_dots.png) |
+| ![python linear regression - sklearn]({{site.url}}/assets/2016/11/blue_dots.png) |
 |:--:|
 | *python linear regression - sklearn* |

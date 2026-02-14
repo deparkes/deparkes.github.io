@@ -56,9 +56,9 @@ set theta 270
 set magnitude 500
 ```
 
-<a href="{{site.baseurl}}/2014/10/28/oommf-tutorial-part-6-oommf-scripting-python/">Read more about using variables in OOMMF</a>.
+<a href="{{site.url}}/2014/10/28/oommf-tutorial-part-6-oommf-scripting-python/">Read more about using variables in OOMMF</a>.
 Examples of outputs for different angles are set out below.
 
-| ![OOMMF Radial Applied Field]({{site.baseurl}}/assets/2017/04/radial_field_output_small.png) |
+| ![OOMMF Radial Applied Field]({{site.url}}/assets/2017/04/radial_field_output_small.png) |
 |:--:|
 | *OOMMF Radial Applied Field* |

@@ -27,7 +27,7 @@ All you have to do is put the line (note the upper case):
 ```
 into your text file, like so:
 
-| ![Journal with notepad]({{site.baseurl}}/assets/2015/12/Log1.png) |
+| ![Journal with notepad]({{site.url}}/assets/2015/12/Log1.png) |
 |:--:|
 | *Journal with notepad* |
 
@@ -36,14 +36,14 @@ The next time you open your file, notepad will put a date and time stamp at the 
 15:32 2014-12-11
 ```
 
-| ![Journal with notepad]({{site.baseurl}}/assets/2015/12/Log2.png) |
+| ![Journal with notepad]({{site.url}}/assets/2015/12/Log2.png) |
 |:--:|
 | *Journal with notepad* |
 
 <h1>Notepad will add a new timestamp each time you open your log</h1>
 When you re-open your (saved) log file, notepad will insert a new date/time stamp for this new entry.
 
-| ![Journal with notepad]({{site.baseurl}}/assets/2015/12/Log3.png) |
+| ![Journal with notepad]({{site.url}}/assets/2015/12/Log3.png) |
 |:--:|
 | *Journal with notepad* |
 

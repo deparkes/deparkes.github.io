@@ -79,13 +79,13 @@ We might also have added a 'finally' block. Code included in the finally block i
 <h1>Example Run</h1>
 Here is an example run of this program, using an 'incorrect' list of files. We start by running the program through a few times.
 
-| ![Initial run of FileLoadLoop.py. We have not yet noticed that our file list is incorrect]({{site.baseurl}}/assets/2014/11/Screenshot3.png) |
+| ![Initial run of FileLoadLoop.py. We have not yet noticed that our file list is incorrect]({{site.url}}/assets/2014/11/Screenshot3.png) |
 |:--:|
 | *Initial run of FileLoadLoop.py. We have not yet noticed that our file list is incorrect* |
 
-Oh, no! The file list is incorrect. We need to change it before the next iteration. We just open up FileList.txt in our <a title="Notepad2-mod for editing OOMMF Files" href="{{site.baseurl}}/2014/05/13/notepad2-mod-for-editing-oommf-files/">favourite text editor</a> and save it.
+Oh, no! The file list is incorrect. We need to change it before the next iteration. We just open up FileList.txt in our <a title="Notepad2-mod for editing OOMMF Files" href="{{site.url}}/2014/05/13/notepad2-mod-for-editing-oommf-files/">favourite text editor</a> and save it.
 
-| ![Elements in this list.]({{site.baseurl}}/assets/2014/11/Screenshot5.png) |
+| ![Elements in this list.]({{site.url}}/assets/2014/11/Screenshot5.png) |
 |:--:|
 | *After the mistake in the intial file list, we load up the new list. The script continues to work on the list elements.* |
 

@@ -17,7 +17,7 @@ tags:
 author: deparkes
 permalink: "/2020/01/25/immutable-objects/"
 ---
-Immutable objects are useful for making sure the data they contain cannot be changed after they are created. Immutable objects can be useful for <a href="{{site.baseurl}}/2019/12/08/simple-python-pipes-and-filters/">passing messages</a> between components, and when working with <a href="https://en.wikipedia.org/wiki/Thread_safety">multiple threads</a>. Immutable objects can also be easier to work with and reason about, because once they are created they cannot be changed. This post describes some of the immutable objects available in python.
+Immutable objects are useful for making sure the data they contain cannot be changed after they are created. Immutable objects can be useful for <a href="{{site.url}}/2019/12/08/simple-python-pipes-and-filters/">passing messages</a> between components, and when working with <a href="https://en.wikipedia.org/wiki/Thread_safety">multiple threads</a>. Immutable objects can also be easier to work with and reason about, because once they are created they cannot be changed. This post describes some of the immutable objects available in python.
 <h2>Immutable Objects In Python</h2>
 The important thing about <a href="https://en.wikipedia.org/wiki/Immutable_object">immutable objects</a> is that once they have been instantiated, they cannot be modified (or 'mutated', hence the name).
 In python, immutability can be <a href="https://realpython.com/courses/immutability-python/">slightly tricky</a> because it does not make a clear distinction between private and public attributes or methods in an object, making 'protecting' against mutation a challenge. There are thankfully some built in data types that you can use for immutability:

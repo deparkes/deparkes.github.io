@@ -22,7 +22,7 @@ The frontage of a unit is the length of the front line that a unit is responsibl
 <h2>WW2 Unit Frontages</h2>
 The summary of WW2 unit frontages is in the schematic below. There's not too much to highlight at this stage other than that the 'brigade' is included more for completeness, since by the Second World War, the brigade was falling out of use.
 
-| ![WW2 Unit Frontages - summary]({{site.baseurl}}/assets/2022/09/UnitSymbols.jpg) |
+| ![WW2 Unit Frontages - summary]({{site.url}}/assets/2022/09/UnitSymbols.jpg) |
 |:--:|
 | *WW2 Unit Frontages - summary* |
 
@@ -41,7 +41,7 @@ In a wartime scenario, the features indicated below could also have been altered
 For a section (around 10 men) I've identified a roughly 250m sized square. There is one major feature, a cemetery in this case, and some minor tracks or roads.
 An example of a real world engagement at this scale could be the D-Day <a href="https://en.wikipedia.org/wiki/Br%C3%A9court_Manor_Assault">assault at Brecourt Manor</a>.
 
-| ![WW2 Unit Frontages - Section]({{site.baseurl}}/assets/2022/09/EngagementSection.jpg) |
+| ![WW2 Unit Frontages - Section]({{site.url}}/assets/2022/09/EngagementSection.jpg) |
 |:--:|
 | *WW2 Unit Frontages - Section* |
 
@@ -49,7 +49,7 @@ An example of a real world engagement at this scale could be the D-Day <a href="
 Moving up to a platoon (around 30 men) this 500m square section shows that the cemetery is joined by the edge of some woods as well as a train line.
 A real battle illustrating engagements at this scale is the <a href="https://history.army.mil/books/wwii/smallunit/smallunit-smi.htm">battle for Santa Maria Infante</a>.
 
-| ![WW2 Unit Frontages - Platoon]({{site.baseurl}}/assets/2022/09/EngagementPlatoon.jpg) |
+| ![WW2 Unit Frontages - Platoon]({{site.url}}/assets/2022/09/EngagementPlatoon.jpg) |
 |:--:|
 | *WW2 Unit Frontages - Platoon* |
 
@@ -57,7 +57,7 @@ A real battle illustrating engagements at this scale is the <a href="https://his
 At the scale of a company (around 100 men) with a frontage of around 500m, this approximately 1km-sized map section shows a much richer range of features including the edge if a village, woods, train tracks and fields.
 An real world engagement at about this scale is the <a href="https://www.inthefootsteps.com/blog/tag/battle-of-foy/">assault on Foy</a> during the Battle of the Bulge.
 
-| ![WW2 Unit Frontages - Company]({{site.baseurl}}/assets/2022/09/EngagementCompany.jpg) |
+| ![WW2 Unit Frontages - Company]({{site.url}}/assets/2022/09/EngagementCompany.jpg) |
 |:--:|
 | *WW2 Unit Frontages - Company* |
 
@@ -65,7 +65,7 @@ An real world engagement at about this scale is the <a href="https://www.inthefo
 A battalion has around 500 men and a typical frontage of around 1500m. This roughly 4km square map section shows how at this size multiple villages are covered as well as more of the train track, a river and larger roads. There is also a large amount of open space and gentle hills.
 A real example of a battle at roughly this scale is t<span dir="ltr" role="presentation">he <a href="https://www.dday-overlord.com/en/battle-of-normandy/cities/bretteville-l-orgueilleuse">battle of Bretteville l’Orgueilleuse</a>, see also chapter 8 of <a href="https://www.armyupress.army.mil/Portals/7/combat-studies-institute/csi-books/the-last-100-yards-lsco-volume-9.pdf">The Last 100 Yards</a> [pdf]</span>
 
-| ![WW2 Unit Frontages - Battalion]({{site.baseurl}}/assets/2022/09/EngagementBattalion.jpg) |
+| ![WW2 Unit Frontages - Battalion]({{site.url}}/assets/2022/09/EngagementBattalion.jpg) |
 |:--:|
 | *WW2 Unit Frontages - Battalion* |
 
@@ -73,7 +73,7 @@ A real example of a battle at roughly this scale is t<span dir="ltr" role="prese
 A regiment has about 2000 men and a frontage of around 3km. The following 7km square map section illustrates the range of features that might be encountered such as multiple towns and villagers, networks of rivers or streams and undulating open countryside.
 A real world example of an engagement at this scale are the <a href="https://history.army.mil/books/wwii/winterline/winter-II.htm">battles for San Pietro</a>.
 
-| ![WW2 Unit Frontages - Regiment]({{site.baseurl}}/assets/2022/09/EngagementRegiment.jpg) |
+| ![WW2 Unit Frontages - Regiment]({{site.url}}/assets/2022/09/EngagementRegiment.jpg) |
 |:--:|
 | *WW2 Unit Frontages - Regiment* |
 
@@ -81,6 +81,6 @@ A real world example of an engagement at this scale are the <a href="https://his
 A division has around 10,000 men and is associated with a frontage of around 10km or so. This approximately 16km wide map section illustrates the range of features that might be encountered at this level such as a range of villages or towns of different sizes, more river and stream networks as well as roads and railways.
 A real battle on roughly this scale is the <a href="https://en.wikipedia.org/wiki/Battle_of_Carentan">Battle of Carentan</a>.
 
-| ![WW2 Unit Frontages - Division]({{site.baseurl}}/assets/2022/09/EngagementDivision.jpg) |
+| ![WW2 Unit Frontages - Division]({{site.url}}/assets/2022/09/EngagementDivision.jpg) |
 |:--:|
 | *WW2 Unit Frontages - Division* |

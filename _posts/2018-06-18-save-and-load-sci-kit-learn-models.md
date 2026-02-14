@@ -15,7 +15,7 @@ permalink: "/2018/06/18/save-and-load-sci-kit-learn-models/"
 ---
 Once you have trained a sci-kit learn model it is not obvious how you can deploy it and use it to score unseen data. This post shows you how to save and learn sci-kit learn models so you can execute it against unseen data.
 <h1>Train Your Model</h1>
-The first step is to train the model we want to deploy. In this example we will make a very simple model using the titanic data set. <a href="{{site.baseurl}}/2018/02/02/scikit-learn-simple-classification/">Read more about training a simple model with sci-kit learn.</a>
+The first step is to train the model we want to deploy. In this example we will make a very simple model using the titanic data set. <a href="{{site.url}}/2018/02/02/scikit-learn-simple-classification/">Read more about training a simple model with sci-kit learn.</a>
 
 ```python
 import pandas as pd

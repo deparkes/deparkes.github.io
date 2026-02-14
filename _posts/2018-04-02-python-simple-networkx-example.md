@@ -45,7 +45,7 @@ nx.draw(my_graph, with_labels=True, font_weight='bold')
 
 This will produce this output
 
-| ![Simple networkx example]({{site.baseurl}}/assets/2018/04/simple_graph.png) |
+| ![Simple networkx example]({{site.url}}/assets/2018/04/simple_graph.png) |
 |:--:|
 | *Simple networkx example* |
 

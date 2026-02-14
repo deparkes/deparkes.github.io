@@ -38,6 +38,6 @@ Which gives us a list containing the points of latitude and longitude, represent
 We can visualise our list of coordinates with <a href="https://wp.me/p4DE9r-FU">Folium </a>- check out the code for this map <a href="https://gist.github.com/deparkes/610b112f74eadbda663806ba8dd83069">here</a>.
 We can see that in this case the GPX coordinates represent movement around two areas of London.
 
-<iframe src="{{site.baseurl}}/assets/maps/gpx_example.html.1" name="FRAME2" width="450" height="400" frameborder="1"></iframe>
+<iframe src="{{site.url}}/assets/maps/gpx_example.html.1" name="FRAME2" width="450" height="400" frameborder="1"></iframe>
 
 <h3><a href="https://github.com/tkrajina/gpxpy">Find more examples on the gpxpy github page</a></h3>

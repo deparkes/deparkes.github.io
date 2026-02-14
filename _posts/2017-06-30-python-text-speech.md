@@ -34,7 +34,7 @@ The processing of text into speech is done by an 'engine'. Text to speech engine
 <strong>Wave form generation</strong>: the symbolic representation of speech is converted into sound.</li>
 </ol>
 
-| ![text to speech - speech engine]({{site.baseurl}}/assets/2017/06/800px-TTS_System.svg_.png) |
+| ![text to speech - speech engine]({{site.url}}/assets/2017/06/800px-TTS_System.svg_.png) |
 |:--:|
 | *text to speech - speech engine* |
 

@@ -19,7 +19,7 @@ permalink: "/2018/06/04/use-tox-with-anaconda/"
 ---
 <a href="https://tox.readthedocs.io/en/latest/">Tox</a> is a tool for building and running a matrix of test environments. This is useful when, for example, you need to support several different versions of python. You don't want to have to manually run tests againsts each of your supported versions. This post shows you how you can use tox with anaconda.
 
-If, <a href="{{site.baseurl}}/2016/10/21/anaconda-python-environments/">like me</a>, you like to use the anaconda python distribution, you will find that it is not obvious how you can incorporate Tox into your workflow. Tox relies on the concept of the virtualenv, and as an anaconda user, I am more familiar with creating and using <a href="https://conda.io/docs/user-guide/tasks/manage-environments.html">conda environments</a>. Tox does not currently support conda so we cannot just tell it to create conda environments rather than virtualenvs. Thankfully, it is possible to use anaconda to create the python versions that tox needs.
+If, <a href="{{site.url}}/2016/10/21/anaconda-python-environments/">like me</a>, you like to use the anaconda python distribution, you will find that it is not obvious how you can incorporate Tox into your workflow. Tox relies on the concept of the virtualenv, and as an anaconda user, I am more familiar with creating and using <a href="https://conda.io/docs/user-guide/tasks/manage-environments.html">conda environments</a>. Tox does not currently support conda so we cannot just tell it to create conda environments rather than virtualenvs. Thankfully, it is possible to use anaconda to create the python versions that tox needs.
 <h1>How Tox Works</h1>
 Tox is controlled via the 'tox.ini' file. This file tells tox which versions of python you are interested in, and the tests you would like to run for each version - the 'test environment'.
 
@@ -35,7 +35,7 @@ commands = pytest
 For each one of the python versions in 'envlist' Tox will create a 'virtualenv' - an isolated python environment.
 Without going into too much detail, a virtualenv creates a link to an existing python installation - e.g. C:\python 2.7 in windows or /usr/bin/python in Linux - and makes a new folder for installed modules. The virtualenv (with its link to an existing install) can sit inside a project folder.
 
-| ![Tox With Anaconda - virtualenv example]({{site.baseurl}}/assets/2018/06/virtual_env_example-213x300.png) |
+| ![Tox With Anaconda - virtualenv example]({{site.url}}/assets/2018/06/virtual_env_example-213x300.png) |
 |:--:|
 | *Tox With Anaconda - virtualenv example* |
 
@@ -54,7 +54,7 @@ local('C:\Program Files\ffmpeg\bin\ffmpeg.EXE')
 <h1>Tox With Anaconda</h1>
 We can use anaconda to manage the python installations (and other packages) that Tox needs to work. It might feel a bit unnatural at first to be using a virtualenv <em>within</em> a conda environment (it does to me anyway), but it does seem to get the job done.
 
-| ![Tox With Anaconda]({{site.baseurl}}/assets/2018/06/tox_and_virtualenv-300x251.png) |
+| ![Tox With Anaconda]({{site.url}}/assets/2018/06/tox_and_virtualenv-300x251.png) |
 |:--:|
 | *Tox With Anaconda* |
 

@@ -25,7 +25,7 @@ This post works through a simple example of creating a GUI in python using Tkint
 This isn't a tutorial as such, but instead I've tried to pick out a few of the basics of tkinter so that they are in one place. You can use this basic example as a starting point for more sophisiticated GUI applications.
 This example is available on <a href="https://github.com/deparkes/tkinter_example">github.</a>
 
-| ![tkinter example]({{site.baseurl}}/assets/2020/06/a_warning_message.png) |
+| ![tkinter example]({{site.url}}/assets/2020/06/a_warning_message.png) |
 |:--:|
 | *tkinter example* |
 
@@ -51,7 +51,7 @@ I have deliberately left out the less essential parts of the GUI design such as 
 <h3>Create The Main Window</h3>
 We're going to be making main window that looks like this - two buttons that open sub-windows, and a Help menu.
 
-| ![Main window]({{site.baseurl}}/assets/2020/06/main_window-1.png) |
+| ![Main window]({{site.url}}/assets/2020/06/main_window-1.png) |
 |:--:|
 | *Main window* |
 
@@ -79,13 +79,13 @@ At this stage the buttons won't do anything. We'll add that later.
 <h3>Add an 'About' box</h3>
 Next, we add an 'About' option to the 'Help' menu:
 
-| ![About menu]({{site.baseurl}}/assets/2020/06/about_menu.png) |
+| ![About menu]({{site.url}}/assets/2020/06/about_menu.png) |
 |:--:|
 | *About menu* |
 
 Clicking that 'About' option will create an 'About box'
 
-| ![About box]({{site.baseurl}}/assets/2020/06/about_box.png) |
+| ![About box]({{site.url}}/assets/2020/06/about_box.png) |
 |:--:|
 | *About box* |
 
@@ -157,21 +157,21 @@ def create_subwindow1():
 
 The resulting sub-window should look like this:
 
-| ![Sub-window]({{site.baseurl}}/assets/2020/06/functionality1_file_exists_checker.png) |
+| ![Sub-window]({{site.url}}/assets/2020/06/functionality1_file_exists_checker.png) |
 |:--:|
 | *Sub-window* |
 
 And the 'Not Yet Implemented' info message when we click on Functionality 2 comes up as this:
 
-| ![Not yet implemented info message]({{site.baseurl}}/assets/2020/06/functionality2_not_yet_implemented_window.png) |
+| ![Not yet implemented info message]({{site.url}}/assets/2020/06/functionality2_not_yet_implemented_window.png) |
 |:--:|
 | *Not yet implemented info message* |
 
 <h3>Add the Second Sub-window</h3>
 Finally we'll add the code for the second sub-window, although this time we are actually going to make a warning window.
-<img class="aligncenter size-full wp-image-4777" src="{{site.baseurl}}/assets/2020/06/a_warning_message.png" alt="" width="187" height="153">
+<img class="aligncenter size-full wp-image-4777" src="{{site.url}}/assets/2020/06/a_warning_message.png" alt="" width="187" height="153">
 
-| ![Not yet implemented info message]({{site.baseurl}}/assets/2020/06/functionality2_not_yet_implemented_window.png) |
+| ![Not yet implemented info message]({{site.url}}/assets/2020/06/functionality2_not_yet_implemented_window.png) |
 |:--:|
 | *Not yet implemented info message* |
 

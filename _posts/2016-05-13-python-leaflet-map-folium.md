@@ -26,7 +26,7 @@ permalink: "/2016/05/13/python-leaflet-map-folium/"
 Here's a simple example of the kind of map that is possible in Leaflet (taken from a <a href="https://wp.me/p4DE9r-FE">post</a> of mine). This example has a base layer of an
 <a href="https://www.openstreetmap.org/#map=5/51.500/-0.100">OpenStreetMap</a> map centred on Colchester in the UK. Overlaid on the map are some markers, which when you click on them reveal a label indicating the location of the marker (in this case public toilets).
 
-<iframe src="{{site.baseurl}}/assets/maps/colch_toilets.html" name="colch_toilets" width="450" height="400" frameborder="1"></iframe>
+<iframe src="{{site.url}}/assets/maps/colch_toilets.html" name="colch_toilets" width="450" height="400" frameborder="1"></iframe>
 
 Find out more about this map, and download the python code <a href="https://wp.me/p4DE9r-FE">here</a>.
 <h1>How to Install Folium</h1>
@@ -46,7 +46,7 @@ map_osm.save('london.html')
 
 which saves a map that looks a bit like this:
 
-<iframe src="{{site.baseurl}}/assets/maps/london.html" name="london" width="450" height="400" frameborder="1"></iframe>
+<iframe src="{{site.url}}/assets/maps/london.html" name="london" width="450" height="400" frameborder="1"></iframe>
 
 Visit the <a href="https://pypi.python.org/pypi/folium">Folium Getting Started guide</a> for more tips to get you going.
 <h1>Folium Features</h1>

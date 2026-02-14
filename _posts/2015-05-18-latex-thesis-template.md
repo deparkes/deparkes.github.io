@@ -24,7 +24,7 @@ For my thesis I used the Cambridge University Engineering Department (CUED) <a h
 <h2>1. Sensible Folder Structure</h2>
 If the template only came with a suggested thesis folder structure, I'd still be sold on it. The template folder is essentially a ready to go thesis build, where you just need to fill in the blanks to make your own thesis. Having a good folder structure from the start actually helps you think sensibly about how to layout the content of your thesis.
 
-| ![latex thesis template]({{site.baseurl}}/assets/2015/05/FolderStructure.png) |
+| ![latex thesis template]({{site.url}}/assets/2015/05/FolderStructure.png) |
 |:--:|
 | *latex thesis template* |
 

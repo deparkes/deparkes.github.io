@@ -23,7 +23,7 @@ This quick guide shows you how to make your own origin atan function.
 <h2>Create a New Function</h2>
 Select the data you wish to fit to and select <strong>Analysis</strong> -&gt; <strong>Non-linear Curve Fit</strong>. On the window that comes up, you'll need to click the "<strong>Create/Edit Fitting Function</strong>" button:
 
-| ![create new origin atan function]({{site.baseurl}}/assets/2015/03/NewFunction-180x300.png) |
+| ![create new origin atan function]({{site.url}}/assets/2015/03/NewFunction-180x300.png) |
 |:--:|
 | *Create a new origin atan function* |
 
@@ -31,7 +31,7 @@ Select the data you wish to fit to and select <strong>Analysis</strong> -&gt; <s
 In the "Fitting Function Organizer" click "New Function". Input the values as shown here:
 One thing to be sure of is that you have <strong>set the initial values</strong> for your fitting parameters:
 
-| ![Make origin atan function]({{site.baseurl}}/assets/2015/03/origin_atan-300x289.png) |
+| ![Make origin atan function]({{site.url}}/assets/2015/03/origin_atan-300x289.png) |
 |:--:|
 | *Make an origin atan function* |
 
@@ -45,7 +45,7 @@ To make sure that your function is behaving as you expect, you can simulate it b
 Make sure that you have saved the function first, as changes are not always automatically incorporated into the simulation.
 >Once you're happy that your function is correct, click 'ok' on the simulation window, and 'ok' on the simulation organizer. Save any changes.
 
-| ![simulate origin atan function]({{site.baseurl}}/assets/2015/03/simulate_atan-300x209.png) |
+| ![simulate origin atan function]({{site.url}}/assets/2015/03/simulate_atan-300x209.png) |
 |:--:|
 | *Simulate origin atan function* |
 
@@ -53,13 +53,13 @@ Make sure that you have saved the function first, as changes are not always auto
 If you're happy with the function in the simulation, you can fit your function to your data:
 
 
-| ![fit origin atan function]({{site.baseurl}}/assets/2015/03/Non-LinearFit-162x300.png) |
+| ![fit origin atan function]({{site.url}}/assets/2015/03/Non-LinearFit-162x300.png) |
 |:--:|
 | *Fit origin atan function* |
 
 <h2>View Your Fitted Data</h2>
 Fit using your new origin atan function, and plot on the same axes as your data:
 
-| ![Origin atan]({{site.baseurl}}/assets/2015/03/Graph1-300x210.png) |
+| ![Origin atan]({{site.url}}/assets/2015/03/Graph1-300x210.png) |
 |:--:|
 | *Origin atan* |

@@ -23,7 +23,7 @@ To explore the idea of 'pipes and filters' I wanted to work through an even more
 <h2>Simple Python Pipes and Filters</h2>
 In overview, we'll set up a 'Pipeline' class which holds a list of filters, and a method for executing the pipeline against a message provided.
 
-| ![Simple python pipes and filters - the filters mutate the dictionary message]({{site.baseurl}}/assets/2019/12/pipes-and-filters-schematic-1.png) |
+| ![Simple python pipes and filters - the filters mutate the dictionary message]({{site.url}}/assets/2019/12/pipes-and-filters-schematic-1.png) |
 |:--:|
 | *Simple python pipes and filters - the filters mutate the dictionary message* |
 

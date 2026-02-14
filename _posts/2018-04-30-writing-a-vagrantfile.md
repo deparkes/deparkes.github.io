@@ -18,9 +18,9 @@ tags:
 author: deparkes
 permalink: "/2018/04/30/writing-a-vagrantfile/"
 ---
-Vagrantfiles are used to configure vagrant virtual machines. This post goes a little beyond the <a href="{{site.baseurl}}/2018/01/12/basic-vagrant/">basics</a> of creating a Vagrantfile, and looks at some of the more advanced topics for writing a vagrantfile to make a more polished machine.
+Vagrantfiles are used to configure vagrant virtual machines. This post goes a little beyond the <a href="{{site.url}}/2018/01/12/basic-vagrant/">basics</a> of creating a Vagrantfile, and looks at some of the more advanced topics for writing a vagrantfile to make a more polished machine.
 
-I have posted before about how you can <a href="{{site.baseurl}}/2017/12/29/vagrant-ansible-provision/">provision your virtual machine</a> via the vagrantfile - for example set which packages should be installed when the machine is created. This post shows how you can also use the vagrantfile to define characteristics of the machine itself including custom machine names, memory and cpu, networking and shared folders.
+I have posted before about how you can <a href="{{site.url}}/2017/12/29/vagrant-ansible-provision/">provision your virtual machine</a> via the vagrantfile - for example set which packages should be installed when the machine is created. This post shows how you can also use the vagrantfile to define characteristics of the machine itself including custom machine names, memory and cpu, networking and shared folders.
 <h1>Naming the Vagrant Machine</h1>
 When you create a vagrant virtual machine you will see that vagrant has given the virtual machine a fairly generic name. This might be fine for in some cases, but you may also want to have more control over the virtual machine name. There are actually <a href="https://stackoverflow.com/questions/17845637/how-to-change-vagrant-default-machine-name">a</a> <a href="https://stackoverflow.com/questions/17845637/how-to-change-vagrant-default-machine-name">few different ways</a> to interpret the 'machine name':
 <ul>

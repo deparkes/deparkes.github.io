@@ -40,7 +40,7 @@ For <strong>appearance</strong> and ease of use I would recommend <strong>plotly
 Matplotlib is older than the other two libraries included in this blog post and also has less in the way of assistance for making particular charts. The absence of a simple template to start from means that the timeline graph must be assembled from multiple different concepts. This makes it useful for understanding exactly what is going on, but can make progress slower.
 The main benefit of matplotlib is its wide availability, so it is a useful library to know even just as a fall-back option.
 
-| ![python timeline plot - matplotlib example]({{site.baseurl}}/assets/2021/09/matplotlib_example.png) |
+| ![python timeline plot - matplotlib example]({{site.url}}/assets/2021/09/matplotlib_example.png) |
 |:--:|
 | *python timeline plot - matplotlib example* |
 
@@ -97,7 +97,7 @@ for index, row in source.sort_values(by='start').reset_index().iterrows():
 <h3>Altair</h3>
 <a href="https://altair-viz.github.io/getting_started/overview.html">Altair</a> is a more modern library than matplotlib, and does provide some more advanced templates which make creating the timeline plot easier.
 
-| ![python timeline plot - altair example]({{site.baseurl}}/assets/2021/09/altair_example.png) |
+| ![python timeline plot - altair example]({{site.url}}/assets/2021/09/altair_example.png) |
 |:--:|
 | *python timeline plot - altair example* |
 
@@ -145,7 +145,7 @@ text = bars.mark_text(
 <h3>Plotly</h3>
 The <a href="https://plotly.com/python/">plotly</a> library actually provides a module for creating timelines, which obviously makes it much easier to deal with than the other examples in this post. There are still some areas to watch out for or personalise, but generally speaking plotly makes it easy to go from no-plot, to plot.
 
-| ![python timeline plot - plotly example]({{site.baseurl}}/assets/2021/09/plotly_example.png) |
+| ![python timeline plot - plotly example]({{site.url}}/assets/2021/09/plotly_example.png) |
 |:--:|
 | *python timeline plot - plotly example* |
 

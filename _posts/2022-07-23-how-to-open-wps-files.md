@@ -25,7 +25,7 @@ You can just load up  your wps files in Libre Office and save as a .docx file o
 <h2>Or look into libwps</h2>
 The library used by LibreOffice is <a href="https://sourceforge.net/p/libwps/wiki/Home/">libwps</a>. You can download and use libwps locally or there is an <a href="https://libwps.sourceforge.net/convertWPS.html">online conversion tool</a> if you are happy to upload your files to the website.
 
-| ![use libwps online conversion tool for wps files]({{site.baseurl}}/assets/2022/07/libwps_online_tool.png) |
+| ![use libwps online conversion tool for wps files]({{site.url}}/assets/2022/07/libwps_online_tool.png) |
 |:--:|
 | *use libwps online conversion tool for wps files* |
 

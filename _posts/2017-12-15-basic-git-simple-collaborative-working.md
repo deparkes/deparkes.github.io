@@ -26,7 +26,7 @@ I'm assuming that there are three people working on a coding project (<a href="h
 
 A note on branching. Git has very <a href="https://www.atlassian.com/git/tutorials/using-branches">powerful branching capabilities</a>, but in this example I am going to simplify things so that the project only works on the single, 'master' branch. This is likely to be acceptable for many hobby-projects, and possibly some <a href="https://academy.realm.io/posts/360andev-savvas-dalkitsis-using-git-like-a-pro/">production projects too</a>.
 
-| ![basic git - collaborative project]({{site.baseurl}}/assets/2017/12/Git-basics-collaborative-project-1024x516.png) |
+| ![basic git - collaborative project]({{site.url}}/assets/2017/12/Git-basics-collaborative-project-1024x516.png) |
 |:--:|
 | *basic git - collaborative project* |
 
@@ -35,7 +35,7 @@ Git is designed to allow you to work offline, but still have access to a remote 
 
 The '<em>git clone</em>' command will create a folder inside the current directory. This folder will have the same name as the remote repository and will contain a local instance of it. This local repository will be configured to have the github repository as its 'origin' which means that Alice, Bob and Cyril can each push their changes to the central repository.
 
-| ![basic git - git clone]({{site.baseurl}}/assets/2017/12/Git-basics-git-clone-205x300.png) |
+| ![basic git - git clone]({{site.url}}/assets/2017/12/Git-basics-git-clone-205x300.png) |
 |:--:|
 | *basic git - git clone* |
 
@@ -57,7 +57,7 @@ git commit -m "Summary of changes in commit"
 
 To see which files git is aware of, and which it thinks have changed, you can use the command '<a href="https://www.atlassian.com/git/tutorials/inspecting-a-repository"><em>git status</em></a>'. This will tell you which files within the repository have changed since the last commit, and which are in the staging area (index).
 
-| ![basic git - repository areas]({{site.baseurl}}/assets/2017/12/Git-basics-local-repository-areas-242x300.png) |
+| ![basic git - repository areas]({{site.url}}/assets/2017/12/Git-basics-local-repository-areas-242x300.png) |
 |:--:|
 | *basic git - repository areas* |
 
@@ -70,7 +70,7 @@ Running <em>git status</em> also lets you know how your local repository compare
 
 Alice uses <em>git status</em> and sees that she is behind the remote origin by a few commits - Bob has already made a few changes. She will need to retrieve the changes in these commits to catch up. To retrieve the most recent version from the remote origin repository she needs to use <em>git pull</em>. The 'git pull' command retrieves the commits from the remote origin and merges them into Alice's local repository.
 
-| ![basic git - git pull]({{site.baseurl}}/assets/2017/12/Git-basics-git-pull-300x234.png) |
+| ![basic git - git pull]({{site.url}}/assets/2017/12/Git-basics-git-pull-300x234.png) |
 |:--:|
 | *basic git - git pull* |
 
@@ -94,7 +94,7 @@ Once Alice has made a number of changes to her local repository, she wants to ad
 There is a catch, however. Alice could have made changes that conflict with those that Bob or Cyril have made. It is the local repository that is designed to resolve any issues and conflicts, so before pushing to the remote origin, she needs to check that there are not any conflicts between it and her local repository. This is done by running . If this runs successfully then we can run git push to send our changes to the remote origin. Bob and Cyril can then pull these changes into their own local repositories and continue working with them.
 If the git pull reveals conflicts between our changed code and the remote repository, then we need to resolve those conflicts as in 'Dealing With Conflicts'. We can then push the resolved conflicts (which includes our changed code) to the remote repository.
 
-| ![basic git - pull and push]({{site.baseurl}}/assets/2017/12/Git-basics-git-pull-and-push-1024x436.png) |
+| ![basic git - pull and push]({{site.url}}/assets/2017/12/Git-basics-git-pull-and-push-1024x436.png) |
 |:--:|
 | *basic git - pull and push* |
 

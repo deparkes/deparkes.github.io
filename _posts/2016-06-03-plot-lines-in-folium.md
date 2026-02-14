@@ -29,7 +29,7 @@ folium.PolyLine(points).add_to(my_map)
 where "points" is a list of tuples containing latitude and longitude information, and "my_map" is a folium map object.
 By default this will give an output similar to:
 
-| ![default polyline]({{site.baseurl}}/assets/2016/06/default_polyline.png) |
+| ![default polyline]({{site.url}}/assets/2016/06/default_polyline.png) |
 |:--:|
 | *default polyline* |
 
@@ -40,7 +40,7 @@ We can alter the line properties (<strong>colour</strong>, <strong>weight</stron
 folium.PolyLine(points, color="red", weight=2.5, opacity=1).add_to(my_map)
 ```
 
-| ![Plot Lines In Folium - thin red line]({{site.baseurl}}/assets/2016/06/red_polyline.png) |
+| ![Plot Lines In Folium - thin red line]({{site.url}}/assets/2016/06/red_polyline.png) |
 |:--:|
 | *Plot Lines In Folium - thin red line* |
 
@@ -55,7 +55,7 @@ for each in points:
 folium.PolyLine(points, color="red", weight=2.5, opacity=1).add_to(my_map)
 ```
 
-| ![Plot Lines In Folium - line and markers]({{site.baseurl}}/assets/2016/06/red_with_marker_polyline.png) |
+| ![Plot Lines In Folium - line and markers]({{site.url}}/assets/2016/06/red_with_marker_polyline.png) |
 |:--:|
 | *Plot Lines In Folium - line and markers* |
 

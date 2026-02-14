@@ -64,7 +64,7 @@ To start with this simple NiFi dataflow example will just move any file placed i
 We'll use '<a href="https://nifi.apache.org/docs/nifi-docs/components/org.apache.nifi/nifi-standard-nar/1.5.0/org.apache.nifi.processors.standard.GetFile/index.html">getFile</a>' and '<a href="https://nifi.apache.org/docs/nifi-docs/components/org.apache.nifi/nifi-standard-nar/1.5.0/org.apache.nifi.processors.standard.PutFile/index.html">putFile</a>' processors to move a file between two locations.
 <a href="https://nifi.apache.org/docs/nifi-docs/html/user-guide.html#building-dataflow">Read the NiFi documentation on processors</a> if you are not sure about how to add one to a dataflow.
 
-| ![get file and put file]({{site.baseurl}}/assets/2019/11/1-GetFile-and-PutFile.png) |
+| ![get file and put file]({{site.url}}/assets/2019/11/1-GetFile-and-PutFile.png) |
 |:--:|
 | *get file and put file* |
 
@@ -72,7 +72,7 @@ The 'get File' and the 'put File' processors have been joined with a queue. To g
 <h4>GetFile Configuration</h4>
 For get file we need to specify the input directory. In this case it is the 'input' directory we created when we were setting up the example. If you haven't done this already, you need to make an 'input' directory in the same location as the 'docker-compose.yaml' you are using.
 
-| ![getfile properties]({{site.baseurl}}/assets/2019/11/2-getFile-properties.png) |
+| ![getfile properties]({{site.url}}/assets/2019/11/2-getFile-properties.png) |
 |:--:|
 | *getfile properties* |
 
@@ -80,7 +80,7 @@ For get file we need to specify the input directory. In this case it is the 'inp
 For the PutFile processor we need to specify where the files should be moved to. In this example we set it to an 'output' directory in the same location as the docker-compose file.
 The properties are also set to replace any files where there is a naming clash, and to create any missing output directories.
 
-| ![putfile configuration]({{site.baseurl}}/assets/2019/11/3-putFile-properties.png) |
+| ![putfile configuration]({{site.url}}/assets/2019/11/3-putFile-properties.png) |
 |:--:|
 | *putfile configuration* |
 
@@ -91,20 +91,20 @@ Right click on the background of the data flow and click 'Start' to make sure th
 To add some more sophistication to this simple NiFi dataflow, we will use the NiFi processor '<a href="https://nifi.apache.org/docs/nifi-docs/components/org.apache.nifi/nifi-standard-nar/1.6.0/org.apache.nifi.processors.standard.RouteOnAttribute/index.html">route on attribute</a> to route files differently depending on file name. We will route 'green files', 'red files' to different folders. We will also set up a default route for files which don't fit the either 'red' or 'green'.
 This is where we are headed:
 
-| ![Simple NiFi Dataflow - route on attribute]({{site.baseurl}}/assets/2019/11/4-More-route-red-and-green-files-differently.png) |
+| ![Simple NiFi Dataflow - route on attribute]({{site.url}}/assets/2019/11/4-More-route-red-and-green-files-differently.png) |
 |:--:|
 | *Simple NiFi Dataflow - route on attribute* |
 
 Using the Route on Attribute processor is a good example of where it is good to use the NiFi documentation to figure out what is going on. Searching for processors within NiFi can get you started, but it is not always obvious which is the right one to use, and how to correctly use it.
 To set the routing rules for the Route on Attribute processor, right click on it go to configuration -&gt; properties and click the plus symbol to add a new property.
 
-| ![route on attribute properties]({{site.baseurl}}/assets/2019/11/5-route-on-attribute-properties.png) |
+| ![route on attribute properties]({{site.url}}/assets/2019/11/5-route-on-attribute-properties.png) |
 |:--:|
 | *route on attribute properties* |
 
 The 'value' here is pretty much lifted straight from the <a href="https://nifi.apache.org/docs/nifi-docs/components/org.apache.nifi/nifi-standard-nar/1.6.0/org.apache.nifi.processors.standard.RouteOnAttribute/additionalDetails.html">NiFi documentation for Route on Attribute</a>. In this example each routing option is connected up to its own 'PutFile' processor, which is in turn configured to send the file to an appropriate directory.
 
-| ![Examples of connections available]({{site.baseurl}}/assets/2019/11/6-Example-of-connections.png) |
+| ![Examples of connections available]({{site.url}}/assets/2019/11/6-Example-of-connections.png) |
 |:--:|
 | *Examples of connections available* |
 

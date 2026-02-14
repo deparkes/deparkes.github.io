@@ -19,7 +19,7 @@ tags:
 author: deparkes
 permalink: "/2015/06/30/latex-thesis-publications-list/"
 ---
-If you're writing a large document like a <a href="{{site.baseurl}}/2015/05/20/thesis-writing-tips/">thesis </a>or a dissertation, Latex is probably the tool for the job. In this post I use the <a href="https://www.ctan.org/pkg/natbib?lang=en">natbib </a>and <a href="https://www.ctan.org/pkg/bibunits?lang=en">bibunits </a>packages to insert a list of your publications into your thesis.
+If you're writing a large document like a <a href="{{site.url}}/2015/05/20/thesis-writing-tips/">thesis </a>or a dissertation, Latex is probably the tool for the job. In this post I use the <a href="https://www.ctan.org/pkg/natbib?lang=en">natbib </a>and <a href="https://www.ctan.org/pkg/bibunits?lang=en">bibunits </a>packages to insert a list of your publications into your thesis.
 
 <h1>Step 1. Set up Your Tex File</h1>
 First of all we need to sort out the tex file. We're going to split up the tex file into two bibliography sections using the <a href="https://www.ctan.org/pkg/bibunits?lang=en">bibunits </a>package.
@@ -42,7 +42,7 @@ In the simplest case, we just need something like this, which looks for a biblio
 Which produces an output very similar to the standard references section, only in the position given by the \putbib{} command.
 <strong>Note that you have to build the bibunit bibliographies separately for them to work properly (see step 2, below)</strong>
 
-| ![Basic publication list]({{site.baseurl}}/assets/2015/06/publicationlist_basic-300x121.png) |
+| ![Basic publication list]({{site.url}}/assets/2015/06/publicationlist_basic-300x121.png) |
 |:--:|
 | *Basic publication list * |
 
@@ -71,7 +71,7 @@ Publications
 
 These changes leave our publications section looking like:
 
-| ![Nicer publications]({{site.baseurl}}/assets/2015/06/Nicer-publications1-1024x252.png) |
+| ![Nicer publications]({{site.url}}/assets/2015/06/Nicer-publications1-1024x252.png) |
 |:--:|
 | *Nicer publications* |
 
@@ -120,7 +120,7 @@ Thesis content \dots
 
 Which gives us an output of:
 
-| ![bibtex - publication list example output]({{site.baseurl}}/assets/2015/06/publicationlist1-1024x590.png) |
+| ![bibtex - publication list example output]({{site.url}}/assets/2015/06/publicationlist1-1024x590.png) |
 |:--:|
 | *bibtex - publication list example output* |
 
@@ -136,7 +136,7 @@ Here are steps for doing correctly building the document using <a href="https://
 Other graphical packages probably operate in a similar way. If you prefer to build your documents via the command line, you might want to check out the <a href="https://www.ctan.org/pkg/bibunits?lang=en">bibunits documentation</a> for further information.
 To build the bibunit bibliography we go to options -&gt; configure texmaker and find the biblatex command box. In here you need to enter "bibtex bu1.aux", as shown below.
 
-| ![bibtex - bu1 annotate]({{site.baseurl}}/assets/2015/06/bibtex-bu1-annotate.png) |
+| ![bibtex - bu1 annotate]({{site.url}}/assets/2015/06/bibtex-bu1-annotate.png) |
 |:--:|
 | *bibtex - bu1 annotate* |
 
@@ -145,7 +145,7 @@ Click ok and then run through the standard bibliography building steps of build,
 Finally we need to sort out our standard bibliography. To do this we need to go back to the configure texmaker window and enter "bibtex %" in the bibtex command box (below).
 
 
-| ![bibtex - normal annotate]({{site.baseurl}}/assets/2015/06/bibtex-normal-annotate.png) |
+| ![bibtex - normal annotate]({{site.url}}/assets/2015/06/bibtex-normal-annotate.png) |
 |:--:|
 | *bibtex - normal annotate* |
 

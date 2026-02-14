@@ -21,15 +21,15 @@ Do want to play your Playstation 2, but only have a VGA monitor to hand?
 Follow this guide to find out how to connect your Playstation to a VGA monitor.
 To connect your PS2 to  VGA monitor you will need:
 
-| ![Analogue to digital converter]({{site.baseurl}}/assets/2015/01/41C5aFMbY3L._SX425_.jpg) |
+| ![Analogue to digital converter]({{site.url}}/assets/2015/01/41C5aFMbY3L._SX425_.jpg) |
 |:--:|
 | *Analogue to digital converter* |
 
-| ![2 RCA Phono to 3.5mm stereo jack adapter]({{site.baseurl}}/assets/2015/01/312U8OsXOGL._SX425_.jpg) |
+| ![2 RCA Phono to 3.5mm stereo jack adapter]({{site.url}}/assets/2015/01/312U8OsXOGL._SX425_.jpg) |
 |:--:|
 | *2 RCA Phono to 3.5mm stereo jack adapter* |
 
-| ![2 RCA Phono to 3.5mm stereo jack adapter]({{site.baseurl}}/assets/2015/01/21HTtQsR3RL.jpg) |
+| ![2 RCA Phono to 3.5mm stereo jack adapter]({{site.url}}/assets/2015/01/21HTtQsR3RL.jpg) |
 |:--:|
 | *3.5mm Jack male to female adapter* |
 
@@ -48,7 +48,7 @@ Simply connect the playstation audio output to your speakers with these adapters
 <h1>What you'll end up with</h1>
 In the end you'll have something a bit like this:
 
-| ![Connect playstation to monitor]({{site.baseurl}}/assets/2015/01/PS2VGA_schematic.png) |
+| ![Connect playstation to monitor]({{site.url}}/assets/2015/01/PS2VGA_schematic.png) |
 |:--:|
 | *Connect your playstation to a monitor* |
 

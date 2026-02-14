@@ -27,10 +27,9 @@ Ninite is not a true package manager in this sense, but it does make it very eas
 <h1>But It Is Easy To Use</h1>
 <h2>Around 100 Key Apps and Utilities</h2>
 <a href="https://ninite.com/">Ninite </a>is far from comprehensive - it provides around 100 apps on its website, but many of these are "must-haves" when it comes to setting up a new system, or fixing a problem. The list of apps is helpfully divided up into different categories (such as imaging, anti-virus, or development), and you just need to select the ones you need.
-<h2>
-<a href="windows%20package%20manager%20-%20pick%20your%20software"></a>Just Select And Install The Ones You Need</h2>
+<h2>Just Select And Install The Ones You Need</h2>
 
-| ![Pick the software you want]({{site.baseurl}}/assets/2016/07/Pick-the-software-you-want-1024x546.png) |
+| ![Pick the software you want]({{site.url}}/assets/2016/07/Pick-the-software-you-want-1024x546.png) |
 |:--:|
 | *Pick the software you want* |
 
@@ -41,7 +40,7 @@ It's easy to select multiple apps for download and installation. As the Ninite w
 <li>download apps from each publisher's official site</li>
 </ul>
 
-| ![ninite select file for install]({{site.baseurl}}/assets/2016/07/get-ninite-1024x546.png) |
+| ![ninite select file for install]({{site.url}}/assets/2016/07/get-ninite-1024x546.png) |
 |:--:|
 | *ninite select file for install* |
 
@@ -49,6 +48,6 @@ It's easy to select multiple apps for download and installation. As the Ninite w
 Once you've selected and downloaded your Ninite installer, running it will work through the installers for each of your selected apps. You can leave it in the background, and you'll get this screen once it's complete.
 Yes, it can't do everything, but Ninite sure is easy.
 
-| ![ninite - install complete]({{site.baseurl}}/assets/2016/07/finished.png) |
+| ![ninite - install complete]({{site.url}}/assets/2016/07/finished.png) |
 |:--:|
 | *ninite - install complete* |

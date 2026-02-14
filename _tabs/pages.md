@@ -5,8 +5,8 @@ icon: fas fa-file
 order: 5
 ---
 
-[OOMMF Tutorial]({{site.baseurl}}/oommf-tutorial)
+[OOMMF Tutorial]({{site.url}}/oommf-tutorial)
 
-[Python Polygons]({{site.baseurl}}/python-polygons)
+[Python Polygons]({{site.url}}/python-polygons)
 
-[Python for Science]({{site.baseurl}}/python-for-science)
+[Python for Science]({{site.url}}/python-for-science)

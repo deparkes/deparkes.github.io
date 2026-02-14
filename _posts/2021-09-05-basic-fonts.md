@@ -34,7 +34,7 @@ It is true that these alternatives don’t all look exactly like the original an
 <tr>
 <td>
 <a href="https://en.wikipedia.org/wiki/Helvetica">Helvetica</a>
-<img class="aligncenter size-full wp-image-5304" src="{{site.baseurl}}/assets/2021/09/HelveticaSpecimenCH.png" alt="basic fonts - helvetica" style="display:block;" width="100%" height="100%">
+<img class="aligncenter size-full wp-image-5304" src="{{site.url}}/assets/2021/09/HelveticaSpecimenCH.png" alt="basic fonts - helvetica" style="display:block;" width="100%" height="100%">
 </td>
 <td>Arial - <a href="https://www.identifont.com/differences?first=helvetica&amp;second=arial&amp;q=Go">see the differences</a>
 </td>
@@ -44,7 +44,7 @@ It is true that these alternatives don’t all look exactly like the original an
 <tr>
 <td>
 <a href="https://en.wikipedia.org/wiki/Bodoni">Bodoni</a>
-<img class="aligncenter size-full wp-image-5306" src="{{site.baseurl}}/assets/2021/09/ITCBodoni.png" alt="Basic fonts - Bodoni" style="display:block;" width="100%" height="100%">
+<img class="aligncenter size-full wp-image-5306" src="{{site.url}}/assets/2021/09/ITCBodoni.png" alt="Basic fonts - Bodoni" style="display:block;" width="100%" height="100%">
 </td>
 <td>Available as Bodoni MT</td>
 <td></td>
@@ -52,7 +52,7 @@ It is true that these alternatives don’t all look exactly like the original an
 <tr>
 <td>
 <a href="https://en.wikipedia.org/wiki/Garamond">Garamond</a>
-<img class="aligncenter size-full wp-image-5307" src="{{site.baseurl}}/assets/2021/09/GaramondSpecimenA.svg_.png" alt="Basic fonts - Garamond" style="display:block;" width="100%" height="100%">
+<img class="aligncenter size-full wp-image-5307" src="{{site.url}}/assets/2021/09/GaramondSpecimenA.svg_.png" alt="Basic fonts - Garamond" style="display:block;" width="100%" height="100%">
 </td>
 <td>Available as Garamond</td>
 <td></td>
@@ -60,7 +60,7 @@ It is true that these alternatives don’t all look exactly like the original an
 <tr>
 <td>
 <a href="https://en.wikipedia.org/wiki/Futura_(typeface)">Futura</a>
-<img class="aligncenter size-full wp-image-5308" src="{{site.baseurl}}/assets/2021/09/406px-Futura_Specimen.svg_.png" alt="basic fonts - Futura" style="display:block;" width="100%" height="100%">
+<img class="aligncenter size-full wp-image-5308" src="{{site.url}}/assets/2021/09/406px-Futura_Specimen.svg_.png" alt="basic fonts - Futura" style="display:block;" width="100%" height="100%">
 </td>
 <td>Century Gothic - <a href="https://www.identifont.com/differences?first=futura&amp;second=century+gothic&amp;q=Go">see the differences</a>
 </td>
@@ -71,7 +71,7 @@ It is true that these alternatives don’t all look exactly like the original an
 <tr>
 <td>
 <a href="https://en.wikipedia.org/wiki/Times_New_Roman">Times New Roman</a>
-<img class="aligncenter size-full wp-image-5309" src="{{site.baseurl}}/assets/2021/09/406px-Times_New_Roman-sample.svg_.png" alt="Basic fonts - Times New Roman" style="display:block;" width="100%" height="100%">
+<img class="aligncenter size-full wp-image-5309" src="{{site.url}}/assets/2021/09/406px-Times_New_Roman-sample.svg_.png" alt="Basic fonts - Times New Roman" style="display:block;" width="100%" height="100%">
 </td>
 <td>Available as Times New Roman</td>
 <td></td>
@@ -79,7 +79,7 @@ It is true that these alternatives don’t all look exactly like the original an
 <tr>
 <td>Century Expanded
 (Note the example below is actually of Century Schoolbook - <a href="https://www.briarpress.org/19037">the differences are small</a>)
-<img class="aligncenter size-full wp-image-5310" src="{{site.baseurl}}/assets/2021/09/CenturySchoolbookSAIB.svg_.png" alt="Basic fonts - Century Schoolbook" style="display:block;" width="100%" height="100%">
+<img class="aligncenter size-full wp-image-5310" src="{{site.url}}/assets/2021/09/CenturySchoolbookSAIB.svg_.png" alt="Basic fonts - Century Schoolbook" style="display:block;" width="100%" height="100%">
  </td>
 <td>Available as Century Schoolbook - <a href="https://www.identifont.com/differences?first=Century+Expanded+(BT)&amp;second=Century+Schoolbook">see the differences</a>.</td>
 <td></td>

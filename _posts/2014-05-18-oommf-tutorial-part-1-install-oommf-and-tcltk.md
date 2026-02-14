@@ -29,14 +29,14 @@ The easiest way to run OOMMF on windows is to download a precompiled binary. Dow
 To run OOMMF you'll need the right tcl/tk version installed on you system. The easiest place to find this is <a href="https://www.activestate.com/activetcl/downloads" target="_blank">active tcl</a>.
 Once tcl/tk is installed you should just be able to run oommf from the oommf.tcl icon in the oomf root folder (e.g. C:\oommf-1.2a5\).
 This should bring up the OOMMF window.
-For what to do next, please see <a title="OOMMF Tutorial Part 2: Running OOMMF" href="{{site.baseurl}}/2014/05/22/oommf-tutorial-part-2-running-oommf/">part 2</a> of this tutorial.
+For what to do next, please see <a title="OOMMF Tutorial Part 2: Running OOMMF" href="{{site.url}}/2014/05/22/oommf-tutorial-part-2-running-oommf/">part 2</a> of this tutorial.
 <h2>Linux</h2>
 The install procedure for linux is slightly more involved as we must compile OOMMF from source, which can throw up issues, particularly if we don't have root access or the correct development versions of tcl/tk installed.
 https://www.youtube.com/watch?v=VeWip2L_1zs
-<h3><a href="{{site.baseurl}}/2012/06/02/installing-oommf-on-ubuntu-11-04/">Read more about installing OOMMF on Linux</a></h3>
+<h3><a href="{{site.url}}/2012/06/02/installing-oommf-on-ubuntu-11-04/">Read more about installing OOMMF on Linux</a></h3>
 <h3>If You Don't Have Root Access</h3>
-If you have no root access and your system is missing the correct dev versions of tcl/tk then see <a title="Install OOMMF 1.2a5 without root" href="{{site.baseurl}}/2013/06/24/install-oommf-1-2a5-without-root/">here</a> for further install instructions.
-Once you've installed OOMMF, please see <a title="OOMMF Tutorial Part 2: Running OOMMF" href="{{site.baseurl}}/2014/05/22/oommf-tutorial-part-2-running-oommf/">part 2</a> of this tutorial for running the program and loading problem files.
-<a href="{{site.baseurl}}/oommf/oommf-tutorial/">
+If you have no root access and your system is missing the correct dev versions of tcl/tk then see <a title="Install OOMMF 1.2a5 without root" href="{{site.url}}/2013/06/24/install-oommf-1-2a5-without-root/">here</a> for further install instructions.
+Once you've installed OOMMF, please see <a title="OOMMF Tutorial Part 2: Running OOMMF" href="{{site.url}}/2014/05/22/oommf-tutorial-part-2-running-oommf/">part 2</a> of this tutorial for running the program and loading problem files.
+<a href="{{site.url}}/oommf/oommf-tutorial/">
 
-<img class=" aligncenter" src="{{site.baseurl}}/assets/2014/05/OOMMF_tutorial.png" alt="OOMMF Tutorial" width="200" height="142" border="0">
+<img class=" aligncenter" src="{{site.url}}/assets/2014/05/OOMMF_tutorial.png" alt="OOMMF Tutorial" width="200" height="142" border="0">

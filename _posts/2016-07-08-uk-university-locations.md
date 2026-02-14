@@ -21,9 +21,9 @@ tags:
 author: deparkes
 permalink: "/2016/07/08/uk-university-locations/"
 ---
-The UK has around 160 universities, located around the country. Here is a map of UK University Locations, made using <a href="{{site.baseurl}}/2016/05/13/python-leaflet-map-folium/">Folium</a>.
+The UK has around 160 universities, located around the country. Here is a map of UK University Locations, made using <a href="{{site.url}}/2016/05/13/python-leaflet-map-folium/">Folium</a>.
 
-<iframe src="{{site.baseurl}}/assets/maps/universities.html" name="FRAME2" width="450" height="400" frameborder="1"></iframe>
+<iframe src="{{site.url}}/assets/maps/universities.html" name="FRAME2" width="450" height="400" frameborder="1"></iframe>
 <a href="https://gist.github.com/deparkes/3b100ddb7068f82c1262b2236a153e01">Download the UK university locations data [csv]</a>
 <a href="https://www.hesa.ac.uk/component/heicontacts/">Access the list of UK universities</a>
 <h1>Python Code For UK University Locations</h1>

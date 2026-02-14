@@ -24,7 +24,7 @@ There are two ways we can pass arguments to a function or method
 <li>Key word arguments ('kwargs') - we specify a key word to identify the variable to associate with the argument value. We can use a dictionary to represent key word arguments.</li>
 <li>Positional arguments ('args') - we rely on the position of the argument in all provided arguments to identify which argument it is. We can use lists, tuples and sets to represent positional arguments.</li>
 </ul>
-Python variable function arguements make use of the concept of <a href="{{site.baseurl}}/2018/02/09/python-unpacking-iterables/">packing and unpacking an iterable</a>.
+Python variable function arguements make use of the concept of <a href="{{site.url}}/2018/02/09/python-unpacking-iterables/">packing and unpacking an iterable</a>.
 The function definition can specify that the function expects an 'unpacked' iterable to be provided. The function also specifies the name of the variable that the corresponding packed iterables should be assigned to.
 Let's see some examples.
 <h3>Keyword Arguments</h3>

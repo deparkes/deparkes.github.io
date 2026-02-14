@@ -18,7 +18,7 @@ tags:
 author: deparkes
 permalink: "/2018/08/11/flask-restful-api-json/"
 ---
-JSON is a common format for sending data to and from a RESTful API. In this post we'll see how we can allow a simple Flask API to receive a JSON input. This post extends my <a href="{{site.baseurl}}/2018/03/02/simple-docker-flask-sqlite-api/">previous post</a> which made a simple Flask RESTful API and uses the Flask 'get_json()' method to accept JSON input.
+JSON is a common format for sending data to and from a RESTful API. In this post we'll see how we can allow a simple Flask API to receive a JSON input. This post extends my <a href="{{site.url}}/2018/03/02/simple-docker-flask-sqlite-api/">previous post</a> which made a simple Flask RESTful API and uses the Flask 'get_json()' method to accept JSON input.
 
 If you just want to get stuck in and have a go, you can <a href="https://github.com/deparkes/docker_flask_example/tree/json_api">check out this code</a> on GitHub and get started. (I'm using a docker-ised version of flask, but you can use the information in this for any Flask app.)
 <h1>How To Accept JSON Input</h1>

@@ -18,7 +18,7 @@ author: deparkes
 permalink: "/2015/03/10/convert-from-gds-to-linearring/"
 ---
 <h1>Convert From GDS to LinearRing</h1>
-GDS is a common format for <a title="Layout Design Software" href="{{site.baseurl}}/2015/02/21/layout-design-software/">electronic circuit designs</a>, <a href="https://en.wikipedia.org/wiki/Microelectromechanical_systems">MEMS </a>and other technologies.  At the moment I'm working on a <a href="https://github.com/deparkes/gds2ecp">project </a>to convert from gds to a format for electron beam lithography.
+GDS is a common format for <a title="Layout Design Software" href="{{site.url}}/2015/02/21/layout-design-software/">electronic circuit designs</a>, <a href="https://en.wikipedia.org/wiki/Microelectromechanical_systems">MEMS </a>and other technologies.  At the moment I'm working on a <a href="https://github.com/deparkes/gds2ecp">project </a>to convert from gds to a format for electron beam lithography.
 Whilst it might be possible to work directly with the gds files themselves, it made much more sense to convert them to an intermediate format that was <strong>easier to work with</strong>.
 I've been using the <a href="https://toblerity.org/shapely/manual.html">Shapely Python library</a> to work with polygons, so I decided to convert from gds to LinearRing, a shapely object type.
 <a href="https://github.com/deparkes/shapely_tests/blob/master/gds2ring.py">Download my script to convert gds to LinearRing</a>
@@ -55,6 +55,6 @@ ring = LinearRing(ring)
 ```
 In the<a href="https://github.com/deparkes/shapely_tests/blob/master/gds2ring.py"> script in my repository</a>, I've added code from the shapely examples to let us plot the end result:
 
-| ![GDS to LinearRing]({{site.baseurl}}/assets/2015/03/gds2ring-300x286.png) |
+| ![GDS to LinearRing]({{site.url}}/assets/2015/03/gds2ring-300x286.png) |
 |:--:|
 | *GDS to LinearRing* |

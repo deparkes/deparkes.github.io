@@ -31,7 +31,7 @@ Since poly2tri.py actually goes beyond what I need I've put together a small scr
 All of the hard work is done by seidel.py. The output I'm after is the trapezoids which define the initial shape.
 Here's an example of the output which uses the 'dude' example file.
 
-| ![Trapezoidal Decomposition]({{site.baseurl}}/assets/2015/02/test-300x202.png) |
+| ![Trapezoidal Decomposition]({{site.url}}/assets/2015/02/test-300x202.png) |
 |:--:|
 | *Trapezoidal Decomposition* |
 
@@ -42,4 +42,4 @@ Here's an example of the output which uses the 'dude' example file.
 More testing required...
 
 
-<a href="{{site.baseurl}}/python-polygons/"><img class="aligncenter wp-image-1479" src="{{site.baseurl}}/assets/2015/02/path4186-300x162.png" alt="python polygons" width="220" height="119"></a>
+<a href="{{site.url}}/python-polygons/"><img class="aligncenter wp-image-1479" src="{{site.url}}/assets/2015/02/path4186-300x162.png" alt="python polygons" width="220" height="119"></a>

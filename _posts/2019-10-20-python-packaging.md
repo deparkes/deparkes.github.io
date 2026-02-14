@@ -93,7 +93,7 @@ Now when we build the distribution the tests will also get bundled, but not in t
 <h2>Testing</h2>
 <h3>Testing With Tox</h3>
 We want to be confident our built package will work when we share it. Testing our code using the same directory structure we develop with is fine up to a point, but has the downside that its easy for the packaged/installed behaviour to be different from our local behaviour - for example if we got the import paths wrong.
-One way around this is to create a new virtualenv to install the package into and then run the tests in. Rather than have to do this manually, we can use '<a href="https://tox.readthedocs.io/en/latest/">tox</a>' which will create a test virtualenv for us to use. If you are conda user, <a href="{{site.baseurl}}/2018/06/04/use-tox-with-anaconda/">read this to see how to get tox and conda to play nicely</a>.
+One way around this is to create a new virtualenv to install the package into and then run the tests in. Rather than have to do this manually, we can use '<a href="https://tox.readthedocs.io/en/latest/">tox</a>' which will create a test virtualenv for us to use. If you are conda user, <a href="{{site.url}}/2018/06/04/use-tox-with-anaconda/">read this to see how to get tox and conda to play nicely</a>.
 Tox will build your package with 'python setup.py sdist' just as you would in your own environment, then check that it can be run in a separate test environment.
 Once installed we can define a tox.ini file to specify how it should run. In this case we specify that we want to test with both Python 2.7 and Python 3.7, and that the tests need some additional dependencies.
 
@@ -105,7 +105,7 @@ deps = pytest
 commands = pytest
 ```
 <h2>Distributing The Package</h2>
-We said originally that for this example we did not need to upload our package to PyPI (if you are interested what this process involves, read <a href="{{site.baseurl}}/2015/08/05/how-to-package-python-code/">this post</a>). Instead lets look at how we can share and test our newly build package.
+We said originally that for this example we did not need to upload our package to PyPI (if you are interested what this process involves, read <a href="{{site.url}}/2015/08/05/how-to-package-python-code/">this post</a>). Instead lets look at how we can share and test our newly build package.
 The build step created a 'tar.gz' file in a 'dist' folder. This is an 'artifact' we can share with our friends and colleagues. If they want to install the package they can use pip:
 <pre><span class="n">pip</span> <span class="n">install</span> <span class="o">./</span><span class="n">downloads</span><span class="o">/</span><span class="n">my_package</span><span class="o">-</span><span class="mf">0.1</span><span class="o">.</span><span class="mf">0.</span><span class="n">tar</span><span class="o">.</span><span class="n">gz
 </span></pre>
@@ -113,7 +113,7 @@ and the package will be available for them to import and use.
 <h2>Next Steps</h2>
 With more confidence in building and working with python packages,we can look for ways to continue our journey through the python packaging universe:
 <ul>
-<li><a href="{{site.baseurl}}/2015/08/05/how-to-package-python-code/">Publish a package to a repository such as PyPI</a></li>
+<li><a href="{{site.url}}/2015/08/05/how-to-package-python-code/">Publish a package to a repository such as PyPI</a></li>
 <li>Handling compiled C headers, which makes our code package independent</li>
 <li>Including dependencies with the distribution to make it easier to install</li>
 <li>Handling package versioning</li>

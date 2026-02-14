@@ -25,7 +25,7 @@ The process to plot polygons in python can be different depending on whether you
 
 <h1>Plot Polygon Edges</h1>
 
-| ![Plot Polygons in Python - empty]({{site.baseurl}}/assets/2015/03/PolygonEdges-291x300.png) |
+| ![Plot Polygons in Python - empty]({{site.url}}/assets/2015/03/PolygonEdges-291x300.png) |
 |:--:|
 | *Plot Polygons in Python - empty* |
 
@@ -74,7 +74,7 @@ ax.set_title('Polygon')
 
 <h3><a href="https://github.com/deparkes/shapely_tests/blob/master/PolyPrint.py">Download the code for plotting the edges of polygons</a></h3>
 <h1>Plot A Filled Polygon</h1>
-<a href="{{site.baseurl}}/assets/2015/03/FilledPolygon1.png"><img class=" alignleft wp-image-1546" src="{{site.baseurl}}/assets/2015/03/FilledPolygon1-291x300.png" alt="" width="221" height="228"></a>If you want to <strong>plot the filled area</strong> of the polygon, and not just the edges, you have to go a bit further.
+<a href="{{site.url}}/assets/2015/03/FilledPolygon1.png"><img class=" alignleft wp-image-1546" src="{{site.url}}/assets/2015/03/FilledPolygon1-291x300.png" alt="" width="221" height="228"></a>If you want to <strong>plot the filled area</strong> of the polygon, and not just the edges, you have to go a bit further.
 We'll be using the same libraries as before, with the addition of <a href="https://pypi.python.org/pypi/descartes">descartes</a>, which helps us to<strong> plot geometric objects</strong> with <a href="https://matplotlib.org/users/path_tutorial.html">matplotlib patches</a>.
 This is a simplified version of the <a href="https://github.com/Toblerity/Shapely/blob/master/docs/code/cascaded_union.py">cascaded_union.py </a>shapely example.
 <h3><a href="https://github.com/deparkes/shapely_tests/blob/master/FilledPolygonPlot.py">Download the code for plotting filled polygons</a></h3>
@@ -110,4 +110,4 @@ ax.set_aspect(1)
 ```
 
 <h3><a href="https://github.com/deparkes/shapely_tests/blob/master/FilledPolygonPlot.py">Download the code for plotting filled polygons</a></h3>
-<a href="{{site.baseurl}}/python-polygons/"><img class="aligncenter wp-image-1479" src="{{site.baseurl}}/assets/2015/03/path4186-300x162.png" alt="python polygons" width="220" height="119"></a>
+<a href="{{site.url}}/python-polygons/"><img class="aligncenter wp-image-1479" src="{{site.url}}/assets/2015/03/path4186-300x162.png" alt="python polygons" width="220" height="119"></a>

@@ -24,7 +24,7 @@ Turning a sequence of images into a video can be useful for creating <a href="ht
 It's actually quite easy to create a video from images using ffmpeg, as long as you prepare your image files in right way.
 You need to make sure your sequence of images are in the same folder and named correctly. They should be named sequentially, for example img-00.png, img-01.png, img-02.png and so on. By default ffmpeg expects that images should be <a href="https://superuser.com/questions/624567/how-to-create-a-video-from-images-using-ffmpeg">numbered starting from zero</a>.
 
-| ![video from images]({{site.baseurl}}/assets/2018/01/images_to_video.png) |
+| ![video from images]({{site.url}}/assets/2018/01/images_to_video.png) |
 |:--:|
 | *Video from images* |
 

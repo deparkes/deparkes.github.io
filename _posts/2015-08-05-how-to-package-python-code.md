@@ -18,7 +18,7 @@ tags:
 author: deparkes
 permalink: "/2015/08/05/how-to-package-python-code/"
 ---
-With <a href="{{site.baseurl}}/2015/02/28/python-alternatives-to-matlab/">Python distributions </a>such as <a href="https://www.enthought.com/">Enthought </a>and <a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a>, its never been easier to create and install python packages. In this post I show you how to build your own python packages and publish them on the <a href="https://pypi.python.org/pypi">PyPI python package index</a>.
+With <a href="{{site.url}}/2015/02/28/python-alternatives-to-matlab/">Python distributions </a>such as <a href="https://www.enthought.com/">Enthought </a>and <a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a>, its never been easier to create and install python packages. In this post I show you how to build your own python packages and publish them on the <a href="https://pypi.python.org/pypi">PyPI python package index</a>.
 <h1>Step 1. Create PyPI Account</h1>
 Before we can upload our package to the <a href="https://pypi.python.org/pypi">Python Package Index PyPI</a> we must first create an account.
 Go to the <a href="https://pypi.python.org/pypi">PyPI website</a> and set up an account. Remember your user name and password as you will need these later to upload your files.

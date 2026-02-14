@@ -19,7 +19,7 @@ tags:
 author: deparkes
 permalink: "/2017/11/10/oommf-install-script/"
 ---
-Installing <a href="https://math.nist.gov/oommf/oommf.html">OOMMF </a>is a multi-step process which can be a bit fiddly, particularly on Linux systems. I would normally just work through the <a href="{{site.baseurl}}/2014/05/18/oommf-tutorial-part-1-install-oommf-and-tcltk/">installation steps </a>separately, but was inspired by the <a href="https://virtual-micromagnetics.readthedocs.io/en/development/">Virtual Micromagnetics</a> project to write an OOMMF install script.
+Installing <a href="https://math.nist.gov/oommf/oommf.html">OOMMF </a>is a multi-step process which can be a bit fiddly, particularly on Linux systems. I would normally just work through the <a href="{{site.url}}/2014/05/18/oommf-tutorial-part-1-install-oommf-and-tcltk/">installation steps </a>separately, but was inspired by the <a href="https://virtual-micromagnetics.readthedocs.io/en/development/">Virtual Micromagnetics</a> project to write an OOMMF install script.
 
 This OOMMF install script is contains the steps needed to install OOMMF on a Debian / Ubuntu system (it uses apt-get). It's probably quite easy to trip it up (e.g. trying to install multiple versions of tcl/tk on the same system, using incorrect arguments e.g.), but I have tried to keep it very simple and easy to modify if needed.
 

@@ -28,7 +28,7 @@ I like to re-purpose old laptops to use as servers - once they stop being useful
 If you don't have some old hardware available, or would prefer something new, you could also try a relatively inexpensive home server solution from Dell or HP, or start with a 'bare bones' system and add your own components.
 <h1>2. Install An Operating System</h1>
 
-| ![linux home server - operating system]({{site.baseurl}}/assets/2017/06/VirtualBox_Lubuntu_install_20_05_2017_11_07_49.png) |
+| ![linux home server - operating system]({{site.url}}/assets/2017/06/VirtualBox_Lubuntu_install_20_05_2017_11_07_49.png) |
 |:--:|
 | *linux home server - operating system* |
 
@@ -38,7 +38,7 @@ If you are using older, less powerful hardware, you may wish to use the '<a href
 If you are using a laptop, you may also wish to configure how Ubuntu behaves when you close the laptop lid. For me it made sense to <a href="https://askubuntu.com/questions/15520/how-can-i-tell-ubuntu-to-do-nothing-when-i-close-my-laptop-lid/372616#372616">turn the screen off, but not put the machine to sleep or hibernation mode</a>.
 <h1>3. Allow Remote Access</h1>
 
-| ![linux home server - remote access]({{site.baseurl}}/assets/2017/06/open_ssh_server.png) |
+| ![linux home server - remote access]({{site.url}}/assets/2017/06/open_ssh_server.png) |
 |:--:|
 | *linux home server - remote access* |
 
@@ -53,7 +53,7 @@ You should now be able to connect to your new home server from other machines on
 If you like, you can stop at this stage, and use something like <a href="https://winscp.net/eng/download.php">winscp</a> to transfer files between your machines. I like to go a step further and set up my server to share folders I can access from within Windows Explorer.
 <h1>4. Configure File Sharing</h1>
 
-| ![linux home server - windows samba]({{site.baseurl}}/assets/2017/06/WindowsSambaFolder.png) |
+| ![linux home server - windows samba]({{site.url}}/assets/2017/06/WindowsSambaFolder.png) |
 |:--:|
 | *linux home server - windows samba* |
 

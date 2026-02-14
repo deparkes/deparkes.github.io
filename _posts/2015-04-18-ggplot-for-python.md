@@ -26,9 +26,9 @@ Although there are powerful plotting libraries for python (<a href="https://matp
 Thankfully a <a href="https://github.com/yhat/ggplot">version of ggplot for python</a> is in development so you can access the power and flexibility of ggplot2 in your python data analysis.
 <h2>Using ggplot To Improve Plotting</h2>
 There are plenty of places you can see a <a href="https://blog.yhathq.com/posts/ggplot-for-python.html">complete comparison</a> of the R vs python ggplot implementations, so I'll just give you a quick flavour of what to expect.
-I recently plotted data about <a title="Pizza Price Comparison – Where Should You Buy Your Pizza?" href="{{site.baseurl}}/2015/04/16/pizza-price-comparison-where-should-you-buy-your-pizza/">pizza prices</a>. Using straight matplotlib, the output graph looks like this:
+I recently plotted data about <a title="Pizza Price Comparison – Where Should You Buy Your Pizza?" href="{{site.url}}/2015/04/16/pizza-price-comparison-where-should-you-buy-your-pizza/">pizza prices</a>. Using straight matplotlib, the output graph looks like this:
 
-| ![pizza price comparison - price vs diameter]({{site.baseurl}}/assets/2015/04/PriceVsDiameter-1024x632.png) |
+| ![pizza price comparison - price vs diameter]({{site.url}}/assets/2015/04/PriceVsDiameter-1024x632.png) |
 |:--:|
 | *pizza price comparison - price vs diameter* |
 
@@ -41,7 +41,7 @@ ggplot(prices, aes(x='Diameter', y='Price',color="establishment_name")) +\
 ```
 which creates the much nicer output:
 
-| ![ggplot for python - ggplot prices]({{site.baseurl}}/assets/2015/04/pizza_prices_price_ggplot.png) |
+| ![ggplot for python - ggplot prices]({{site.url}}/assets/2015/04/pizza_prices_price_ggplot.png) |
 |:--:|
 | *ggplot for python - ggplot prices* |
 
@@ -55,7 +55,7 @@ plt.style.use('ggplot')
 ```
 You don't get any of the usability and 'Grammar of Graphics' philosophy, but your graphs and plots do end up looking rather nice:
 
-| ![ggplot for python - style]({{site.baseurl}}/assets/2015/04/pizza_prices_matplotlib_style.png) |
+| ![ggplot for python - style]({{site.url}}/assets/2015/04/pizza_prices_matplotlib_style.png) |
 |:--:|
 | *ggplot for python - style* |
 

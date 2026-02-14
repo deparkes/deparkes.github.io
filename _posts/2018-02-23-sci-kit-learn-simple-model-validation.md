@@ -19,12 +19,12 @@ permalink: "/2018/02/23/sci-kit-learn-simple-model-validation/"
 ---
 Making predictions is easy, but getting them right is difficult. An essential part of predictive analytics is model validation - checking the quality of predictions. Those post looks at a simple model validation technique you can use with your machine learning models.
 
-Once you have trained your <a href="{{site.baseurl}}/2018/02/02/scikit-learn-simple-classification/">predictive model</a> it needs to make good predictions in the real world, with data it has not seen. There is a danger that this data does not look like the data used to train the model, and the model is unable to make accurate predictions. This could be because of the amount of noise in the training data, or fundamental differences between the training data and what occurs in  the real world.
+Once you have trained your <a href="{{site.url}}/2018/02/02/scikit-learn-simple-classification/">predictive model</a> it needs to make good predictions in the real world, with data it has not seen. There is a danger that this data does not look like the data used to train the model, and the model is unable to make accurate predictions. This could be because of the amount of noise in the training data, or fundamental differences between the training data and what occurs in  the real world.
 
 To get a more realistic view of model performance we need to some how test the model performance against 'real world' data. We can do this with a technique known as '<a href="https://en.wikipedia.org/wiki/Cross-validation_(statistics)#Holdout_method">cross-validation</a>'.
 There are various <a href="https://www.cs.cmu.edu/~schneide/tut5/node42.html">cross-validation strategies</a> you could adopt, but a good place to start is to simply separate your data into two sets. One set which we use to train to train the model, and one set which we keep back to use as a test of the model performance.
 
-| ![Model Validation]({{site.baseurl}}/assets/2018/02/TrainTestSplit.png) |
+| ![Model Validation]({{site.url}}/assets/2018/02/TrainTestSplit.png) |
 |:--:|
 | *Model Validation* |
 
@@ -36,7 +36,7 @@ from sklearn.model_selection import train_test_split
 X_train, x_test, y_train, y_test = train_test_split(X, y)
 ```
 
-This gives you <em>X_train</em> and <em>y_train</em> : the data and outcomes you need to <a href="{{site.baseurl}}/2018/02/02/scikit-learn-simple-classification/">train your model</a>. Once your model is trained on the training data, you can use the <em>predict(X_test)</em> method of the fitted model to get prediction results.
+This gives you <em>X_train</em> and <em>y_train</em> : the data and outcomes you need to <a href="{{site.url}}/2018/02/02/scikit-learn-simple-classification/">train your model</a>. Once your model is trained on the training data, you can use the <em>predict(X_test)</em> method of the fitted model to get prediction results.
 
 ```python
 y_predict = clf.predict(X_test)
@@ -44,7 +44,7 @@ y_predict = clf.predict(X_test)
 
 You can compare these predictions with the true y-values in <em>y_test</em>. Scikit-learn has <a href="https://scikit-learn.org/stable/modules/model_evaluation.html">performance metrics</a> for evaluating classification and regression models.
 <h1>A Simple Example</h1>
-Here is a more complete example, which builds on my simple sklearn <a href="{{site.baseurl}}/2018/02/02/scikit-learn-simple-classification/">classification</a> post.
+Here is a more complete example, which builds on my simple sklearn <a href="{{site.url}}/2018/02/02/scikit-learn-simple-classification/">classification</a> post.
 
 ```python
 from sklearn import datasets

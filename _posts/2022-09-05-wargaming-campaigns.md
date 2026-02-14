@@ -26,7 +26,7 @@ This post describes some common ways wargaming campaigns are run as well as some
 <h2>Types of Campaign Structure</h2>
 <h3>Simple Series Campaign</h3>
 
-| ![wargames campaigns - simple series]({{site.baseurl}}/assets/2022/09/SimpleSeriesCampaign.jpg) |
+| ![wargames campaigns - simple series]({{site.url}}/assets/2022/09/SimpleSeriesCampaign.jpg) |
 |:--:|
 | *wargames campaigns - simple series* |
 
@@ -38,7 +38,7 @@ For example if Player A loses the first game of three, the pressure is on them t
 Alternatively you could emphasize the narrative aspect of the campaign and play to tell a 'story' with your games.
 <h3>Tree Campaign</h3>
 
-| ![wargames campaigns - tree campaign]({{site.baseurl}}/assets/2022/09/TreeCampaign.jpg) |
+| ![wargames campaigns - tree campaign]({{site.url}}/assets/2022/09/TreeCampaign.jpg) |
 |:--:|
 | *wargames campaigns - tree campaign* |
 
@@ -49,7 +49,7 @@ You can define results for the tree campaign based on the individual game result
 <a href="https://goingoncampaign.blogspot.com/2009/11/tree-campaigns.html"> Read more about the idea behind tree campaigns</a>
 <h3>Ladder Campaign</h3>
 
-| ![wargames campaigns - ladder campaign]({{site.baseurl}}/assets/2022/09/LadderCampaign.jpg) |
+| ![wargames campaigns - ladder campaign]({{site.url}}/assets/2022/09/LadderCampaign.jpg) |
 |:--:|
 | *wargames campaigns - ladder campaign* |
 
@@ -62,7 +62,7 @@ And a list of other campaigns for the Chain of Command system is <a href="https:
 Read reviews of the ladder campaign system <a href="https://www.tabletopstories.net/language/en/2019/09/chain-of-command-at-the-sharp-end-review/">here</a>, <a href="https://mylardiesgames.blogspot.com/2014/02/review-of-at-sharp-end.html">here</a> and <a href="https://meeples.wordpress.com/2014/03/01/review-chain-of-command-at-the-sharp-end-campaign-handbook/">here</a>.
 <h3>Node Map Campaign</h3>
 
-| ![wargames campaigns - node map]({{site.baseurl}}/assets/2022/09/NodeMapCampaign.jpg) |
+| ![wargames campaigns - node map]({{site.url}}/assets/2022/09/NodeMapCampaign.jpg) |
 |:--:|
 | *wargames campaigns - node map* |
 
@@ -71,7 +71,7 @@ The campaign-level objective could be total conquest of the map, taking and hold
 "Campaign" Turns could be "You Go I Go", or based on more of an initiative system where the winner of one game moves and is the attacker in the next game.
 <h3>Full map Campaign</h3>
 
-| ![wargames campaigns - full map]({{site.baseurl}}/assets/2022/09/FullMapCampaign.jpg) |
+| ![wargames campaigns - full map]({{site.url}}/assets/2022/09/FullMapCampaign.jpg) |
 |:--:|
 | *wargames campaigns - full map* |
 

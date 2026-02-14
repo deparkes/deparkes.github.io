@@ -31,7 +31,7 @@ This <strong>simple script</strong> can<strong> easily be edited</strong> to wor
 If you are using a master file with included files, <a href="https://github.com/deparkes/texlog">texlog</a> can also output the word counts of those files separately, as well as the total count for the whole document.
 <h2>Automated Logging</h2>
 The most direct usage of the script is just to <strong>run it as a standalone</strong> python script. New data will be appended to the log files, so you <strong>won't have to worry</strong> about over-writing your log file.
-You can <strong>automate your script</strong> using the standard scheduling approach for your software. On linux this will likely by <a title="crontab" href="{{site.baseurl}}/2014/05/17/crontab/">cron, </a>while on windows, you'll probably want to use the windows <a href="https://www.7tutorials.com/how-create-task-basic-task-wizard">task scheduler</a>.
+You can <strong>automate your script</strong> using the standard scheduling approach for your software. On linux this will likely by <a title="crontab" href="{{site.url}}/2014/05/17/crontab/">cron, </a>while on windows, you'll probably want to use the windows <a href="https://www.7tutorials.com/how-create-task-basic-task-wizard">task scheduler</a>.
 <h2>Plotting the Data</h2>
 The output files are just comma separated values with column headings, so you should have<strong> no problem plotting</strong> them in your favourite plotting software.
 A date and time stamp is automatically included with each log write, so it is easy to <strong>build up a time-series</strong> of your writing progress.

@@ -28,7 +28,7 @@ Use this <strong>pizza price comparison</strong> to help you decide.
 Firstly let's take a look at how the pricing scales with pizza diameter - the number you look to when deciding how big a pizza you want.
 
 
-| ![pizza price comparison - price vs diameter]({{site.baseurl}}/assets/2015/04/PriceVsDiameter-1024x632.png) |
+| ![pizza price comparison - price vs diameter]({{site.url}}/assets/2015/04/PriceVsDiameter-1024x632.png) |
 |:--:|
 | *pizza price comparison - price vs diameter* |
 
@@ -42,7 +42,7 @@ Interesting, too, is that the two sit-down pizza restaurants listed generally oc
 <h2>Price per Square Inch vs Diameter</h2>
 Price is one thing, but often what we really care about is value for money - <strong>how much pizza do we get for our cash?</strong>
 
-| ![Pizza price comparison - price per square inch]({{site.baseurl}}/assets/2015/04/PPSQ_Vs_Diameter-1024x622.png) |
+| ![Pizza price comparison - price per square inch]({{site.url}}/assets/2015/04/PPSQ_Vs_Diameter-1024x622.png) |
 |:--:|
 | *Pizza price comparison - price per square inch* |
 

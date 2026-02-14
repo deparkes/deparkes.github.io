@@ -40,12 +40,12 @@ similar commands will exist for other flavours of Linux.
 In windows we need to use cygwin to access rsync. This is easy enough: just run the cygwin setup file. Search for 'rsync' and install it.
 
 
-| ![rsync screenshot]({{site.baseurl}}/assets/2014/02/rsync-screen-shot.png) |
+| ![rsync screenshot]({{site.url}}/assets/2014/02/rsync-screen-shot.png) |
 |:--:|
 | *You can install rsync in windows using cygwin.* |
 
 
-If you haven't done so already I'd also recommend setting up <a href="https://en.wikipedia.org/wiki/OpenSSH">openssh </a>on <a href="https://www.cygwin.com/">cygwin </a>at the same time (I've covered this <a title="Configuring Windows 7 ssh server with cygwin" href="{{site.baseurl}}/2014/02/13/configuring-windows-7-ssh-server-with-cygwin/">here</a>).
+If you haven't done so already I'd also recommend setting up <a href="https://en.wikipedia.org/wiki/OpenSSH">openssh </a>on <a href="https://www.cygwin.com/">cygwin </a>at the same time (I've covered this <a title="Configuring Windows 7 ssh server with cygwin" href="{{site.url}}/2014/02/13/configuring-windows-7-ssh-server-with-cygwin/">here</a>).
 <h1><strong>How to use rsync
 </strong></h1>
 Once installed on windows or linux, the usage of rsync should be pretty much the same.
@@ -57,5 +57,5 @@ rsync -avz -e ssh --exclude "*Trash*/" --exclude "*gconf*/" ~/ user@host:~/cygdr
 where the `-e ssh` indicates that we will connect via ssh - with ssh keys set up we won't need a password everytime we run this command. There are also <code>'--exclude'</code> commands to ignore certain files or folders. This can be useful if there are temporary files that you don't care about moving.
 I like to have rysnc commands in a script to make it quicker and easier to synchronise my folders. rsync commands can also be scheduled with cron.
 <h2>rsync and ssh</h2>
-Using SSH keys can make synchronising between computers a bit more straightforward as you don't have to type your password in each time to connect to the remote computer. This is something I've written about <a title="Configuring Windows 7 ssh server with cygwin" href="{{site.baseurl}}2014/02/13/configuring-windows-7-ssh-server-with-cygwin/">previously</a>.
+Using SSH keys can make synchronising between computers a bit more straightforward as you don't have to type your password in each time to connect to the remote computer. This is something I've written about <a title="Configuring Windows 7 ssh server with cygwin" href="{{site.url}}2014/02/13/configuring-windows-7-ssh-server-with-cygwin/">previously</a>.
 Further information on setting up rsync is available <a href="https://kvz.io/blog/2007/08/16/synchronize-files-with-rsync/">here</a> or on the rsync website, and some more examples are available <a href="https://www.thegeekstuff.com/2010/09/rsync-command-examples/">here</a>.

@@ -29,6 +29,6 @@ Edit the config file to have CTRL-F5 insert date/time. Useful for keeping a diar
 <h1>Utilities</h1>
 - <a title="Launchy" href="https://www.launchy.net/">Launchy</a>: Quick access to the programs on your computer. Saves having to hunt around in the start menu.
 - <a title="Everything" href="https://www.voidtools.com/">Everything</a>: Quickly find files on your computer. I find these days that windows find is working ok, but the indexed searching of Everything is really quick.
-- <a title="winscp" href="https://winscp.net/eng/index.php">winscp:</a> Securely access files on a remote computer via ssh. See post on <a title="Configuring Windows 7 ssh server with cygwin" href="{{site.baseurl}}/2014/02/13/configuring-windows-7-ssh-server-with-cygwin/">ssh</a>.
+- <a title="winscp" href="https://winscp.net/eng/index.php">winscp:</a> Securely access files on a remote computer via ssh. See post on <a title="Configuring Windows 7 ssh server with cygwin" href="{{site.url}}/2014/02/13/configuring-windows-7-ssh-server-with-cygwin/">ssh</a>.
 - <a href="https://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/">Pendrivelinux</a> Allows you to easily install Linux boot/live CDs/DVDs with a USB drive. Saves on needing to actually burn theimage to a disk.
 </div>

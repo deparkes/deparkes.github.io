@@ -18,8 +18,8 @@ author: deparkes
 permalink: "/2014/05/27/oommf-tutorial-part-3-mif-examples/"
 ---
 Part 3 of this getting started tutorial for OOMMF introduces mif problem files and some of the example files that come with OOMMF distributions.
-<a title="OOMMF Tutorial Part 1: Download OOMMF and Tcl/tk" href="{{site.baseurl}}/2014/05/18/oommf-tutorial-part-1-download-oommf-and-tcltk/">Part 1</a> covered downloading and installing OOMMF.
-<a title="OOMMF Tutorial Part 2: Running OOMMF" href="{{site.baseurl}}/2014/05/22/oommf-tutorial-part-2-running-oommf/">Part 2</a> covered running OOMMF.
+<a title="OOMMF Tutorial Part 1: Download OOMMF and Tcl/tk" href="{{site.url}}/2014/05/18/oommf-tutorial-part-1-download-oommf-and-tcltk/">Part 1</a> covered downloading and installing OOMMF.
+<a title="OOMMF Tutorial Part 2: Running OOMMF" href="{{site.url}}/2014/05/22/oommf-tutorial-part-2-running-oommf/">Part 2</a> covered running OOMMF.
 
 <h1>mif Files</h1>
 Micromagnetic calculations in OOMMF are set up in a mif problem file. A mif file is written in tcl and includes<span style="line-height: 1.5;"> components such the calculation region, mesh size, initial magnetisation configuration and magnetic anisotropy energies. </span>Some of the elements of a mif file are required, whereas some depend on exactly what you are trying to simulate.
@@ -41,7 +41,7 @@ You can find these and many more similar examples in oommf/app/oxs/examples
 <li>Simulating and applied field</li>
 </ul>
 
-| ![Exchangepring.mif: Multiple layers, initial magnetisation, uniaxial anisotropy, applied field]({{site.baseurl}}/assets/2014/05/Slide4.png) |
+| ![Exchangepring.mif: Multiple layers, initial magnetisation, uniaxial anisotropy, applied field]({{site.url}}/assets/2014/05/Slide4.png) |
 |:--:|
 | *Exchangepring.mif: Multiple layers, initial magnetisation, uniaxial anisotropy, applied field* |
 
@@ -50,7 +50,7 @@ You can find these and many more similar examples in oommf/app/oxs/examples
 <li>cubic anisotropy</li>
 </ul>
 
-| ![Squarecubic.mif: use of cubic anisotropy in a problem file.]({{site.baseurl}}/assets/2014/05/Slide5-300x300.png) |
+| ![Squarecubic.mif: use of cubic anisotropy in a problem file.]({{site.url}}/assets/2014/05/Slide5-300x300.png) |
 |:--:|
 | *Squarecubic.mif: use of cubic anisotropy in a problem file.* |
 
@@ -61,7 +61,7 @@ You can find these and many more similar examples in oommf/app/oxs/examples
 <li>Setting anisotropy and initial magnetisation for different regions.</li>
 </ul>
 
-| ![Imageatlas.mif: Using a bitmap to define simulation regions.]({{site.baseurl}}/assets/2014/05/Slide6-300x225.png) |
+| ![Imageatlas.mif: Using a bitmap to define simulation regions.]({{site.url}}/assets/2014/05/Slide6-300x225.png) |
 |:--:|
 | *Imageatlas.mif: Using a bitmap to define simulation regions.* |
 
@@ -70,7 +70,7 @@ You can find these and many more similar examples in oommf/app/oxs/examples
 <li>Use a 'proc' to define a time-varying field</li>
 </ul>
 
-| ![Varalpha.mif: using a proc to define a time-varying magnetic field.]({{site.baseurl}}/assets/2014/05/Slide7-300x276.png) |
+| ![Varalpha.mif: using a proc to define a time-varying magnetic field.]({{site.url}}/assets/2014/05/Slide7-300x276.png) |
 |:--:|
 | *Varalpha.mif: using a proc to define a time-varying magnetic field.* |
 
@@ -94,6 +94,6 @@ A step is a single iteration, while a stage is for example reaching equilibrium 
 As you carry out your own simulations and introduce more complicated elements you'll begin to build up a library of your own useful examples. Rather than starting from scratch each time you'll be able to build on these.
 
 
-<a href="{{site.baseurl}}/oommf/oommf-tutorial/">
-<img class=" aligncenter" src="{{site.baseurl}}/assets/2014/05/OOMMF_tutorial.png" alt="OOMMF Tutorial" width="200" height="142" border="0">
+<a href="{{site.url}}/oommf/oommf-tutorial/">
+<img class=" aligncenter" src="{{site.url}}/assets/2014/05/OOMMF_tutorial.png" alt="OOMMF Tutorial" width="200" height="142" border="0">
 </a>

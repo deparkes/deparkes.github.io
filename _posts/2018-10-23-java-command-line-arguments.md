@@ -18,7 +18,7 @@ permalink: "/2018/10/23/java-command-line-arguments/"
 ---
 If you have used other languages, you will probably be familiar with the idea of passing arguments to a program via the command line. This post shows you how you can do it with java.
 
-In this post we'll use a simple script to also take arguments from the command line. Read more about <a href="{{site.baseurl}}/2018/10/16/simple-java-example/">getting started with Java</a>.
+In this post we'll use a simple script to also take arguments from the command line. Read more about <a href="{{site.url}}/2018/10/16/simple-java-example/">getting started with Java</a>.
 This is a file called JavaCommandLineInput.java
 
 ```java
@@ -31,7 +31,7 @@ public class JavaCommandLineInput {
 }
 ```
 
-Much of this code is the same as in this <a href="{{site.baseurl}}/2018/10/16/simple-java-example/">simple Java example</a>, but there are some other elements worth describing here.
+Much of this code is the same as in this <a href="{{site.url}}/2018/10/16/simple-java-example/">simple Java example</a>, but there are some other elements worth describing here.
 <h2>'String[] args'</h2>
 The argument to the main method of the JavaCommandLineInput method is '<a href="https://stackoverflow.com/questions/890966/what-is-string-args-parameter-in-main-method-java">String[] args</a>'. This provides a variable which contains any command line arguments provided when the compiled program is run. <a href="https://www.quora.com/Why-is-String-args-compulsory-in-main-method-in-Java">Java is designed for this 'String[] args' argument to be compulsory</a>, so you will need to include it in your programs, even if you do not intend to provide arguments at the command line.
 

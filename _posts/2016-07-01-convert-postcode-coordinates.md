@@ -23,13 +23,13 @@ It's common to have the <a href="https://en.wikipedia.org/wiki/Postcodes_in_the_
 <h1>Option 1. Use an Online Conversion Tool</h1>
 Often the easiest way to convert postcode coordinates is to use an online tool like this <a href="https://www.gridreferencefinder.com/postcodeBatchConverter/">one</a>. You can upload your address data at it will give you <a href="https://en.wikipedia.org/wiki/Ordnance_Survey_National_Grid">OS grid reference coordinates</a>, <a href="https://en.wikipedia.org/wiki/Easting_and_northing">eastings and northings</a>, as well as <a href="https://en.wikipedia.org/wiki/Geographic_coordinate_system">latitude and longitude</a>.
 
-| ![convert postcode coordinates - output]({{site.baseurl}}/assets/2016/07/output_data.png) |
+| ![convert postcode coordinates - output]({{site.url}}/assets/2016/07/output_data.png) |
 |:--:|
 | *convert postcode coordinates - output* |
 
 The tool also gives you the option to view your points in an interactive map:
 
-| ![convert postcode coordinates - map]({{site.baseurl}}/assets/2016/07/grid_reference_finder.png) |
+| ![convert postcode coordinates - map]({{site.url}}/assets/2016/07/grid_reference_finder.png) |
 |:--:|
 | *convert postcode coordinates - map* |
 

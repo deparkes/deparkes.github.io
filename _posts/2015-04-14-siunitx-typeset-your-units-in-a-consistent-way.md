@@ -31,6 +31,6 @@ Here are some examples for how you might use it:
 
 Which when compiled looks like:
 
-| !["siunitx examples]({{site.baseurl}}/assets/2015/04/siunitx_example.png) |
+| !["siunitx examples]({{site.url}}/assets/2015/04/siunitx_example.png) |
 |:--:|
 | *siunitx example* |

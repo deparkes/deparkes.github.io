@@ -45,7 +45,7 @@ For each of these examples I try to follow the general 'Data Storytelling' appro
 <h3>Trump/Obama Economic Policies Reaction</h3>
 This <a href="https://www.flickr.com/photos/7563356@N08/45292344782/">first example</a> comes from some political analysis of the Trump and Obama presidencies.
 
-| ![data storytelling - trump and obama]({{site.baseurl}}/assets/2021/10/45292344782_a58f8ee15f_o-300x236.png) |
+| ![data storytelling - trump and obama]({{site.url}}/assets/2021/10/45292344782_a58f8ee15f_o-300x236.png) |
 |:--:|
 | *data storytelling - trump and obama* |
 
@@ -61,7 +61,7 @@ This <a href="https://www.flickr.com/photos/7563356@N08/45292344782/">first exam
 </ul>
 <h4>My Attempt</h4>
 
-| ![data storytelling - trump obama my version]({{site.baseurl}}/assets/2021/10/TrumpVsObama-300x182.png) |
+| ![data storytelling - trump obama my version]({{site.url}}/assets/2021/10/TrumpVsObama-300x182.png) |
 |:--:|
 | *data storytelling - trump obama my version* |
 
@@ -87,7 +87,7 @@ On reflection there were also other things that could have been done
 <h3>Medical Personnel in South Vietnam</h3>
 Next is <a href="https://www.flickr.com/photos/navymedicine/49306295576/">an example</a> of a table taken from a Vietnam war status update.
 
-| ![data storytelling - medical personnel]({{site.baseurl}}/assets/2021/10/49306295576_b0571e3a85_c-300x202.jpg) |
+| ![data storytelling - medical personnel]({{site.url}}/assets/2021/10/49306295576_b0571e3a85_c-300x202.jpg) |
 |:--:|
 | *data storytelling - medical personnel* |
 
@@ -100,7 +100,7 @@ Next is <a href="https://www.flickr.com/photos/navymedicine/49306295576/">an exa
 <li>No clear purpose or ‘Big Idea’ to highlight.</li>
 </ul>
 <h4>My Attempt</h4>
-| ![vietnam personnel - my attempt]({{site.baseurl}}/assets/2021/10/VietnamMedicalPersonnelWithTitle-300x122.png) |
+| ![vietnam personnel - my attempt]({{site.url}}/assets/2021/10/VietnamMedicalPersonnelWithTitle-300x122.png) |
 |:--:|
 | *vietnam personnel - my attempt* |
 
@@ -114,7 +114,7 @@ Next is <a href="https://www.flickr.com/photos/navymedicine/49306295576/">an exa
 <h3>Carbon Baseline</h3>
 This <a href="https://www.flickr.com/photos/warrenpearce/4582620392/">final example</a> seems to be a carbon review carried out by a business.
 
-| ![data storytelling - carbon baseline]({{site.baseurl}}/assets/2021/10/4582620392_f859d60dff_o-300x100.jpg) |
+| ![data storytelling - carbon baseline]({{site.url}}/assets/2021/10/4582620392_f859d60dff_o-300x100.jpg) |
 |:--:|
 | *data storytelling - carbon baseline* |
 
@@ -127,7 +127,7 @@ This <a href="https://www.flickr.com/photos/warrenpearce/4582620392/">final exam
 
 <h4>My Attempt</h4>
 
-| ![data storytelling - carbon baseline - my attempt]({{site.baseurl}}/assets/2021/10/CarbonBaseline-300x180.png) |
+| ![data storytelling - carbon baseline - my attempt]({{site.url}}/assets/2021/10/CarbonBaseline-300x180.png) |
 |:--:|
 | *data storytelling - carbon baseline - my attempt* |
 

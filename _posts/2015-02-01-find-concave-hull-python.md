@@ -23,4 +23,4 @@ This <a href="https://blog.thehumangeo.com/2014/05/12/drawing-boundaries-in-pyth
 Image:  <span class="mw-mmv-source-author"><span class="mw-mmv-author"><a title="User:Kku" href="https://commons.wikimedia.org/wiki/User:Kku">Kku</a></span>; <a class="mw-mmv-license" href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a></span>
 
 
-<a href="{{site.baseurl}}/python-polygons/"><img class="aligncenter wp-image-1479" src="{{site.baseurl}}/assets/2015/02/path4186-300x162.png" alt="python polygons" width="220" height="119"></a>
+<a href="{{site.url}}/python-polygons/"><img class="aligncenter wp-image-1479" src="{{site.url}}/assets/2015/02/path4186-300x162.png" alt="python polygons" width="220" height="119"></a>

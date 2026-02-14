@@ -25,7 +25,7 @@ In the end I've had the most success with converting the ogv movie to an image s
 My usual process is to record both the audio and video in RecordMyDesktop, as well as simultaneously making a higher quality sound recording in Audacity. I haven't got to the bottom of what was at fault, but my current solution of converting the video to individual images seems to be working for now.
 Read on for more information about the indvidual steps.
 
-| ![recordmydesktop and blender]({{site.baseurl}}/assets/2015/11/Schematic-1024x449.png) |
+| ![recordmydesktop and blender]({{site.url}}/assets/2015/11/Schematic-1024x449.png) |
 |:--:|
 | *recordmydesktop and blender* |
 

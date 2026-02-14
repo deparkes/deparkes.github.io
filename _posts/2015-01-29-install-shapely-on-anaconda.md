@@ -54,4 +54,4 @@ pip freeze
 I was a bit surprised to find the examples folder to be rather bare.
 If you want to get the full suite of examples, I suggest downloading the source from the project github repository: <a href="https://github.com/Toblerity/Shapely">https://github.com/Toblerity/Shapely</a>
 
-<a href="{{site.baseurl}}/python-polygons/"><img class="aligncenter wp-image-1479" src="{{site.baseurl}}/assets/2015/01/path4186-300x162.png" alt="python polygons" width="220" height="119"></a>
+<a href="{{site.url}}/python-polygons/"><img class="aligncenter wp-image-1479" src="{{site.url}}/assets/2015/01/path4186-300x162.png" alt="python polygons" width="220" height="119"></a>

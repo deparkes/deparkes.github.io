@@ -20,13 +20,13 @@ permalink: "/2014/06/10/oommf-tutorial-part-4-oommf-analysis-tools/"
 ---
 When doing micromagnetic simulations it is easy to end up with hundreds of output files, so part four of this OOMMF Tutorial covers some of the tools available for analysing OOMMF data.  This list isn't exhaustive - if I've missed out your favourite - please leave a comment!
 OOMMF outputs two types of data: vector, such as magnetisation or demagnetising fields; and scalar such as energies and total magnetisations. There are tools available for processing both types.
-If you haven't already please check out parts <a title="OOMMF Tutorial Part 1: Install OOMMF and Tcl/tk" href="{{site.baseurl}}/2014/05/18/oommf-tutorial-part-1-install-oommf-and-tcltk/">one</a>, <a title="OOMMF Tutorial Part 2: Running OOMMF" href="{{site.baseurl}}/2014/05/22/oommf-tutorial-part-2-running-oommf/">two </a>and <a title="OOMMF Tutorial Part 3: mif Files and Examples" href="{{site.baseurl}}/2014/05/27/oommf-tutorial-part-3-mif-examples/">three</a> of this tutorial.
+If you haven't already please check out parts <a title="OOMMF Tutorial Part 1: Install OOMMF and Tcl/tk" href="{{site.url}}/2014/05/18/oommf-tutorial-part-1-install-oommf-and-tcltk/">one</a>, <a title="OOMMF Tutorial Part 2: Running OOMMF" href="{{site.url}}/2014/05/22/oommf-tutorial-part-2-running-oommf/">two </a>and <a title="OOMMF Tutorial Part 3: mif Files and Examples" href="{{site.url}}/2014/05/27/oommf-tutorial-part-3-mif-examples/">three</a> of this tutorial.
 <h1>Built-in analysis tools</h1>
 OOMMF already comes with some simple tools for viewing, saving and analysing your data. They're not necessarily the most advanced, or easy to use, but they allow at least for quickly checking progress of calculations so can be invaluable.
 <h2>mmDisp</h2>
 The most straight forward tool for analysing vector data is to use mmDisp. You can even set OOMMF to automatically display to mmDisp as the calculation runs.
 
-| ![Using mmDisp to examine magnetisation vector data.]({{site.baseurl}}/assets/2014/06/Built-in-analysis-300x225.png) |
+| ![Using mmDisp to examine magnetisation vector data.]({{site.url}}/assets/2014/06/Built-in-analysis-300x225.png) |
 |:--:|
 | *Using mmDisp to examine magnetisation vector data.* |
 
@@ -35,7 +35,7 @@ See more about mmDisp in the OOMMF <a href="https://math.nist.gov/oommf/doc/user
 <h2> mmGraph</h2>
 mmGraph is the scalar equivalent of mmDisp. It lets you quickly and easily view the data table output from your OOMMF simulations. In terms of functionality the plotter is quite straightward, so you'll probably want to use separate software for producing production quality graphs.
 
-| ![Built-in graph viewer. Plot different scalar parameters such as simulation time, total energy, magnetisation.]({{site.baseurl}}/assets/2014/06/mmGraph_example-282x300.png) |
+| ![Built-in graph viewer. Plot different scalar parameters such as simulation time, total energy, magnetisation.]({{site.url}}/assets/2014/06/mmGraph_example-282x300.png) |
 |:--:|
 | *Built-in graph viewer. Plot different scalar parameters such as simulation time, total energy, magnetisation.* |
 
@@ -49,14 +49,14 @@ I will focus on OOMMFTools since that is the one that I am most familiar with.
 The suite of tools makes it easy to convert single or multiple OOMMF files into other formats more readily viewed or further processed than the standard output formats.
 
 
-| ![Options for processing oommf data with oommf tools.]({{site.baseurl}}/assets/2014/06/Slide13-300x225.png) |
+| ![Options for processing oommf data with oommf tools.]({{site.url}}/assets/2014/06/Slide13-300x225.png) |
 |:--:|
 | *Options for processing oommf data with oommf tools.* |
 
 The basic operations available in OOMMFTools are vector format -&gt; matlab/python readable file; vector format -&gt; bitmap, video; scalar data table -&gt; plain text.
 <h2>odt2dat.py</h2>
 To make the scalar data table easier to understand it is good to convert it to a plain text ascii .dat file. odt2dat.py lets you do this.
-The column headings are shown below. Once you know the number of the column you can easily <a title="Labtalk plotting in Origin" href="{{site.baseurl}}/2013/04/18/labtalk-plotting-in-origin/">plot it</a> against any other column using your favourite graphing software.
+The column headings are shown below. Once you know the number of the column you can easily <a title="Labtalk plotting in Origin" href="{{site.url}}/2013/04/18/labtalk-plotting-in-origin/">plot it</a> against any other column using your favourite graphing software.
 ```
 Total energy
 Energy calc count
@@ -104,6 +104,6 @@ for all .omf files in the directory.
 One of the most striking ways to present time-evolving data is as a video. OOMMFTools uses ffmpeg (available as part of <a href="https://www.imagemagick.org/">ImageMagick</a>) to convert a folder of bitmaps into an avi video.
 <h1>You might also consider</h1>
 There are some other tools that I'm not so familiar with that you might also be interested in using. The best place to find analysis tools is probably the OOMMF <a href="https://math.nist.gov/oommf/contrib/">website</a>.
-<a href="{{site.baseurl}}/oommf/oommf-tutorial/">
-<img class=" aligncenter" src="{{site.baseurl}}/assets/2014/06/OOMMF_tutorial.png" alt="OOMMF Tutorial" width="200" height="142" border="0">
+<a href="{{site.url}}/oommf/oommf-tutorial/">
+<img class=" aligncenter" src="{{site.url}}/assets/2014/06/OOMMF_tutorial.png" alt="OOMMF Tutorial" width="200" height="142" border="0">
 </a>

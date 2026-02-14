@@ -39,7 +39,7 @@ I've tried to avoid discussing <a href="https://www.wikihow.com/Calculate-Confid
 
 With the tool you can play with confidence interval and sample size and see how many times the population mean is within the confidence interval of the sample.
 
-| ![Screenshot of Khan Academy interactive tool]({{site.baseurl}}/assets/2020/07/khan_tool_25_samples.png) |
+| ![Screenshot of Khan Academy interactive tool]({{site.url}}/assets/2020/07/khan_tool_25_samples.png) |
 |:--:|
 | *Screenshot of <a href="https://www.khanacademy.org/math/ap-statistics/estimating-confidence-ap/introduction-confidence-intervals/a/interpreting-confidence-levels-and-confidence-intervals">interactive tool</a>* |
 

@@ -28,7 +28,7 @@ I've tried to strip the code to a minimum to keep things simple. The main steps 
 </ul>
 Steps for validation and optimisation have been left out.
 <h1>Some Sample Data</h1>
-I'm going to use one of the <a href="{{site.baseurl}}/2016/11/11/python-sample-datasets/">sample datasets</a> that come with scikit-klearn to run a simple classification. The <a href="https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html">breast cancer dataset</a> is a good example for looking at binary classification.
+I'm going to use one of the <a href="{{site.url}}/2016/11/11/python-sample-datasets/">sample datasets</a> that come with scikit-klearn to run a simple classification. The <a href="https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html">breast cancer dataset</a> is a good example for looking at binary classification.
 
 ```python
 # Get sample dataset from sklearn datasets

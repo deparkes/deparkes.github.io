@@ -22,7 +22,7 @@ tags:
 author: deparkes
 permalink: "/2018/04/16/matplotlib-xkcd-style-plots/"
 ---
-Matplotlib is the excellent workhorse plotting library for python. As great as matplotlib is, it could occasionally do with a little stylistic improvement <a href="{{site.baseurl}}/2015/05/05/seaborn-python-plotting-library/">[1]</a> [<a href="{{site.baseurl}}/2015/04/18/ggplot-for-python/">2]</a>. I recently came across a cool feature in <a href="https://matplotlib.org/api/_as_gen/matplotlib.pyplot.xkcd.html">matplotlib</a> that lets you plot in the style of the popular <a href="https://www.xkcd.com/">XKCD</a> comics, with a fun font and a more 'sketchy' line style.
+Matplotlib is the excellent workhorse plotting library for python. As great as matplotlib is, it could occasionally do with a little stylistic improvement <a href="{{site.url}}/2015/05/05/seaborn-python-plotting-library/">[1]</a> [<a href="{{site.url}}/2015/04/18/ggplot-for-python/">2]</a>. I recently came across a cool feature in <a href="https://matplotlib.org/api/_as_gen/matplotlib.pyplot.xkcd.html">matplotlib</a> that lets you plot in the style of the popular <a href="https://www.xkcd.com/">XKCD</a> comics, with a fun font and a more 'sketchy' line style.
 
 Using xckd-style plots is <a href="https://www.chrisstucchio.com/blog/2014/why_xkcd_style_graphs_are_important.html">not just for fun</a>. You can use the xkcd style when you want to emphasise the uncertainty in your modelling or analysis. They look so unofficial that your audience or reader will have to question if your analysis is correct or not.
 <h1>Matplotlib XKCD Style Plots</h1>
@@ -45,7 +45,7 @@ plt.show()
 
 Which should output this
 
-| ![Matplotlib XKCD Style - xkcd]({{site.baseurl}}/assets/2018/04/xkcd_normal.png) |
+| ![Matplotlib XKCD Style - xkcd]({{site.url}}/assets/2018/04/xkcd_normal.png) |
 |:--:|
 | *Matplotlib XKCD Style - xkcd* |
 
@@ -79,7 +79,7 @@ plt.show()
 
 This code will produce two plots of the same data, but with different styles. The second one will use matplotlib defaults and look more like this:
 
-| ![Matplotlib XKCD Style - defaults]({{site.baseurl}}/assets/2018/04/xkcd_defaults.png) |
+| ![Matplotlib XKCD Style - defaults]({{site.url}}/assets/2018/04/xkcd_defaults.png) |
 |:--:|
 | *Matplotlib XKCD Style - defaults* |
 

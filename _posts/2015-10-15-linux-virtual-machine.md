@@ -28,7 +28,7 @@ Once you have VirtualBox installed, you need to set up a virtual machine by sett
 Load up virtual box and hit "New" to create a  new machine. For now, just stick to the default settings.
 <h3><a href="https://www.virtualbox.org/manual/ch01.html">Read a more detailed VirtualBox manual.</a></h3>
 
-| ![For now you can probably get away with accepting the default settings for your new virtual machine]({{site.baseurl}}/assets/2015/10/VirtualBox-screen7.png) |
+| ![For now you can probably get away with accepting the default settings for your new virtual machine]({{site.url}}/assets/2015/10/VirtualBox-screen7.png) |
 |:--:|
 | *For now you can probably get away with accepting the default settings for your new virtual machine* |
 
@@ -41,13 +41,13 @@ You can install any operating system onto your new virtual machine, but as it wi
 Once you've picked the Linux distribution you want to try out you will need to download the disk image (usually a ".iso" file).
 Click on the virtual machine's optical drive to load your Linux install disk image file and then just follow the normal install procedure of the operating system.
 
-| ![Click on the virtual machine's optical drive to load the disk image]({{site.baseurl}}/assets/2015/10/VirtualBox-screen8.png) |
+| ![Click on the virtual machine's optical drive to load the disk image]({{site.url}}/assets/2015/10/VirtualBox-screen8.png) |
 |:--:|
 | *Click on the virtual machine's optical drive to load the disk image* |
 
 <h3><a href="https://help.ubuntu.com/community/Installation">Get Help on Installing Lubuntu</a></h3>
 
-| ![Just follow the normal install procedure for your operating system]({{site.baseurl}}/assets/2015/10/VirtualBox-screen9.png) |
+| ![Just follow the normal install procedure for your operating system]({{site.url}}/assets/2015/10/VirtualBox-screen9.png) |
 |:--:|
 | *Just follow the normal install procedure for your operating system* |
 
@@ -55,7 +55,7 @@ Click on the virtual machine's optical drive to load your Linux install disk ima
 <h1>Try Out Your New Linux Virtual Machine</h1>
 Your new virtual machine should now be working just like a physical one - give it a go!
 
-| ![Try out your new Linux Virtual Machine]({{site.baseurl}}/assets/2015/10/VirtualBox-screen15-1024x768.png) |
+| ![Try out your new Linux Virtual Machine]({{site.url}}/assets/2015/10/VirtualBox-screen15-1024x768.png) |
 |:--:|
 | *Try out your new Linux Virtual Machine* |
 

@@ -73,7 +73,7 @@ element3element4
 <h2>The Full Code</h2>
 The full code for this simple example is below and can be run with python app.py. The resulting dashboard will look like this:
 
-| ![Python Dashboard]({{site.baseurl}}/assets/2021/01/plotly_dash.png) |
+| ![Python Dashboard]({{site.url}}/assets/2021/01/plotly_dash.png) |
 |:--:|
 | *Python Dashboard* |
 

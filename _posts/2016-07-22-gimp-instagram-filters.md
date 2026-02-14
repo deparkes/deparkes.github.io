@@ -27,7 +27,7 @@ First, <a href="https://registry.gimp.org/node/28613">download this pack of inst
 Then <a href="https://www.mahvin.com/2009/09/gimp-how-to-install-scripts-plug-ins-to.html">check out this post for how to install GIMP plugins</a> - you essentially need to copy the filters to the GIMP plugin folder (exactly how you do this depends on  your system).
 Once loaded, you can access the filters from the GIMP filters menu and apply them to your photos:
 
-| ![gimp instagram filters - menu]({{site.baseurl}}/assets/2016/07/menu.png) |
+| ![gimp instagram filters - menu]({{site.url}}/assets/2016/07/menu.png) |
 |:--:|
 | *gimp instagram filters - menu* |
 
@@ -39,6 +39,6 @@ I've left the filters exactly as they are by default, although you could easily 
 
 Check out this contact sheet to see all the filters:
 
-| ![gimp instagram filters - menu]({{site.baseurl}}/assets/2016/07/out.jpg) |
+| ![gimp instagram filters - menu]({{site.url}}/assets/2016/07/out.jpg) |
 |:--:|
 | *gimp instagram filters - menu* |

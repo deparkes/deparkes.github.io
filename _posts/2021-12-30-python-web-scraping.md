@@ -21,8 +21,8 @@ permalink: "/2021/12/30/python-web-scraping/"
 ---
 <a href="https://en.wikipedia.org/wiki/Web_scraping">Web scraping</a> is the process of automatically identifying and downloading data from a webpage. This blog post looks a a few python web scraping options.
 Alternatives to web scraping include:
-- <strong>Using an API</strong>. Usually a better option than web scraping if an API is available. <em>See also</em> <a href="{{site.baseurl}}/2018/08/11/flask-restful-api-json/">Creating an API with flask</a>. <a href="{{site.baseurl}}/2016/10/07/some-cool-open-data-api/">Open data APIs</a>.
-- <strong>Manually copying data</strong> from a website. Can be a better option if there is a small number of target pages or if there is a lot of variation in website data. <em>See also</em> an <a href="{{site.baseurl}}/2021/04/16/time-team-map-of-episodes/">example of manual copying used to 'scrape' Wikipedia data</a>.
+- <strong>Using an API</strong>. Usually a better option than web scraping if an API is available. <em>See also</em> <a href="{{site.url}}/2018/08/11/flask-restful-api-json/">Creating an API with flask</a>. <a href="{{site.url}}/2016/10/07/some-cool-open-data-api/">Open data APIs</a>.
+- <strong>Manually copying data</strong> from a website. Can be a better option if there is a small number of target pages or if there is a lot of variation in website data. <em>See also</em> an <a href="{{site.url}}/2021/04/16/time-team-map-of-episodes/">example of manual copying used to 'scrape' Wikipedia data</a>.
 <h2>Python Web Scraping Options</h2>
 I've picked out a few different python web scraping options. There is some overlap in terms of concepts and packages used as the essential idea is the same: programmatically grab data from a webpage and then look for certain aspects within it.
 Common python web scraping packages include <a href="https://realpython.com/python-requests/">requests</a>, <a href="https://realpython.com/beautiful-soup-web-scraper-python/">beautiful soup</a>, <a href="https://realpython.com/regex-python/">regex</a>.

@@ -19,7 +19,7 @@ permalink: "/2020/07/07/python-strategy-pattern/"
 ---
 The strategy pattern is all about being able to swap complex functionality in and out, without needing to change large amounts of code. This post summarises the strategy pattern in python. Formal, traditional <a href="https://www.toptal.com/python/python-design-patterns">design patterns</a> are not found in python as often as in other languages such as C# or Java. It can still help to know the general principles and when to look out for opportunities to use them.
 
-Another common design pattern is the command pattern - <a href="{{site.baseurl}}/2020/06/21/command-pattern/">read about the command pattern in python</a>.
+Another common design pattern is the command pattern - <a href="{{site.url}}/2020/06/21/command-pattern/">read about the command pattern in python</a>.
 <h2>Python Strategy Pattern</h2>
 The flexibility of python as a language means that you can approach the strategy pattern in different ways. In this post I've got an example of a simpler version that uses <a href="https://dbader.org/blog/python-first-class-functions">functions</a> for the strategies, and a less simple version which uses classes for the strategies.
 This simple example has two possible strategy functions and a separate function for implementing the strategies.

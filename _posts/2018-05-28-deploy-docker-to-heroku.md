@@ -26,7 +26,7 @@ permalink: "/2018/05/28/deploy-docker-to-heroku/"
 
 The Heroku website already has <a href="https://devcenter.heroku.com/articles/container-registry-and-runtime">some good guide</a>s to help you deploy docker to Heroku, but I found there were some things that didn't quite make sense to me.
 
-In this post I build on my previous post which showed <a href="{{site.baseurl}}/2018/03/02/simple-docker-flask-sqlite-api/">how to make a simple flask app</a> in a docker container. In that post we made a simple app which we could access in a locally hosted docker container. If we want others to be able to access it it we need to deploy it or host it elsewhere.
+In this post I build on my previous post which showed <a href="{{site.url}}/2018/03/02/simple-docker-flask-sqlite-api/">how to make a simple flask app</a> in a docker container. In that post we made a simple app which we could access in a locally hosted docker container. If we want others to be able to access it it we need to deploy it or host it elsewhere.
 <h1>Get Set Up With Heroku</h1>
 <h2>Heroku Basics</h2>
 To follow along with the rest of this post you'll need to create <a href="https://signup.heroku.com/">a heroku account</a> and install the <a href="https://devcenter.heroku.com/articles/heroku-cli">heroku cli app</a>.
@@ -41,7 +41,7 @@ Then start up docker on your local machine, and run (make sure you have already 
 Our container will need to run from within a heroku app. If you don't already have one, <a href="https://devcenter.heroku.com/articles/creating-apps">create a new app</a> with this command:
 ``` heroku create ```
 <h1>Prepare Your Docker Container</h1>
-You will need to make some alterations to your docker container and your app to prepare it to be hosted on Heroku. To illustrate the kind of things you need to consider I will modify my existing <a href="{{site.baseurl}}/2018/03/02/simple-docker-flask-sqlite-api/">simple flask app</a>.
+You will need to make some alterations to your docker container and your app to prepare it to be hosted on Heroku. To illustrate the kind of things you need to consider I will modify my existing <a href="{{site.url}}/2018/03/02/simple-docker-flask-sqlite-api/">simple flask app</a>.
 <a href="https://github.com/deparkes/docker_flask_example/tree/heroku_app">Checkout the example heroku docker app on github.</a>
 <h2>Change Docker User</h2>
 Heroku runs docker apps a a non-root user. To help when it comes to testing locally, it is recommended to add the follow lines to your dockerfile, before the 'CMD' command that runs the app script:
@@ -57,7 +57,7 @@ Running locally you can expose which ever port you want, and you would typically
 
 But Heroku requires that the web process (i.e. the docker container) listens on a particular port specified by the ```$PORT``` environment variable. This is the only port open for use, and Heroku will throw an error if the running service does not connect to that port within 60 seconds.
 
-| ![Opening ports]({{site.baseurl}}/assets/2018/05/PORT_variable-300x266.png) |
+| ![Opening ports]({{site.url}}/assets/2018/05/PORT_variable-300x266.png) |
 |:--:|
 | *Opening ports* |
 

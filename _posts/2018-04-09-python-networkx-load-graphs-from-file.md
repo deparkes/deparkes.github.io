@@ -61,7 +61,7 @@ nx.draw(my_graph, with_labels=True, font_weight='bold')
 
 This should draw a graph similar to this:
 
-| ![Load Graphs From File - list and tuple]({{site.baseurl}}/assets/2018/04/simple_graph_list_and_tuple.png) |
+| ![Load Graphs From File - list and tuple]({{site.url}}/assets/2018/04/simple_graph_list_and_tuple.png) |
 |:--:|
 | *Load Graphs From File - list and tuple* |
 
@@ -126,6 +126,6 @@ nx.draw(gml_graph, with_labels=True, font_weight='bold')
 ```
 
 Which should draw a graph like the one below. This is essentially the same as the graph in the previous example: nodes 1, 2 and 3 are connected together, while node x is on its own.
-<img class="aligncenter wp-image-4073 size-full" src="{{site.baseurl}}/assets/2018/04/simple_graph_gml.png" alt="Load Graphs From File - gml" width="481" height="322">
+<img class="aligncenter wp-image-4073 size-full" src="{{site.url}}/assets/2018/04/simple_graph_gml.png" alt="Load Graphs From File - gml" width="481" height="322">
 <h1>Other Methods</h1>
 Networkx has a range of other <a href="https://networkx.github.io/documentation/stable/tutorial.html">methods to load graphs</a> from file which you may want to consider. Networkx is also <a href="https://networkx.github.io/documentation/stable/tutorial.html#creating-a-graph">quite flexible</a> in which python object types can be used as nodes, so you may be able to work beyond the methods included with the package, such as with <a href="https://stackoverflow.com/questions/26665799/networkx-adding-edges-to-a-graph-from-a-dictionary-with-lists-as-values">dictionaries</a>.

@@ -19,7 +19,7 @@ permalink: "/2015/01/07/automatic-backup-synctoy/"
 ---
 <blockquote>"Backing up is easy, the hard part is remembering to do it" - a wise man</blockquote>
 With that in mind this post shows you how to <strong>automatically backup your files</strong> on your windows computer.
-For information on backing up a linux computer checkout this <a title="Keeping in sync with rsync" href="{{site.baseurl}}/2014/02/14/keeping-in-sync-with-rsync/">post on rsync</a>.
+For information on backing up a linux computer checkout this <a title="Keeping in sync with rsync" href="{{site.url}}/2014/02/14/keeping-in-sync-with-rsync/">post on rsync</a>.
 <h1>Microsoft Synctoy</h1>
 There are no doubt scores of different synchronising and backup programs for windows, but the best I've found is synctoy. It's made by microsoft, and works well.
 Get synctoy <a href="https://www.microsoft.com/en-gb/download/details.aspx?id=15155">here.</a>

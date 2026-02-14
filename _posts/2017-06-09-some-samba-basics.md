@@ -21,7 +21,7 @@ permalink: "/2017/06/09/some-samba-basics/"
 ---
 <a href="https://en.wikipedia.org/wiki/Samba_(software)">Samba </a>is a protocol that makes file sharing across a network easy (great if you have your own home server). This post has a few samba basics - commands and operations to help you configure and run your samba shared folders.
 <h1>Setting up samba</h1>
-Read about <a href="{{site.baseurl}}/2017/06/02/a-simple-linux-home-server/">how you can setup and configure Samba</a> for a simple home server.
+Read about <a href="{{site.url}}/2017/06/02/a-simple-linux-home-server/">how you can setup and configure Samba</a> for a simple home server.
 <h1>Restart samba</h1>
 If something goes wrong, turning Samba off and on again can be a solution.
 Read <a href="https://askubuntu.com/questions/79078/how-to-restart-samba-server">this response</a> for more details.
@@ -50,7 +50,7 @@ If you're not sure of your Samba service name, you can list your services with t
 service --status-all
 ```
 
-<img class="aligncenter size-full wp-image-3406" src="{{site.baseurl}}/assets/2017/06/samba_service.png" alt="samba basics - samba service name" width="802" height="391">
+<img class="aligncenter size-full wp-image-3406" src="{{site.url}}/assets/2017/06/samba_service.png" alt="samba basics - samba service name" width="802" height="391">
 <h1>List samba users</h1>
 It can be useful to be able to <a href="https://superuser.com/questions/271034/list-samba-users">list current Samba users</a>. You can do this with:
 
@@ -70,21 +70,21 @@ sudo smbpasswd -a user-name
 If you aren't sure of the user names, see 'List Samba Users', above.
 <h1>Clear windows connection cache</h1>
 If you do change the password on a Samba user account, you may find you have trouble connecting via windows. One solution to this is to <a href="https://www.golinuxhub.com/2013/12/multiple-connections-to-server-or.html$or.html&gt;">clear the windows connection cache</a>.
-First run <code>net use</code> to see what connections are stored. In this case I hvae a stored connection to my <a href="{{site.baseurl}}/2017/06/02/a-simple-linux-home-server/">Lubuntu file server</a>.
+First run <code>net use</code> to see what connections are stored. In this case I hvae a stored connection to my <a href="{{site.url}}/2017/06/02/a-simple-linux-home-server/">Lubuntu file server</a>.
 
-| ![samba basics - net use]({{site.baseurl}}/assets/2017/06/net_use.png) |
+| ![samba basics - net use]({{site.url}}/assets/2017/06/net_use.png) |
 |:--:|
 | *samba basics - net use* |
 
 If I was having trouble with this connection I would <code>run net use /delete \\LUBUNTU\IPC$</code> to remove it. The output confirms this connection has been removed.
 
-| ![samba basics - net use delete]({{site.baseurl}}/assets/2017/06/net_use_delete.png) |
+| ![samba basics - net use delete]({{site.url}}/assets/2017/06/net_use_delete.png) |
 |:--:|
 | *samba basics - net use delete* |
 
 If we try to list connections, we will be told there are none:
 
-| ![samba basics - no entries]({{site.baseurl}}/assets/2017/06/net_use_no_entries.png) |
+| ![samba basics - no entries]({{site.url}}/assets/2017/06/net_use_no_entries.png) |
 |:--:|
 | *samba basics - no entries* |
 

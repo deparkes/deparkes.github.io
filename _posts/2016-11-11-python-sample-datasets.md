@@ -34,7 +34,7 @@ data = pd.read_csv("https://www.ats.ucla.edu/stat/data/binary.csv")
 You can actually use this method to <a href="https://vincentarelbundock.github.io/Rdatasets/datasets.html">load the datasets</a> found in the r datasets package - just copy the link to the csv files. It's a bit clunkier than the R package, but it does give you easy access to the data.<code><span class="kwd">
 </span></code>
 <h2>Use The Seaborn Library</h2>
-<a href="{{site.baseurl}}/2015/05/05/seaborn-python-plotting-library/">Seaborn</a> is primarily a plotting library for python, but you can also use it to access sample datasets. The example below loads the iris dataset as a pandas dataframe (the iris dataset is <a href="https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/iris.html">also available in R</a>).
+<a href="{{site.url}}/2015/05/05/seaborn-python-plotting-library/">Seaborn</a> is primarily a plotting library for python, but you can also use it to access sample datasets. The example below loads the iris dataset as a pandas dataframe (the iris dataset is <a href="https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/iris.html">also available in R</a>).
 
 ```python
 import seaborn.apionly as sns

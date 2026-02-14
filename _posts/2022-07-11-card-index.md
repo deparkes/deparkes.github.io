@@ -41,7 +41,7 @@ The following examples show some of the variation in how a card index system can
 Say you have a collection of recipes: some you have come up with yourself, some are handed down from family, some you picked up from friends, and some are from cookbooks, magazines etc.
 A common way to write down those recipes is on an index card, i.e. a roughly post-card sized piece of card. You might end up with a series of cards that look something like this:
 
-| ![recipe card index example]({{site.baseurl}}/assets/2022/07/4610033627_be80c4562b_w.jpg) |
+| ![recipe card index example]({{site.url}}/assets/2022/07/4610033627_be80c4562b_w.jpg) |
 |:--:|
 | *recipe card index example - [Image credit](https://www.flickr.com/photos/10372146@N08/4610033627/)* |
 

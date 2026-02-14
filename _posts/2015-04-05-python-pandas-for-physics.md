@@ -21,16 +21,16 @@ permalink: "/2015/04/05/python-pandas-for-physics/"
 ---
 <h1>Python Pandas for Physics</h1>
 The <a href="https://pandas.pydata.org/">Pandas package</a> brings advanced data structures and data analysis tools to python. It was initially concieved for use in the world of finance, but can it be of any use to us interested in physics?
-For some time I've been trying to get to the stage that I can use python for all my scripting and data analysis, replacing programs like <a href="https://uk.mathworks.com/products/matlab/">Matlab </a>and <a href="https://www.originlab.com/">Origin</a>. I've found <a title="3 Python Alternatives to Matlab" href="{{site.baseurl}}/2015/02/28/python-alternatives-to-matlab/">python distributions</a> that have a similar development environment to Matlab, and the search is now on for packages that simplify the process of data analysis, manipulation and visualisation.
+For some time I've been trying to get to the stage that I can use python for all my scripting and data analysis, replacing programs like <a href="https://uk.mathworks.com/products/matlab/">Matlab </a>and <a href="https://www.originlab.com/">Origin</a>. I've found <a title="3 Python Alternatives to Matlab" href="{{site.url}}/2015/02/28/python-alternatives-to-matlab/">python distributions</a> that have a similar development environment to Matlab, and the search is now on for packages that simplify the process of data analysis, manipulation and visualisation.
 My needs are relatively modest: I don't need to do much more than <strong>load, manipulate </strong>and<strong> plot small data files</strong>. I wonder if such a powerful package as pandas can also satisfy these requirements.
 <h3><a href="https://pandas.pydata.org/pandas-docs/stable/">Get the Pandas Python Package</a></h3>
-You might also want to consider the <a title="The Stoner Python Package" href="{{site.baseurl}}/2015/02/17/the-stoner-python-package/">Stoner python package</a> - a 'home-grown' analysis package made at the university of Leeds. It's not as polished or well supported as pandas, but it was built from the ground up as a physics analysis package.
+You might also want to consider the <a title="The Stoner Python Package" href="{{site.url}}/2015/02/17/the-stoner-python-package/">Stoner python package</a> - a 'home-grown' analysis package made at the university of Leeds. It's not as polished or well supported as pandas, but it was built from the ground up as a physics analysis package.
 <h1>Pandas For Physics</h1>
 Much of the power of pandas comes from its '<a href="https://pandas.pydata.org/pandas-docs/dev/generated/pandas.DataFrame.html">DataFrame</a>' data structure. The columns of this 2d table can be labelled, and contain different data types.
-To explore how it might be useful, I've run through a few common tasks I've encountered in physics research. For this I'm using the <a title="3 Python Alternatives to Matlab" href="{{site.baseurl}}/2015/02/28/python-alternatives-to-matlab/">Anaconda python distribution</a>.
+To explore how it might be useful, I've run through a few common tasks I've encountered in physics research. For this I'm using the <a title="3 Python Alternatives to Matlab" href="{{site.url}}/2015/02/28/python-alternatives-to-matlab/">Anaconda python distribution</a>.
 <h3><a href="https://gist.github.com/deparkes/d76b093a034d496ea196">For the impatient: Get the gist of this post on github</a></h3>
 <h2>Loading data (from csv)</h2>
-More or less any analysis task begins with loading from a data file. I've <a title="Python Tips: How to Load Data Into Python" href="{{site.baseurl}}/2014/11/23/how-to-load-data-into-python/">previously </a>tried to find a simple. standard way to load data into python, but pandas seems to be one of the simplest so far:
+More or less any analysis task begins with loading from a data file. I've <a title="Python Tips: How to Load Data Into Python" href="{{site.url}}/2014/11/23/how-to-load-data-into-python/">previously </a>tried to find a simple. standard way to load data into python, but pandas seems to be one of the simplest so far:
 
 ```python
 mydata = pd.read_csv('data.dat')

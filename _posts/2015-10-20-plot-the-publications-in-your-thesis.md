@@ -26,7 +26,7 @@ I thought it would be interesting to find out, so I made a python script to plot
 In my case the output came out looking like this:
 <h3>Have a Go Yourself</h3>
 
-| ![Plot the Publications in Your Thesis]({{site.baseurl}}/assets/2015/10/RefCountThesis.png) |
+| ![Plot the Publications in Your Thesis]({{site.url}}/assets/2015/10/RefCountThesis.png) |
 |:--:|
 | *Plot the Publications in Your Thesis* |
 
@@ -47,7 +47,7 @@ The script "<a href="https://gist.github.com/deparkes/f51b5eaf35bdde3a0c00">RefC
 I would recommend making a copy of your .bbl file and putting it together with RefCount.py in a separate folder, e.g. "RefCount".
 <h2>Regular Expressions - some assembly required</h2>
 
-| ![Regular expressions - some assembly required]({{site.baseurl}}/assets/2015/10/RegEx.png) |
+| ![Regular expressions - some assembly required]({{site.url}}/assets/2015/10/RegEx.png) |
 |:--:|
 | *Regular expressions - some assembly required* |
 
@@ -74,4 +74,4 @@ Hopefully these will be sufficient for most situations, but if you do need to bu
 Here are some examples of the kind of output you can expect from <a href="https://gist.github.com/deparkes/f51b5eaf35bdde3a0c00">RefCount.py</a>.
 
 
-<a href="{{site.baseurl}}/assets/2015/10/RefCountRobin1.png"><img class="aligncenter wp-image-2206" src="{{site.baseurl}}/assets/2015/10/RefCountRobin1-1024x736.png" alt="Plot the Publications in Your Thesis" width="360" height="259"></a> <a href="{{site.baseurl}}/assets/2015/10/RefCountJames.png"><img class="aligncenter wp-image-2204" src="{{site.baseurl}}/assets/2015/10/RefCountJames-1024x736.png" alt="Plot the Publications in Your Thesis" width="360" height="259"></a> <a href="{{site.baseurl}}/assets/2015/10/RefCountDuncan.png"><img class="aligncenter wp-image-2202" src="{{site.baseurl}}/assets/2015/10/RefCountDuncan-1024x736.png" alt="Plot the Publications in Your Thesis" width="360" height="259"></a>
+<a href="{{site.url}}/assets/2015/10/RefCountRobin1.png"><img class="aligncenter wp-image-2206" src="{{site.url}}/assets/2015/10/RefCountRobin1-1024x736.png" alt="Plot the Publications in Your Thesis" width="360" height="259"></a> <a href="{{site.url}}/assets/2015/10/RefCountJames.png"><img class="aligncenter wp-image-2204" src="{{site.url}}/assets/2015/10/RefCountJames-1024x736.png" alt="Plot the Publications in Your Thesis" width="360" height="259"></a> <a href="{{site.url}}/assets/2015/10/RefCountDuncan.png"><img class="aligncenter wp-image-2202" src="{{site.url}}/assets/2015/10/RefCountDuncan-1024x736.png" alt="Plot the Publications in Your Thesis" width="360" height="259"></a>

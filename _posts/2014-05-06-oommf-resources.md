@@ -22,7 +22,7 @@ author: deparkes
 permalink: "/2014/05/06/oommf-resources/"
 ---
 There are all ready quite a few good OOMMF resources on the internet. I've linked to some of them here.
-Be sure to check out my <a title="OOMMF Tutorial" href="{{site.baseurl}}/oommf/oommf-tutorial/">OOMMF Tutorial</a>.
+Be sure to check out my <a title="OOMMF Tutorial" href="{{site.url}}/oommf/oommf-tutorial/">OOMMF Tutorial</a>.
 <h1>Official OOMMF Resources</h1>
 <a href="https://www.ctcms.nist.gov/~rdm/email-list.html">https://www.ctcms.nist.gov/~rdm/email-list.html</a>
 The oommf mailing list. Great for just finding out what other people are up to. You can also submit a problem or solution of your own.

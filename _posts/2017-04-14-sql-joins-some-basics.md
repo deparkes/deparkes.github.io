@@ -26,13 +26,13 @@ Joining in SQL is all about linking database tables in a meaningful way. But bef
 As an example let's think about a teacher who keeps some lists about clubs at his school. He has a list of the club names, and details about the club activities. He would like to know which pupils  are involved in each  club. He speaks to the pupils to ask them each which clubs they are involved in. He now has two lists, or tables:
 one with information about clubs,
 
-| ![sql joins - clubs table]({{site.baseurl}}/assets/2017/04/clubs.png) |
+| ![sql joins - clubs table]({{site.url}}/assets/2017/04/clubs.png) |
 |:--:|
 | *sql joins - clubs table* |
 
 and one with information about pupils:
 
-| ![sql joins - pupils table]({{site.baseurl}}/assets/2017/04/pupils.png) |
+| ![sql joins - pupils table]({{site.url}}/assets/2017/04/pupils.png) |
 |:--:|
 | *sql joins - pupils table* |
 
@@ -65,7 +65,7 @@ FROM   pupils
 
 which gives the cross join output:
 
-| ![sql joins - cross join]({{site.baseurl}}/assets/2017/04/cross_join.png) |
+| ![sql joins - cross join]({{site.url}}/assets/2017/04/cross_join.png) |
 |:--:|
 | *sql joins - cross join* |
 
@@ -85,7 +85,7 @@ ON pupils.club = clubs.club_name;
 
 which gives:
 
-| ![sql joins - inner join]({{site.baseurl}}/assets/2017/04/inner_join.png) |
+| ![sql joins - inner join]({{site.url}}/assets/2017/04/inner_join.png) |
 |:--:|
 | *sql joins - inner join* |
 
@@ -110,7 +110,7 @@ ON pupils.club = clubs.club_name;
 
 Which returns:
 
-| ![sql joins - left outer join]({{site.baseurl}}/assets/2017/04/left_outer_join.png) |
+| ![sql joins - left outer join]({{site.url}}/assets/2017/04/left_outer_join.png) |
 |:--:|
 | *sql joins - left outer join* |
 
@@ -129,7 +129,7 @@ FROM   pupils
 
 Which returns:
 
-| ![sql joins - right outer join]({{site.baseurl}}/assets/2017/04/right_outer_join.png) |
+| ![sql joins - right outer join]({{site.url}}/assets/2017/04/right_outer_join.png) |
 |:--:|
 | *sql joins - right outer join* |
 
@@ -147,6 +147,6 @@ ON pupils.club = clubs.club_name;
 
 Which returns:
 
-| ![sql joins - full outer join]({{site.baseurl}}/assets/2017/04/full_outer_join.png) |
+| ![sql joins - full outer join]({{site.url}}/assets/2017/04/full_outer_join.png) |
 |:--:|
 | *sql joins - full outer join* |

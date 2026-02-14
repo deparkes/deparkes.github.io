@@ -27,7 +27,7 @@ df.boxplot(by="group", column="column_name")
 
 you can easily make charts like this from your dataframes:
 
-| ![Boxplot example - unsorted]({{site.baseurl}}/assets/2016/11/initial_plot.png) |
+| ![Boxplot example - unsorted]({{site.url}}/assets/2016/11/initial_plot.png) |
 |:--:|
 | *Boxplot example - unsorted |
 
@@ -53,7 +53,7 @@ axes.set_ylim([0,5])
 
 This code should give an output like this:
 
-| ![Boxplot example - sorted]({{site.baseurl}}/assets/2016/11/sorted_plot.png) |
+| ![Boxplot example - sorted]({{site.url}}/assets/2016/11/sorted_plot.png) |
 |:--:|
 | *Boxplot example - sorted* |
 

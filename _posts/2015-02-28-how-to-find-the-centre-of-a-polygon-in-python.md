@@ -22,9 +22,9 @@ Finding the centre of of a polygon can be useful for many geomtrical analysis an
 This quick guide shows you how to find the <strong>centre of a polygon</strong> in python.
 <h1>The Centroid</h1>
 The centre of a polygon is also known as its centroid. It the arithmetic mean position of all the points that make up the polygon.
-<a href="{{site.baseurl}}/assets/2015/02/Triangle.Centroid2.png"><img class="aligncenter size-medium wp-image-1435" src="{{site.baseurl}}/assets/2015/02/Triangle.Centroid2-300x241.png" alt="How to find the Centre of a Polygon in Python" width="300" height="241"></a>
+<a href="{{site.url}}/assets/2015/02/Triangle.Centroid2.png"><img class="aligncenter size-medium wp-image-1435" src="{{site.url}}/assets/2015/02/Triangle.Centroid2-300x241.png" alt="How to find the Centre of a Polygon in Python" width="300" height="241"></a>
 <h1>How to find the centre of a polygon in python</h1>
-My preferred package for geometry analysis and processing in python is <a href="{{site.baseurl}}/2015/01/29/install-shapely-on-anaconda/">Shapely</a> which happily for us, has a <a href="https://toblerity.org/shapely/manual.html#spatial-analysis-methods"><strong>built-in method </strong></a>for finding the centroid of an object.
+My preferred package for geometry analysis and processing in python is <a href="{{site.url}}/2015/01/29/install-shapely-on-anaconda/">Shapely</a> which happily for us, has a <a href="https://toblerity.org/shapely/manual.html#spatial-analysis-methods"><strong>built-in method </strong></a>for finding the centroid of an object.
 We can just use:
 
 ```python
@@ -54,4 +54,4 @@ mypolygon.centroid.coords
 ```
 Which is much more manageable.
 
-<a href="{{site.baseurl}}/python-polygons/"><img class="aligncenter wp-image-1479" src="{{site.baseurl}}/assets/2015/02/path4186-300x162.png" alt="python polygons" width="220" height="119"></a>
+<a href="{{site.url}}/python-polygons/"><img class="aligncenter wp-image-1479" src="{{site.url}}/assets/2015/02/path4186-300x162.png" alt="python polygons" width="220" height="119"></a>

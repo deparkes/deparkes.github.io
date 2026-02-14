@@ -21,10 +21,10 @@ tags:
 author: deparkes
 permalink: "/2015/03/03/python-instrument-control/"
 ---
-Python is becoming <a title="3 Python Alternatives to Matlab" href="{{site.baseurl}}/2015/02/28/python-alternatives-to-matlab/">more established</a> for scientific <strong>data analysis</strong> and <strong>processing</strong>, but what python<strong> instrument control</strong> options are there?
+Python is becoming <a title="3 Python Alternatives to Matlab" href="{{site.url}}/2015/02/28/python-alternatives-to-matlab/">more established</a> for scientific <strong>data analysis</strong> and <strong>processing</strong>, but what python<strong> instrument control</strong> options are there?
 For me the <strong>benchmark</strong> instrument control software has to be <a href="https://www.ni.com/labview/">LabView</a>. It's incredibly expensive and certainly has it's quirks, but I've found that it can often make interfacing with hardware <strong>relatively painless</strong>.
 I've recently been exploring alternatives to Matlab for scientific analysis and processing, so I was curious to see what the state of affairs was for <strong>python instrument control.</strong>
-<h3>Read about my <a title="3 Python Alternatives to Matlab" href="{{site.baseurl}}/2015/02/28/python-alternatives-to-matlab/">3 Python Alternatives to Matlab</a>.</h3>
+<h3>Read about my <a title="3 Python Alternatives to Matlab" href="{{site.url}}/2015/02/28/python-alternatives-to-matlab/">3 Python Alternatives to Matlab</a>.</h3>
 <h1>My Requirements For Instrument Control</h1>
 For me any python instrument control package would need:
 <ul>

@@ -20,7 +20,7 @@ It can often be useful to be able to open a command prompt in windows. This post
 The <a href="https://www.cs.princeton.edu/courses/archive/spr05/cos126/cmd-prompt.html">command prompt</a> can be very useful for running command-line programs, batch processing and your own scripts.
 
 
-| ![open command prompt in folder - command prompt example]({{site.baseurl}}/assets/2015/04/command-prompt-example.png) |
+| ![open command prompt in folder - command prompt example]({{site.url}}/assets/2015/04/command-prompt-example.png) |
 |:--:|
 | *open command prompt in folder - command prompt example* |
 
@@ -30,7 +30,7 @@ First navigate to your folder using Windows explorer.
 Once you've found the one you want, type 'cmd' into the address bar of the folder.
 Hit enter, and this should bring up a command prompt, started in this folder.
 
-| ![open command prompt in folder - address bar]({{site.baseurl}}/assets/2015/04/AddressBar.png) |
+| ![open command prompt in folder - address bar]({{site.url}}/assets/2015/04/AddressBar.png) |
 |:--:|
 | *open command prompt in folder - address bar* |
 
@@ -38,6 +38,6 @@ Hit enter, and this should bring up a command prompt, started in this folder.
 Go up one level from your target folder. For example if you were in documents/images and you wanted to start a command prompt in images, go up to the folder documents.
 Hold shift and right-click on your target folder. The menu should now have the option to '<strong>Open Command Window Here</strong>'. Click this and you should have a command prompt opened up in your target folder.
 
-| ![open command prompt in folder - open command window here]({{site.baseurl}}/assets/2015/04/OpenCommandWindowHere.png) |
+| ![open command prompt in folder - open command window here]({{site.url}}/assets/2015/04/OpenCommandWindowHere.png) |
 |:--:|
 | *open command prompt in folder - open command window here* |

@@ -18,11 +18,11 @@ author: deparkes
 permalink: "/2015/03/17/export-l-edit-config-settings/"
 ---
 <h1>Export L-Edit Config Settings</h1>
-L-Edit is a piece of powerful <a title="Layout Design Software" href="{{site.baseurl}}/2015/02/21/layout-design-software/">layout design software</a>. As you use it you will probably make changes to the configuration, such as keyboard shortcuts and other settings. This post shows you how you can export these customisations as a config file which you can save as a backup, or to distribute to other users of L-Edit in your workgroup.
+L-Edit is a piece of powerful <a title="Layout Design Software" href="{{site.url}}/2015/02/21/layout-design-software/">layout design software</a>. As you use it you will probably make changes to the configuration, such as keyboard shortcuts and other settings. This post shows you how you can export these customisations as a config file which you can save as a backup, or to distribute to other users of L-Edit in your workgroup.
 <h1>Open Setup Application Dialogue</h1>
 We can access the configuration file by going to the Setup Application dialogue. Click 'Setup' -&gt; 'Application...'.
 
-| ![Export L-Edit Config Settings - SetupApplication]({{site.baseurl}}/assets/2015/03/SetupApplication.png) |
+| ![Export L-Edit Config Settings - SetupApplication]({{site.url}}/assets/2015/03/SetupApplication.png) |
 |:--:|
 | *Export L-Edit Config Settings - SetupApplication* |
 
@@ -33,6 +33,6 @@ Browse to the location you would like to save your config file. The default is p
 Once you've got to this stage you can save these settings by holding shift and clicking OK. Your settings will now be saved to a the config file in the location you just specified.
 
 
-| ![Export L-Edit Config Settings - Export]({{site.baseurl}}/assets/2015/03/SetupApplication-Duncan_ini.png) |
+| ![Export L-Edit Config Settings - Export]({{site.url}}/assets/2015/03/SetupApplication-Duncan_ini.png) |
 |:--:|
 | *Export L-Edit Config Settings - Export* |

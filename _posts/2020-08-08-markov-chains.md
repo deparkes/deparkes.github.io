@@ -37,7 +37,7 @@ We can 'chain' together a series of such predictions, which is what Markov Chain
 <h3>Graph Representation</h3>
 An alternative to the table-view is to think of the states and transitions as a graph:
 
-| ![markov chains - graph view]({{site.baseurl}}/assets/2020/08/GraphView.png) |
+| ![markov chains - graph view]({{site.url}}/assets/2020/08/GraphView.png) |
 |:--:|
 | *markov chains - graph view* |
 

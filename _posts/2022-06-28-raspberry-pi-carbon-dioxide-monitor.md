@@ -36,13 +36,13 @@ The following schematic shows what we will be building up to:
 <li>A <strong>dashboard</strong> for the carbon dioxide monitor using flask and plotly</li>
 </ul>
 
-| ![Carbon Dioxide Monitor Schematic]({{site.baseurl}}/assets/2022/06/Schematic_v3_small.png) |
+| ![Carbon Dioxide Monitor Schematic]({{site.url}}/assets/2022/06/Schematic_v3_small.png) |
 |:--:|
 | *Carbon Dioxide Monitor Schematic* |
 
 The resulting dashboard looks like this:
 
-| ![raspberry pi carbon dioxide monitor - dashboard]({{site.baseurl}}/assets/2022/06/Screenshot-2022-06-28-at-20-21-03-Screenshot.png) |
+| ![raspberry pi carbon dioxide monitor - dashboard]({{site.url}}/assets/2022/06/Screenshot-2022-06-28-at-20-21-03-Screenshot.png) |
 |:--:|
 | *raspberry pi carbon dioxide monitor - dashboard* |
 
@@ -158,7 +158,7 @@ I wanted to keep different elements of the project well separated so that, in th
 One of the decisions to make at the data collection stage is how frequently to collect it. I went for 5 minutes (300 seconds) as it seemed to capture variation in the data without massively oversampling.
 <h4>Example Output</h4>
 
-| ![Regular Updates]({{site.baseurl}}/assets/2022/06/RegularUpdates.png) |
+| ![Regular Updates]({{site.url}}/assets/2022/06/RegularUpdates.png) |
 |:--:|
 | *Regular Updates* |
 
@@ -179,10 +179,10 @@ done
 
 <h3>Exposing the data with a Flask API</h3>
 At this stage we have a python script which writes data to a sqlite database. To expose this data to other services or devices on a local network we will use a flask app to create an API.
-We can use flask to make a <a href="{{site.baseurl}}/2018/08/11/flask-restful-api-json/">simple rest api</a> for the data. More complexity would be possible, but for now we'll just keep it simple.
+We can use flask to make a <a href="{{site.url}}/2018/08/11/flask-restful-api-json/">simple rest api</a> for the data. More complexity would be possible, but for now we'll just keep it simple.
 <h4>Example Output</h4>
 
-| ![API raw data example]({{site.baseurl}}/assets/2022/06/Screenshot-2022-06-28-at-20-43-32-Screenshot.png) |
+| ![API raw data example]({{site.url}}/assets/2022/06/Screenshot-2022-06-28-at-20-43-32-Screenshot.png) |
 |:--:|
 | *API raw data example* |
 
@@ -225,13 +225,13 @@ The final step is to actually make the data available for a user to easily view 
 I opted to make a dashboard using a plotly along with a separate flask app. Plotly can play nicely with pandas dataframes, but since I wanted to keep the dependencies for this project relatively light, I implemented the plotly chart without pandas.
 This section borrows from this blog post which shows how you can <a href="https://towardsdatascience.com/web-visualization-with-plotly-and-flask-3660abf9c946">create a dashboard using plotly without dash</a>. I found that dash could not install onto my raspberry pi.
 <h4>Example Output</h4>
-| ![raspberry pi carbon dioxide monitor - dashboard]({{site.baseurl}}/assets/2022/06/Screenshot-2022-06-28-at-20-21-03-Screenshot.png) |
+| ![raspberry pi carbon dioxide monitor - dashboard]({{site.url}}/assets/2022/06/Screenshot-2022-06-28-at-20-21-03-Screenshot.png) |
 |:--:|
 | *raspberry pi carbon dioxide monitor - dashboard* |
 
 <h4>Code Overview</h4>
 Does a get request from the api created earlier
-Uses plotly to create a simple dashboard (without using '<a href="{{site.baseurl}}/2021/01/09/python-dashboard/">dash</a>')
+Uses plotly to create a simple dashboard (without using '<a href="{{site.url}}/2021/01/09/python-dashboard/">dash</a>')
 Makes the dashboard available on port 3000
 
 ```python

@@ -18,12 +18,12 @@ tags:
 author: deparkes
 permalink: "/2015/01/13/field-pulse-in-oommf/"
 ---
-<a href="{{site.baseurl}}/oommf/oommf-tutorial/">
-</a>In part 7 of this <a href="{{site.baseurl}}/oommf/oommf-tutorial/">OOMMF tutorial</a> I will show you how to excite a simulation with a <strong>field pulse</strong> in OOMMF.
+<a href="{{site.url}}/oommf/oommf-tutorial/">
+</a>In part 7 of this <a href="{{site.url}}/oommf/oommf-tutorial/">OOMMF tutorial</a> I will show you how to excite a simulation with a <strong>field pulse</strong> in OOMMF.
 <h1>Defining The Field Pulse</h1>
 Using <a href="https://math.nist.gov/oommf/doc/userguide12a5/userguide/Standard_Oxs_Ext_Child_Clas.html#SU">Oxs_ScriptUZeeman </a>we can define our field pulse as more or less any function, but in this tutorial We'll be trying to make this pulse made up of a rising and falling exponential:
 
-| ![OOMMF Field Pulse]({{site.baseurl}}/assets/2015/01/FieldPulseSchematic2.png) |
+| ![OOMMF Field Pulse]({{site.url}}/assets/2015/01/FieldPulseSchematic2.png) |
 |:--:|
 | *OOMMF Field Pulse* |
 
@@ -82,7 +82,7 @@ You can download the modified file <a href="https://github.com/deparkes/FieldPul
 <h2>mmGraph output</h2>
 When we run square_fieldpulse.mif we can see the applied field pulse in mmGraph, as shown below.
 
-| ![More Field Functions]({{site.baseurl}}/assets/2015/01/OOMMF_FieldTrace.png) |
+| ![More Field Functions]({{site.url}}/assets/2015/01/OOMMF_FieldTrace.png) |
 |:--:|
 | *More Field Functions* |
 
@@ -91,6 +91,6 @@ You can easily modify this basic field pulse recipe for your own functions. Just
 For help plotting the functions and finding the derivative you might want to use <a href="https://www.wolframalpha.com/input/?i=1-exp%28-x%29">Wolfram Alpha</a>.
 
 
-<a href="{{site.baseurl}}/oommf/oommf-tutorial/">
-<img class=" aligncenter" src="{{site.baseurl}}/assets/2015/01/OOMMF_tutorial.png" alt="OOMMF Tutorial" width="200" height="142" border="0">
+<a href="{{site.url}}/oommf/oommf-tutorial/">
+<img class=" aligncenter" src="{{site.url}}/assets/2015/01/OOMMF_tutorial.png" alt="OOMMF Tutorial" width="200" height="142" border="0">
 </a>

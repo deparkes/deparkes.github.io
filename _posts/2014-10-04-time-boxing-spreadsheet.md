@@ -27,12 +27,12 @@ By setting yourself small goals in achieveable chunks you can keep projects on t
 One of the popular variants of this approach is the 'Pomodoro Technique' - named after a tomato-shaped kitchen timer which inspired the original author.
 <h1>TimeKeeper, the Time-boxing Spreadsheet</h1>
 Inspired by these techniques (and Hugh Grant) I've put together my 'time-boxing' spreadsheet to help me plan out and keep track of my own activities.
-It really is just a simple spreadsheet, <a href="{{site.baseurl}}/assets/2014/10/TimeKeeper.ods">TimeKeeper</a>, which lets you enter in your planned or completed activities. Each day is dvided into 30 minute segments (thanks, Hugh) and LibreOffice conditional formatting highlights activities based on their 'class'.
+It really is just a simple spreadsheet, <a href="{{site.url}}/assets/2014/10/TimeKeeper.ods">TimeKeeper</a>, which lets you enter in your planned or completed activities. Each day is dvided into 30 minute segments (thanks, Hugh) and LibreOffice conditional formatting highlights activities based on their 'class'.
 Each week occupies a worksheet, so you can easily switch between past, current and future weeks.
 
 
 
-| ![Each day is divided into 30 minute segments. Conditional formatting automatically colour codes activities according to 'class'.]({{site.baseurl}}/assets/2014/10/TimeKeeper2-1024x557.png) |
+| ![Each day is divided into 30 minute segments. Conditional formatting automatically colour codes activities according to 'class'.]({{site.url}}/assets/2014/10/TimeKeeper2-1024x557.png) |
 |:--:|
 | *Each day is divided into 30 minute segments. Conditional formatting automatically colour codes activities according to 'class'.* |
 

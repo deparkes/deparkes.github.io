@@ -47,7 +47,7 @@ df['region'] = 'SEEP'
 ```
 
 The data table provided is in a 'wide' format with a column for each day of the month. This is helpful for human-readability, but isn't so good for computer processing. To convert for a 'wide' to a 'long' form table we can use the 'melt' pandas method.
-<a href="{{site.baseurl}}/2016/10/28/reshape-pandas-data-with-melt/">Read more about pandas melt</a>
+<a href="{{site.url}}/2016/10/28/reshape-pandas-data-with-melt/">Read more about pandas melt</a>
 
 ```python
 melted = pd.melt(df, id_vars=['region', 'year', "month"],
@@ -65,7 +65,7 @@ df2 = melted[melted['region']=='SEEP'].groupby(['month', 'day'])['rainfall'].mea
 
 We can plot this new grouped dataframe and confirm that the trends to at least seem to mostly make sense: the summer is relatively dry and the winter is relatively wet.
 
-| ![UK Rainfall Data - average daily rainfal]({{site.baseurl}}/assets/2021/06/AverageDailyRainfall.png) |
+| ![UK Rainfall Data - average daily rainfal]({{site.url}}/assets/2021/06/AverageDailyRainfall.png) |
 |:--:|
 | *UK Rainfall Data - average daily rainfal* |
 
@@ -98,7 +98,7 @@ df4['chance_rain'] = df4['count_rain'] / (df4['count_rain'] + df4['count_not_rai
 df4['chance_rain'].plot(ylim=0,title="Chance of More Than 1.5mm Rain", xlabel="Day", ylabel="Chance of Rain")
 ```
 
-| ![UK Rainfall Data - chance of rain]({{site.baseurl}}/assets/2021/06/ChanceOfRain.png) |
+| ![UK Rainfall Data - chance of rain]({{site.url}}/assets/2021/06/ChanceOfRain.png) |
 |:--:|
 | *UK Rainfall Data - chance of rain* |
 

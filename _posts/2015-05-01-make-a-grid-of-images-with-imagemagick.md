@@ -29,7 +29,7 @@ montage -density 300 -tile 2x0 -geometry +5+50 -border 10 *.png out.png
 ```
 Which gives the output (to "out.png"):
 
-| ![Make a Grid of Images - combine]({{site.baseurl}}/assets/2015/05/combined1-473x1024.png) |
+| ![Make a Grid of Images - combine]({{site.url}}/assets/2015/05/combined1-473x1024.png) |
 |:--:|
 | *Make a Grid of Images - combine * |
 
@@ -40,5 +40,5 @@ The important options we've included are
 "<strong>-density 300</strong>", which sets the output pixels/inch. I found that the default resolution was too low.
 <strong>"*.png out.png" </strong>sets the command to look for all png files in the current folder, with the output being set to a file 'out.png'.<strong>
 </strong>
-This example should get you up and running, but be sure to check out the<a href="https://www.imagemagick.org/Usage/montage/"> Imagemagick manual page</a> to see the full range of options for montage. Of course you can also combine it with some of the <a href="{{site.baseurl}}/tag/imagemagick/">other Imagemagick commands</a> to help automate your image processing steps.
+This example should get you up and running, but be sure to check out the<a href="https://www.imagemagick.org/Usage/montage/"> Imagemagick manual page</a> to see the full range of options for montage. Of course you can also combine it with some of the <a href="{{site.url}}/tag/imagemagick/">other Imagemagick commands</a> to help automate your image processing steps.
 <h3><a href="https://www.imagemagick.org/Usage/montage/">Find out about more advanced montage usage</a></h3>

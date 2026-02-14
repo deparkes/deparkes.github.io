@@ -73,13 +73,13 @@ This may take a few minutes.
 <h2>Create a New Bucket In NiFi Registry</h2>
 With the above docker-compose configuration, we can access the nifi registry by navigating to https://localhost:18080/nifi-registry
 
-| ![Empty Registry]({{site.baseurl}}/assets/2019/11/1-empty-registry.png) |
+| ![Empty Registry]({{site.url}}/assets/2019/11/1-empty-registry.png) |
 |:--:|
 | *Empty Registry* |
 
 Create a new bucket by clicking the spanner icon in the top left.
 
-| ![Spanner - New Bucket]({{site.baseurl}}/assets/2019/11/2-create-a-new-bucket.png) |
+| ![Spanner - New Bucket]({{site.url}}/assets/2019/11/2-create-a-new-bucket.png) |
 |:--:|
 | *Spanner - New Bucket* |
 
@@ -89,13 +89,13 @@ With the above docker-compose configuration, we can access NiFi by navigating to
 <h3>Connect to NiFi Registry</h3>
 Firstly we need to configure the NiFi to know about the NiFi registry we just set up. We can do this via the <a href="https://en.wikipedia.org/wiki/Hamburger_button">hamburger button</a> in the top right of the main NiFi screen.
 
-| ![Configure NiFi via the burger menu]({{site.baseurl}}/assets/2019/11/3-NiFi-controller-settings.png) |
+| ![Configure NiFi via the burger menu]({{site.url}}/assets/2019/11/3-NiFi-controller-settings.png) |
 |:--:|
 | *Configure NiFi via the burger menu* |
 
 Once in the controller settings, go to the 'Registry Clients' tab and click the plus symbol to add a registry client.
 
-| ![Add registry client]({{site.baseurl}}/assets/2019/11/4-Add-registry-client.png) |
+| ![Add registry client]({{site.url}}/assets/2019/11/4-Add-registry-client.png) |
 |:--:|
 | *Add registry client* |
 
@@ -105,19 +105,19 @@ Unlike other guides online which suggest using 'localhost' because we have used 
 To commit changes to the registry we need to create a process group. Once created we can right right click and start tracking.
 As you make changes inside the process group you can right click and commit your changes to the workflow.
 
-| ![start version control on a process group]({{site.baseurl}}/assets/2019/11/5-Start-Version-Control-on-process-group.png) |
+| ![start version control on a process group]({{site.url}}/assets/2019/11/5-Start-Version-Control-on-process-group.png) |
 |:--:|
 | *start version control on a process group* |
 
 As you make changes within the the process group you can commit your local changes to the NiFi Registry.
 
-| ![commit your changes to the NiFi registry]({{site.baseurl}}/assets/2019/11/8-Commit-local-changes.png) |
+| ![commit your changes to the NiFi registry]({{site.url}}/assets/2019/11/8-Commit-local-changes.png) |
 |:--:|
 | *commit your changes to the NiFi registry* |
 
 Once you've made a commit or two to the registry, if you go back to the NiFi registry (found at https://localhost:18080/nifi-registry in this example), you will be able to see those changes stored.
 
-| ![check the different versions in the bucket]({{site.baseurl}}/assets/2019/11/9-Bucket-with-two-versions.png) |
+| ![check the different versions in the bucket]({{site.url}}/assets/2019/11/9-Bucket-with-two-versions.png) |
 |:--:|
 | *check the different versions in the bucket* |
 
@@ -125,12 +125,12 @@ Once you've made a commit or two to the registry, if you go back to the NiFi reg
 Once you have committed a version of your workflow to the NiFi registry you can go back to it if you need to.
 Right click in the workflow window and go to 'version', then 'change version' to bring up list of available versions.
 
-| ![right click to change versions]({{site.baseurl}}/assets/2019/11/10-right-click-change-version.png) |
+| ![right click to change versions]({{site.url}}/assets/2019/11/10-right-click-change-version.png) |
 |:--:|
 | *right click to change versions* |
 
 Select the previously committed version that you need from the 'Change Version' menu.
 
-| ![select the previously committed version you need]({{site.baseurl}}/assets/2019/11/11-available-versions.png) |
+| ![select the previously committed version you need]({{site.url}}/assets/2019/11/11-available-versions.png) |
 |:--:|
 | *select the previously committed version you need* |

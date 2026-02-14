@@ -28,7 +28,7 @@ If you just want to dive straight into a Docker Flask SQLite API example you can
 <table class="tg">
 <tbody>
 <tr>
-<td class="tg-yw4l"><em><a href="https://www.docker.com/"><img class="alignleft" src="{{site.baseurl}}/assets/2018/03/docker-mark-blue.png" alt="Docker logo horizontal spacing" width="80" height="68"></a></em></td>
+<td class="tg-yw4l"><em><a href="https://www.docker.com/"><img class="alignleft" src="{{site.url}}/assets/2018/03/docker-mark-blue.png" alt="Docker logo horizontal spacing" width="80" height="68"></a></em></td>
 <td class="tg-yw4l">
 <a href="https://www.docker.com/"><em>Docker</em></a> -  a lightweight container platform. In this case I was interested in using it to simplify the development process and have a self contained development webserver in a docker container.</td>
 </tr>
@@ -39,7 +39,7 @@ If you just want to dive straight into a Docker Flask SQLite API example you can
 </td>
 </tr>
 <tr>
-<td class="tg-yw4l"><a href="https://www.sqlite.org/"><em><img class="logo alignleft" src="{{site.baseurl}}/assets/2018/03/sqlite370_banner.gif" alt="SQLite" border="0"></em></a></td>
+<td class="tg-yw4l"><a href="https://www.sqlite.org/"><em><img class="logo alignleft" src="{{site.url}}/assets/2018/03/sqlite370_banner.gif" alt="SQLite" border="0"></em></a></td>
 <td class="tg-yw4l">
 <a href="https://www.sqlite.org/"><em>SQLite</em> </a>- a database provides some persistent storage for a web application. Other SQL databases such as <a href="https://www.mysql.com/">MySQL</a> and <a href="https://www.postgresql.org/">PostgreSQL</a> are perhaps more common associated with web development, but SQLite is <a href="https://www.sqlite.org/whentouse.html">capable</a> of running a web site. The simplicity of SQLite also means that it is a good candidate for testing and prototyping.</td>
 </tr>
@@ -57,7 +57,7 @@ What we want to happen is:
 <li>A database will provide persistent storage outside of the container (all data inside the container is lost when it is brought down).</li>
 </ul>
 
-| ![Docker flask sqlite api]({{site.baseurl}}/assets/2018/03/DockerFlaskSQLite_schematic-300x289.png) |
+| ![Docker flask sqlite api]({{site.url}}/assets/2018/03/DockerFlaskSQLite_schematic-300x289.png) |
 |:--:|
 | *Docker flask sqlite api* |
 
@@ -80,7 +80,7 @@ ENTRYPOINT ["python"]
 CMD ["app.py"]
 ```
 
-Since we want the docker container to interact with the filesystem, we will need to mount the right directory to do docker when we spin up the container. We could <a href="{{site.baseurl}}/2017/10/20/run-docker-container/">run this dockerfile directly</a>, but instead we will use docker compose.
+Since we want the docker container to interact with the filesystem, we will need to mount the right directory to do docker when we spin up the container. We could <a href="{{site.url}}/2017/10/20/run-docker-container/">run this dockerfile directly</a>, but instead we will use docker compose.
 <h3>Docker-compose</h3>
 <a href="https://docs.docker.com/compose/overview/">Docker compose</a> is primarily a way for controlling multi-container builds, but we can use it here to encapsulate some of our configuration.
 For this case the docker-compose.yaml file controls: how the container is built, the port mapping, and which volumes to mount.

@@ -40,7 +40,7 @@ Folium defaults to using <a href="https://wiki.openstreetmap.org/wiki/Tiles">ope
 folium.TileLayer('openstreetmap').add_to(my_map)
 ```
 
-| ![Folium Map Tiles - open street map]({{site.baseurl}}/assets/2016/06/open-street-map.png) |
+| ![Folium Map Tiles - open street map]({{site.url}}/assets/2016/06/open-street-map.png) |
 |:--:|
 | *Folium Map Tiles - open street map* |
 
@@ -50,7 +50,7 @@ Similar to open street map, <a href="https://open.mapquest.co.uk/">mapquestopen 
 folium.TileLayer('mapquestopen').add_to(my_map)
 ```
 
-| ![Folium Map Tiles - open street map]({{site.baseurl}}/assets/2016/06/mapquestopen.png) |
+| ![Folium Map Tiles - open street map]({{site.url}}/assets/2016/06/mapquestopen.png) |
 |:--:|
 | *Folium Map Tiles - mapquestopen* |
 
@@ -60,7 +60,7 @@ folium.TileLayer('mapquestopen').add_to(my_map)
 folium.TileLayer('MapQuest Open Aerial').add_to(my_map)
 ```
 
-| ![Folium Map Tiles - mapquest open aerial]({{site.baseurl}}/assets/2016/06/mapquest-open-aerial.png) |
+| ![Folium Map Tiles - mapquest open aerial]({{site.url}}/assets/2016/06/mapquest-open-aerial.png) |
 |:--:|
 | *Folium Map Tiles - mapquest open aerial* |
 
@@ -70,7 +70,7 @@ folium.TileLayer('MapQuest Open Aerial').add_to(my_map)
 folium.TileLayer('Mapbox Bright').add_to(my_map)
 ```
 
-| ![Folium Map Tiles - mapbox bright]({{site.baseurl}}/assets/2016/06/mapbox-bright.png) |
+| ![Folium Map Tiles - mapbox bright]({{site.url}}/assets/2016/06/mapbox-bright.png) |
 |:--:|
 | *Folium Map Tiles - mapbox bright* |
 
@@ -80,7 +80,7 @@ Control Room is another set of <a href="https://www.mapbox.com/">MapBox</a> tile
 folium.TileLayer('Mapbox Control Room').add_to(my_map)
 ```
 
-| ![Folium Map Tiles - mapbox controlroom]({{site.baseurl}}/assets/2016/06/mapboxcontrolroom.png) |
+| ![Folium Map Tiles - mapbox controlroom]({{site.url}}/assets/2016/06/mapboxcontrolroom.png) |
 |:--:|
 | *Folium Map Tiles - mapbox controlroom* |
 
@@ -90,7 +90,7 @@ folium.TileLayer('Mapbox Control Room').add_to(my_map)
 folium.TileLayer('stamenterrain').add_to(my_map)
 ```
 
-| ![Folium Map Tiles - stamenterrain]({{site.baseurl}}/assets/2016/06/stamenterrain.png) |
+| ![Folium Map Tiles - stamenterrain]({{site.url}}/assets/2016/06/stamenterrain.png) |
 |:--:|
 | *Folium Map Tiles - stamenterrain* |
 
@@ -100,7 +100,7 @@ The <a href="https://maps.stamen.com/#toner">Stamen </a>toner map tiles produce 
 folium.TileLayer('stamentoner').add_to(my_map)
 ```
 
-| ![Folium Map Tiles - stamentoner]({{site.baseurl}}/assets/2016/06/stamentoner.png) |
+| ![Folium Map Tiles - stamentoner]({{site.url}}/assets/2016/06/stamentoner.png) |
 |:--:|
 | *Folium Map Tiles - stamentoner* |
 
@@ -110,7 +110,7 @@ To be honest I'm not sure where the <a href="https://maps.stamen.com/#watercolor
 folium.TileLayer('stamenwatercolor').add_to(my_map)
 ```
 
-| ![Folium Map Tiles - stamen_watercolor]({{site.baseurl}}/assets/2016/06/stamen_watercolor.png) |
+| ![Folium Map Tiles - stamen_watercolor]({{site.url}}/assets/2016/06/stamen_watercolor.png) |
 |:--:|
 | *Folium Map Tiles - stamen_watercolor* |
 
@@ -120,7 +120,7 @@ The <a href="https://cartodb.com/">CartoDB </a>folium map tiles are cool looking
 folium.TileLayer('cartodbpositron').add_to(my_map)
 ```
 
-| ![Folium Map Tiles - cartodbpositron]({{site.baseurl}}/assets/2016/06/cartodbpositron.png) |
+| ![Folium Map Tiles - cartodbpositron]({{site.url}}/assets/2016/06/cartodbpositron.png) |
 |:--:|
 | *Folium Map Tiles - cartodbpositron* |
 
@@ -130,6 +130,6 @@ The <a href="https://cartodb.com/">CartoDB </a>Dark Matter tiles are essentially
 folium.TileLayer('cartodbdark_matter').add_to(my_map)
 ```
 
-| ![Folium Map Tiles - cartodbdark_matter]({{site.baseurl}}/assets/2016/06/cartodbdark_matter.png) |
+| ![Folium Map Tiles - cartodbdark_matter]({{site.url}}/assets/2016/06/cartodbdark_matter.png) |
 |:--:|
 | *Folium Map Tiles - cartodbdark_matter* |

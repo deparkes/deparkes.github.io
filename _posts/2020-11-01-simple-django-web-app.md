@@ -221,7 +221,7 @@ python manage.py runserver
 ```
 If you navigate to https://127.0.0.1:8000 on your browser you should now see the html template rendered by Django to also show the number of times you have viewed the page.
 
-| ![simple django app - resulting page]({{site.baseurl}}/assets/2020/11/ExamplePage.png) |
+| ![simple django app - resulting page]({{site.url}}/assets/2020/11/ExamplePage.png) |
 |:--:|
 | *simple django app - resulting page* |
 

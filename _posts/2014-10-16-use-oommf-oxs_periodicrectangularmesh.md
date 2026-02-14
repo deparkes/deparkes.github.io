@@ -37,6 +37,6 @@ periodic x
 where the additional line
 `periodic x`
 simply specifies along which direction the periodicity is (in this case <em>x</em>).
-If you like this, check out my <a title="OOMMF Tutorial" href="{{site.baseurl}}/oommf/oommf-tutorial/">OOMMF Tutorial</a>.
+If you like this, check out my <a title="OOMMF Tutorial" href="{{site.url}}/oommf/oommf-tutorial/">OOMMF Tutorial</a>.
 <div class="attribution-info">
 <a class="owner-name truncate" title="Go to Thomas Hawk's photostream" href="https://www.flickr.com/photos/thomashawk/" data-rapid_p="25" data-track="attributionNameClick">Image: Thomas Hawk</a>;</div>

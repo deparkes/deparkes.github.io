@@ -18,7 +18,7 @@ permalink: "/2015/02/28/how-to-merge-polygons-in-python/"
 ---
 I've been working with the Shapely python package in python. This is a short guide for <strong>how to merge polygons in python</strong>.
 This guide is based on "cascaded_union.py" in the shapely examples.
-Find out how to install shapely in python <a title="How to install Shapely on Anaconda Python (Windows)" href="{{site.baseurl}}/2015/01/29/install-shapely-on-anaconda/">here</a>.
+Find out how to install shapely in python <a title="How to install Shapely on Anaconda Python (Windows)" href="{{site.url}}/2015/01/29/install-shapely-on-anaconda/">here</a>.
 <h1>How to Merge Polygons in Python</h1>
 Download the script for this guide <a href="https://github.com/deparkes/shapely_tests/blob/master/cascaded_union.py">here</a>.
 In a most simple sense we can just do something like this to merge polygons:
@@ -52,7 +52,7 @@ ax.set_aspect(1)
 ```
 Which gives us this output:
 
-| ![Two polygons to merge]({{site.baseurl}}/assets/2015/02/MergePolygons2.png) |
+| ![Two polygons to merge]({{site.url}}/assets/2015/02/MergePolygons2.png) |
 |:--:|
 | *Two polygons to merge* |
 
@@ -77,11 +77,11 @@ fig2.show(2)
 ```
 Which gives us the output:
 
-| ![Merged polygons]({{site.baseurl}}/assets/2015/02/MergePolygons3-300x220.png) |
+| ![Merged polygons]({{site.url}}/assets/2015/02/MergePolygons3-300x220.png) |
 |:--:|
 | *Merged polygons* |
 
 Get the python file for this guide <a href="https://github.com/deparkes/shapely_tests/blob/master/cascaded_union.py">here</a>.
 
 
-<a href="{{site.baseurl}}/python-polygons/"><img class="aligncenter wp-image-1479" src="{{site.baseurl}}/assets/2015/02/path4186-300x162.png" alt="python polygons" width="220" height="119"></a>
+<a href="{{site.url}}/python-polygons/"><img class="aligncenter wp-image-1479" src="{{site.url}}/assets/2015/02/path4186-300x162.png" alt="python polygons" width="220" height="119"></a>
